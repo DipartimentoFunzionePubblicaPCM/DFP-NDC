@@ -1,7 +1,7 @@
 # Asset per il catalogo nazionale della semantica dei dati
 Questo è il repository del Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri per l'alimentazione del National Data Catalog (NDC): https://www.schema.gov.it/.
 
-Esso contiene l'ontologia di dominio che descrive il patrimonio informativo dell'ente relativamente al _Portale del Reclutamento (InPA)_.
+Esso contiene attualmente l'ontologia di dominio che descrive il patrimonio informativo dell'ente relativamente al _Portale del Reclutamento (InPA)_.
 
 Il catalogo nazionale della semantica dei dati, o NDC, consente:
 > "Ricerca e riuso di asset semantici, tra cui ontologie, schemi dati e vocabolari controllati per supportare lo sviluppo di API semanticamente e sintatticamente interoperabili"
