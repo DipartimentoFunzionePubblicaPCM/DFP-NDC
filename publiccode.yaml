@@ -1,0 +1,51 @@
+publiccodeYmlVersion: "0.2"
+
+name: inail-ndc
+url: "https://github.com/InailUfficio5/inail-ndc"
+softwareVersion: "1.0"
+releaseDate: "2022-11-30"
+platforms:
+  - web
+
+categories:
+  - data-analytics
+
+developmentStatus: stable
+
+softwareType: "configurationFiles"
+
+description:
+  it:
+    localisedName: ndc
+    genericName: Repository INAIL per NDC
+    shortDescription: >
+          Repository INAIL per l'alimentazione
+          del National Data Catalog
+
+    longDescription: >
+          Repository INAIL per l'alimentazione
+          del National Data Catalog contenente ontologie,
+          vocabolari controllati e schemi.
+
+    features:
+       - Interoperabilità semantica
+       - Interoperabilità tecnica
+       - API semantiche
+       - Modellazione dati
+       - Tassonomie
+
+legal:
+  license: CC BY 4.0
+maintenance:
+  type: internal
+  contacts:
+    email: a.depaoli@inail.it
+    name: Anna Maria De Paoli
+it:
+  riuso:
+    codiceIPA: inail
+
+localisation:
+  localisationReady: yes
+  availableLanguages:
+    - it

@@ -1,0 +1,8 @@
+click
+frictionless
+numpy==1.26.4
+pandas
+pyld
+pyyaml==5.3.1
+rdflib
+requests
