@@ -1,0 +1,1432 @@
+[
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/1",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "1",
+    "label_it": "Architettura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/10",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "10",
+    "label_it": "Chimica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/100",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "100",
+    "label_it": "Scienze internazionali e diplomatiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/101",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "101",
+    "label_it": "Scienze motorie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/102",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "102",
+    "label_it": "Scienze naturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/103",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "103",
+    "label_it": "Scienze nautiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/104",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "104",
+    "label_it": "Scienze politiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/105",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "105",
+    "label_it": "Scienze statistiche demografiche e sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/106",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "106",
+    "label_it": "Scienze statistiche ed attuariali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/107",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "107",
+    "label_it": "Scienze statistiche ed economiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/108",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "108",
+    "label_it": "Scienze strategiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/109",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "109",
+    "label_it": "Scienze turistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/11",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "11",
+    "label_it": "Chimica e Tecnologie Farmaceutiche o Chimica e tecnologia farmaceutiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/110",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "110",
+    "label_it": "Servizio sociale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/111",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "111",
+    "label_it": "Sociologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/112",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "112",
+    "label_it": "Statistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/113",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "113",
+    "label_it": "Statistica e informatica per l\u2019azienda",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/114",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "114",
+    "label_it": "Storia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/115",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "115",
+    "label_it": "Storia e conservazione dei beni architettonici e ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/116",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "116",
+    "label_it": "Storia e conservazione dei beni culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/117",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "117",
+    "label_it": "Studi comparatistici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/118",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "118",
+    "label_it": "Traduzione ed interpretazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/119",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "119",
+    "label_it": "Urbanistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/12",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "12",
+    "label_it": "Chimica Industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/120",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "120",
+    "label_it": "Biotecnologie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/121",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "121",
+    "label_it": "Commercio internazionale e mercati\u00a0valutari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/122",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "122",
+    "label_it": "Conservazione dei Beni Culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/123",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "123",
+    "label_it": "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/124",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "124",
+    "label_it": "Ingegneria forestale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/125",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "125",
+    "label_it": "Ingegneria idraulica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/126",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "126",
+    "label_it": "Ingegneria mineraria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/127",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "127",
+    "label_it": "Scienze bancarie e assicurative",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/128",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "128",
+    "label_it": "Scienze delle preparazioni alimentari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/129",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "129",
+    "label_it": "Scienze economiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/13",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "13",
+    "label_it": "Comunicazione Internazionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/130",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "130",
+    "label_it": "Scienze economiche e bancarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/131",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "131",
+    "label_it": "Scienze economiche e sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/132",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "132",
+    "label_it": "Scienze economico - marittime",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/133",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "133",
+    "label_it": "Scienze statistiche e demografiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/134",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "134",
+    "label_it": "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/135",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "135",
+    "label_it": "Teologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/136",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "136",
+    "label_it": "Discipline delle Arti, della Musica e dello Spettacolo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/137",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "137",
+    "label_it": "Diploma di Conservatorio (V.O.) (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/138",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "138",
+    "label_it": "Diploma dell'Accademia Nazionale di Danza (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/139",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "139",
+    "label_it": "Diploma rilasciato da Istituti Musicali Pareggiati\u00a0(congiuntamente al possesso del Diploma di Scuola secondaria di II grado)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/14",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "14",
+    "label_it": "Discipline economiche e sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/140",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "140",
+    "label_it": "Diploma di Istituto Superiore delle Industrie Artistiche (ISIA) (V.O.) ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/141",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "141",
+    "label_it": "Diploma di Accademia di Belle Arti (V.O.)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/142",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "142",
+    "label_it": "Diploma dell'Accademia Nazionale di Arte Drammatica (V.O.)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/143",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "143",
+    "label_it": "Biotecnologie indirizzo Biotecnologie Farmaceutiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/15",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "15",
+    "label_it": "Disegno industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/16",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "16",
+    "label_it": "Economia ambientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/17",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "17",
+    "label_it": "Economia assicurativa e previdenziale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/18",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "18",
+    "label_it": "Economia aziendale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/19",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "19",
+    "label_it": "Economia bancaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/2",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "2",
+    "label_it": "Astronomia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/20",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "20",
+    "label_it": "Economia bancaria, finanziaria e assicurativa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/21",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "21",
+    "label_it": "Economia del commercio internazionale e dei mercati valutari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/22",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "22",
+    "label_it": "Economia del turismo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/23",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "23",
+    "label_it": "Economia delle amministrazioni pubbliche e delle istituzioni internazionali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/24",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "24",
+    "label_it": "Economia delle istituzioni e dei mercati finanziari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/25",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "25",
+    "label_it": "Economia e commercio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/26",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "26",
+    "label_it": "Economia e finanza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/27",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "27",
+    "label_it": "Economia e gestione dei servizi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/28",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "28",
+    "label_it": "Economia e legislazione per l\u2019impresa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/29",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "29",
+    "label_it": "Economia industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/3",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "3",
+    "label_it": "Biotecnologie agro-industriali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/30",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "30",
+    "label_it": "Economia marittima e dei trasporti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/31",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "31",
+    "label_it": "Economia per le arti, la cultura e la comunicazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/32",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "32",
+    "label_it": "Economia politica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/33",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "33",
+    "label_it": "Farmacia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/34",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "34",
+    "label_it": "Filologia e storia dell'Europa Orientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/35",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "35",
+    "label_it": "Filologie, storia e cultura dei paesi islamici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/36",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "36",
+    "label_it": "Filosofia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/37",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "37",
+    "label_it": "Fisica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/38",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "38",
+    "label_it": "Geografia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/39",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "39",
+    "label_it": "Giurisprudenza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/4",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "4",
+    "label_it": "Biotecnologie farmaceutiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/40",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "40",
+    "label_it": "Informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/41",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "41",
+    "label_it": "Ingegneria aerospaziale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/42",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "42",
+    "label_it": "Ingegneria biomedica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/43",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "43",
+    "label_it": "Ingegneria chimica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/44",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "44",
+    "label_it": "Ingegneria civile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/45",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "45",
+    "label_it": "Ingegneria dei materiali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/46",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "46",
+    "label_it": "Ingegneria delle telecomunicazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/47",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "47",
+    "label_it": "Ingegneria edile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/48",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "48",
+    "label_it": "Ingegneria edile - Architettura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/49",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "49",
+    "label_it": "Ingegneria elettrica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/5",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "5",
+    "label_it": "Biotecnologie indirizzo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/50",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "50",
+    "label_it": "Ingegneria elettronica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/51",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "51",
+    "label_it": "Ingegneria gestionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/52",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "52",
+    "label_it": "Ingegneria industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/53",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "53",
+    "label_it": "Ingegneria informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/54",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "54",
+    "label_it": "Ingegneria meccanica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/55",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "55",
+    "label_it": "Ingegneria medica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/56",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "56",
+    "label_it": "Ingegneria navale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/57",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "57",
+    "label_it": "Ingegneria nucleare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/58",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "58",
+    "label_it": "Ingegneria per l\u2019ambiente e il territorio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/59",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "59",
+    "label_it": "Lettere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/6",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "6",
+    "label_it": "Biotecnologie indirizzo Biotecnologie agrarie vegetali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/60",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "60",
+    "label_it": "Lingua e cultura italiana",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/61",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "61",
+    "label_it": "Lingue e civilt\u00e0 orientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/62",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "62",
+    "label_it": "Lingue e culture dell\u2019Europa Orientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/63",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "63",
+    "label_it": "Lingue e culture europee",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/64",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "64",
+    "label_it": "Lingue e letterature orientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/65",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "65",
+    "label_it": "Lingue e letterature straniere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/66",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "66",
+    "label_it": "Lingue, culture ed istituzioni dei paesi del Mediterraneo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/67",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "67",
+    "label_it": "Marketing",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/68",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "68",
+    "label_it": "Matematica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/69",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "69",
+    "label_it": "Materie letterarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/7",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "7",
+    "label_it": "Biotecnologie indirizzo Biotecnologie industriali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/70",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "70",
+    "label_it": "Medicina e Chirurgia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/71",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "71",
+    "label_it": "Medicina veterinaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/72",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "72",
+    "label_it": "Musicologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/73",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "73",
+    "label_it": "Odontoiatria e protesi dentaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/74",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "74",
+    "label_it": "Pedagogia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/75",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "75",
+    "label_it": "Pianificazione territoriale e urbanistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/76",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "76",
+    "label_it": "Pianificazione territoriale, urbanistica e ambientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/77",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "77",
+    "label_it": "Politica del territorio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/78",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "78",
+    "label_it": "Psicologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/79",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "79",
+    "label_it": "Relazioni pubbliche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/8",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "8",
+    "label_it": "Biotecnologie indirizzo Biotecnologie mediche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/80",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "80",
+    "label_it": "Scienza dei materiali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/81",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "81",
+    "label_it": "Scienze agrarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/82",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "82",
+    "label_it": "Scienze agrarie tropicali e subtropicali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/83",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "83",
+    "label_it": "Scienze ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/84",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "84",
+    "label_it": "Scienze biologiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/85",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "85",
+    "label_it": "Scienze dell\u2019amministrazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/86",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "86",
+    "label_it": "Scienze dell\u2019educazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/87",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "87",
+    "label_it": "Scienze dell\u2019informazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/88",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "88",
+    "label_it": "Scienze della comunicazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/89",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "89",
+    "label_it": "Scienze della cultura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/9",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "9",
+    "label_it": "Biotecnologie indirizzo Biotecnologie veterinarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/90",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "90",
+    "label_it": "Scienze della formazione primaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/91",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "91",
+    "label_it": "Scienze delle produzioni animali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/92",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "92",
+    "label_it": "Scienze della programmazione sanitaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/93",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "93",
+    "label_it": "Scienze e tecniche dell\u2019interculturalit\u00e0",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/94",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "94",
+    "label_it": "Scienze e tecnologie agrarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/95",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "95",
+    "label_it": "Scienze e tecnologie alimentari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/96",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "96",
+    "label_it": "Scienze e tecnologie delle produzioni animali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/97",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "97",
+    "label_it": "Scienze economiche, statistiche e sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/98",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "98",
+    "label_it": "Scienze forestali - Scienze forestali e ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/99",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "99",
+    "label_it": "Scienze geologiche",
+    "level": "1"
+  }
+]

@@ -1,0 +1,111 @@
+url,id,label_it,level
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1,1,1/S ANTROPOLOGIA CULTURALE ED ETNOLOGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/10,10,"13/S EDITORIA, COMUNICAZIONE MULTIMEDIALE E GIORNALISMO",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/100,100,95/S STORIA DELL’ARTE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/101,101,96/S STORIA DELLA FILOSOFIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/102,102,97/S STORIA MEDIEVALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/103,103,98/S STORIA MODERNA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/104,104,99/S STUDI EUROPEI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/105,105,SNT/01/S SCIENZE INFERMIERISTICHE E OSTETRICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/106,106,SNT/02/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA RIABILITAZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/107,107,SNT/03/S SCIENZE DELLE PROFESSIONI SANITARIE TECNICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/108,108,SNT/04/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA PREVENZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/109,109,102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL'INFORMAZIONE GIURIDICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/11,11,14/S FARMACIA E FARMACIA INDUSTRIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/110,110,DS/S SCIENZE DELLA DIFESA E DELLA SICUREZZA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/12,12,15/S FILOLOGIA E LETTERATURE DELL’ANTICHITÀ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/13,13,16/S FILOLOGIA MODERNA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/14,14,17/S FILOSOFIA E STORIA DELLA SCIENZA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/15,15,"18/S FILOSOFIA TEORETICA, MORALE, POLITICA ED ESTETICA",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/16,16,19/S FINANZA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/17,17,2/S ARCHEOLOGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/18,18,20/S FISICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/19,19,21/S GEOGRAFIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2,2,10/S CONSERVAZIONE DEI BENI ARCHITETTONICI E AMBIENTALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/20,20,22/S GIURISPRUDENZA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/21,21,23/S INFORMATICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/22,22,24/S INFORMATICA PER LE DISCIPLINE UMANISTICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/23,23,25/S INGEGNERIA AEROSPAZIALE E ASTRONAUTICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/24,24,26/S INGEGNERIA BIOMEDICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/25,25,27/S INGEGNERIA CHIMICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/26,26,28/S INGEGNERIA CIVILE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/27,27,29/S INGEGNERIA DELL’AUTOMAZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/28,28,3/S ARCHITETTURA DEL PAESAGGIO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/29,29,30/S INGEGNERIA DELLE TELECOMUNICAZIONI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/3,3,100/S TECNICHE E METODI PER LA SOCIETÀ DELL’INFORMAZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/30,30,31/S INGEGNERIA ELETTRICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/31,31,32/S INGEGNERIA ELETTRONICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/32,32,33/S INGEGNERIA ENERGETICA E NUCLEARE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/33,33,34/S INGEGNERIA GESTIONALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/34,34,35/S INGEGNERIA INFORMATICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/35,35,36/S INGEGNERIA MECCANICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/36,36,37/S INGEGNERIA NAVALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/37,37,38/S INGEGNERIA PER L’AMBIENTE E IL TERRITORIO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/38,38,39/S INTERPRETARIATO DI CONFERENZA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/39,39,4/S ARCHITETTURA E INGEGNERIA EDILE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/4,4,101/S TEORIA DELLA COMUNICAZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/40,40,40/S LINGUA E CULTURA ITALIANA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/41,41,41/S LINGUE E LETTERATURE AFROASIATICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/42,42,42/S LINGUE E LETTERATURE MODERNE EUROAMERICANE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/43,43,43/S LINGUE STRANIERE PER LA COMUNICAZIONE INTERNAZIONALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/44,44,44/S LINGUISTICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/45,45,45/S MATEMATICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/46,46,46/S MEDICINA E CHIRURGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/47,47,47/S MEDICINA VETERINARIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/48,48,48/S METODI PER L’ANALISI VALUTATIVA DEI SISTEMI COMPLESSI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/49,49,49/S METODI PER LA RICERCA EMPIRICA NELLE SCIENZE SOCIALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/5,5,102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL’INFORMAZIONE GIURIDICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/50,50,5/S ARCHIVISTICA E BIBLIOTECONOMIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/51,51,50/S MODELLISTICA MATEMATICO-FISICA PER L’INGEGNERIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/52,52,51/S MUSICOLOGIA E BENI MUSICALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/53,53,52/S ODONTOIATRIA E PROTESI DENTARIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/54,54,53/S ORGANIZZAZIONE E GESTIONE DEI SERVIZI PER LO SPORT E LE ATTIVITÀ MOTORIE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/55,55,54/S PIANIFICAZIONE TERRITORIALE URBANISTICA E AMBIENTALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/56,56,55/S PROGETTAZIONE E GESTIONE DEI SISTEMI TURISTICI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/57,57,56/S PROGRAMMAZIONE E GESTIONE DEI SERVIZI EDUCATIVI E FORMATIVI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/58,58,57/S PROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/59,59,58/S PSICOLOGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/6,6,103/S TEORIE E METODI DEL DISEGNO INDUSTRIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/60,60,59/S PUBBLICITÀ E COMUNICAZIONE D’IMPRESA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/61,61,6/S BIOLOGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/62,62,60/S RELAZIONI INTERNAZIONALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/63,63,61/S SCIENZA E INGEGNERIA DEI MATERIALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/64,64,62/S SCIENZE CHIMICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/65,65,63/S SCIENZE COGNITIVE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/66,66,64/S SCIENZE DELL’ECONOMIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/67,67,65/S SCIENZE DELL’EDUCAZIONE DEGLI ADULTI E DELLA FORMAZIONE CONTINUA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/68,68,66/S SCIENZE DELL’UNIVERSO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/69,69,67/S SCIENZE DELLA COMUNICAZIONE SOCIALE E ISTITUZIONALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/7,7,104/S TRADUZIONE LETTERARIA E IN TRADUZIONE TECNICO-SCIENTIFICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/70,70,68/S SCIENZE DELLA NATURA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/71,71,69/S SCIENZE DELLA NUTRIZIONE UMANA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/72,72,7/S BIOTECNOLOGIE AGRARIE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/73,73,70/S SCIENZE DELLA POLITICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/74,74,71/S SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/75,75,72/S SCIENZE DELLE RELIGIONI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/76,76,73/S SCIENZE DELLO SPETTACOLO E DELLA PRODUZIONE MULTIMEDIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/77,77,74/S SCIENZE E GESTIONE DELLE RISORSE RURALI E FORESTALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/78,78,75/S SCIENZE E TECNICA DELLO SPORT,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/79,79,76/S SCIENZE E TECNICHE DELLE ATTIVITÀ MOTORIE PREVENTIVE E ADATTATIVE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/8,8,11/S CONSERVAZIONE DEI BENI SCIENTIFICI E DELLA CIVILTÀ INDUSTRIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/80,80,77/S SCIENZE E TECNOLOGIE AGRARIE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/81,81,78/S SCIENZE E TECNOLOGIE AGROALIMENTARI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/82,82,79/S SCIENZE E TECNOLOGIE AGROZOOTECNICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/83,83,8/S BIOTECNOLOGIE INDUSTRIALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/84,84,80/S SCIENZE E TECNOLOGIE DEI SISTEMI DI NAVIGAZIONE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/85,85,81/S SCIENZE E TECNOLOGIE DELLA CHIMICA INDUSTRIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/86,86,82/S SCIENZE E TECNOLOGIE PER L’AMBIENTE E IL TERRITORIO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/87,87,83/S SCIENZE ECONOMICHE PER L’AMBIENTE E LA CULTURA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/88,88,84/S SCIENZE ECONOMICO-AZIENDALI,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/89,89,85/S SCIENZE GEOFISICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/9,9,12/S CONSERVAZIONE E RESTAURO DEL PATRIMONIO STORICO-ARTISTICO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/90,90,86/S SCIENZE GEOLOGICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/91,91,87/S SCIENZE PEDAGOGICHE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/92,92,88/S SCIENZE PER LA COOPERAZIONE ALLO SVILUPPO,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/93,93,89/S SOCIOLOGIA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/94,94,"9/S BIOTECNOLOGIE MEDICHE, VETERINARIE E FARMACEUTICHE",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/95,95,90/S STATISTICA DEMOGRAFICA E SOCIALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/96,96,"91/S STATISTICA ECONOMICA, FINANZIARIA ED ATTUARIALE",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/97,97,92/S STATISTICA PER LA RICERCA SPERIMENTALE,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/98,98,93/S STORIA ANTICA,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/99,99,94/S STORIA CONTEMPORANEA,1

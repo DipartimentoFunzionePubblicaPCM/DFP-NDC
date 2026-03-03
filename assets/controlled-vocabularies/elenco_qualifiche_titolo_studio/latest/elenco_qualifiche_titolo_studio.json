@@ -1,0 +1,3732 @@
+[
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/1",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "1",
+    "label_it": "Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo\nStato Regioni 22/02/2001",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/10",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "10",
+    "label_it": "Videoterminalista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/100",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "100",
+    "label_it": "Addetto alla lavorazione carni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/101",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "101",
+    "label_it": "Addetto al confezionamento dei prodotti alimentare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/102",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "102",
+    "label_it": "Tecnico progettista di spazi verdi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/103",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "103",
+    "label_it": "Addetto alla vinificazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/104",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "104",
+    "label_it": "Addetto alla lavorazione di salumi e insaccati",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/105",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "105",
+    "label_it": "Addetto alla produzione dell\u2019olio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/106",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "106",
+    "label_it": "Cioccolataio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/107",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "107",
+    "label_it": "Addetto alle lavorazioni lattiero-casearie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/108",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "108",
+    "label_it": "Operatore di panificazione e produzione di pasta",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/109",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "109",
+    "label_it": "Pasticciere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/11",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "11",
+    "label_it": "Operatore Socio Sanitario con formazione complementare (OSSS)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/110",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "110",
+    "label_it": "Tecnico della conduzione del vigneto e della vinificazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/111",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "111",
+    "label_it": "Tecnico della conduzione dell\u2019oliveto e della produzione di olio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/112",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "112",
+    "label_it": "Operatore della produzione di latte alimentare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/113",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "113",
+    "label_it": "Operatore della produzione di birre",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/114",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "114",
+    "label_it": "Operatore della produzione artigianale di prodotti di panetteria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/115",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "115",
+    "label_it": "Progettista mobili e arredamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/116",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "116",
+    "label_it": "Operatore alla trasformazione del legno",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/117",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "117",
+    "label_it": "Tecnico delle produzioni di arredamenti in legno",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/118",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "118",
+    "label_it": "Maglierista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/119",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "119",
+    "label_it": "Modellista di abbigliamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/12",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "12",
+    "label_it": "Operatore Socio Assistenziale (OSA): Corsi di minimo 600 ore con esami finali, L. 845/78, conseguiti ante 31/07/2002 ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/120",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "120",
+    "label_it": "Modellista di articoli di pelletteria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/121",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "121",
+    "label_it": "Modellista di calzature",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/122",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "122",
+    "label_it": "Cardatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/123",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "123",
+    "label_it": "Aggiuntatore prototipista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/124",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "124",
+    "label_it": "Orditore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/125",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "125",
+    "label_it": "Operatore macchina roccatrice",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/126",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "126",
+    "label_it": "Operatore dalla filatura e torcitura dei filati",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/127",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "127",
+    "label_it": "Operatore della confezione di abbigliamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/128",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "128",
+    "label_it": "Operatore macchine finissaggio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/129",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "129",
+    "label_it": "Sarto artigianale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/13",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "13",
+    "label_it": "Titolo di OTA ai sensi del DM 295/91 unitamente alla qualifica ADB conseguita c/o la Regione Emilia Romagna o titolo equipollente",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/130",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "130",
+    "label_it": "Rammendatrice",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/131",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "131",
+    "label_it": "Tecnico di coordinamento del reparto tessitura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/132",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "132",
+    "label_it": "Tessitore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/133",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "133",
+    "label_it": "Tintore industriale filati e tessuti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/134",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "134",
+    "label_it": "Tecnico delle produzioni chimiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/135",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "135",
+    "label_it": "Operatore H2 e sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/136",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "136",
+    "label_it": "Tecnico wireline e coiled tubing",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/137",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "137",
+    "label_it": "Operatore della lavorazione del marmo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/138",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "138",
+    "label_it": "Mosaicista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/139",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "139",
+    "label_it": "Operatore per la produzione del vetro",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/14",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "14",
+    "label_it": "Operatore Educativo per l\u2019Autonomia e la Comunicazione (OEPAC ex AEC) D.lgs. 13/2013",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/140",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "140",
+    "label_it": "Progettista ceramico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/141",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "141",
+    "label_it": "Operatore della ceramica artigianale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/142",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "142",
+    "label_it": "Operatore alla gestione e verifica delle composizioni chimiche del vetro e delle caratteristiche fisiche degli oggetti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/143",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "143",
+    "label_it": "Soffiatore del vetro",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/144",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "144",
+    "label_it": "Operatore alla conduzione di gru e di apparecchi di sollevamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/145",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "145",
+    "label_it": "Installatore di materiali impermealizzanti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/146",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "146",
+    "label_it": "Installatore di materiali di isolamento termico e acustico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/147",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "147",
+    "label_it": "Tecnico del disegno edile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/148",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "148",
+    "label_it": "Stuccatore, decoratore, doratore di edifici storici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/149",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "149",
+    "label_it": "Operatore edile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/15",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "15",
+    "label_it": "Mediatore interculturale, durata minima 450 ore, D.lgs. 13/2013",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/150",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "150",
+    "label_it": "Operatore alla conduzione di macchine complesse",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/151",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "151",
+    "label_it": "Carpentiere in legno per la nautica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/152",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "152",
+    "label_it": "Capo barca",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/153",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "153",
+    "label_it": "Tecnico specializzato BIM",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/154",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "154",
+    "label_it": "Tecnico esperto della gestione del cantiere e di restauro",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/155",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "155",
+    "label_it": "Designer del gioiello",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/156",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "156",
+    "label_it": "Cesellatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/157",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "157",
+    "label_it": "Lattoniere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/158",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "158",
+    "label_it": "Lappatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/159",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "159",
+    "label_it": "Liutaio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/16",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "16",
+    "label_it": "Tecnico esperto nella gestione dei servizi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/160",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "160",
+    "label_it": "Manutentore impianti siderurgici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/161",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "161",
+    "label_it": "Manutentore aeronautico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/162",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "162",
+    "label_it": "Meccanico motorista navale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/163",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "163",
+    "label_it": "Montatore di strutture aeronautiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/164",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "164",
+    "label_it": "Montatore meccanico nautico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/165",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "165",
+    "label_it": "Operatore alla tornitura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/166",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "166",
+    "label_it": "Operatore dell\u2019installazione e della manutenzione di impianti di condizionamento e climatizzazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/167",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "167",
+    "label_it": "Operatore dell\u2019installazione e della manutenzione di impianti elettrici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/168",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "168",
+    "label_it": "Operatore dell\u2019installazione e della manutenzione di impianti termo-idraulici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/169",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "169",
+    "label_it": "Operatore dell\u2019installazione e della manutenzione di impianti di refrigerazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/17",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "17",
+    "label_it": "Costruttore di carpenteria metallica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/170",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "170",
+    "label_it": "Operatore della carpenteria metallica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/171",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "171",
+    "label_it": "Operatore della finitura e verniciatura di parti metalliche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/172",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "172",
+    "label_it": "Operatore della installazione e della manutenzione di impianti speciali per la sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/173",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "173",
+    "label_it": "Operatore della lavorazione artistica del ferro e altri metalli non nobili",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/174",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "174",
+    "label_it": "Operatore di fresatura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/175",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "175",
+    "label_it": "Operatore di saldatura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/176",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "176",
+    "label_it": "Operatore meccanico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/177",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "177",
+    "label_it": "Operatore meccanico di sistemi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/178",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "178",
+    "label_it": "Orafo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/179",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "179",
+    "label_it": "Orologiaio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/18",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "18",
+    "label_it": "Progettista alimentare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/180",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "180",
+    "label_it": "Progettista meccanico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/181",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "181",
+    "label_it": "Serramentista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/182",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "182",
+    "label_it": "Service manager del diporto",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/183",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "183",
+    "label_it": "Resinatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/184",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "184",
+    "label_it": "Tecnico dell'automazione dei processi produttivi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/185",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "185",
+    "label_it": "Tecnico della progettazione di prodotti industriali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/186",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "186",
+    "label_it": "Tecnico sistemista radar",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/187",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "187",
+    "label_it": "Marinaio di porto addetto ai servizi logistici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/188",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "188",
+    "label_it": "Collaboratore polivalente del servizio coperta e macchina (deck/engine utility)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/189",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "189",
+    "label_it": "Verniciatore nautico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/19",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "19",
+    "label_it": "Manutentore di macchine e impianti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/190",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "190",
+    "label_it": "Tecnico spedizioniere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/191",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "191",
+    "label_it": "Operatore alle vendite telefoniche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/192",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "192",
+    "label_it": "Operatore del punto vendita",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/193",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "193",
+    "label_it": "Tecnico di spedizione, trasporto e logistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/194",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "194",
+    "label_it": "Addetto all'allestimento e rifornimento degli scaffali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/195",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "195",
+    "label_it": "Capo reparto della grande distribuzione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/196",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "196",
+    "label_it": "Operatore al banco di prodotti alimentari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/197",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "197",
+    "label_it": "Operatore alle casse",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/198",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "198",
+    "label_it": "Tecnico delle vendite",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/199",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "199",
+    "label_it": "Analista programmatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/2",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "2",
+    "label_it": "Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo\nStato Regioni 22/02/2001 rilasciata a livello regionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/20",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "20",
+    "label_it": "Assistente di studio odontoiatrico (ASO) non inferiore a 700 ore e non superiore a 12 mesi, con esame finale DPCM 9/2/2018",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/200",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "200",
+    "label_it": "Tecnico del portafoglio retail",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/201",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "201",
+    "label_it": "Tecnico del portafoglio small business",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/202",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "202",
+    "label_it": "Tecnico esperto prodotti di area",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/203",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "203",
+    "label_it": "Analista di sistemi informativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/204",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "204",
+    "label_it": "Esperto delle attivit\u00e0 di analisi e progettazione di sistemi informativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/205",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "205",
+    "label_it": "Esperto delle attivit\u00e0 di implementazione e manutenzione di sistemi integrati per la gestione aziendale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/206",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "206",
+    "label_it": "Responsabile della progettazione di procedure software e applicazioni informatiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/207",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "207",
+    "label_it": "Tecnico della progettazione, implementazione e manutenzione di sistemi di gestione di database",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/208",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "208",
+    "label_it": "Tecnico della programmazione e dello sviluppo di programmi informatici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/209",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "209",
+    "label_it": "Tecnico della sicurezza e della riservatezza dei dati personali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/21",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "21",
+    "label_it": "Agente d\u2019affari in mediazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/210",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "210",
+    "label_it": "Tecnico esperto di grafica informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/211",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "211",
+    "label_it": "Tecnico esperto di sicurezza informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/212",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "212",
+    "label_it": "Tecnico hardware",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/213",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "213",
+    "label_it": "Tecnico programmatore siti web",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/214",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "214",
+    "label_it": "Tecnico software",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/215",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "215",
+    "label_it": "Web designer",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/216",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "216",
+    "label_it": "Operatore ai sistemi di giunzione in fibra ottica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/217",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "217",
+    "label_it": "Operatore ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/218",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "218",
+    "label_it": "Progettista di telecomunicazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/219",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "219",
+    "label_it": "Operatore dei servizi di logistica e spedizione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/22",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "22",
+    "label_it": "Agente e rappresentante di commercio ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/220",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "220",
+    "label_it": "Operatore del sistema idrico integrato",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/221",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "221",
+    "label_it": "Operatore per il trattamento, il recupero e lo smaltimento dei rifiuti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/222",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "222",
+    "label_it": "Operatore per la manutenzione e la gestione della rete gas",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/223",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "223",
+    "label_it": "Operatore per la sanificazione dei contenitori di rifiuti organici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/224",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "224",
+    "label_it": "Tecnico del monitoraggio e controllo della rete idrica e degli interventi per il trattamento delle acque reflue",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/225",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "225",
+    "label_it": "Tecnico della distribuzione di energia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/226",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "226",
+    "label_it": "Tecnico esperto della programmazione delle risorse idriche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/227",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "227",
+    "label_it": "Tecnico esperto nella pianificazione del ciclo integrato dei rifiuti urbani",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/228",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "228",
+    "label_it": "Tecnico nella gestione degli impianti di captazione e potabilizzazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/229",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "229",
+    "label_it": "Tecnico per il recupero e lo smaltimento dei rifiuti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/23",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "23",
+    "label_it": "Maestro di sci",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/230",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "230",
+    "label_it": "Archivista editoriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/231",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "231",
+    "label_it": "Grafico editoriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/232",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "232",
+    "label_it": "Operatore di post stampa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/233",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "233",
+    "label_it": "Operatore di stampa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/234",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "234",
+    "label_it": "Operatore macchine per la legatoria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/235",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "235",
+    "label_it": "Operatore per la realizzazione di stampe serigrafiche a colori su supporti di varia natura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/236",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "236",
+    "label_it": "Tecnico della fotografia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/237",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "237",
+    "label_it": "Tecnico esperto dell'ideazione e progettazione del prodotto multimediale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/238",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "238",
+    "label_it": "Esperto della gestione amministrativa e finanziaria e della rendicontazione di interventi formativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/239",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "239",
+    "label_it": "Esperto della gestione di strutture ed interventi formativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/24",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "24",
+    "label_it": "Micologo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/240",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "240",
+    "label_it": "Esperto di monitoraggio e valutazione di interventi formativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/241",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "241",
+    "label_it": "Esperto di progettazione formativa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/242",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "242",
+    "label_it": "Orientatore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/243",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "243",
+    "label_it": "Tecnico della pianificazione e realizzazione di attivit\u00e0 valutative",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/244",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "244",
+    "label_it": "Tecnico di accompagnamento all'individuazione e messa in trasparenza delle competenze",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/245",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "245",
+    "label_it": "Mediatore familiare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/246",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "246",
+    "label_it": "Animatore sociale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/247",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "247",
+    "label_it": "Tutor di formazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/248",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "248",
+    "label_it": "Operatore sociale di strada",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/249",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "249",
+    "label_it": "Operatore all\u2019assistenza educativa ai disabili",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/25",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "25",
+    "label_it": "Installatore e manutentore straordinario di impianti energetici alimentati da fonti rinnovabili",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/250",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "250",
+    "label_it": "Operatore termale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/251",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "251",
+    "label_it": "Tecnico di accoglienza sociale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/252",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "252",
+    "label_it": "Youth worker",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/253",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "253",
+    "label_it": "Esperto cinofilo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/254",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "254",
+    "label_it": "Tecnico di comunit\u00e0 pedagogico - riabilitativa per tossicodipendenti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/255",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "255",
+    "label_it": "Tecnico esperto nella gestione di struttura-servizio sociale o socio-sanitario",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/256",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "256",
+    "label_it": "Tecnico qualificato in clownerie in strutture socio-sanitarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/257",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "257",
+    "label_it": "Tutor didattico per studenti con difficolt\u00e0 di apprendimento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/258",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "258",
+    "label_it": "Collaboratore domestico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/259",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "259",
+    "label_it": "Operatore di animal care",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/26",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "26",
+    "label_it": "Manutentore del verde",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/260",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "260",
+    "label_it": "Operatore di tatuaggio e piercing",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/261",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "261",
+    "label_it": "Operatore olistico del benessere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/262",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "262",
+    "label_it": "Operatore per l'assistenza familiare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/263",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "263",
+    "label_it": "Tecnico dell'organizzazione e gestione di maneggi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/264",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "264",
+    "label_it": "Tecnico della gestione di centri ricreativi e di intrattenimento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/265",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "265",
+    "label_it": "Tecnico esperto della direzione di palestre e impianti sportivi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/266",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "266",
+    "label_it": "Attore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/267",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "267",
+    "label_it": "Autore radiotelevisivo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/268",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "268",
+    "label_it": "Costumista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/269",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "269",
+    "label_it": "Curatore di mostre",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/27",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "27",
+    "label_it": "Tecnico del restauro dei beni culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/270",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "270",
+    "label_it": "Direttore di scena",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/271",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "271",
+    "label_it": "Disk Jockey",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/272",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "272",
+    "label_it": "Esperto dei Cammini e Beni Culturali Ecclesiastici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/273",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "273",
+    "label_it": "Esperto dei servizi educativi museali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/274",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "274",
+    "label_it": "Maestro collaboratore al pianoforte",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/275",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "275",
+    "label_it": "Operatore dei servizi di custodia ed accoglienza museale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/276",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "276",
+    "label_it": "Tecnico del suono",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/277",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "277",
+    "label_it": "Tecnico delle luci",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/278",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "278",
+    "label_it": "Programmatore musicale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/279",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "279",
+    "label_it": "Operatore di scenografia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/28",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "28",
+    "label_it": "Tecnico abilitato alla certificazione energetica degli edifici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/280",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "280",
+    "label_it": "Operatore per la tutela, l'organizzazione e la fruizione del patrimonio librario, archivistico e documentario",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/281",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "281",
+    "label_it": "Tecnico della ripresa e del montaggio audiovisivo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/282",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "282",
+    "label_it": "Tecnico esperto della gestione dei servizi di biblioteca",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/283",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "283",
+    "label_it": "Tecnico esperto della valorizzazione e promozione del patrimonio culturale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/284",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "284",
+    "label_it": "Tecnico esperto di marketing dei beni culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/285",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "285",
+    "label_it": "Truccatore dello spettacolo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/286",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "286",
+    "label_it": "Acconciatore dello spettacolo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/287",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "287",
+    "label_it": "Addetto ai servizi di spiaggia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/288",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "288",
+    "label_it": "Operatore del servizio di sala - cameriere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/289",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "289",
+    "label_it": "Operatore del servizio bar",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/29",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "29",
+    "label_it": "Tecnico meccatronico delle autoriparazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/290",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "290",
+    "label_it": "Receptionist",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/291",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "291",
+    "label_it": "Pizzaiolo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/292",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "292",
+    "label_it": "Tecnico della progettazione turistica locale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/293",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "293",
+    "label_it": "Tecnico della ristorazione - chef",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/294",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "294",
+    "label_it": "Operatore di prima cucina - cuoco",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/295",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "295",
+    "label_it": "Tecnico di sala - Ma\u00eetre",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/296",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "296",
+    "label_it": "Coordinatore amministrativo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/297",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "297",
+    "label_it": "Esperto analista finanziario",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/298",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "298",
+    "label_it": "Esperto nella gestione aziendale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/299",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "299",
+    "label_it": "Esperto di coaching",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/3",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "3",
+    "label_it": "Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo\nStato Regioni 22/02/2001 rilasciata da enti privati accreditati",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/30",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "30",
+    "label_it": "Tecnico della gestione di impianti di trattamento rifiuti urbani",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/300",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "300",
+    "label_it": "Esperto commerciale-marketing",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/301",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "301",
+    "label_it": "Esperto giurista d\u2019impresa",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/302",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "302",
+    "label_it": "Social media manager",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/303",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "303",
+    "label_it": "Team leader di call center",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/304",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "304",
+    "label_it": "Operatore dell\u2019accoglienza in eventi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/305",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "305",
+    "label_it": "Operatore amministrativo-contabile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/306",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "306",
+    "label_it": "Project manager",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/307",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "307",
+    "label_it": "Operatore segretariale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/308",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "308",
+    "label_it": "Operatore delle attivit\u00e0 di vigilanza e sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/309",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "309",
+    "label_it": "Operatore call center",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/31",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "31",
+    "label_it": "Tecnico dei servizi educativi museali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/310",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "310",
+    "label_it": "Tecnico copy writer",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/311",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "311",
+    "label_it": "Tecnico esperto customer care",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/312",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "312",
+    "label_it": "Tecnico archivista amminstrativo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/313",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "313",
+    "label_it": "Tecnico esperto e-commerce",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/314",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "314",
+    "label_it": "Tecnico esperto in procedure di gare e appalti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/315",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "315",
+    "label_it": "Tecnico esperto delle attivit\u00e0 di ideazione e sviluppo dell'immagine di campagne pubblicitarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/316",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "316",
+    "label_it": "Tecnico esperto per la direzione delle strutture ricettive alberghiere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/317",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "317",
+    "label_it": "Tecnico esperto per la direzione delle strutture ricettive extra-alberghiere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/318",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "318",
+    "label_it": "Tecnico esperto per la direzione di stabilimenti balneari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/319",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "319",
+    "label_it": "Addetto alle operazioni di confezionamento e imballaggio dei prodotti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/32",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "32",
+    "label_it": "Grafico multimediale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/320",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "320",
+    "label_it": "Addetto alla cura e pulizia di spazi ed ambienti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/321",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "321",
+    "label_it": "Operatore delle calzature ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/322",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "322",
+    "label_it": "Operatore delle produzioni chimiche ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/323",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "323",
+    "label_it": "Operatore edile ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/324",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "324",
+    "label_it": "Operatore dell\u2019abbigliamento ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/325",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "325",
+    "label_it": "Operatore elettrico ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/326",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "326",
+    "label_it": "Operatore elettronico ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/327",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "327",
+    "label_it": "Operatore grafico indirizzo stampa e allestimento ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/328",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "328",
+    "label_it": "Operatore grafico indirizzo multimedia ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/329",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "329",
+    "label_it": "Operatore di impianti termoidraulici ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/33",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "33",
+    "label_it": "Operatore assistenza clienti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/330",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "330",
+    "label_it": "Operatore delle lavorazioni artistiche ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/331",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "331",
+    "label_it": "Operatore del legno ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/332",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "332",
+    "label_it": "Operatore del montaggio e della manutenzione delle imbarcazioni da diporto ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/333",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "333",
+    "label_it": "Operatore alla riparazione dei veicoli a motore indirizzo riparazioni parti e sistemi meccanici ed elettromeccanici del veicolo ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/334",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "334",
+    "label_it": "Operatore alla riparazione dei veicoli a motore indirizzo riparazioni di carrozzeria ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/335",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "335",
+    "label_it": "Operatore meccanico ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/336",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "336",
+    "label_it": "Operatore del benessere indirizzo acconciatura 17/08/2005 ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/337",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "337",
+    "label_it": "Operatore del benessere indirizzo estetica L. 845/78 art. 14 e L.1/1990 ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/338",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "338",
+    "label_it": "Operatore della ristorazione indirizzo preparazione pasti ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/339",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "339",
+    "label_it": "Operatore della ristorazione indirizzo servizi di sala e bar ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/34",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "34",
+    "label_it": "Progettista orafo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/340",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "340",
+    "label_it": "Operatore ai servizi di promozione e accoglienza indirizzo strutture ricettive ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/341",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "341",
+    "label_it": "Operatore ai servizi di promozione e accoglienza indirizzo servizi del turismo ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/342",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "342",
+    "label_it": "Operatore amministrativo ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/343",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "343",
+    "label_it": "Operatore ai servizi di vendita ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/344",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "344",
+    "label_it": "Operatore dei sistemi e dei servizi logistici ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/345",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "345",
+    "label_it": "Operatore della trasformazione agroalimentare ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/346",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "346",
+    "label_it": "Operatore agricolo indirizzo allevamento animali ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/347",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "347",
+    "label_it": "Operatore agricolo indirizzo coltivazioni arboree, erbacee e ortofloricole ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/348",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "348",
+    "label_it": "Operatore agricolo indirizzo silvicoltura e salvaguardia dell\u2019ambiente ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/349",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "349",
+    "label_it": "Operatore del mare e della acque interne ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/35",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "35",
+    "label_it": "Tecnico dello sviluppo di coltivazioni, allevamenti e attivit\u00e0 d'impresa agricola e dell'analisi e monitoraggio delle produzioni ADA.01.1.245.816",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/350",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "350",
+    "label_it": "Tutor Pedagogico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/351",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "351",
+    "label_it": "Esperto in Appalti Pubblici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/352",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "352",
+    "label_it": "Direttore Coordinatore di Area Pedagogica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/353",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "353",
+    "label_it": "Consulente per la pianificazione e gestione delle aree naturali e delle reti ecologiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/354",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "354",
+    "label_it": "Guida turistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/355",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "355",
+    "label_it": "Operatore tecnico subacqueo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/356",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "356",
+    "label_it": "Tecnico dell'analisi e trascrizione di segnali fonici e di gestione della perizia di trascrizione in ambito forense",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/357",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "357",
+    "label_it": "Tecnico gestione rete dati",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/358",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "358",
+    "label_it": "Tecnico di programmazione informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/359",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "359",
+    "label_it": "Educatore Professionale Socio-pedagogico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/36",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "36",
+    "label_it": "Operatore agroalimentare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/360",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "360",
+    "label_it": "Tecnico Controllo e Tutela Ambientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/361",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "361",
+    "label_it": "Esperto in economia e amministrazione di PMI ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/362",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "362",
+    "label_it": "Operatore chimico biologico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/363",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "363",
+    "label_it": "Tecnico qualificato in gestione di musei e pinacoteche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/364",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "364",
+    "label_it": "Assistente di base (ADB)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/365",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "365",
+    "label_it": "Formazione Formatori",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/366",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "366",
+    "label_it": "Esperto in diritto, economia e politiche comunitarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/367",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "367",
+    "label_it": "Operatore di biblioteca",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/368",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "368",
+    "label_it": "Restauratore di Beni culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/369",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "369",
+    "label_it": "Dattilografo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/37",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "37",
+    "label_it": "Interprete di Lingua dei Segni Italiana (LIS)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/370",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "370",
+    "label_it": "Esperto di azienda turistica e promozione del territorio ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/371",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "371",
+    "label_it": "Ausiliario socio assistenziale (ASA)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/372",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "372",
+    "label_it": "Tecnico delle comunicazioni commerciali in lingua",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/373",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "373",
+    "label_it": "Maestro d'arte",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/38",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "38",
+    "label_it": "Traduttore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/39",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "39",
+    "label_it": "Addetto alla logistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/4",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "4",
+    "label_it": "Operatore Tecnico Addetto all'Assistenza (OTA): Attestato di idoneit\u00e0 a corsi professionalizzanti ai sensi D.G.R. 20/03/02 n\u00b0321 ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/40",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "40",
+    "label_it": "Disegnatore CAD",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/41",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "41",
+    "label_it": "Tecnico gestione area marketing",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/42",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "42",
+    "label_it": "Grafico pubblicitario",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/43",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "43",
+    "label_it": "Tecnico gestione risorse umane",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/44",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "44",
+    "label_it": "Tecnico esperto fiscale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/45",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "45",
+    "label_it": "Operatore archivio amministrativo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/46",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "46",
+    "label_it": "Addetto alla contabilit\u00e0",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/47",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "47",
+    "label_it": "Operatore di segreteria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/48",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "48",
+    "label_it": "Guida ambientale escursionistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/49",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "49",
+    "label_it": "Accompagnatore turisti con esigenze speciali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/5",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "5",
+    "label_it": "Operatore Tecnico Addetto all'Assistenza (OTA): D.M. 295/91",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/50",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "50",
+    "label_it": "Addetto alla promozione e accoglienza turistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/51",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "51",
+    "label_it": "Sommelier",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/52",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "52",
+    "label_it": "Operatore dell\u2019infanzia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/53",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "53",
+    "label_it": "Operatore per l\u2019assistenza familiare domiciliare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/54",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "54",
+    "label_it": "Tecnico dell\u2019educazione e riabilitazione in orientamento e mobilit\u00e0 e autonomia personale per disabili visivi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/55",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "55",
+    "label_it": "Musicoterapista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/56",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "56",
+    "label_it": "Istruttore di pratica nautica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/57",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "57",
+    "label_it": "Fotografo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/58",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "58",
+    "label_it": "Addetto alla produzione grafica digitale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/59",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "59",
+    "label_it": "Tecnico delle energie rinnovabili",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/6",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "6",
+    "label_it": "Operatore Tecnico per l'Assistenza (OTA): Corsi di minimo 600 ore con esami finali, L. 845/78, conseguiti ante 31/07/2002 ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/60",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "60",
+    "label_it": "Tecnico delle produzioni alimentari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/61",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "61",
+    "label_it": "Operatore informatico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/62",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "62",
+    "label_it": "Conduttore generatori di vapore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/63",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "63",
+    "label_it": "Conduttore impianti termici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/64",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "64",
+    "label_it": "Installatore e manutentore straordinario - biomasse per usi energetici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/65",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "65",
+    "label_it": "Installatore e manutentore straordinario - pompe di calore per riscaldamento, refrigerazione e produzione ACS",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/66",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "66",
+    "label_it": "Installatore e manutentore straordinario - sistemi fotovoltaici e fototermoelettrici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/67",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "67",
+    "label_it": "Installatore e manutentore straordinario - sistemi solati termici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/68",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "68",
+    "label_it": "Tecnico per l\u2019attivit\u00e0 di carrozzerie delle autoriparazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/69",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "69",
+    "label_it": "Tecnico per l\u2019attivit\u00e0 di gommista delle autoriparazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/7",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "7",
+    "label_it": "Qualifica di Operatore Socio Sanitario (OSS) rilasciata al termine del Diploma quinquennale Ipss ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/70",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "70",
+    "label_it": "Mediatore culturale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/71",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "71",
+    "label_it": "Maestro di sci nordico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/72",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "72",
+    "label_it": "Responsabile tecnico di tintolavanderia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/73",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "73",
+    "label_it": "Responsabile dell\u2019attivit\u00e0 cimiteriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/74",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "74",
+    "label_it": "Operatore funebre",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/75",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "75",
+    "label_it": "Addetto all\u2019allevamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/76",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "76",
+    "label_it": "Apicoltore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/77",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "77",
+    "label_it": "Elicicoltore",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/78",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "78",
+    "label_it": "Esperto della progettazione di interventi in campo agro-forestale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/79",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "79",
+    "label_it": "Giardiniere",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/8",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "8",
+    "label_it": "Qualifica di Assistente Analista del Comportamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/80",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "80",
+    "label_it": "Giardiniere d\u2019arte per giardini e parchi storici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/81",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "81",
+    "label_it": "Istruttore forestale di abbattimento ed allestimento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/82",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "82",
+    "label_it": "Operatore agricolo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/83",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "83",
+    "label_it": "Operatore alla selvicoltura e alla cura delle aree boscate",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/84",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "84",
+    "label_it": "Operatore della pesca e dell\u2019acquacoltura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/85",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "85",
+    "label_it": "Operatore di idraulica forestale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/86",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "86",
+    "label_it": "Operatore vivaista",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/87",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "87",
+    "label_it": "Accompagnatore turistico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/88",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "88",
+    "label_it": "Conduttore di macchine utensili",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/89",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "89",
+    "label_it": "Montatore di sistemi meccanici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/9",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "9",
+    "label_it": "Qualifica di Analista del Comportamento",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/90",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "90",
+    "label_it": "Meccanico attrezzista procedure CAD-CAM",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/91",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "91",
+    "label_it": "Montatore/manutentore di sistemi elettromeccanici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/92",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "92",
+    "label_it": "Tecnico della supervisione, prevenzione e sorveglianza del patrimonio forestale e faunistico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/93",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "93",
+    "label_it": "Personale amministrativo addetto alla custodia ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/94",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "94",
+    "label_it": "Maestro di snowboard",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/95",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "95",
+    "label_it": "Tecnico esperto delle analisi di laboratorio di prodotti agricoli",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/96",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "96",
+    "label_it": "Tecnico esperto delle produzioni animali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/97",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "97",
+    "label_it": "Tecnico esperto delle produzioni florovivaistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/98",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "98",
+    "label_it": "Tecnico esperto delle produzioni vegetali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/99",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "99",
+    "label_it": "Tecnico esperto nella gestione di impianti di itticoltura e maricolatura",
+    "level": "1"
+  }
+]

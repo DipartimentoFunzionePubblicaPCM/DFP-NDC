@@ -1,0 +1,1152 @@
+[
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/1",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "1",
+    "label_it": "LM/DC - Lauree Magistrali in Scienze della Difesa e della Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/10",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "10",
+    "label_it": "LM04 - Lauree Magistrali in Architettura e Ingegneria Edile-Architettura ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/100",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "100",
+    "label_it": "LM94 - Lauree Magistrali in Traduzione Specialistica e Interpretariato",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/101",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "101",
+    "label_it": "LMG/01 - Lauree Magistrali in Giurisprudenza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/102",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "102",
+    "label_it": "LM85bis - Lauree Magistrali in Scienze della Formazione Primaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/103",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "103",
+    "label_it": "Diploma Accademico di II livello - Conservatori o dagli Istituti Superiori di Studi Musicali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/104",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "104",
+    "label_it": "Diploma Accademico di II livello - Accademie Belle Arti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/105",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "105",
+    "label_it": "Diploma di II livello - Istituto Superiore delle Industrie Artistiche (ISIA)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/106",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "106",
+    "label_it": "Diploma Accademico di II livello - Accademia Nazionale di Arte Drammatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/107",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "107",
+    "label_it": "Diploma Accademico di II livello - Accademia Nazionale di Danza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/108",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "108",
+    "label_it": "LM/DS Scienze della Difesa e della Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/109",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "109",
+    "label_it": "LMR/02 Laurea magistrale a ciclo unico in Conservazione e Restauro dei Beni Culturali ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/11",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "11",
+    "label_it": "LM05 - Lauree Magistrali in Archivistica e Biblioteconomia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/110",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "110",
+    "label_it": "LM/SC-GIUR Lauree Magistrali in Scienze Giuridiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/111",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "111",
+    "label_it": "LM/Sc. Mat. - Scienze dei materiali ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/112",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "112",
+    "label_it": "LM/Data - Data science ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/113",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "113",
+    "label_it": "LM/GASTR Scienze Economiche e Sociali della Gastronomia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/114",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "114",
+    "label_it": "DASLQ01 - Diploma Accademico di II livello a ciclo unico abilitante alla professione di Restauratore di Beni Culturali - Accademie Belle Arti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/115",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "115",
+    "label_it": "LM14 - Lauree Magistrali in Filologia Moderna (abilitazione A043)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/12",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "12",
+    "label_it": "LM06 - Lauree Magistrali in Biologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/13",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "13",
+    "label_it": "LM07 - Lauree Magistrali in Biotecnologie Agrarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/14",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "14",
+    "label_it": "LM08 - Lauree Magistrali in Biotecnologie Industriali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/15",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "15",
+    "label_it": "LM09 - Lauree Magistrali in Biotecnologie Mediche, Veterinarie e Farmaceutiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/16",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "16",
+    "label_it": "LM10 - Lauree Magistrali in Conservazione dei Beni Architettonici e Ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/17",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "17",
+    "label_it": "LM11 - Lauree Magistrali in Conservazione e Restauro dei Beni Culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/18",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "18",
+    "label_it": "LM12 - Lauree Magistrali in Design",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/19",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "19",
+    "label_it": "LM13 - Lauree Magistrali in Farmacia e Farmacia Industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/2",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "2",
+    "label_it": "LM/SC - Lauree Magistrali in Scienze Criminologiche Applicate all'Investigazione e alla Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/20",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "20",
+    "label_it": "LM14 - Lauree Magistrali in Filologia Moderna",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/21",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "21",
+    "label_it": "LM15 - Lauree Magistrali in Filologia, Letterature e Storia dell'Antichit\u00e0",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/22",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "22",
+    "label_it": "LM16 - Lauree Magistrali in Finanza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/23",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "23",
+    "label_it": "LM17 - Lauree Magistrali in Fisica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/24",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "24",
+    "label_it": "LM18 - Lauree Magistrali in Informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/25",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "25",
+    "label_it": "LM19 - Lauree Magistrali in Informazione e Sistemi Editoriali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/26",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "26",
+    "label_it": "LM20 - Lauree Magistrali in Ingegneria Aerospaziale e Astronautica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/27",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "27",
+    "label_it": "LM21 - Lauree Magistrali in Ingegneria Biomedica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/28",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "28",
+    "label_it": "LM22 - Lauree Magistrali in Ingegneria Chimica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/29",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "29",
+    "label_it": "LM23 - Lauree Magistrali in Ingegneria Civile",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/3",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "3",
+    "label_it": "LM/SNT01 - Lauree Magistrali nelle Scienze Infermieristiche e Ostetriche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/30",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "30",
+    "label_it": "LM24 - Lauree Magistrali in Ingegneria dei Sistemi Edilizi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/31",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "31",
+    "label_it": "LM25 - Lauree Magistrali in Ingegneria dell'Automazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/32",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "32",
+    "label_it": "LM26 - Lauree Magistrali in Ingegneria della Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/33",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "33",
+    "label_it": "LM27 - Lauree Magistrali in Ingegneria delle Telecomunicazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/34",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "34",
+    "label_it": "LM28 - Lauree Magistrali in Ingegneria Elettrica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/35",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "35",
+    "label_it": "LM29 - Lauree Magistrali in Ingegneria Elettronica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/36",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "36",
+    "label_it": "LM30 - Lauree Magistrali in Ingegneria Energetica e Nucleare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/37",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "37",
+    "label_it": "LM31 - Lauree Magistrali in Ingegneria Gestionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/38",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "38",
+    "label_it": "LM32 - Lauree Magistrali in Ingegneria Informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/39",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "39",
+    "label_it": "LM33 - Lauree Magistrali in Ingegneria Meccanica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/4",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "4",
+    "label_it": "LM/SNT02 - Lauree Magistrali nelle Scienze delle Professioni Sanitarie della Riabilitazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/40",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "40",
+    "label_it": "LM34 - Lauree Magistrali in Ingegneria Navale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/41",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "41",
+    "label_it": "LM35 - Lauree Magistrali in Ingegneria per l'Ambiente e il Territorio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/42",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "42",
+    "label_it": "LM36 - Lauree Magistrali in Lingue e Letterature dell'Africa e dell'Asia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/43",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "43",
+    "label_it": "LM37 - Lauree Magistrali in Lingue e Letterature Moderne Europee e Americane",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/44",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "44",
+    "label_it": "LM38 - Lauree Magistrali in Lingue Moderne per la Comunicazione e la Cooperazione Internazionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/45",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "45",
+    "label_it": "LM39 - Lauree Magistrali in Linguistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/46",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "46",
+    "label_it": "LM40 - Lauree Magistrali in Matematica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/47",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "47",
+    "label_it": "LM41 - Lauree Magistrali in Medicina e Chirurgia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/48",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "48",
+    "label_it": "LM42 - Lauree Magistrali in Medicina Veterinaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/49",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "49",
+    "label_it": "LM43 - Lauree Magistrali in Metodologie Informatiche per le Discipline Umanistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/5",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "5",
+    "label_it": "LM/SNT03 - Lauree Magistrali nelle Scienze delle Professioni Sanitarie Tecniche, Diagnostiche o Assistenziali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/50",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "50",
+    "label_it": "LM44 - Lauree Magistrali in Modellistica Matematico-Fisica per l'Ingegneria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/51",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "51",
+    "label_it": "LM45 - Lauree Magistrali in Musicologia e Beni Culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/52",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "52",
+    "label_it": "LM46 - Lauree Magistrali in Odontoiatria e Protesi Dentaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/53",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "53",
+    "label_it": "LM47 - Lauree Magistrali in Organizzazione e Gestione dei Servizi per lo Sport e le Attivit\u00e0 Motorie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/54",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "54",
+    "label_it": "LM48 - Lauree Magistrali in Pianificazione Territoriale Urbanistica e Ambientale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/55",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "55",
+    "label_it": "LM49 - Lauree Magistrali in Progettazione e Gestione dei Sistemi Turistici",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/56",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "56",
+    "label_it": "LM50 - Lauree Magistrali in Programmazione e Gestione dei Servizi Educativi",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/57",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "57",
+    "label_it": "LM51 - Lauree Magistrali in Psicologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/58",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "58",
+    "label_it": "LM52 - Lauree Magistrali in Relazioni Internazionali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/59",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "59",
+    "label_it": "LM53 - Lauree Magistrali in Scienza e Ingegneria dei Materiali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/6",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "6",
+    "label_it": "LM/SNT04 - Lauree Magistrali nelle Scienze delle Professioni Sanitarie della Prevenzione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/60",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "60",
+    "label_it": "LM54 - Lauree Magistrali in Scienze Chimiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/61",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "61",
+    "label_it": "LM55 - Lauree Magistrali in Scienze Cognitive",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/62",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "62",
+    "label_it": "LM56 - Lauree Magistrali in Scienze dell'Economia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/63",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "63",
+    "label_it": "LM57 - Lauree Magistrali in Scienze dell'Educazione degli Adulti e della Formazione Continua",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/64",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "64",
+    "label_it": "LM58 - Lauree Magistrali in Scienze dell'Universo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/65",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "65",
+    "label_it": "LM59 - Lauree Magistrali in Scienze della Comunicazione Pubblica, d'Impresa e Pubblicit\u00e0",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/66",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "66",
+    "label_it": "LM60 - Lauree Magistrali in Scienze della Natura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/67",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "67",
+    "label_it": "LM61 - Lauree Magistrali in Scienze della Nutrizione Umana",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/68",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "68",
+    "label_it": "LM62 - Lauree Magistrali in Scienze della Politica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/69",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "69",
+    "label_it": "LM63 - Lauree Magistrali in Scienze delle Pubbliche Amministrazioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/7",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "7",
+    "label_it": "LM01 - Lauree Magistrali in Antropologia Culturale ed Etnologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/70",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "70",
+    "label_it": "LM64 - Lauree Magistrali in Scienze delle Religioni",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/71",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "71",
+    "label_it": "LM65 - Lauree Magistrali in Scienze dello Spettacolo e Produzione Multimediale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/72",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "72",
+    "label_it": "LM66 - Lauree Magistrali in Sicurezza Informatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/73",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "73",
+    "label_it": "LM67 - Lauree Magistrali in Scienze e Tecniche delle Attivit\u00e0 Motorie Preventive e Adattate",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/74",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "74",
+    "label_it": "LM68 - Lauree Magistrali in Scienze e Tecniche dello Sport",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/75",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "75",
+    "label_it": "LM69 - Lauree Magistrali in Scienze e Tecnologie Agrarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/76",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "76",
+    "label_it": "LM70 - Lauree Magistrali in Scienze e Tecnologie Alimentari",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/77",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "77",
+    "label_it": "LM71 - Lauree Magistrali in Scienze e Tecnologie della Chimica Industriale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/78",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "78",
+    "label_it": "LM72 - Lauree Magistrali in Scienze e Tecnologie della Navigazione (80/M)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/79",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "79",
+    "label_it": "LM73 - Lauree Magistrali in Scienze e Tecnologie Forestali ed Ambientali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/8",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "8",
+    "label_it": "LM02 - Lauree Magistrali in Archeologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/80",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "80",
+    "label_it": "LM74 - Lauree Magistrali in Scienze e Tecnologie Geologiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/81",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "81",
+    "label_it": "LM75 - Lauree Magistrali in Scienze e Tecnologie per l'Ambiente e il Territorio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/82",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "82",
+    "label_it": "LM76 - Lauree Magistrali in Scienze Economiche per l'Ambiente e la Cultura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/83",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "83",
+    "label_it": "LM77 - Lauree Magistrali in Scienze Economico-Aziendali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/84",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "84",
+    "label_it": "LM78 - Lauree Magistrali in Scienze Filosofiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/85",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "85",
+    "label_it": "LM79 - Lauree Magistrali in Scienze Geofisiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/86",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "86",
+    "label_it": "LM80 - Lauree Magistrali in Scienze Geografiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/87",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "87",
+    "label_it": "LM81 - Lauree Magistrali in Scienze per la Cooperazione allo Sviluppo",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/88",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "88",
+    "label_it": "LM82 - Lauree Magistrali in Scienze Statistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/89",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "89",
+    "label_it": "LM83 - Lauree Magistrali in Scienze Statistiche Attuariali e Finanziarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/9",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "9",
+    "label_it": "LM03 - Lauree Magistrali in Architettura del Paesaggio",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/90",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "90",
+    "label_it": "LM84 - Lauree Magistrali in Scienze Storiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/91",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "91",
+    "label_it": "LM85 - Lauree Magistrali in Scienze Pedagogiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/92",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "92",
+    "label_it": "LM86 - Lauree Magistrali in Scienze Zootecniche e Tecnologie Animali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/93",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "93",
+    "label_it": "LM87 - Lauree Magistrali in Servizio Sociale e Politiche Sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/94",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "94",
+    "label_it": "LM88 - Lauree Magistrali in Sociologia e Ricerca Sociale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/95",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "95",
+    "label_it": "LM89 - Lauree Magistrali in Storia dell'Arte",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/96",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "96",
+    "label_it": "LM90 - Lauree Magistrali in Studi Europei",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/97",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "97",
+    "label_it": "LM91 - Lauree Magistrali in Tecniche e Metodi per la Societ\u00e0 dell'Informazione ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/98",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "98",
+    "label_it": "LM92 - Lauree Magistrali in Teorie della Comunicazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/99",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "99",
+    "label_it": "LM93 - Lauree Magistrali in Teorie e Metodologie dell'E-Learning e della Media Education",
+    "level": "1"
+  }
+]

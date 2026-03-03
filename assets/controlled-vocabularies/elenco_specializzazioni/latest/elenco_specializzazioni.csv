@@ -1,0 +1,640 @@
+url,id,label_it,level
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/1,1,Adolescentologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/10,10,Analisi Biochimico - Cliniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/100,100,Citodiagnostica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/101,101,Citogenetica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/102,102,Citogenetica Umana,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/103,103,Citologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/104,104,Clinica Bovina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/105,105,Clinica Chirurgica Generale e Terapia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/106,106,Clinica dei Piccoli Animali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/107,107,Clinica del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/108,108,Clinica delle Malattie del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/109,109,Clinica delle Malattie Infettive,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/11,11,Analisi Chimico - Cliniche e Microbiologiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/110,110,Clinica delle Malattie Infettive e Contagiose,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/111,111,Clinica delle Malattie Infettive e Tropicali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/112,112,Clinica delle Malattie Nervose e Mentali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/113,113,Clinica delle Malattie Tropicali e Subtropicali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/114,114,Clinica Dermosifilopatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/115,115,Clinica e Malattia dei Piccoli Animali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/116,116,Clinica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/117,117,Clinica Medica Generale e Terapia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/118,118,Clinica Neurologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/119,119,Clinica Oculistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/12,12,Analisi Chimico – Cliniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/120,120,Clinica Ortopedica e Traumatologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/121,121,Clinica Ostetrica e Ginecologia Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/122,122,Clinica Ostetrica e Ginecologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/123,123,Clinica Ostetrica e Ginecologica Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/124,124,Clinica Ostetrico-Ginecologica e Riproduzione Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/125,125,Clinica Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/126,126,Clinica Psichiatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/127,127,Clinica Urologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/128,128,Clinica/Medicina del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/129,129,Clinica/Patologia Ostetrica e Ginecologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/13,13,Analisi Cliniche di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/130,130,Continuità Assistenziale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/131,131,Criminologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/132,132,Cure Palliative,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/133,133,Dermasifilopatia e Venereologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/134,134,Dermatologia e Sifilografia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/135,135,Dermatologia e Venereologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/136,136,Dermosifilopatia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/137,137,Dermosifilopatia e Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/138,138,Diabetologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/139,139,Diabetologia e Dietoterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/14,14,Anatomia Chirurgica e Corso d'Operazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/140,140,Diabetologia e Malattie del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/141,141,Diagnostica Chirurgica Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/142,142,Diagnostica e Chirurgia Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/143,143,Diagnostica e Terapia Chirurgica Endoscopica Digestiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/144,144,Diagnostica e Terapia Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/145,145,Diagnostica Strumentale e Chirurgica Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/146,146,Dietetica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/147,147,Dietologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/148,148,Dietologia Comparata Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/149,149,Dietologia e Dietetica Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/15,15,Anatomia e Istologia Patologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/150,150,Dietologia e Dietoterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/151,151,Dietoterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/152,152,Direzione Medica di Presidio Ospedaliero,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/153,153,Direzione Sanitaria di Azienda ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/154,154,Diritto e Legislazione Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/155,155,Educazione Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/156,156,Ematologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/157,157,Ematologia Clinica e di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/158,158,Ematologia con Indirizzo di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/159,159,Ematologia e Coagulazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/16,16,Anatomia ed Istologia Patologica ed Analisi Cliniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/160,160,Ematologia Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/161,161,Ematologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/162,162,Emodialisi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/163,163,Endocrinochirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/164,164,Endocrinologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/165,165,Endocrinologia Diabetologica Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/166,166,Endocrinologia e Malattie del Metabolismo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/167,167,Endocrinologia e Malattie del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/168,168,Endocrinologia e Malattie del Ricambio/(Metaboliche),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/169,169,Endocrinologia e Malattie Metaboliche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/17,17,Anatomia Patologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/170,170,Endocrinologia e Medicina Costituzionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/171,171,Endocrinologia e Medicina/Patologia Costituzionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/172,172,Endocrinologia e Patologia Costituzionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/173,173,Endocrinologia Ginecologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/174,174,Endocrinologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/175,175,Endocrinologia Sperimentale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/176,176,Endoscopia ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/177,177,Endoscopia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/178,178,Endoscopia Diagnostica e Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/179,179,Endoscopia Diagnostica ed Operativa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/18,18,Anatomia Patologica e Tecnica/Tecniche di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/180,180,Endoscopia Digestiva ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/181,181,Endoscopia Digestiva Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/182,182,Endoscopica Diagnostica e Chirurgica Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/183,183,Epatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/184,184,Epidemiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/185,185,Epidemiologia e Sanità Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/186,186,Etologia Applicata e Benessere degli Animali di Interesse Zootecnico e degli Animali da Affezione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/187,187,Farmaceutica Territoriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/188,188,Farmacia Industriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/189,189,Farmacia Ospedaliera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/19,19,Andrologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/190,190,Farmacognosia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/191,191,Farmacologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/192,192,Farmacologia Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/193,193,Farmacologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/194,194,Farmacologia Clinico / Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/195,195,Farmacologia e Tossicologia Clinica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/196,196,Farmacologia e Tossicologia Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/197,197,Farmacologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/198,198,Fisiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/199,199,Fisica Medica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/2,2,Alimentazione Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/20,20,Anestesia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/200,200,Fisica Nucleare Applicata alla Medicina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/201,201,Fisica Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/202,202,Fisiochinesiterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/203,203,Fisiochinesiterapia e Rieducazione Neuromotoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/204,204,Fisiochinesiterapia Ortopedica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/205,205,Fisiologia e Igiene del Lavoro Industriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/206,206,Fisiologia e Scienza dell'Alimentazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/207,207,"Fisiologia, Allevamento e Patologia degli Ovini e dei Caprini",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/208,208,Fisiopatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/209,209,Fisiopatologia Cardiocircolatoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/21,21,Anestesia e Rianimazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/210,210,Fisiopatologia Cardiocircolatoria/Cardiovascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/211,211,Fisiopatologia Cardiovascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/212,212,Fisiopatologia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/213,213,Fisiopatologia della Riproduzione degli Animali Domestici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/214,214,Fisiopatologia della Riproduzione Umana,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/215,215,Fisiopatologia Digestiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/216,216,Fisiopatologia e Fisiochinesiterapia Respiratoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/217,217,Fisiopatologia Endocrina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/218,218,Fisiopatologia Medica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/219,219,Fisiopatologia Respiratoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/22,22,"Anestesia, Rianimazione e Terapia Intensiva",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/220,220,Fisiopatologia/Patologia della Riproduzione Umana,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/221,221,Fisioterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/222,222,Foniatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/223,223,Gastroenterologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/224,224,Gastroenterologia ed Endoscopia Digestiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/225,225,Gastroenterologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/226,226,Genetica Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/227,227,Genetica Applicata/Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/228,228,Genetica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/229,229,Geriatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/23,23,"Anestesia, Rianimazione, Terapia Intensiva e del Dolore",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/230,230,Gerontologia e Geriatria (Geriatria e/o Gerontologia),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/231,231,Ginecologia ed Ostetricia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/232,232,Ginecologia Oncologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/233,233,Igiene,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/234,234,Igiene Ambientale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/235,235,Igiene Ambientale/Ospedaliera/Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/236,236,Igiene Degli Alimenti e Della Nutrizione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/237,237,Igiene degli Allevamenti e delle Produzioni Zootecniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/238,238,Igiene del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/239,239,Igiene della Produzione e Commercializzazione degli Alimenti di Origine Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/24,24,Anestesiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/240,240,"Igiene della Produzione, Trasformazione, Commercializzazione, Conservazione e Trasporto degli Alimenti di Origine Animale e Loro Derivati",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/241,241,Igiene e controllo dei prodotti della pesca e dell'acquacoltura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/242,242,Igiene e Medicina Preventiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/243,243,Igiene e Medicina Preventiva con Orientamento di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/244,244,Igiene e Medicina Scolastica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/245,245,Igiene e Odontoiatria Preventiva e Sociale con Epidemiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/246,246,Igiene e Organizzazione dei Servizi Ospedalieri,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/247,247,Igiene e Sanità Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/248,248,Igiene e Tecnica Ospedaliera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/249,249,Igiene e Tecnologia del Latte e Derivati,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/25,25,Anestesiologia e Rianimazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/250,250,Igiene e Tecnologia delle Carni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/251,251,Igiene ed Educazione Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/252,252,Igiene ed Epidemiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/253,253,Igiene Generale e Speciale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/254,254,Igiene Industriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/255,255,Igiene Mentale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/256,256,Igiene Ospedaliera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/257,257,Igiene Ospedaliera/ Pubblica/ Scolastica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/258,258,Igiene Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/259,259,Igiene Scolastica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/26,26,Anestesiologia Generale e Speciale Odontostomatologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/260,260,Igiene Tecnica e Direzione Ospedaliera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/261,261,"Igiene, Epidemiologia e Sanità Pubblica",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/262,262,"Igiene, Prevenzione e Attività sanitaria di Comunità",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/263,263,Igiene: Indirizzo Laboratorio di Sanita Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/264,264,Immunoematologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/265,265,Immunoematologia e Servizio Trasfusionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/266,266,Immunoematologia e Trasfusione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/267,267,Immunogenetica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/268,268,Immunologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/269,269,Immunologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/27,27,"Anestesiologia, Rianimazione e Terapia Intensiva",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/270,270,Immunologia Clinica e Allergologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/271,271,Immunopatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/272,272,Ispezione degli Alimenti di Origine Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/273,273,Ispezione degli Alimenti di Origine Animale e Loro Derivati,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/274,274,Laboratorio di Analisi Chimico - Cliniche e Microbiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/275,275,Laboratorio di Genetica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/276,276,Malattie  del Sangue e degli Organi Emopoietici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/277,277,Malattie Cardiovascolari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/278,278,Malattie Cardiovascolari e Reumatiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/279,279,Malattie Cutanee  e Veneree,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/28,28,Angiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/280,280,Malattie dei Piccoli Animali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/281,281,Malattie del Fegato e del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/282,282,Malattie del Metabolismo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/283,283,Malattie del Rene del Sangue e del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/284,284,Malattie del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/285,285,Malattie del Sangue,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/286,286,Malattie del Sangue e del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/287,287,Malattie dell’Apparato Cardiovascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/288,288,Malattie dell’Apparato Digerente,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/289,289,Malattie dell’Apparato Respiratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/29,29,Angiologia e Chirurgia Vascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/290,290,Malattie dell’Apparato Respiratorio e Tisiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/291,291,Malattie Endocrine e Metaboliche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/292,292,Malattie Infettive,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/293,293,Malattie Infettive e Tropicali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/294,294,"Malattie Infettive, Profilassi e Polizia Veterinaria",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/295,295,Malattie Metaboliche e del Ricambio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/296,296,Malattie Metaboliche e Diabetologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/297,297,Malattie Nervose,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/298,298,Malattie Nervose e Mentali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/299,299,Malattie Tropicali e Subtropicali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/3,3,Alimentazione degli Animali Domestici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/30,30,Angiologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/300,300,Malattie Veneree e della Pelle,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/301,301,Malattie/Patologie del Sangue e degli Organi Emopoietici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/302,302,Medici Laboratoristi (Medici Settore Laboratorista),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/303,303,Medicina Aeronautica e Spaziale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/304,304,Medicina Applicata allo Sport,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/305,305,Medicina Costituzionale ed Endocrinologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/306,306,Medicina d'Emergenza - Urgenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/307,307,Medicina d'Urgenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/308,308,Medicina del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/309,309,Medicina del Lavoro e Sicurezza degli Ambienti di Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/31,31,Applicazioni Biotecnologiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/310,310,Medicina dell'Età Prenatale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/311,311,Medicina dello Sport,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/312,312,Medicina di Comunità,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/313,313,Medicina di Comunità e delle Cure Primarie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/314,314,Medicina di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/315,315,Medicina di Pronto Soccorso,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/316,316,Medicina e Chirurgia d’Accettazione e d’Urgenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/317,317,Medicina e Chirurgia del Cavallo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/318,318,Medicina Fisica e Riabilitativa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/319,319,Medicina Fisica e Riabilitazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/32,32,Attività Sanitarie di Comunità,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/320,320,Medicina Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/321,321,Medicina Interna,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/322,322,Medicina Legale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/323,323,Medicina Legale e delle Assicurazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/324,324,Medicina Legale e delle Assicurazioni Sociali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/325,325,Medicina Legale ed Infortunistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/326,326,Medicina Nucleare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/327,327,Medicina Preventiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/328,328,Medicina Preventiva dei Lavoratori,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/329,329,Medicina Preventiva dei Lavoratori e Psicotecnica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/33,33,Audiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/330,330,"Medicina Preventiva, Riabilitativa e Sociale",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/331,331,Medicina Psicosomatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/332,332,Medicina Riabilitativa ad Indirizzo Pneumologico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/333,333,Medicina Scolastica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/334,334,Medicina Subacquea e Iperbarica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/335,335,Medicina Termale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/336,336,Medicina Trasfusionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/337,337,Medicina Tropicale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/338,338,Metodologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/339,339,Metodologia Epidemiologica Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/34,34,Audiologia e Foniatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/340,340,Metodologia Epidemiologica ed Igiene,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/341,341,Metodologia Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/342,342,Metodologie Chimiche di Controllo e Analisi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/343,343,Metodologie chimiche di controllo e di analisi (Solo CTF),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/344,344,Microbiologia ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/345,345,Microbiologia Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/346,346,Microbiologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/347,347,Microbiologia Clinica/Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/348,348,Microbiologia e Parassitologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/349,349,Microbiologia e Virologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/35,35,Biochimica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/350,350,Microbiologia Indirizzo in Tecniche Microbiologiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/351,351,Microbiologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/352,352,Microchirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/353,353,Miglioramento Genetico degli Animali Domestici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/354,354,Miglioramento Genetico degli Animali Domestici e delle Produzioni Zootecniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/355,355,Miglioramento Quanti-qualitativo degli Alimenti di Origine Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/356,356,Nefrologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/357,357,Nefrologia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/358,358,Nefrologia e Dialisi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/359,359,Nefrologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/36,36,Biochimica Analitica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/360,360,Nefrologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/361,361,Neonatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/362,362,Neurochirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/363,363,Neurofisiologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/364,364,Neurofisiopatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/365,365,Neurologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/366,366,Neurologia clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/367,367,Neurologia d'Urgenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/368,368,Neurologia e Psichiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/369,369,Neurologia Riabilitativa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/37,37,Biochimica Analitica/Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/370,370,Neuropatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/371,371,Neuropediatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/372,372,Neuropsichiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/373,373,Neuropsichiatria Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/374,374,Neuropsicologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/375,375,Neuroradiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/376,376,Neuroriabilitazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/377,377,Nutrizione Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/378,378,Oculistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/379,379,Odontoiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/38,38,Biochimica Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/380,380,Odontoiatria e protesi dentaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/381,381,Odontoiatria Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/382,382,Odontostomatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/383,383,Oftalmologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/384,384,Oncologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/385,385,Oncologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/386,386,Oncologia Clinica/Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/387,387,Oncologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/388,388,Oncologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/389,389,Organizzazione dei Servizi Sanitari di Base ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/39,39,Biochimica Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/390,390,Organizzazione dei Servizi Sanitari di Base Sanità Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/391,391,Ortognatodonzia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/392,392,Ortopedia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/393,393,Ortopedia dello Sport,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/394,394,Ortopedia e Traumatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/395,395,Ortopedia e Traumatologia dell'Apparato Motore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/396,396,Ortopedia infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/397,397,Osservatori Epidemiologici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/398,398,Ostetricia e Ginecologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/399,399,Otorinolaringoiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/4,4,Allergologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/40,40,Biochimica e Chimica Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/400,400,Otorinolaringoiatria e Patologia Cervico-Facciale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/401,401,Parassitologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/402,402,Parassitologia degli Animali Domestici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/403,403,Parassitologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/404,404,Patologia Aviare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/405,405,Patologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/406,406,Patologia Clinica e Biochimica Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/407,407,Patologia Clinica/Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/408,408,Patologia del Sangue e degli Organi Emopoietici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/409,409,Patologia della Riproduzione Umana,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/41,41,Biochimica Marina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/410,410,Patologia e Clinica degli Animali d'Affezione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/411,411,Patologia Equina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/412,412,Patologia Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/413,413,Patologia Neonatale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/414,414,Patologia Ostetrica e Ginecologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/415,415,Patologia Speciale Chirurgica e Propedeutica Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/416,416,Patologia Speciale Medica e Metodologia Clinica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/417,417,Patologia Suina,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/418,418,Pediatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/419,419,Pediatria e Puericultura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/42,42,Biochimica Marina e Biotecnologie Applicate alla Pesca e all'Acquacoltura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/420,420,Pediatria Preventiva e Puericultura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/421,421,Pediatria Preventiva e Sociale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/422,422,Pediatria Sociale e Puericultura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/423,423,Pneumologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/424,424,Produzione ed Ispezione Sanitaria degli Organismi Acquatici di Interesse Alimentare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/425,425,Programmazione e Organizzazione dei Servizi Sanitari ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/426,426,Programmazione e Organizzazione Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/427,427,Pronto Soccorso e Accettazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/428,428,Pronto Soccorso e Terapia d'Urgenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/429,429,Psichiatria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/43,43,Biologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/430,430,Psicologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/431,431,Psicologia del Ciclo Di Vita,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/432,432,Psicologia dell’Età Evolutiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/433,433,Psicologia della Salute,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/434,434,Psicologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/435,435,Psicologia Sociale e Applicata,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/436,436,Psicologia Sociale e del Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/437,437,Psicoterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/438,438,Puericultura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/439,439,Puericultura e Dietetica Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/44,44,Biologia Molecolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/440,440,Puericultura e Igiene Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/441,441,"Puericultura, Dietetica Infantile ed Assistenza Sociale nell'Infanzia",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/442,442,Radiodiagnostica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/443,443,Radiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/444,444,Radiologia Diagnostica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/445,445,Radiologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/446,446,Radiologia Medica e Medicina Nucleare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/447,447,Radiologia Medica e Radioterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/448,448,Radiologia Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/449,449,Radioterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/45,45,Biotecnologie Veterinarie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/450,450,Radioterapia Oncologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/451,451,Recupero e Rieducazione Funzionale dei Motulesi e dei Neurolesi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/452,452,Reumatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/453,453,Reumatologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/454,454,Riabilitazione e Ginnastica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/455,455,Riabilitazione e Ginnastica Medica Ortopedica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/456,456,Sanità Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/457,457,Sanità Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/458,458,"Sanità Animale, Allevamento e Produzioni Zootecniche",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/459,459,"Sanità Animale, Igiene dell'Allevamento e delle Produzioni Animali",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/46,46,Broncopneumologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/460,460,Sanità Pubblica Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/461,461,Scienza dell’Alimentazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/462,462,Scienza dell’Alimentazione e Dietetica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/463,463,Scienza dell’Alimentazione e Dietologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/464,464,Scienza delle Costituzioni ed Endocrinologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/465,465,Scienza e Medicina degli Animali da Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/466,466,Scienza e Tecnica delle Piante Officinali ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/467,467,Scienza e Tecnologia Cosmetiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/468,468,Scienze Farmaceutiche e Biochimica Applicata ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/469,469,Semeiotica Cardiovascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/47,47,Cardioangiochirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/470,470,Semeiotica e Diagnostica di Laboratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/471,471,Semeiotica e Metodologia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/472,472,Semeiotica Funzionale e Strumentale Medica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/473,473,Semeiotica Medica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/474,474,Semeiotica Neurologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/475,475,Semeiotica Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/476,476,SERT,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/477,477,Servizio per il Prelievo e la Conservazione di Parti di Cadavere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/478,478,Servizio Sanitario d'Urgenza ed Emergenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/479,479,Servizio Trasfusionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/48,48,Cardioangiopatie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/480,480,Settore Laboratorista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/481,481,Settori e Medici Laboratoristi Ospedalieri,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/482,482,Sezione RIA Medicina Nucleare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/483,483,Sicurezza Sociale ed Organizzazione Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/484,484,Sintesi Chimica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/485,485,Statistica Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/486,486,Statistica Medica/Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/487,487,Statistica Sanitaria ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/488,488,Statistica Sanitaria e Biometria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/489,489,Tecnica Conserviera ed Igiene degli Alimenti di Origine Animale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/49,49,Cardiochirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/490,490,Tecnica e Direzione Ospedaliera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/491,491,Tecniche Semeiologiche Speciali Chirurgiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/492,492,Tecnologia Avicola ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/493,493,Tecnologia Avicola e Patologia Aviare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/494,494,Tecnologia Avicunicola,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/495,495,Tecnologia e Patologia Avicunicola,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/496,496,"Tecnologia e Patologia delle Specie Avicole, del Coniglio e della Selvaggina",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/497,497,Tecnologia ed Igiene delle Carni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/498,498,Tecnologie Alimentari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/499,499,Tecnologie Biomediche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/5,5,Allergologia e Immunologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/50,50,Cardiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/500,500,Terapia del Dolore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/501,501,Terapia Fisica e Riabilitazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/502,502,Terapia Intensiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/503,503,Terapia Intensiva Neonatale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/504,504,Terapia Medica Sistematica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/505,505,Terapia Neurologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/506,506,Terapia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/507,507,Tipizzazione Tissutale e Immunologia dei Trapianti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/508,508,Tisiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/509,509,Tisiologia e Malattie dell’Apparato Respiratorio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/51,51,Cardiologia dello Sport,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/510,510,Tossicologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/511,511,Tossicologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/512,512,Tossicologia Clinica/Forense/Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/513,513,Tossicologia Clinico / Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/514,514,Tossicologia Forense,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/515,515,Tossicologia industriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/516,516,Tossicologia Medica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/517,517,Traumatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/518,518,Unità Spinale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/519,519,Urologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/52,52,Cardiologia e Malattie dei Vasi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/520,520,Urologia Ginecologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/521,521,Urologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/522,522,Valutazione e Gestione del Rischio Chimico ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/523,523,Valutazione Psicologica e Consulenza - Counselling,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/524,524,Virologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/525,525,Virologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/526,526,Psicoterapia c/o Istituti di Specializzazione abilitati ai sensi del Regolamento (D.M. 11/12/98 n. 509) ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/527,527,Citogenetica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/528,528,Neurologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/529,529,Psicopatologia dell'Età Evolutiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/53,53,Cardiologia e Reumatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/530,530,Psicopatologia Generale dell'Età Evolutiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/531,531,Psicopatologia Medica dell'Età Evolutiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/532,532,Psicopatologia Generale/Medica dell'Età Evolutiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/533,533,Malattie del Sangue e degli Organi Emopoietici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/534,534,Dermatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/535,535,Dermatologia Allergologica e Professionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/536,536,Dermatologia e Clinica Dermosifilopatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/537,537,Cardiochirurgia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/538,538,Clinica Otorinolaringoiatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/539,539,Neurochirurgia Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/54,54,Cardiologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/540,540,Neurotraumatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/541,541,Otorinolaringoiatria Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/542,542,Sicurezza degli impianti nucleari e protezione dalle radiazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/543,543,Sicurezza nucleare e radioprotezione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/544,544,Fisica Biomedica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/545,545,Settore fisico dei presidi multizonali di prevenzione ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/546,546,Chirurgia Speciale Odontostomatologica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/547,547,Clinica Odontoiatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/548,548,Clinica Odontostomatologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/549,549,Endodonzia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/55,55,Centrale Operativa 118,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/550,550,Odontoiatria Conservativa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/551,551,Odontoiatria e Stomatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/552,552,Odontoiatria Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/553,553,Odontoiatria Preventiva e di Comunità,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/554,554,Ortodonzia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/555,555,Otoneuroradiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/556,556,Paradontologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/557,557,Patologia Speciale Odontostomatologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/558,558,Protesi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/559,559,Stomatologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/56,56,Centro Antiveleni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/560,560,Dermosifilopatia e Clinica Dermosifilopatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/561,561,Genetica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/562,562,Settori biotossicologici e/o chimici PMP,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/563,563,Psicologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/564,564,Chimica Clinica e Tossicologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/565,565,Chimica degli Alimenti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/566,566,Settori Chimici dei Presidi Multizonali di Prevenzione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/567,567,Chirurgia Infantile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/568,568,Chirurgia Neonatale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/569,569,Statistica Medica e Biometria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/57,57,Chemioterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/570,570,Servizi di Epidemiologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/571,571,Uffici Statistico - Epidemiologici e di Sistema Informativo Sanitario delle Aziende Sanitarie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/572,572,Agenzie Sanitarie Regionali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/573,573,Direzione di Distretto ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/574,574,Epidemiologia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/575,575,Immunologia e Trasfusione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/576,576,Semeiotica Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/577,577,Chirurgia e Endoscopia Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/578,578,Gerontologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/579,579,Endoscopia diagnostica e chirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/58,58,Chimica Analitica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/580,580,Programmazione dei servizi sanitari di base,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/581,581,Oftalmologia pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/582,582,Ottica fisiopatologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/583,583,Specializzazione Area Professioni Legali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/584,584,Specializzazione Area Veterinaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/585,585,Specializzazione Area Psicologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/586,586,Specializzazione Area Beni Culturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/587,587,Scuola di Specializzazione all'Insegnamento Secondario (SSIS),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/588,588,Studi sull'Amministrazione Pubblica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/589,589,Diritto ed Economia delle Comunità Europee,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/59,59,Chimica Applicata all'Igiene,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/590,590,Scuola Superiore di Specializzazione in Telecomunicazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/591,591,Diritto Penale e Criminologia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/592,592,Pianificazione Urbanistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/593,593,Architettura dei giardini e progettazione del paesaggio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/594,594,Gestione dell'ambiente naturale e delle aree protette,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/595,595,Beni Architettonici e del Paesaggio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/596,596,Beni Naturali e Territoriali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/597,597,Costruzioni in Cemento Armato,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/598,598,"Infrastrutture Terminali di Trasporto Aereo, Marittimo e Terrestre",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/599,599,Ingegneria Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/6,6,Allergologia e Immunologia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/60,60,Chimica Biologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/600,600,Ingegneria Sanitaria ed Ambientale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/601,601,Materiali per l'ingegneria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/602,602,Restauro dei Monumenti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/603,603,Sicurezza e Protezione Industriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/604,604,Sintesi Chimica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/605,605,Tecniche Urbanistiche per le Aree Metropolitane,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/606,606,Diritto Amministrativo e Scienze dell'Amministrazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/607,607,"Diritto Sindacale, del Lavoro e della Previdenza",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/608,608,Storia dell'Arte e delle Arti Minori,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/609,609,Diritto Civile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/61,61,Chimica Biologica o Biochimica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/610,610,Diritto Ecclesiastico e Canonico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/611,611,Diritto delle Regioni e degli Enti locali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/612,612,Beni Archivistici e Librari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/613,613,Beni Storico Artistici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/614,614,Beni Archeologici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/615,615,Ricerca operativa e strategie decisionali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/616,616,Amministrazione e direzione aziendale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/617,617,Scienze delle Autonomie Costituzionali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/618,618,Didattica dell’Italiano come Lingua Straniera,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/619,619,Sociologia Sanitaria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/62,62,Chimica e Farmacologia delle Sostanze Organiche Naturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/620,620,Diritto Commerciale ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/621,621,Diritto penale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/622,622,"Diritto tributario, doganale e della fiscalita' internazionale",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/623,623,Diritto internazionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/624,624,Diritto dei trasporti e della navigazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/625,625,Diritto della concorrenza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/626,626,"Diritto dell'informazione, della comunicazione digitale e della protezione dei dati personali",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/627,627,"Diritto della persona, delle relazioni familiari e dei minorenni",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/628,628,Tutela dei diritti umani e protezione internazionale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/629,629,Diritto dello sport,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/63,63,Chimica e Microscopia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/630,630,Studi sardi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/631,631,Apprendimento delle discipline giuridico economiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/632,632,Giornalismo e comunicazione d'impresa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/633,633,Specializzazione alle attività di sostegno didattico (di durata almeno biennale),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/634,634,Beni Demoetnoatropologici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/635,635,Pedagogia Clinica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/636,636,Relazioni Industriali e Lavoro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/637,637,Economia e politica dei trasporti ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/638,638,Specializzazione per le attività di sostegno didattico agli alunni con disabilità ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/639,639,Scienze viticole ed enologiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/64,64,Chimica e Tecnologia Alimentari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/65,65,Chimica e Tecnologia delle Sostanze Organiche Naturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/66,66,Chimica e Tecnologie alimentari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/67,67,Chinesiterapia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/68,68,"Chinesiterapia, Fisioterapia e Ginnastica Medica in Ortopedia",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/69,69,Chirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/7,7,Allergologia Respiratoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/70,70,Chirurgia Apparato Digerente ed Endoscopia Digestiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/71,71,Chirurgia Cardiaca,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/72,72,Chirurgia Cardiovascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/73,73,Chirurgia d'Urgenza e di Pronto Soccorso,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/74,74,Chirurgia del Cuore e Grossi Vasi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/75,75,Chirurgia dell'Apparato Digerente,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/76,76,Chirurgia dell'Apparato Digerente ed Endoscopia Digestiva Chirurgica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/77,77,Chirurgia dell’Infanzia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/78,78,Chirurgia della Mano,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/79,79,Chirurgia di Pronto Soccorso,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/8,8,Allevamento e Igiene degli Animali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/80,80,Chirurgia Endoscopica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/81,81,Chirurgia Gastroenterologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/82,82,Chirurgia Generale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/83,83,Chirurgia Generale d'Urgenza e di Pronto Soccorso,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/84,84,Chirurgia Maxillo-Facciale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/85,85,Chirurgia Oculare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/86,86,Chirurgia Odontostomatologica ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/87,87,Chirurgia Oncologica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/88,88,Chirurgia Orale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/89,89,Chirurgia Pediatrica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/9,9,"Allevamento, Igiene, Patologia delle Specie Acquatiche e Controllo dei Prodotti Derivati",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/90,90,Chirurgia Plastica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/91,91,Chirurgia Plastica e Ricostruttiva,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/92,92,"Chirurgia Plastica, Ricostruttiva ed Estetica",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/93,93,Chirurgia Polmonare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/94,94,Chirurgia Sostitutiva dei Trapianti d'Organo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/95,95,Chirurgia Sperimentale e Microchirurgia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/96,96,Chirurgia Toracica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/97,97,Chirurgia Toraco-Polmonare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/98,98,Chirurgia Vascolare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni/99,99,Chirurgia Veterinaria,1

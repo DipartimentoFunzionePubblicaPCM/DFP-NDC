@@ -1,0 +1,377 @@
+url,id,label_it,level
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/1,1,"Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo
+Stato Regioni 22/02/2001",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/10,10,Videoterminalista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/100,100,Addetto alla lavorazione carni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/101,101,Addetto al confezionamento dei prodotti alimentare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/102,102,Tecnico progettista di spazi verdi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/103,103,Addetto alla vinificazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/104,104,Addetto alla lavorazione di salumi e insaccati,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/105,105,Addetto alla produzione dell’olio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/106,106,Cioccolataio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/107,107,Addetto alle lavorazioni lattiero-casearie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/108,108,Operatore di panificazione e produzione di pasta,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/109,109,Pasticciere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/11,11,Operatore Socio Sanitario con formazione complementare (OSSS),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/110,110,Tecnico della conduzione del vigneto e della vinificazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/111,111,Tecnico della conduzione dell’oliveto e della produzione di olio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/112,112,Operatore della produzione di latte alimentare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/113,113,Operatore della produzione di birre,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/114,114,Operatore della produzione artigianale di prodotti di panetteria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/115,115,Progettista mobili e arredamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/116,116,Operatore alla trasformazione del legno,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/117,117,Tecnico delle produzioni di arredamenti in legno,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/118,118,Maglierista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/119,119,Modellista di abbigliamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/12,12,"Operatore Socio Assistenziale (OSA): Corsi di minimo 600 ore con esami finali, L. 845/78, conseguiti ante 31/07/2002 ",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/120,120,Modellista di articoli di pelletteria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/121,121,Modellista di calzature,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/122,122,Cardatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/123,123,Aggiuntatore prototipista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/124,124,Orditore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/125,125,Operatore macchina roccatrice,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/126,126,Operatore dalla filatura e torcitura dei filati,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/127,127,Operatore della confezione di abbigliamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/128,128,Operatore macchine finissaggio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/129,129,Sarto artigianale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/13,13,Titolo di OTA ai sensi del DM 295/91 unitamente alla qualifica ADB conseguita c/o la Regione Emilia Romagna o titolo equipollente,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/130,130,Rammendatrice,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/131,131,Tecnico di coordinamento del reparto tessitura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/132,132,Tessitore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/133,133,Tintore industriale filati e tessuti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/134,134,Tecnico delle produzioni chimiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/135,135,Operatore H2 e sicurezza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/136,136,Tecnico wireline e coiled tubing,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/137,137,Operatore della lavorazione del marmo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/138,138,Mosaicista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/139,139,Operatore per la produzione del vetro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/14,14,Operatore Educativo per l’Autonomia e la Comunicazione (OEPAC ex AEC) D.lgs. 13/2013,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/140,140,Progettista ceramico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/141,141,Operatore della ceramica artigianale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/142,142,Operatore alla gestione e verifica delle composizioni chimiche del vetro e delle caratteristiche fisiche degli oggetti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/143,143,Soffiatore del vetro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/144,144,Operatore alla conduzione di gru e di apparecchi di sollevamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/145,145,Installatore di materiali impermealizzanti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/146,146,Installatore di materiali di isolamento termico e acustico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/147,147,Tecnico del disegno edile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/148,148,"Stuccatore, decoratore, doratore di edifici storici",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/149,149,Operatore edile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/15,15,"Mediatore interculturale, durata minima 450 ore, D.lgs. 13/2013",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/150,150,Operatore alla conduzione di macchine complesse,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/151,151,Carpentiere in legno per la nautica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/152,152,Capo barca,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/153,153,Tecnico specializzato BIM,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/154,154,Tecnico esperto della gestione del cantiere e di restauro,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/155,155,Designer del gioiello,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/156,156,Cesellatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/157,157,Lattoniere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/158,158,Lappatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/159,159,Liutaio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/16,16,Tecnico esperto nella gestione dei servizi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/160,160,Manutentore impianti siderurgici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/161,161,Manutentore aeronautico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/162,162,Meccanico motorista navale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/163,163,Montatore di strutture aeronautiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/164,164,Montatore meccanico nautico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/165,165,Operatore alla tornitura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/166,166,Operatore dell’installazione e della manutenzione di impianti di condizionamento e climatizzazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/167,167,Operatore dell’installazione e della manutenzione di impianti elettrici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/168,168,Operatore dell’installazione e della manutenzione di impianti termo-idraulici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/169,169,Operatore dell’installazione e della manutenzione di impianti di refrigerazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/17,17,Costruttore di carpenteria metallica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/170,170,Operatore della carpenteria metallica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/171,171,Operatore della finitura e verniciatura di parti metalliche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/172,172,Operatore della installazione e della manutenzione di impianti speciali per la sicurezza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/173,173,Operatore della lavorazione artistica del ferro e altri metalli non nobili,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/174,174,Operatore di fresatura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/175,175,Operatore di saldatura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/176,176,Operatore meccanico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/177,177,Operatore meccanico di sistemi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/178,178,Orafo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/179,179,Orologiaio,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/18,18,Progettista alimentare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/180,180,Progettista meccanico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/181,181,Serramentista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/182,182,Service manager del diporto,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/183,183,Resinatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/184,184,Tecnico dell'automazione dei processi produttivi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/185,185,Tecnico della progettazione di prodotti industriali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/186,186,Tecnico sistemista radar,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/187,187,Marinaio di porto addetto ai servizi logistici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/188,188,Collaboratore polivalente del servizio coperta e macchina (deck/engine utility),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/189,189,Verniciatore nautico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/19,19,Manutentore di macchine e impianti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/190,190,Tecnico spedizioniere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/191,191,Operatore alle vendite telefoniche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/192,192,Operatore del punto vendita,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/193,193,"Tecnico di spedizione, trasporto e logistica",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/194,194,Addetto all'allestimento e rifornimento degli scaffali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/195,195,Capo reparto della grande distribuzione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/196,196,Operatore al banco di prodotti alimentari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/197,197,Operatore alle casse,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/198,198,Tecnico delle vendite,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/199,199,Analista programmatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/2,2,"Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo
+Stato Regioni 22/02/2001 rilasciata a livello regionale",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/20,20,"Assistente di studio odontoiatrico (ASO) non inferiore a 700 ore e non superiore a 12 mesi, con esame finale DPCM 9/2/2018",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/200,200,Tecnico del portafoglio retail,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/201,201,Tecnico del portafoglio small business,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/202,202,Tecnico esperto prodotti di area,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/203,203,Analista di sistemi informativi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/204,204,Esperto delle attività di analisi e progettazione di sistemi informativi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/205,205,Esperto delle attività di implementazione e manutenzione di sistemi integrati per la gestione aziendale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/206,206,Responsabile della progettazione di procedure software e applicazioni informatiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/207,207,"Tecnico della progettazione, implementazione e manutenzione di sistemi di gestione di database",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/208,208,Tecnico della programmazione e dello sviluppo di programmi informatici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/209,209,Tecnico della sicurezza e della riservatezza dei dati personali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/21,21,Agente d’affari in mediazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/210,210,Tecnico esperto di grafica informatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/211,211,Tecnico esperto di sicurezza informatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/212,212,Tecnico hardware,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/213,213,Tecnico programmatore siti web,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/214,214,Tecnico software,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/215,215,Web designer,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/216,216,Operatore ai sistemi di giunzione in fibra ottica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/217,217,Operatore ambientali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/218,218,Progettista di telecomunicazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/219,219,Operatore dei servizi di logistica e spedizione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/22,22,Agente e rappresentante di commercio ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/220,220,Operatore del sistema idrico integrato,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/221,221,"Operatore per il trattamento, il recupero e lo smaltimento dei rifiuti",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/222,222,Operatore per la manutenzione e la gestione della rete gas,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/223,223,Operatore per la sanificazione dei contenitori di rifiuti organici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/224,224,Tecnico del monitoraggio e controllo della rete idrica e degli interventi per il trattamento delle acque reflue,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/225,225,Tecnico della distribuzione di energia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/226,226,Tecnico esperto della programmazione delle risorse idriche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/227,227,Tecnico esperto nella pianificazione del ciclo integrato dei rifiuti urbani,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/228,228,Tecnico nella gestione degli impianti di captazione e potabilizzazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/229,229,Tecnico per il recupero e lo smaltimento dei rifiuti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/23,23,Maestro di sci,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/230,230,Archivista editoriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/231,231,Grafico editoriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/232,232,Operatore di post stampa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/233,233,Operatore di stampa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/234,234,Operatore macchine per la legatoria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/235,235,Operatore per la realizzazione di stampe serigrafiche a colori su supporti di varia natura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/236,236,Tecnico della fotografia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/237,237,Tecnico esperto dell'ideazione e progettazione del prodotto multimediale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/238,238,Esperto della gestione amministrativa e finanziaria e della rendicontazione di interventi formativi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/239,239,Esperto della gestione di strutture ed interventi formativi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/24,24,Micologo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/240,240,Esperto di monitoraggio e valutazione di interventi formativi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/241,241,Esperto di progettazione formativa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/242,242,Orientatore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/243,243,Tecnico della pianificazione e realizzazione di attività valutative,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/244,244,Tecnico di accompagnamento all'individuazione e messa in trasparenza delle competenze,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/245,245,Mediatore familiare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/246,246,Animatore sociale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/247,247,Tutor di formazione,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/248,248,Operatore sociale di strada,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/249,249,Operatore all’assistenza educativa ai disabili,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/25,25,Installatore e manutentore straordinario di impianti energetici alimentati da fonti rinnovabili,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/250,250,Operatore termale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/251,251,Tecnico di accoglienza sociale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/252,252,Youth worker,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/253,253,Esperto cinofilo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/254,254,Tecnico di comunità pedagogico - riabilitativa per tossicodipendenti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/255,255,Tecnico esperto nella gestione di struttura-servizio sociale o socio-sanitario,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/256,256,Tecnico qualificato in clownerie in strutture socio-sanitarie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/257,257,Tutor didattico per studenti con difficoltà di apprendimento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/258,258,Collaboratore domestico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/259,259,Operatore di animal care,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/26,26,Manutentore del verde,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/260,260,Operatore di tatuaggio e piercing,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/261,261,Operatore olistico del benessere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/262,262,Operatore per l'assistenza familiare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/263,263,Tecnico dell'organizzazione e gestione di maneggi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/264,264,Tecnico della gestione di centri ricreativi e di intrattenimento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/265,265,Tecnico esperto della direzione di palestre e impianti sportivi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/266,266,Attore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/267,267,Autore radiotelevisivo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/268,268,Costumista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/269,269,Curatore di mostre,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/27,27,Tecnico del restauro dei beni culturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/270,270,Direttore di scena,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/271,271,Disk Jockey,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/272,272,Esperto dei Cammini e Beni Culturali Ecclesiastici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/273,273,Esperto dei servizi educativi museali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/274,274,Maestro collaboratore al pianoforte,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/275,275,Operatore dei servizi di custodia ed accoglienza museale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/276,276,Tecnico del suono,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/277,277,Tecnico delle luci,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/278,278,Programmatore musicale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/279,279,Operatore di scenografia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/28,28,Tecnico abilitato alla certificazione energetica degli edifici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/280,280,"Operatore per la tutela, l'organizzazione e la fruizione del patrimonio librario, archivistico e documentario",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/281,281,Tecnico della ripresa e del montaggio audiovisivo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/282,282,Tecnico esperto della gestione dei servizi di biblioteca,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/283,283,Tecnico esperto della valorizzazione e promozione del patrimonio culturale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/284,284,Tecnico esperto di marketing dei beni culturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/285,285,Truccatore dello spettacolo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/286,286,Acconciatore dello spettacolo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/287,287,Addetto ai servizi di spiaggia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/288,288,Operatore del servizio di sala - cameriere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/289,289,Operatore del servizio bar,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/29,29,Tecnico meccatronico delle autoriparazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/290,290,Receptionist,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/291,291,Pizzaiolo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/292,292,Tecnico della progettazione turistica locale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/293,293,Tecnico della ristorazione - chef,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/294,294,Operatore di prima cucina - cuoco,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/295,295,Tecnico di sala - Maître,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/296,296,Coordinatore amministrativo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/297,297,Esperto analista finanziario,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/298,298,Esperto nella gestione aziendale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/299,299,Esperto di coaching,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/3,3,"Operatore Socio Sanitario (OSS): Qualifica Professionale conseguita ai sensi Accordo
+Stato Regioni 22/02/2001 rilasciata da enti privati accreditati",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/30,30,Tecnico della gestione di impianti di trattamento rifiuti urbani,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/300,300,Esperto commerciale-marketing,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/301,301,Esperto giurista d’impresa,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/302,302,Social media manager,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/303,303,Team leader di call center,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/304,304,Operatore dell’accoglienza in eventi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/305,305,Operatore amministrativo-contabile,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/306,306,Project manager,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/307,307,Operatore segretariale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/308,308,Operatore delle attività di vigilanza e sicurezza,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/309,309,Operatore call center,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/31,31,Tecnico dei servizi educativi museali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/310,310,Tecnico copy writer,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/311,311,Tecnico esperto customer care,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/312,312,Tecnico archivista amminstrativo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/313,313,Tecnico esperto e-commerce,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/314,314,Tecnico esperto in procedure di gare e appalti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/315,315,Tecnico esperto delle attività di ideazione e sviluppo dell'immagine di campagne pubblicitarie,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/316,316,Tecnico esperto per la direzione delle strutture ricettive alberghiere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/317,317,Tecnico esperto per la direzione delle strutture ricettive extra-alberghiere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/318,318,Tecnico esperto per la direzione di stabilimenti balneari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/319,319,Addetto alle operazioni di confezionamento e imballaggio dei prodotti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/32,32,Grafico multimediale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/320,320,Addetto alla cura e pulizia di spazi ed ambienti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/321,321,Operatore delle calzature ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/322,322,Operatore delle produzioni chimiche ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/323,323,Operatore edile ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/324,324,Operatore dell’abbigliamento ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/325,325,Operatore elettrico ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/326,326,Operatore elettronico ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/327,327,Operatore grafico indirizzo stampa e allestimento ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/328,328,Operatore grafico indirizzo multimedia ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/329,329,Operatore di impianti termoidraulici ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/33,33,Operatore assistenza clienti,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/330,330,Operatore delle lavorazioni artistiche ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/331,331,Operatore del legno ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/332,332,Operatore del montaggio e della manutenzione delle imbarcazioni da diporto ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/333,333,Operatore alla riparazione dei veicoli a motore indirizzo riparazioni parti e sistemi meccanici ed elettromeccanici del veicolo ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/334,334,Operatore alla riparazione dei veicoli a motore indirizzo riparazioni di carrozzeria ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/335,335,Operatore meccanico ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/336,336,Operatore del benessere indirizzo acconciatura 17/08/2005 ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/337,337,Operatore del benessere indirizzo estetica L. 845/78 art. 14 e L.1/1990 ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/338,338,Operatore della ristorazione indirizzo preparazione pasti ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/339,339,Operatore della ristorazione indirizzo servizi di sala e bar ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/34,34,Progettista orafo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/340,340,Operatore ai servizi di promozione e accoglienza indirizzo strutture ricettive ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/341,341,Operatore ai servizi di promozione e accoglienza indirizzo servizi del turismo ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/342,342,Operatore amministrativo ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/343,343,Operatore ai servizi di vendita ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/344,344,Operatore dei sistemi e dei servizi logistici ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/345,345,Operatore della trasformazione agroalimentare ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/346,346,Operatore agricolo indirizzo allevamento animali ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/347,347,"Operatore agricolo indirizzo coltivazioni arboree, erbacee e ortofloricole ",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/348,348,Operatore agricolo indirizzo silvicoltura e salvaguardia dell’ambiente ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/349,349,Operatore del mare e della acque interne ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/35,35,"Tecnico dello sviluppo di coltivazioni, allevamenti e attività d'impresa agricola e dell'analisi e monitoraggio delle produzioni ADA.01.1.245.816",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/350,350,Tutor Pedagogico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/351,351,Esperto in Appalti Pubblici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/352,352,Direttore Coordinatore di Area Pedagogica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/353,353,Consulente per la pianificazione e gestione delle aree naturali e delle reti ecologiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/354,354,Guida turistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/355,355,Operatore tecnico subacqueo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/356,356,Tecnico dell'analisi e trascrizione di segnali fonici e di gestione della perizia di trascrizione in ambito forense,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/357,357,Tecnico gestione rete dati,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/358,358,Tecnico di programmazione informatica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/359,359,Educatore Professionale Socio-pedagogico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/36,36,Operatore agroalimentare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/360,360,Tecnico Controllo e Tutela Ambientale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/361,361,Esperto in economia e amministrazione di PMI ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/362,362,Operatore chimico biologico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/363,363,Tecnico qualificato in gestione di musei e pinacoteche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/364,364,Assistente di base (ADB),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/365,365,Formazione Formatori,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/366,366,"Esperto in diritto, economia e politiche comunitarie",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/367,367,Operatore di biblioteca,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/368,368,Restauratore di Beni culturali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/369,369,Dattilografo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/37,37,Interprete di Lingua dei Segni Italiana (LIS),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/370,370,Esperto di azienda turistica e promozione del territorio ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/371,371,Ausiliario socio assistenziale (ASA),1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/372,372,Tecnico delle comunicazioni commerciali in lingua,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/373,373,Maestro d'arte,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/38,38,Traduttore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/39,39,Addetto alla logistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/4,4,Operatore Tecnico Addetto all'Assistenza (OTA): Attestato di idoneità a corsi professionalizzanti ai sensi D.G.R. 20/03/02 n°321 ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/40,40,Disegnatore CAD,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/41,41,Tecnico gestione area marketing,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/42,42,Grafico pubblicitario,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/43,43,Tecnico gestione risorse umane,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/44,44,Tecnico esperto fiscale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/45,45,Operatore archivio amministrativo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/46,46,Addetto alla contabilità,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/47,47,Operatore di segreteria,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/48,48,Guida ambientale escursionistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/49,49,Accompagnatore turisti con esigenze speciali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/5,5,Operatore Tecnico Addetto all'Assistenza (OTA): D.M. 295/91,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/50,50,Addetto alla promozione e accoglienza turistica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/51,51,Sommelier,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/52,52,Operatore dell’infanzia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/53,53,Operatore per l’assistenza familiare domiciliare,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/54,54,Tecnico dell’educazione e riabilitazione in orientamento e mobilità e autonomia personale per disabili visivi,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/55,55,Musicoterapista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/56,56,Istruttore di pratica nautica,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/57,57,Fotografo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/58,58,Addetto alla produzione grafica digitale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/59,59,Tecnico delle energie rinnovabili,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/6,6,"Operatore Tecnico per l'Assistenza (OTA): Corsi di minimo 600 ore con esami finali, L. 845/78, conseguiti ante 31/07/2002 ",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/60,60,Tecnico delle produzioni alimentari,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/61,61,Operatore informatico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/62,62,Conduttore generatori di vapore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/63,63,Conduttore impianti termici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/64,64,Installatore e manutentore straordinario - biomasse per usi energetici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/65,65,"Installatore e manutentore straordinario - pompe di calore per riscaldamento, refrigerazione e produzione ACS",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/66,66,Installatore e manutentore straordinario - sistemi fotovoltaici e fototermoelettrici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/67,67,Installatore e manutentore straordinario - sistemi solati termici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/68,68,Tecnico per l’attività di carrozzerie delle autoriparazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/69,69,Tecnico per l’attività di gommista delle autoriparazioni,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/7,7,Qualifica di Operatore Socio Sanitario (OSS) rilasciata al termine del Diploma quinquennale Ipss ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/70,70,Mediatore culturale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/71,71,Maestro di sci nordico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/72,72,Responsabile tecnico di tintolavanderia,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/73,73,Responsabile dell’attività cimiteriale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/74,74,Operatore funebre,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/75,75,Addetto all’allevamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/76,76,Apicoltore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/77,77,Elicicoltore,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/78,78,Esperto della progettazione di interventi in campo agro-forestale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/79,79,Giardiniere,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/8,8,Qualifica di Assistente Analista del Comportamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/80,80,Giardiniere d’arte per giardini e parchi storici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/81,81,Istruttore forestale di abbattimento ed allestimento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/82,82,Operatore agricolo,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/83,83,Operatore alla selvicoltura e alla cura delle aree boscate,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/84,84,Operatore della pesca e dell’acquacoltura,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/85,85,Operatore di idraulica forestale,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/86,86,Operatore vivaista,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/87,87,Accompagnatore turistico,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/88,88,Conduttore di macchine utensili,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/89,89,Montatore di sistemi meccanici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/9,9,Qualifica di Analista del Comportamento,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/90,90,Meccanico attrezzista procedure CAD-CAM,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/91,91,Montatore/manutentore di sistemi elettromeccanici,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/92,92,"Tecnico della supervisione, prevenzione e sorveglianza del patrimonio forestale e faunistico",1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/93,93,Personale amministrativo addetto alla custodia ,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/94,94,Maestro di snowboard,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/95,95,Tecnico esperto delle analisi di laboratorio di prodotti agricoli,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/96,96,Tecnico esperto delle produzioni animali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/97,97,Tecnico esperto delle produzioni florovivaistiche,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/98,98,Tecnico esperto delle produzioni vegetali,1
+https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/99,99,Tecnico esperto nella gestione di impianti di itticoltura e maricolatura,1

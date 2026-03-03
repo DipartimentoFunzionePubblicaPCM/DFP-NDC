@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/1",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "1",
+    "label_it": "Area 01 - Scienze matematiche ed informatiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/10",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "10",
+    "label_it": "Area 10 - Scienze dell'antichit\u00e0, filologico-letterarie e storico-artistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/11",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "11",
+    "label_it": "Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/12",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "12",
+    "label_it": "Area 12 - Scienze giuridiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/13",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "13",
+    "label_it": "Area 13 - Scienze economiche e statistiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/14",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "14",
+    "label_it": "Area 14 - Scienze politiche e sociali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/2",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "2",
+    "label_it": "Area 02 - Scienze fisiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/3",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "3",
+    "label_it": "Area 03 - Scienze chimiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/4",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "4",
+    "label_it": "Area 04 - Scienze della terra",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/5",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "5",
+    "label_it": "Area 05 - Scienze biologiche ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/6",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "6",
+    "label_it": "Area 06 - Scienze mediche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/7",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "7",
+    "label_it": "Area 07 - Scienze agrarie e veterinarie",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/8",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "8",
+    "label_it": "Area 08 - Ingegneria civile e Architettura",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/9",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "9",
+    "label_it": "Area 09 - Ingegneria industriale e dell'informazione",
+    "level": "1"
+  }
+]
