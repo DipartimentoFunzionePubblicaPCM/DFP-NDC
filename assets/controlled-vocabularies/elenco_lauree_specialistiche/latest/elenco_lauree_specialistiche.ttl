@@ -1,0 +1,1440 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://www.w3.org/ns/adms#> .
+@prefix ns8: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix ns9: <https://w3id.org/italia/onto/NDC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Individuals
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
+        <https://w3id.org/italia/onto/COV/PublicOrganization>,
+        ns6:Agent,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns2:identifier "dfp" ;
+    ns5:hasURL <https://github.com/DFPdati> ;
+    ns6:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
+        ns5:Kind,
+        ns5:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns2:identifier "dfpDati" ;
+    ns5:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns5:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns5:hasURL <https://github.com/DFPdati> ;
+    ns6:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it .
+
+### Annotations
+
+<https://w3id.org/italia/data/standard/SKOS> a <http://dati.gov.it/onto/dcatapit#Standard>,
+        ns2:Standard ;
+    ns2:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    ns2:identifier "SKOS" ;
+    ns2:title "Simple Knowledge Organization System - SKOS" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche> a <http://dati.gov.it/onto/dcatapit#Dataset>,
+        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:ConceptScheme,
+        ns7:Asset ;
+    rdfs:label "Controlled vocabulary of the typology of specialist degrees"@en,
+        "Vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns1:prefLabel "Vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    rdfs:comment "Controlled vocabulary of the typology of specialist degrees"@en,
+        "Vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    owl:versionInfo "0.1" ;
+    rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/3>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/4>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/5>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/6>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/7>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/8>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/9>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/10>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/11>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/12>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/13>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/14>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/15>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/16>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/17>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/18>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/19>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/20>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/21>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/22>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/23>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/24>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/25>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/26>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/27>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/28>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/29>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/30>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/31>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/32>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/33>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/34>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/35>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/36>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/37>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/38>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/39>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/40>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/41>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/42>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/43>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/44>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/45>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/46>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/47>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/48>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/49>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/50>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/51>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/52>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/53>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/54>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/55>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/56>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/57>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/58>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/59>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/60>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/61>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/62>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/63>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/64>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/65>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/66>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/67>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/68>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/69>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/70>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/71>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/72>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/73>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/74>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/75>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/76>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/77>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/78>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/79>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/80>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/81>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/82>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/83>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/84>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/85>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/86>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/87>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/88>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/89>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/90>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/91>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/92>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/93>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/94>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/95>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/96>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/97>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/98>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/99>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/100>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/101>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/102>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/103>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/104>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/105>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/106>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/107>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/108>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/109>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/110> ;
+    ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    ns2:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
+    ns2:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:description "Controlled vocabulary of the typology of specialist degrees"@en,
+        "Vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns2:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche" ;
+    ns2:issued "2026-02-26"^^xsd:date ;
+    ns2:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+    ns2:modified "2026-02-26"^^xsd:date ;
+    ns2:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:title "Controlled vocabulary of the typology of specialist degrees"@en,
+        "Vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns2:type <http://purl.org/adms/assettype/CodeList> ;
+    ns4:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns4:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_CSV>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_JSON_LD>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_RDF_TURTLE> ;
+    ns4:keyword "application recruitment procedure"@en,
+        "candidatura procedura reclutamento"@it,
+        "categoria di reclutamento"@it,
+        "citizen's curriculum vitae"@en,
+        "curriculum vitae del cittadino"@it,
+        "recruitment category"@en ;
+    ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns7:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+    ns8:numberOfLevels "1" ;
+    ns9:keyConcept "elenco_lauree_specialistiche" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "1/S ANTROPOLOGIA CULTURALE ED ETNOLOGIA"@it ;
+    ns1:prefLabel "1/S ANTROPOLOGIA CULTURALE ED ETNOLOGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "1" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "1" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "10/S CONSERVAZIONE DEI BENI ARCHITETTONICI E AMBIENTALI"@it ;
+    ns1:prefLabel "10/S CONSERVAZIONE DEI BENI ARCHITETTONICI E AMBIENTALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "2" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "2" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "100/S TECNICHE E METODI PER LA SOCIETÀ DELL’INFORMAZIONE"@it ;
+    ns1:prefLabel "100/S TECNICHE E METODI PER LA SOCIETÀ DELL’INFORMAZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "3" ;
+    ns2:description "INFORMATICA; CTP_ING_INF; SCIENZE_COMUNICAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "3" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "101/S TEORIA DELLA COMUNICAZIONE"@it ;
+    ns1:prefLabel "101/S TEORIA DELLA COMUNICAZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "4" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; SCIENZE_COMUNICAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "4" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL’INFORMAZIONE GIURIDICA"@it ;
+    ns1:prefLabel "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL’INFORMAZIONE GIURIDICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "5" ;
+    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; GIURISPRUDENZA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "5" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "103/S TEORIE E METODI DEL DISEGNO INDUSTRIALE"@it ;
+    ns1:prefLabel "103/S TEORIE E METODI DEL DISEGNO INDUSTRIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "6" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "6" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "104/S TRADUZIONE LETTERARIA E IN TRADUZIONE TECNICO-SCIENTIFICA"@it ;
+    ns1:prefLabel "104/S TRADUZIONE LETTERARIA E IN TRADUZIONE TECNICO-SCIENTIFICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "7" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "7" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "11/S CONSERVAZIONE DEI BENI SCIENTIFICI E DELLA CIVILTÀ INDUSTRIALE"@it ;
+    ns1:prefLabel "11/S CONSERVAZIONE DEI BENI SCIENTIFICI E DELLA CIVILTÀ INDUSTRIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "8" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "8" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "12/S CONSERVAZIONE E RESTAURO DEL PATRIMONIO STORICO-ARTISTICO"@it ;
+    ns1:prefLabel "12/S CONSERVAZIONE E RESTAURO DEL PATRIMONIO STORICO-ARTISTICO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "9" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "9" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "13/S EDITORIA, COMUNICAZIONE MULTIMEDIALE E GIORNALISMO"@it ;
+    ns1:prefLabel "13/S EDITORIA, COMUNICAZIONE MULTIMEDIALE E GIORNALISMO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "10" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; SCIENZE_COMUNICAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "10" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "14/S FARMACIA E FARMACIA INDUSTRIALE"@it ;
+    ns1:prefLabel "14/S FARMACIA E FARMACIA INDUSTRIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "11" ;
+    ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "11" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "15/S FILOLOGIA E LETTERATURE DELL’ANTICHITÀ"@it ;
+    ns1:prefLabel "15/S FILOLOGIA E LETTERATURE DELL’ANTICHITÀ"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "12" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "12" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "16/S FILOLOGIA MODERNA"@it ;
+    ns1:prefLabel "16/S FILOLOGIA MODERNA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "13" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "13" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "17/S FILOSOFIA E STORIA DELLA SCIENZA"@it ;
+    ns1:prefLabel "17/S FILOSOFIA E STORIA DELLA SCIENZA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "14" ;
+    ns2:description "FILOSOFIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "14" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "18/S FILOSOFIA TEORETICA, MORALE, POLITICA ED ESTETICA"@it ;
+    ns1:prefLabel "18/S FILOSOFIA TEORETICA, MORALE, POLITICA ED ESTETICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "15" ;
+    ns2:description "FILOSOFIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "15" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "19/S FINANZA"@it ;
+    ns1:prefLabel "19/S FINANZA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "16" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "16" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "2/S ARCHEOLOGIA"@it ;
+    ns1:prefLabel "2/S ARCHEOLOGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "17" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "17" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "20/S FISICA"@it ;
+    ns1:prefLabel "20/S FISICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "18" ;
+    ns2:description "FISICA; DIR_FISICO; RUOLI_SANITARI_2; ASTRONOMIA; FISICA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "18" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "21/S GEOGRAFIA"@it ;
+    ns1:prefLabel "21/S GEOGRAFIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "19" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "19" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "22/S GIURISPRUDENZA"@it ;
+    ns1:prefLabel "22/S GIURISPRUDENZA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "20" ;
+    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "20" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "23/S INFORMATICA"@it ;
+    ns1:prefLabel "23/S INFORMATICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "21" ;
+    ns2:description "INFORMATICA; CTP_ING_INF; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "21" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "24/S INFORMATICA PER LE DISCIPLINE UMANISTICHE"@it ;
+    ns1:prefLabel "24/S INFORMATICA PER LE DISCIPLINE UMANISTICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "22" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "22" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "25/S INGEGNERIA AEROSPAZIALE E ASTRONAUTICA"@it ;
+    ns1:prefLabel "25/S INGEGNERIA AEROSPAZIALE E ASTRONAUTICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "23" ;
+    ns2:description "INGEGNERIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "23" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "26/S INGEGNERIA BIOMEDICA"@it ;
+    ns1:prefLabel "26/S INGEGNERIA BIOMEDICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "24" ;
+    ns2:description "INGEGNERIA; ING_BIOMEDICA; CTP_ING_INF; ING_MEDICA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "24" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "27/S INGEGNERIA CHIMICA"@it ;
+    ns1:prefLabel "27/S INGEGNERIA CHIMICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "25" ;
+    ns2:description "INGEGNERIA; ING_CHIMICA; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "25" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "28/S INGEGNERIA CIVILE"@it ;
+    ns1:prefLabel "28/S INGEGNERIA CIVILE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "26" ;
+    ns2:description "ING_CIVILE; ING_EDILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "26" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "29/S INGEGNERIA DELL’AUTOMAZIONE"@it ;
+    ns1:prefLabel "29/S INGEGNERIA DELL’AUTOMAZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "27" ;
+    ns2:description "ING_ELETTRONICA; ING_ELETTRICA; INGEGNERIA; CTP_ING_INF; ING_AUTOMAZIONE; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "27" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "3/S ARCHITETTURA DEL PAESAGGIO"@it ;
+    ns1:prefLabel "3/S ARCHITETTURA DEL PAESAGGIO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "28" ;
+    ns2:description "GEOM_LAUREATO; ARCHITETTURA; ARCHITETTURA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "28" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "30/S INGEGNERIA DELLE TELECOMUNICAZIONI"@it ;
+    ns1:prefLabel "30/S INGEGNERIA DELLE TELECOMUNICAZIONI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "29" ;
+    ns2:description "ING_TELECOMUNICAZIONI; INGEGNERIA; CTP_ING_INF; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "29" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/30> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "31/S INGEGNERIA ELETTRICA"@it ;
+    ns1:prefLabel "31/S INGEGNERIA ELETTRICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "30" ;
+    ns2:description "ING_ELETTRICA; INGEGNERIA; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "30" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/31> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "32/S INGEGNERIA ELETTRONICA"@it ;
+    ns1:prefLabel "32/S INGEGNERIA ELETTRONICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "31" ;
+    ns2:description "ING_ELETTRONICA; INGEGNERIA; CTP_ING_INF; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "31" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/32> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "33/S INGEGNERIA ENERGETICA E NUCLEARE"@it ;
+    ns1:prefLabel "33/S INGEGNERIA ENERGETICA E NUCLEARE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "32" ;
+    ns2:description "INGEGNERIA; ING_NUCLEARE; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "32" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/33> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "34/S INGEGNERIA GESTIONALE"@it ;
+    ns1:prefLabel "34/S INGEGNERIA GESTIONALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "33" ;
+    ns2:description "ING_GESTIONALE; INGEGNERIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "33" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/34> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "35/S INGEGNERIA INFORMATICA"@it ;
+    ns1:prefLabel "35/S INGEGNERIA INFORMATICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "34" ;
+    ns2:description "ING_INFORMATICA; INGEGNERIA; CTP_ING_INF; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "34" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/35> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "36/S INGEGNERIA MECCANICA"@it ;
+    ns1:prefLabel "36/S INGEGNERIA MECCANICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "35" ;
+    ns2:description "ING_INDUSTRIALE; ING_MECCANICA; INGEGNERIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "35" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/36> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "37/S INGEGNERIA NAVALE"@it ;
+    ns1:prefLabel "37/S INGEGNERIA NAVALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "36" ;
+    ns2:description "INGEGNERIA; ING_INDUSTRIALE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "36" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/37> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "38/S INGEGNERIA PER L’AMBIENTE E IL TERRITORIO"@it ;
+    ns1:prefLabel "38/S INGEGNERIA PER L’AMBIENTE E IL TERRITORIO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "37" ;
+    ns2:description "GEOM_LAUREATO; INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "37" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/38> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "39/S INTERPRETARIATO DI CONFERENZA"@it ;
+    ns1:prefLabel "39/S INTERPRETARIATO DI CONFERENZA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "38" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "38" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/39> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "4/S ARCHITETTURA E INGEGNERIA EDILE"@it ;
+    ns1:prefLabel "4/S ARCHITETTURA E INGEGNERIA EDILE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "39" ;
+    ns2:description "ING_EDILE_ARCHITETT; GEOM_LAUREATO; INGEGNERIA; ARCHITETTURA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "39" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/40> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "40/S LINGUA E CULTURA ITALIANA"@it ;
+    ns1:prefLabel "40/S LINGUA E CULTURA ITALIANA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "40" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "40" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/41> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "41/S LINGUE E LETTERATURE AFROASIATICHE"@it ;
+    ns1:prefLabel "41/S LINGUE E LETTERATURE AFROASIATICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "41" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "41" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/42> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "42/S LINGUE E LETTERATURE MODERNE EUROAMERICANE"@it ;
+    ns1:prefLabel "42/S LINGUE E LETTERATURE MODERNE EUROAMERICANE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "42" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "42" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/43> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "43/S LINGUE STRANIERE PER LA COMUNICAZIONE INTERNAZIONALE"@it ;
+    ns1:prefLabel "43/S LINGUE STRANIERE PER LA COMUNICAZIONE INTERNAZIONALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "43" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "43" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/44> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "44/S LINGUISTICA"@it ;
+    ns1:prefLabel "44/S LINGUISTICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "44" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "44" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/45> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "45/S MATEMATICA"@it ;
+    ns1:prefLabel "45/S MATEMATICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "45" ;
+    ns2:description "MATEMATICA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "45" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/46> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "46/S MEDICINA E CHIRURGIA"@it ;
+    ns1:prefLabel "46/S MEDICINA E CHIRURGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "46" ;
+    ns2:description "MEDICINA; MEDICINA_CHIRURGIA; LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2;  " ;
+    ns2:identifier "46" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/47> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "47/S MEDICINA VETERINARIA"@it ;
+    ns1:prefLabel "47/S MEDICINA VETERINARIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "47" ;
+    ns2:description "MEDICINA_VETERINARIA; RUOLI_SANITARI_2;  " ;
+    ns2:identifier "47" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/48> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "48/S METODI PER L’ANALISI VALUTATIVA DEI SISTEMI COMPLESSI"@it ;
+    ns1:prefLabel "48/S METODI PER L’ANALISI VALUTATIVA DEI SISTEMI COMPLESSI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "48" ;
+    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "48" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/49> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "49/S METODI PER LA RICERCA EMPIRICA NELLE SCIENZE SOCIALI"@it ;
+    ns1:prefLabel "49/S METODI PER LA RICERCA EMPIRICA NELLE SCIENZE SOCIALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "49" ;
+    ns2:description "SCIENZE_POLITICHE; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "49" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/50> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "5/S ARCHIVISTICA E BIBLIOTECONOMIA"@it ;
+    ns1:prefLabel "5/S ARCHIVISTICA E BIBLIOTECONOMIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "50" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "50" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/51> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "50/S MODELLISTICA MATEMATICO-FISICA PER L’INGEGNERIA"@it ;
+    ns1:prefLabel "50/S MODELLISTICA MATEMATICO-FISICA PER L’INGEGNERIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "51" ;
+    ns2:description "MATEMATICA; INGEGNERIA; FISICA; RUOLI_SANITARI_2;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "51" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/52> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "51/S MUSICOLOGIA E BENI MUSICALI"@it ;
+    ns1:prefLabel "51/S MUSICOLOGIA E BENI MUSICALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "52" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "52" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/53> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "52/S ODONTOIATRIA E PROTESI DENTARIA"@it ;
+    ns1:prefLabel "52/S ODONTOIATRIA E PROTESI DENTARIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "53" ;
+    ns2:description "LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
+    ns2:identifier "53" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/54> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "53/S ORGANIZZAZIONE E GESTIONE DEI SERVIZI PER LO SPORT E LE ATTIVITÀ MOTORIE"@it ;
+    ns1:prefLabel "53/S ORGANIZZAZIONE E GESTIONE DEI SERVIZI PER LO SPORT E LE ATTIVITÀ MOTORIE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "54" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "54" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/55> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "54/S PIANIFICAZIONE TERRITORIALE URBANISTICA E AMBIENTALE"@it ;
+    ns1:prefLabel "54/S PIANIFICAZIONE TERRITORIALE URBANISTICA E AMBIENTALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "55" ;
+    ns2:description "GEOM_LAUREATO; PIAN_TERR_URB; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "55" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/56> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "55/S PROGETTAZIONE E GESTIONE DEI SISTEMI TURISTICI"@it ;
+    ns1:prefLabel "55/S PROGETTAZIONE E GESTIONE DEI SISTEMI TURISTICI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "56" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "56" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/57> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "56/S PROGRAMMAZIONE E GESTIONE DEI SERVIZI EDUCATIVI E FORMATIVI"@it ;
+    ns1:prefLabel "56/S PROGRAMMAZIONE E GESTIONE DEI SERVIZI EDUCATIVI E FORMATIVI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "57" ;
+    ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "57" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/58> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "57/S PROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI"@it ;
+    ns1:prefLabel "57/S PROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "58" ;
+    ns2:description "SCIENZE_POLITICHE; ASS_SOC; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "58" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/59> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "58/S PSICOLOGIA"@it ;
+    ns1:prefLabel "58/S PSICOLOGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "59" ;
+    ns2:description "PSICOLOGIA; RUOLI_SANITARI_2; AREA_SOCIO_PSICO; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "59" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/60> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "59/S PUBBLICITÀ E COMUNICAZIONE D’IMPRESA"@it ;
+    ns1:prefLabel "59/S PUBBLICITÀ E COMUNICAZIONE D’IMPRESA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "60" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; SCIENZE_COMUNICAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "60" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/61> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "6/S BIOLOGIA"@it ;
+    ns1:prefLabel "6/S BIOLOGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "61" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_2;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "61" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/62> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "60/S RELAZIONI INTERNAZIONALI"@it ;
+    ns1:prefLabel "60/S RELAZIONI INTERNAZIONALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "62" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "62" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/63> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "61/S SCIENZA E INGEGNERIA DEI MATERIALI"@it ;
+    ns1:prefLabel "61/S SCIENZA E INGEGNERIA DEI MATERIALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "63" ;
+    ns2:description "INGEGNERIA; ING_MAT;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "63" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/64> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "62/S SCIENZE CHIMICHE"@it ;
+    ns1:prefLabel "62/S SCIENZE CHIMICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "64" ;
+    ns2:description "CHIMICA; RUOLI_SANITARI_2;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "64" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/65> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "63/S SCIENZE COGNITIVE"@it ;
+    ns1:prefLabel "63/S SCIENZE COGNITIVE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "65" ;
+    ns2:description "MAECI_DIR;" ;
+    ns2:identifier "65" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/66> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "64/S SCIENZE DELL’ECONOMIA"@it ;
+    ns1:prefLabel "64/S SCIENZE DELL’ECONOMIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "66" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; STATISTICA; ECONOMIA_COMMERCIO; ECONOMIA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "66" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/67> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "65/S SCIENZE DELL’EDUCAZIONE DEGLI ADULTI E DELLA FORMAZIONE CONTINUA"@it ;
+    ns1:prefLabel "65/S SCIENZE DELL’EDUCAZIONE DEGLI ADULTI E DELLA FORMAZIONE CONTINUA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "67" ;
+    ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "67" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/68> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "66/S SCIENZE DELL’UNIVERSO"@it ;
+    ns1:prefLabel "66/S SCIENZE DELL’UNIVERSO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "68" ;
+    ns2:description "FISICA; RUOLI_SANITARI_2; ASTRONOMIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "68" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/69> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "67/S SCIENZE DELLA COMUNICAZIONE SOCIALE E ISTITUZIONALE"@it ;
+    ns1:prefLabel "67/S SCIENZE DELLA COMUNICAZIONE SOCIALE E ISTITUZIONALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "69" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; SCIENZE_COMUNICAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "69" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/70> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "68/S SCIENZE DELLA NATURA"@it ;
+    ns1:prefLabel "68/S SCIENZE DELLA NATURA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "70" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "70" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/71> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "69/S SCIENZE DELLA NUTRIZIONE UMANA"@it ;
+    ns1:prefLabel "69/S SCIENZE DELLA NUTRIZIONE UMANA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "71" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_2;  MAECI_DIR;" ;
+    ns2:identifier "71" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/72> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "7/S BIOTECNOLOGIE AGRARIE"@it ;
+    ns1:prefLabel "7/S BIOTECNOLOGIE AGRARIE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "72" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_2;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "72" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/73> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "70/S SCIENZE DELLA POLITICA"@it ;
+    ns1:prefLabel "70/S SCIENZE DELLA POLITICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "73" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "73" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/74> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "71/S SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI"@it ;
+    ns1:prefLabel "71/S SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "74" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "74" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/75> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "72/S SCIENZE DELLE RELIGIONI"@it ;
+    ns1:prefLabel "72/S SCIENZE DELLE RELIGIONI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "75" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "75" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/76> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "73/S SCIENZE DELLO SPETTACOLO E DELLA PRODUZIONE MULTIMEDIALE"@it ;
+    ns1:prefLabel "73/S SCIENZE DELLO SPETTACOLO E DELLA PRODUZIONE MULTIMEDIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "76" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "76" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/77> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "74/S SCIENZE E GESTIONE DELLE RISORSE RURALI E FORESTALI"@it ;
+    ns1:prefLabel "74/S SCIENZE E GESTIONE DELLE RISORSE RURALI E FORESTALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "77" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "77" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/78> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "75/S SCIENZE E TECNICA DELLO SPORT"@it ;
+    ns1:prefLabel "75/S SCIENZE E TECNICA DELLO SPORT"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "78" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "78" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/79> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "76/S SCIENZE E TECNICHE DELLE ATTIVITÀ MOTORIE PREVENTIVE E ADATTATIVE"@it ;
+    ns1:prefLabel "76/S SCIENZE E TECNICHE DELLE ATTIVITÀ MOTORIE PREVENTIVE E ADATTATIVE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "79" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "79" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/80> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "77/S SCIENZE E TECNOLOGIE AGRARIE"@it ;
+    ns1:prefLabel "77/S SCIENZE E TECNOLOGIE AGRARIE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "80" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "80" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/81> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "78/S SCIENZE E TECNOLOGIE AGROALIMENTARI"@it ;
+    ns1:prefLabel "78/S SCIENZE E TECNOLOGIE AGROALIMENTARI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "81" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "81" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/82> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "79/S SCIENZE E TECNOLOGIE AGROZOOTECNICHE"@it ;
+    ns1:prefLabel "79/S SCIENZE E TECNOLOGIE AGROZOOTECNICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "82" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "82" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/83> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "8/S BIOTECNOLOGIE INDUSTRIALI"@it ;
+    ns1:prefLabel "8/S BIOTECNOLOGIE INDUSTRIALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "83" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_3;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "83" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/84> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "80/S SCIENZE E TECNOLOGIE DEI SISTEMI DI NAVIGAZIONE"@it ;
+    ns1:prefLabel "80/S SCIENZE E TECNOLOGIE DEI SISTEMI DI NAVIGAZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "84" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "84" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/85> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "81/S SCIENZE E TECNOLOGIE DELLA CHIMICA INDUSTRIALE"@it ;
+    ns1:prefLabel "81/S SCIENZE E TECNOLOGIE DELLA CHIMICA INDUSTRIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "85" ;
+    ns2:description "CHIMICA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "85" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/86> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "82/S SCIENZE E TECNOLOGIE PER L’AMBIENTE E IL TERRITORIO"@it ;
+    ns1:prefLabel "82/S SCIENZE E TECNOLOGIE PER L’AMBIENTE E IL TERRITORIO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "86" ;
+    ns2:description "LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "86" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/87> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "83/S SCIENZE ECONOMICHE PER L’AMBIENTE E LA CULTURA"@it ;
+    ns1:prefLabel "83/S SCIENZE ECONOMICHE PER L’AMBIENTE E LA CULTURA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "87" ;
+    ns2:description "ECONOMIA LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "87" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/88> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "84/S SCIENZE ECONOMICO-AZIENDALI"@it ;
+    ns1:prefLabel "84/S SCIENZE ECONOMICO-AZIENDALI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "88" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "88" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/89> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "85/S SCIENZE GEOFISICHE"@it ;
+    ns1:prefLabel "85/S SCIENZE GEOFISICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "89" ;
+    ns2:description "GEOLOGIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "89" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/90> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "86/S SCIENZE GEOLOGICHE"@it ;
+    ns1:prefLabel "86/S SCIENZE GEOLOGICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "90" ;
+    ns2:description "GEOLOGIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "90" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/91> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "87/S SCIENZE PEDAGOGICHE"@it ;
+    ns1:prefLabel "87/S SCIENZE PEDAGOGICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "91" ;
+    ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "91" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/92> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "88/S SCIENZE PER LA COOPERAZIONE ALLO SVILUPPO"@it ;
+    ns1:prefLabel "88/S SCIENZE PER LA COOPERAZIONE ALLO SVILUPPO"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "92" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "92" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/93> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "89/S SOCIOLOGIA"@it ;
+    ns1:prefLabel "89/S SOCIOLOGIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "93" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_SOCIO_PSICO; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "93" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/94> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "9/S BIOTECNOLOGIE MEDICHE, VETERINARIE E FARMACEUTICHE"@it ;
+    ns1:prefLabel "9/S BIOTECNOLOGIE MEDICHE, VETERINARIE E FARMACEUTICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "94" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_3;  LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "94" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/95> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "90/S STATISTICA DEMOGRAFICA E SOCIALE"@it ;
+    ns1:prefLabel "90/S STATISTICA DEMOGRAFICA E SOCIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "95" ;
+    ns2:description "STATISTICA; STATISTICA_3; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "95" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/96> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "91/S STATISTICA ECONOMICA, FINANZIARIA ED ATTUARIALE"@it ;
+    ns1:prefLabel "91/S STATISTICA ECONOMICA, FINANZIARIA ED ATTUARIALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "96" ;
+    ns2:description "ECONOMIA; STATISTICA; COLL_AMM_INTERNAZ; STATISTICA_3; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "96" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/97> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "92/S STATISTICA PER LA RICERCA SPERIMENTALE"@it ;
+    ns1:prefLabel "92/S STATISTICA PER LA RICERCA SPERIMENTALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "97" ;
+    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "97" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/98> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "93/S STORIA ANTICA"@it ;
+    ns1:prefLabel "93/S STORIA ANTICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "98" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "98" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/99> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "94/S STORIA CONTEMPORANEA"@it ;
+    ns1:prefLabel "94/S STORIA CONTEMPORANEA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "99" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "99" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/100> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "95/S STORIA DELL’ARTE"@it ;
+    ns1:prefLabel "95/S STORIA DELL’ARTE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "100" ;
+    ns2:description "LETTERE; BENI_CULTURALI; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "100" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/101> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "96/S STORIA DELLA FILOSOFIA"@it ;
+    ns1:prefLabel "96/S STORIA DELLA FILOSOFIA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "101" ;
+    ns2:description "FILOSOFIA; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "101" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/102> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "97/S STORIA MEDIEVALE"@it ;
+    ns1:prefLabel "97/S STORIA MEDIEVALE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "102" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "102" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/103> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "98/S STORIA MODERNA"@it ;
+    ns1:prefLabel "98/S STORIA MODERNA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "103" ;
+    ns2:description "LETTERE; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "103" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/104> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "99/S STUDI EUROPEI"@it ;
+    ns1:prefLabel "99/S STUDI EUROPEI"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "104" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LS_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "104" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/105> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "SNT/01/S SCIENZE INFERMIERISTICHE E OSTETRICHE"@it ;
+    ns1:prefLabel "SNT/01/S SCIENZE INFERMIERISTICHE E OSTETRICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "105" ;
+    ns2:description "SCIENZE_INFERMIERISTICHE; OSTETRICIA; INF_PED; RUOLI_SANITARI;  " ;
+    ns2:identifier "105" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/106> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "SNT/02/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA RIABILITAZIONE"@it ;
+    ns1:prefLabel "SNT/02/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA RIABILITAZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "106" ;
+    ns2:description "RUOLI_SANITARI; EDU_PROF_SAN; FISIOTERAPIA; LOGOPEDISTA; ORTOTTISTA; PODOLOGO; TEC_RIAB_PSIC; TEC_NEURO_PSICOMOTR; TERAP_OCCUPAZ; " ;
+    ns2:identifier "106" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/107> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "SNT/03/S SCIENZE DELLE PROFESSIONI SANITARIE TECNICHE"@it ;
+    ns1:prefLabel "SNT/03/S SCIENZE DELLE PROFESSIONI SANITARIE TECNICHE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "107" ;
+    ns2:description "AUDIOMETRISTA; AUDIOPROTESISTA; DIETISTICA; IGIEN_DENT; RUOLI_SANITARI;  TEC_LAB_BIO; TEC_NEUROFISIOPAT; TEC_RAD_MED; TEC_ORTOPED; TEC_FIS_CARDCIRC; " ;
+    ns2:identifier "107" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/108> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "SNT/04/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA PREVENZIONE"@it ;
+    ns1:prefLabel "SNT/04/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA PREVENZIONE"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "108" ;
+    ns2:description "RUOLI_SANITARI; ASS_SAN; TECNICO_PREV; " ;
+    ns2:identifier "108" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/109> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL'INFORMAZIONE GIURIDICA"@it ;
+    ns1:prefLabel "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL'INFORMAZIONE GIURIDICA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "109" ;
+    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; MAECI_DIR;" ;
+    ns2:identifier "109" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/110> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "DS/S SCIENZE DELLA DIFESA E DELLA SICUREZZA"@it ;
+    ns1:prefLabel "DS/S SCIENZE DELLA DIFESA E DELLA SICUREZZA"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
+    ns1:notation "110" ;
+    ns2:identifier "110" ;
+    ns2:type "LAUREA_SPECIALISTICA" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the typology of specialist degrees CSV distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the typology of specialist degrees CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.csv> .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the typology of specialist degrees JSON_LD distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the typology of specialist degrees JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.json> .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the typology of specialist degrees RDF/turtle distribution"@en,
+        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the typology of specialist degrees RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree specialistiche"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.ttl> .
+
+### Serialized using the ttlser deterministic serializer v1.2.0

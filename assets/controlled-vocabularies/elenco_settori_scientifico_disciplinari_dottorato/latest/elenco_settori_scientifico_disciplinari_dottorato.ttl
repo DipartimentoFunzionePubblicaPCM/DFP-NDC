@@ -1,0 +1,261 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns7: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns8: <http://www.w3.org/ns/adms#> .
+@prefix ns9: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Individuals
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
+        <https://w3id.org/italia/onto/COV/PublicOrganization>,
+        ns5:Agent,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns4:identifier "dfp" ;
+    ns5:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns6:hasURL <https://github.com/DFPdati> .
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
+        ns6:Kind,
+        ns6:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns4:identifier "dfpDati" ;
+    ns5:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns6:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns6:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns6:hasURL <https://github.com/DFPdati> .
+
+### Annotations
+
+<https://w3id.org/italia/data/standard/SKOS> a <http://dati.gov.it/onto/dcatapit#Standard>,
+        ns4:Standard ;
+    ns4:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    ns4:identifier "SKOS" ;
+    ns4:title "Simple Knowledge Organization System - SKOS" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> a <http://dati.gov.it/onto/dcatapit#Dataset>,
+        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:ConceptScheme,
+        ns8:Asset ;
+    rdfs:label "Controlled vocabulary of the scientific sector typology of the doctorate"@en,
+        "Vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns1:prefLabel "Vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    rdfs:comment "Controlled vocabulary of the scientific sector typology of the doctorate"@en,
+        "Vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    owl:versionInfo "0.1" ;
+    rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/1>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/2>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/3>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/4>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/5>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/6>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/7>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/8>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/9>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/10>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/11>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/12>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/13>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/14> ;
+    ns2:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns2:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_CSV>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_JSON_LD>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_RDF_TURTLE> ;
+    ns2:keyword "application recruitment procedure"@en,
+        "candidatura procedura reclutamento"@it,
+        "categoria di reclutamento"@it,
+        "citizen's curriculum vitae"@en,
+        "curriculum vitae del cittadino"@it,
+        "recruitment category"@en ;
+    ns2:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns4:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    ns4:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
+    ns4:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:description "Controlled vocabulary of the scientific sector typology of the doctorate"@en,
+        "Vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns4:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato" ;
+    ns4:issued "2026-02-26"^^xsd:date ;
+    ns4:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+    ns4:modified "2026-02-26"^^xsd:date ;
+    ns4:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:title "Controlled vocabulary of the scientific sector typology of the doctorate"@en,
+        "Vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns4:type <http://purl.org/adms/assettype/CodeList> ;
+    ns7:keyConcept "elenco_settori_scientifico_disciplinari_dottorato" ;
+    ns8:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+    ns9:numberOfLevels "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 01 - Scienze matematiche ed informatiche"@it ;
+    ns1:prefLabel "Area 01 - Scienze matematiche ed informatiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "1" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 02 - Scienze fisiche"@it ;
+    ns1:prefLabel "Area 02 - Scienze fisiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "2" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "2" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 03 - Scienze chimiche"@it ;
+    ns1:prefLabel "Area 03 - Scienze chimiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "3" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "3" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 04 - Scienze della terra"@it ;
+    ns1:prefLabel "Area 04 - Scienze della terra"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "4" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "4" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 05 - Scienze biologiche "@it ;
+    ns1:prefLabel "Area 05 - Scienze biologiche "@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "5" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "5" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 06 - Scienze mediche"@it ;
+    ns1:prefLabel "Area 06 - Scienze mediche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "6" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "6" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 07 - Scienze agrarie e veterinarie"@it ;
+    ns1:prefLabel "Area 07 - Scienze agrarie e veterinarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "7" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "7" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 08 - Ingegneria civile e Architettura"@it ;
+    ns1:prefLabel "Area 08 - Ingegneria civile e Architettura"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "8" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "8" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 09 - Ingegneria industriale e dell'informazione"@it ;
+    ns1:prefLabel "Area 09 - Ingegneria industriale e dell'informazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "9" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "9" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche"@it ;
+    ns1:prefLabel "Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "10" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "10" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche"@it ;
+    ns1:prefLabel "Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "11" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "11" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 12 - Scienze giuridiche"@it ;
+    ns1:prefLabel "Area 12 - Scienze giuridiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "12" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "12" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 13 - Scienze economiche e statistiche"@it ;
+    ns1:prefLabel "Area 13 - Scienze economiche e statistiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "13" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "13" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Area 14 - Scienze politiche e sociali"@it ;
+    ns1:prefLabel "Area 14 - Scienze politiche e sociali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
+    ns1:notation "14" ;
+    ns3:hasRankOrder "1" ;
+    ns4:identifier "14" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns2:Distribution ;
+    ns2:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest> ;
+    ns2:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest/elenco_settori_scientifico_disciplinari_dottorato.csv> ;
+    ns4:description "Controlled vocabulary of the scientific sector typology of the doctorate CSV distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Controlled vocabulary of the scientific sector typology of the doctorate CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato della tipologia di settore scientifico del dottorato"@it .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns2:Distribution ;
+    ns2:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest> ;
+    ns2:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest/elenco_settori_scientifico_disciplinari_dottorato.json> ;
+    ns4:description "Controlled vocabulary of the scientific sector typology of the doctorate JSON_LD distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Controlled vocabulary of the scientific sector typology of the doctorate JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato della tipologia di settore scientifico del dottorato"@it .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_settori_scientifico_disciplinari_dottorato/distribution/ESSDD_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns2:Distribution ;
+    ns2:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest> ;
+    ns2:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_settori_scientifico_disciplinari_dottorato/latest/elenco_settori_scientifico_disciplinari_dottorato.ttl> ;
+    ns4:description "Controlled vocabulary of the scientific sector typology of the doctorate RDF/turtle distribution"@en,
+        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di settore scientifico del dottorato"@it ;
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Controlled vocabulary of the scientific sector typology of the doctorate RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di settore scientifico del dottorato"@it .
+
+### Serialized using the ttlser deterministic serializer v1.2.0

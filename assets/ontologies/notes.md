@@ -7,4 +7,4 @@ Le ontologie sono pubblicate in formato RDF/Turtle (media type text/turtle) e l'
 ![image info](public_sector_recruitment/latest/public_sector_recruitment_categoria.png)
 ![image info](public_sector_recruitment/latest/public_sector_recruitment_procedura.png)
 ![image info](public_sector_recruitment/latest/public_sector_recruitment_statistica.png)
-![image info](public_sector_recruitment/latest/public_sector_recruitment_svolgimento procedura.png)
+![image info](public_sector_recruitment/latest/public_sector_recruitment_svolgimento_procedura.png)

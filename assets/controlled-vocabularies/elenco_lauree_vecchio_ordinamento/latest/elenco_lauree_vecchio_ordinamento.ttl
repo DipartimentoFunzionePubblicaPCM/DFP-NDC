@@ -1,0 +1,1832 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix ns5: <http://www.w3.org/ns/adms#> .
+@prefix ns6: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns8: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns9: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Individuals
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
+        <https://w3id.org/italia/onto/COV/PublicOrganization>,
+        ns6:Agent,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns2:identifier "dfp" ;
+    ns6:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns8:hasURL <https://github.com/DFPdati> .
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
+        ns8:Kind,
+        ns8:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns2:identifier "dfpDati" ;
+    ns6:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns8:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns8:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns8:hasURL <https://github.com/DFPdati> .
+
+### Annotations
+
+<https://w3id.org/italia/data/standard/SKOS> a <http://dati.gov.it/onto/dcatapit#Standard>,
+        ns2:Standard ;
+    ns2:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    ns2:identifier "SKOS" ;
+    ns2:title "Simple Knowledge Organization System - SKOS" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> a <http://dati.gov.it/onto/dcatapit#Dataset>,
+        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:ConceptScheme,
+        ns5:Asset ;
+    rdfs:label "Controlled vocabulary of the types of degrees under the old system"@en,
+        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns1:prefLabel "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    rdfs:comment "Controlled vocabulary of the types of degrees under the old system"@en,
+        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    owl:versionInfo "0.1" ;
+    rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/1>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/2>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/3>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/4>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/5>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/6>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/7>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/8>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/9>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/10>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/11>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/12>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/13>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/14>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/15>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/16>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/17>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/18>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/19>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/20>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/21>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/22>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/23>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/24>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/25>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/26>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/27>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/28>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/29>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/30>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/31>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/32>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/33>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/34>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/35>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/36>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/37>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/38>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/39>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/40>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/41>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/42>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/43>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/44>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/45>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/46>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/47>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/48>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/49>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/50>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/51>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/52>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/53>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/54>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/55>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/56>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/57>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/58>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/59>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/60>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/61>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/62>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/63>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/64>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/65>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/66>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/67>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/68>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/69>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/70>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/71>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/72>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/73>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/74>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/75>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/76>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/77>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/78>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/79>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/80>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/81>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/82>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/83>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/84>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/85>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/86>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/87>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/88>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/89>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/90>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/91>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/92>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/93>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/94>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/95>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/96>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/97>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/98>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/99>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/100>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/101>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/102>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/103>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/104>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/105>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/106>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/107>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/108>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/109>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/110>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/111>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/112>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/113>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/114>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/115>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/116>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/117>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/118>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/119>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/120>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/121>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/122>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/123>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/124>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/125>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/126>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/127>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/128>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/129>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/130>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/131>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/132>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/133>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/134>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/135>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/136>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/137>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/138>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/139>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/140>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/141>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/142>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/143> ;
+    ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    ns2:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
+    ns2:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:description "Controlled vocabulary of the types of degrees under the old system"@en,
+        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns2:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento" ;
+    ns2:issued "2026-02-26"^^xsd:date ;
+    ns2:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+    ns2:modified "2026-02-26"^^xsd:date ;
+    ns2:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns2:title "Controlled vocabulary of the types of degrees under the old system"@en,
+        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns2:type <http://purl.org/adms/assettype/CodeList> ;
+    ns4:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns4:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_CSV>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_JSON_LD>,
+        <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_RDF_TURTLE> ;
+    ns4:keyword "application recruitment procedure"@en,
+        "candidatura procedura reclutamento"@it,
+        "categoria di reclutamento"@it,
+        "citizen's curriculum vitae"@en,
+        "curriculum vitae del cittadino"@it,
+        "recruitment category"@en ;
+    ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns5:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+    ns7:keyConcept "elenco_lauree_vecchio_ordinamento" ;
+    ns9:numberOfLevels "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Architettura"@it ;
+    ns1:prefLabel "Architettura"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "1" ;
+    ns2:description "GEOM_LAUREATO; ARCHITETTURA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "1" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Astronomia"@it ;
+    ns1:prefLabel "Astronomia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "2" ;
+    ns2:description "ASTRONOMIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "2" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie agro-industriali"@it ;
+    ns1:prefLabel "Biotecnologie agro-industriali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "3" ;
+    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "3" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie farmaceutiche"@it ;
+    ns1:prefLabel "Biotecnologie farmaceutiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "4" ;
+    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns2:identifier "4" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "5" ;
+    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns2:identifier "5" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo Biotecnologie agrarie vegetali"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo Biotecnologie agrarie vegetali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "6" ;
+    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "6" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo Biotecnologie industriali"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo Biotecnologie industriali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "7" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "7" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo Biotecnologie mediche"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo Biotecnologie mediche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "8" ;
+    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "8" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo Biotecnologie veterinarie"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo Biotecnologie veterinarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "9" ;
+    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "9" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Chimica"@it ;
+    ns1:prefLabel "Chimica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "10" ;
+    ns2:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "10" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Chimica e Tecnologie Farmaceutiche o Chimica e tecnologia farmaceutiche"@it ;
+    ns1:prefLabel "Chimica e Tecnologie Farmaceutiche o Chimica e tecnologia farmaceutiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "11" ;
+    ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "11" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Chimica Industriale"@it ;
+    ns1:prefLabel "Chimica Industriale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "12" ;
+    ns2:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "12" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Comunicazione Internazionale"@it ;
+    ns1:prefLabel "Comunicazione Internazionale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "13" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "13" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Discipline economiche e sociali"@it ;
+    ns1:prefLabel "Discipline economiche e sociali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "14" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "14" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Disegno industriale"@it ;
+    ns1:prefLabel "Disegno industriale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "15" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "15" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia ambientale"@it ;
+    ns1:prefLabel "Economia ambientale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "16" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "16" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia assicurativa e previdenziale"@it ;
+    ns1:prefLabel "Economia assicurativa e previdenziale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "17" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "17" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia aziendale"@it ;
+    ns1:prefLabel "Economia aziendale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "18" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "18" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia bancaria"@it ;
+    ns1:prefLabel "Economia bancaria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "19" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "19" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia bancaria, finanziaria e assicurativa"@it ;
+    ns1:prefLabel "Economia bancaria, finanziaria e assicurativa"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "20" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "20" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia del commercio internazionale e dei mercati valutari"@it ;
+    ns1:prefLabel "Economia del commercio internazionale e dei mercati valutari"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "21" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "21" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia del turismo"@it ;
+    ns1:prefLabel "Economia del turismo"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "22" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "22" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia delle amministrazioni pubbliche e delle istituzioni internazionali"@it ;
+    ns1:prefLabel "Economia delle amministrazioni pubbliche e delle istituzioni internazionali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "23" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "23" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia delle istituzioni e dei mercati finanziari"@it ;
+    ns1:prefLabel "Economia delle istituzioni e dei mercati finanziari"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "24" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "24" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia e commercio"@it ;
+    ns1:prefLabel "Economia e commercio"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "25" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "25" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia e finanza"@it ;
+    ns1:prefLabel "Economia e finanza"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "26" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "26" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia e gestione dei servizi"@it ;
+    ns1:prefLabel "Economia e gestione dei servizi"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "27" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "27" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia e legislazione per l’impresa"@it ;
+    ns1:prefLabel "Economia e legislazione per l’impresa"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "28" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "28" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia industriale"@it ;
+    ns1:prefLabel "Economia industriale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "29" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "29" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/30> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia marittima e dei trasporti"@it ;
+    ns1:prefLabel "Economia marittima e dei trasporti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "30" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "30" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/31> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia per le arti, la cultura e la comunicazione"@it ;
+    ns1:prefLabel "Economia per le arti, la cultura e la comunicazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "31" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "31" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/32> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Economia politica"@it ;
+    ns1:prefLabel "Economia politica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "32" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "32" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/33> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Farmacia"@it ;
+    ns1:prefLabel "Farmacia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "33" ;
+    ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "33" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/34> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Filologia e storia dell'Europa Orientale"@it ;
+    ns1:prefLabel "Filologia e storia dell'Europa Orientale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "34" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "34" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/35> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Filologie, storia e cultura dei paesi islamici"@it ;
+    ns1:prefLabel "Filologie, storia e cultura dei paesi islamici"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "35" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "35" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/36> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Filosofia"@it ;
+    ns1:prefLabel "Filosofia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "36" ;
+    ns2:description "FILOSOFIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "36" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/37> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Fisica"@it ;
+    ns1:prefLabel "Fisica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "37" ;
+    ns2:description "FISICA; DIR_FISICO; RUOLI_SANITARI_2; FISICA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "37" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/38> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Geografia"@it ;
+    ns1:prefLabel "Geografia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "38" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "38" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/39> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Giurisprudenza"@it ;
+    ns1:prefLabel "Giurisprudenza"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "39" ;
+    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "39" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/40> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Informatica"@it ;
+    ns1:prefLabel "Informatica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "40" ;
+    ns2:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "40" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/41> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria aerospaziale"@it ;
+    ns1:prefLabel "Ingegneria aerospaziale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "41" ;
+    ns2:description "INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "41" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/42> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria biomedica"@it ;
+    ns1:prefLabel "Ingegneria biomedica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "42" ;
+    ns2:description "INGEGNERIA; ING_BIOMEDICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "42" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/43> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria chimica"@it ;
+    ns1:prefLabel "Ingegneria chimica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "43" ;
+    ns2:description "INGEGNERIA; ING_CHIMICA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "43" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/44> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria civile"@it ;
+    ns1:prefLabel "Ingegneria civile"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "44" ;
+    ns2:description "ING_CIVILE; INGEGNERIA; GEOM_LAUREATO; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "44" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/45> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria dei materiali"@it ;
+    ns1:prefLabel "Ingegneria dei materiali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "45" ;
+    ns2:description "INGEGNERIA; ING_MAT; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "45" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/46> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria delle telecomunicazioni"@it ;
+    ns1:prefLabel "Ingegneria delle telecomunicazioni"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "46" ;
+    ns2:description "ING_TELECOMUNICAZIONI; INGEGNERIA; CTP_ING_INF; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "46" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/47> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria edile"@it ;
+    ns1:prefLabel "Ingegneria edile"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "47" ;
+    ns2:description "ING_EDILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "47" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/48> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria edile - Architettura"@it ;
+    ns1:prefLabel "Ingegneria edile - Architettura"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "48" ;
+    ns2:description "ING_EDILE_ARCHITETT; GEOM_LAUREATO; INGEGNERIA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "48" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/49> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria elettrica"@it ;
+    ns1:prefLabel "Ingegneria elettrica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "49" ;
+    ns2:description "ING_ELETTRICA; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "49" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/50> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria elettronica"@it ;
+    ns1:prefLabel "Ingegneria elettronica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "50" ;
+    ns2:description "ING_ELETTRONICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "50" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/51> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria gestionale"@it ;
+    ns1:prefLabel "Ingegneria gestionale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "51" ;
+    ns2:description "ING_GESTIONALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "51" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/52> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria industriale"@it ;
+    ns1:prefLabel "Ingegneria industriale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "52" ;
+    ns2:description "ING_INDUSTRIALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "52" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/53> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria informatica"@it ;
+    ns1:prefLabel "Ingegneria informatica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "53" ;
+    ns2:description "ING_INFORMATICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "53" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/54> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria meccanica"@it ;
+    ns1:prefLabel "Ingegneria meccanica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "54" ;
+    ns2:description "ING_MECCANICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "54" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/55> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria medica"@it ;
+    ns1:prefLabel "Ingegneria medica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "55" ;
+    ns2:description "INGEGNERIA; ING_MEDICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "55" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/56> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria navale"@it ;
+    ns1:prefLabel "Ingegneria navale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "56" ;
+    ns2:description "INGEGNERIA; ING_INDUSTRIALE; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "56" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/57> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria nucleare"@it ;
+    ns1:prefLabel "Ingegneria nucleare"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "57" ;
+    ns2:description "INGEGNERIA; ING_NUCLEARE; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "57" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/58> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria per l’ambiente e il territorio"@it ;
+    ns1:prefLabel "Ingegneria per l’ambiente e il territorio"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "58" ;
+    ns2:description "GEOM_LAUREATO; INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "58" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/59> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lettere"@it ;
+    ns1:prefLabel "Lettere"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "59" ;
+    ns2:description "LETTERE; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "59" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/60> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingua e cultura italiana"@it ;
+    ns1:prefLabel "Lingua e cultura italiana"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "60" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "60" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/61> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue e civiltà orientali"@it ;
+    ns1:prefLabel "Lingue e civiltà orientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "61" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "61" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/62> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue e culture dell’Europa Orientale"@it ;
+    ns1:prefLabel "Lingue e culture dell’Europa Orientale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "62" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "62" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/63> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue e culture europee"@it ;
+    ns1:prefLabel "Lingue e culture europee"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "63" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "63" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/64> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue e letterature orientali"@it ;
+    ns1:prefLabel "Lingue e letterature orientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "64" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "64" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/65> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue e letterature straniere"@it ;
+    ns1:prefLabel "Lingue e letterature straniere"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "65" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "65" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/66> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Lingue, culture ed istituzioni dei paesi del Mediterraneo"@it ;
+    ns1:prefLabel "Lingue, culture ed istituzioni dei paesi del Mediterraneo"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "66" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "66" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/67> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Marketing"@it ;
+    ns1:prefLabel "Marketing"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "67" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "67" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/68> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Matematica"@it ;
+    ns1:prefLabel "Matematica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "68" ;
+    ns2:description "MATEMATICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "68" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/69> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Materie letterarie"@it ;
+    ns1:prefLabel "Materie letterarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "69" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "69" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/70> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Medicina e Chirurgia"@it ;
+    ns1:prefLabel "Medicina e Chirurgia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "70" ;
+    ns2:description "MEDICINA; MEDICINA_CHIRURGIA; LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
+    ns2:identifier "70" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/71> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Medicina veterinaria"@it ;
+    ns1:prefLabel "Medicina veterinaria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "71" ;
+    ns2:description "MEDICINA_VETERINARIA; RUOLI_SANITARI_2;  " ;
+    ns2:identifier "71" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/72> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Musicologia"@it ;
+    ns1:prefLabel "Musicologia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "72" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "72" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/73> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Odontoiatria e protesi dentaria"@it ;
+    ns1:prefLabel "Odontoiatria e protesi dentaria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "73" ;
+    ns2:description "LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
+    ns2:identifier "73" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/74> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Pedagogia"@it ;
+    ns1:prefLabel "Pedagogia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "74" ;
+    ns2:description "AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "74" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/75> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Pianificazione territoriale e urbanistica"@it ;
+    ns1:prefLabel "Pianificazione territoriale e urbanistica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "75" ;
+    ns2:description "GEOM_LAUREATO; ARCHITETTURA; PIAN_TERR_URB; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "75" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/76> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Pianificazione territoriale, urbanistica e ambientale"@it ;
+    ns1:prefLabel "Pianificazione territoriale, urbanistica e ambientale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "76" ;
+    ns2:description "GEOM_LAUREATO; ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "76" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/77> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Politica del territorio"@it ;
+    ns1:prefLabel "Politica del territorio"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "77" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "77" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/78> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Psicologia"@it ;
+    ns1:prefLabel "Psicologia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "78" ;
+    ns2:description "PSICOLOGIA; RUOLI_SANITARI_2; AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "78" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/79> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Relazioni pubbliche"@it ;
+    ns1:prefLabel "Relazioni pubbliche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "79" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "79" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/80> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienza dei materiali"@it ;
+    ns1:prefLabel "Scienza dei materiali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "80" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "80" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/81> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze agrarie"@it ;
+    ns1:prefLabel "Scienze agrarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "81" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "81" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/82> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze agrarie tropicali e subtropicali"@it ;
+    ns1:prefLabel "Scienze agrarie tropicali e subtropicali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "82" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "82" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/83> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze ambientali"@it ;
+    ns1:prefLabel "Scienze ambientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "83" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "83" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/84> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze biologiche"@it ;
+    ns1:prefLabel "Scienze biologiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "84" ;
+    ns2:description "BIOLOGIA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "84" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/85> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze dell’amministrazione"@it ;
+    ns1:prefLabel "Scienze dell’amministrazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "85" ;
+    ns2:description """SCIENZE_POLITICHE; GIURISPRUDENZA; COLL_AMM_INTERNAZ;
+COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" ;
+    ns2:identifier "85" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/86> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze dell’educazione"@it ;
+    ns1:prefLabel "Scienze dell’educazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "86" ;
+    ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "86" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/87> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze dell’informazione"@it ;
+    ns1:prefLabel "Scienze dell’informazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "87" ;
+    ns2:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "87" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/88> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze della comunicazione"@it ;
+    ns1:prefLabel "Scienze della comunicazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "88" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_COMUNICAZIONE; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "88" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/89> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze della cultura"@it ;
+    ns1:prefLabel "Scienze della cultura"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "89" ;
+    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "89" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/90> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze della formazione primaria"@it ;
+    ns1:prefLabel "Scienze della formazione primaria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "90" ;
+    ns2:description "AREA_SOCIO_PSICO; MAECI_DIR;" ;
+    ns2:identifier "90" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/91> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze delle produzioni animali"@it ;
+    ns1:prefLabel "Scienze delle produzioni animali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "91" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "91" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/92> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze della programmazione sanitaria"@it ;
+    ns1:prefLabel "Scienze della programmazione sanitaria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "92" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "92" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/93> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze e tecniche dell’interculturalità"@it ;
+    ns1:prefLabel "Scienze e tecniche dell’interculturalità"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "93" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "93" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/94> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze e tecnologie agrarie"@it ;
+    ns1:prefLabel "Scienze e tecnologie agrarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "94" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "94" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/95> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze e tecnologie alimentari"@it ;
+    ns1:prefLabel "Scienze e tecnologie alimentari"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "95" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "95" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/96> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze e tecnologie delle produzioni animali"@it ;
+    ns1:prefLabel "Scienze e tecnologie delle produzioni animali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "96" ;
+    ns2:description "MAECI_DIR;" ;
+    ns2:identifier "96" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/97> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze economiche, statistiche e sociali"@it ;
+    ns1:prefLabel "Scienze economiche, statistiche e sociali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "97" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; STATISTICA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "97" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/98> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze forestali - Scienze forestali e ambientali"@it ;
+    ns1:prefLabel "Scienze forestali - Scienze forestali e ambientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "98" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "98" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/99> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze geologiche"@it ;
+    ns1:prefLabel "Scienze geologiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "99" ;
+    ns2:description "GEOLOGIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "99" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/100> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze internazionali e diplomatiche"@it ;
+    ns1:prefLabel "Scienze internazionali e diplomatiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "100" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "100" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/101> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze motorie"@it ;
+    ns1:prefLabel "Scienze motorie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "101" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "101" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/102> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze naturali"@it ;
+    ns1:prefLabel "Scienze naturali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "102" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "102" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/103> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze nautiche"@it ;
+    ns1:prefLabel "Scienze nautiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "103" ;
+    ns2:description "MATEMATICA; FISICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "103" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/104> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze politiche"@it ;
+    ns1:prefLabel "Scienze politiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "104" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "104" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/105> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze statistiche demografiche e sociali"@it ;
+    ns1:prefLabel "Scienze statistiche demografiche e sociali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "105" ;
+    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "105" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/106> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze statistiche ed attuariali"@it ;
+    ns1:prefLabel "Scienze statistiche ed attuariali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "106" ;
+    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "106" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/107> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze statistiche ed economiche"@it ;
+    ns1:prefLabel "Scienze statistiche ed economiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "107" ;
+    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "107" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/108> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze strategiche"@it ;
+    ns1:prefLabel "Scienze strategiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "108" ;
+    ns2:description "SCIENZE_STRATEGICHE; MAECI_DIR;" ;
+    ns2:identifier "108" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/109> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze turistiche"@it ;
+    ns1:prefLabel "Scienze turistiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "109" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "109" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/110> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Servizio sociale"@it ;
+    ns1:prefLabel "Servizio sociale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "110" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "110" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/111> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Sociologia"@it ;
+    ns1:prefLabel "Sociologia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "111" ;
+    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_SOCIO_PSICO; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "111" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/112> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Statistica"@it ;
+    ns1:prefLabel "Statistica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "112" ;
+    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "112" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/113> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Statistica e informatica per l’azienda"@it ;
+    ns1:prefLabel "Statistica e informatica per l’azienda"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "113" ;
+    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "113" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/114> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Storia"@it ;
+    ns1:prefLabel "Storia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "114" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "114" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/115> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Storia e conservazione dei beni architettonici e ambientali"@it ;
+    ns1:prefLabel "Storia e conservazione dei beni architettonici e ambientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "115" ;
+    ns2:description "ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "115" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/116> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Storia e conservazione dei beni culturali"@it ;
+    ns1:prefLabel "Storia e conservazione dei beni culturali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "116" ;
+    ns2:description "BENI_CULTURALI; LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "116" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/117> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Studi comparatistici"@it ;
+    ns1:prefLabel "Studi comparatistici"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "117" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "117" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/118> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Traduzione ed interpretazione"@it ;
+    ns1:prefLabel "Traduzione ed interpretazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "118" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "118" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/119> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Urbanistica"@it ;
+    ns1:prefLabel "Urbanistica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "119" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "119" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/120> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie"@it ;
+    ns1:prefLabel "Biotecnologie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "120" ;
+    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns2:identifier "120" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/121> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Commercio internazionale e mercati valutari"@it ;
+    ns1:prefLabel "Commercio internazionale e mercati valutari"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "121" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "121" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/122> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Conservazione dei Beni Culturali"@it ;
+    ns1:prefLabel "Conservazione dei Beni Culturali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "122" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "122" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/123> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
+    ns1:prefLabel "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "123" ;
+    ns2:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
+    ns2:identifier "123" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/124> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria forestale"@it ;
+    ns1:prefLabel "Ingegneria forestale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "124" ;
+    ns2:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns2:identifier "124" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/125> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria idraulica"@it ;
+    ns1:prefLabel "Ingegneria idraulica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "125" ;
+    ns2:description "INGEGNERIA; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns2:identifier "125" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/126> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria mineraria"@it ;
+    ns1:prefLabel "Ingegneria mineraria"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "126" ;
+    ns2:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns2:identifier "126" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/127> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze bancarie e assicurative"@it ;
+    ns1:prefLabel "Scienze bancarie e assicurative"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "127" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "127" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/128> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze delle preparazioni alimentari"@it ;
+    ns1:prefLabel "Scienze delle preparazioni alimentari"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "128" ;
+    ns2:description "MAECI_DIR;" ;
+    ns2:identifier "128" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/129> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze economiche"@it ;
+    ns1:prefLabel "Scienze economiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "129" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "129" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/130> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze economiche e bancarie"@it ;
+    ns1:prefLabel "Scienze economiche e bancarie"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "130" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "130" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/131> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze economiche e sociali"@it ;
+    ns1:prefLabel "Scienze economiche e sociali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "131" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "131" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/132> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze economico - marittime"@it ;
+    ns1:prefLabel "Scienze economico - marittime"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "132" ;
+    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns2:identifier "132" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/133> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Scienze statistiche e demografiche"@it ;
+    ns1:prefLabel "Scienze statistiche e demografiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "133" ;
+    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; MAECI_DIR;" ;
+    ns2:identifier "133" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/134> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
+    ns1:prefLabel "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "134" ;
+    ns2:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
+    ns2:identifier "134" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/135> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Teologia"@it ;
+    ns1:prefLabel "Teologia"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "135" ;
+    ns2:description "MAECI_DIR;" ;
+    ns2:identifier "135" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/136> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Discipline delle Arti, della Musica e dello Spettacolo"@it ;
+    ns1:prefLabel "Discipline delle Arti, della Musica e dello Spettacolo"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "136" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "136" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/137> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma di Conservatorio (V.O.) (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:prefLabel "Diploma di Conservatorio (V.O.) (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "137" ;
+    ns2:identifier "137" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/138> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma dell'Accademia Nazionale di Danza (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:prefLabel "Diploma dell'Accademia Nazionale di Danza (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "138" ;
+    ns2:identifier "138" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/139> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma rilasciato da Istituti Musicali Pareggiati (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:prefLabel "Diploma rilasciato da Istituti Musicali Pareggiati (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "139" ;
+    ns2:identifier "139" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/140> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma di Istituto Superiore delle Industrie Artistiche (ISIA) (V.O.) "@it ;
+    ns1:prefLabel "Diploma di Istituto Superiore delle Industrie Artistiche (ISIA) (V.O.) "@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "140" ;
+    ns2:identifier "140" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/141> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma di Accademia di Belle Arti (V.O.)"@it ;
+    ns1:prefLabel "Diploma di Accademia di Belle Arti (V.O.)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "141" ;
+    ns2:identifier "141" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/142> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Diploma dell'Accademia Nazionale di Arte Drammatica (V.O.)"@it ;
+    ns1:prefLabel "Diploma dell'Accademia Nazionale di Arte Drammatica (V.O.)"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "142" ;
+    ns2:identifier "142" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/143> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
+        ns1:Concept ;
+    rdfs:label "Biotecnologie indirizzo Biotecnologie Farmaceutiche"@it ;
+    ns1:prefLabel "Biotecnologie indirizzo Biotecnologie Farmaceutiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
+    ns1:notation "143" ;
+    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns2:identifier "143" ;
+    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns3:hasRankOrder "1" .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the types of degrees under the old system CSV distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the types of degrees under the old system CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.csv> .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the types of degrees under the old system JSON_LD distribution"@en,
+        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the types of degrees under the old system JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.json> .
+
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
+        ns4:Distribution ;
+    ns2:description "Controlled vocabulary of the types of degrees under the old system RDF/turtle distribution"@en,
+        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns2:title "Controlled vocabulary of the types of degrees under the old system RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.ttl> .
+
+### Serialized using the ttlser deterministic serializer v1.2.0
