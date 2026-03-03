@@ -1,0 +1,2513 @@
+@prefix adms: <https://w3id.org/italia/onto/ADMS/> .
+@prefix CLV: <https://w3id.org/italia/onto/CLV/> .
+@prefix COV: <https://w3id.org/italia/onto/COV/> .
+@prefix CPV: <https://w3id.org/italia/onto/CPV/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix L0: <https://w3id.org/italia/onto/l0/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pa-recruit: <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix RO: <https://w3id.org/italia/onto/RO/> .
+@prefix RPO: <https://w3id.org/italia/onto/RPO/> .
+@prefix SM: <https://w3id.org/italia/onto/SM/> .
+@prefix TI: <https://w3id.org/italia/onto/TI/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pa-recruit: a owl:Ontology ;
+    owl:versionIRI pa-recruit:1.0 ;
+    owl:imports CLV:,
+        COV:,
+        CPV:,
+        L0:,
+        RO:,
+        RPO:,
+        SM:,
+        TI: ;
+    rdfs:label "inPA Recruitment Portal Ontology"@en,
+        "Ontologia del Dipartimento della Funzione Pubblica"@it ;
+    rdfs:comment "Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
+        "The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal"@en ;
+    owl:versionInfo "Version 1.0 - Modified 02 March 2026"@en,
+        "Versione 1.0 - Modificata il 2 Marzo 2026"@it ;
+    rdfs:isDefinedBy pa-recruit: ;
+    adms:acronym "dfp" ;
+    adms:hasContributor <https://w3id.org/italia/data/organization/public-organization/td> ;
+    adms:hasFormalityLevel adms:Formal ;
+    adms:hasKeyClass pa-recruit:CandidaturaProceduraReclutamento,
+        pa-recruit:CategoriaDiReclutamento,
+        pa-recruit:CurriculumVitae,
+        pa-recruit:PubblicazioneDiReclutamentoPA,
+        pa-recruit:SessioneDiEsame ;
+    adms:hasOntologyLanguage adms:OWL ;
+    adms:hasSemanticAssetDistribution <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES>,
+        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE>,
+        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> ;
+    adms:hasTask adms:AnnotationTask,
+        adms:QueryFormulationTask,
+        adms:SearchTask ;
+    adms:last pa-recruit:1.0 ;
+    adms:officialURI "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment"^^xsd:anyURI ;
+    adms:prefix "pa-recruit" ;
+    adms:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ;
+    adms:status "draft" ;
+    adms:target "Cittadini"@it,
+        "Imprese"@it,
+        "Pubbliche Amministrazioni"@it ;
+    adms:type adms:ServiceOnytology ;
+    dcat:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    dcat:keyword "Candidatura Procedura Reclutamento"@it,
+        "Categoria Di Reclutamento"@it,
+        "Curriculum Vitae"@it,
+        "Sessione Di Esame"@it ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dct:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    dct:description "Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
+        "The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal."@en ;
+    dct:identifier "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment" ;
+    dct:issued "2026-03-02T00:00:00+00:00"^^xsd:dateTime ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+        <http://publications.europa.eu/resource/authority/language/ITA> ;
+    dct:modified "2026-03-02T00:00:00+00:00"^^xsd:dateTime ;
+    dct:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    dct:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    dct:title "inPA Recruitment Portal Ontology"@en,
+        "Ontologia del Dipartimento della Funzione Pubblica"@it .
+
+### Object Properties
+
+CLV:hasAddress a owl:ObjectProperty .
+
+CLV:hasLowerRank a owl:ObjectProperty .
+
+pa-recruit:haAllegatoCandidatura a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha allegato candidatura"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:AllegatoCandidatura ;
+    rdfs:comment "Specifica che una candidatura per una procedura di reclutamento ha un allegato associato."@it .
+
+pa-recruit:haAllegatoPubblicazioneReclutamento a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha allegato pubblicazione reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:AllegatoPubblicazioneReclutamento ;
+    rdfs:comment "Indica che una pubblicazione di reclutamento ha un allegato associato."@it .
+
+pa-recruit:haAreaDiReclutamento a owl:ObjectProperty ;
+    rdfs:label "ha area di reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:AreaGeografica ;
+    rdfs:comment "Indica l'area geografica a cui è dedicata la procedura di reclutamento."@it .
+
+pa-recruit:haAreaScientificaDottorato a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha area scientifica dottorato"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:DescrittoreGenerico ;
+    rdfs:comment "Collega una qualifica accademica a un'area scientifica specifica di dottorato."@it .
+
+pa-recruit:haAttivitàDiInsegnamento a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha attività di insegnamento"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:AttivitàDiInsegnamento ;
+    rdfs:comment "Indica che un candidato ha svolto attività di insegnamento."@it .
+
+pa-recruit:haAutoritàDiEmissione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha autorità di emissione"@it ;
+    rdfs:domain pa-recruit:AttoDiEquiparazioneQualificaEstera ;
+    rdfs:range COV:PublicOrganization ;
+    rdfs:comment "Lega un atto di equiparazione qualifica estera all'istituzione pubblica che lo ha emesso."@it .
+
+pa-recruit:haCandidato a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha candidato"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range CPV:Alive ;
+    rdfs:comment "Lega una candidatura alla persona che si è candidata."@it .
+
+pa-recruit:haCategoriaDellaCompetenza a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha categoria della competenza"@it ;
+    rdfs:domain pa-recruit:DescrittoreCompetenza ;
+    rdfs:range pa-recruit:CategoriaDellaCompetenza ;
+    rdfs:comment "Lega un descrittore di competenza alla sua categoria"@it .
+
+pa-recruit:haCategoriaDiReclutamento a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha categoria di reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:CategoriaDiReclutamento ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a una categoria specifica di reclutamento."@it .
+
+pa-recruit:haCategoriaPatenteDiGuida a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha categoria patente di guida"@it ;
+    rdfs:domain pa-recruit:PatenteDiGuida ;
+    rdfs:range pa-recruit:CategoriaPatenteDiGuida ;
+    rdfs:comment "Lega una patente di guida alla relativa categoria."@it .
+
+pa-recruit:haCicloDiDottorato a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha ciclo di dottorato"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:DescrittoreGenerico ;
+    rdfs:comment "Collega una qualifica accademica a un ciclo di dottorato specifico."@it .
+
+pa-recruit:haCompetenzaAccademica a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza accademica"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:DescrittoreCompetenza ;
+    rdfs:comment "Indica che una qualifica accademica è associata a una specifica competenza."@it .
+
+pa-recruit:haCompetenzaEsperienzaGenerica a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza esperienza generica"@it ;
+    rdfs:domain pa-recruit:EsperienzaGenerica ;
+    rdfs:range pa-recruit:DescrittoreCompetenza ;
+    rdfs:comment "Indica che ad un'esperienza generica è associata a una competenza."@it .
+
+pa-recruit:haCompetenzaEsperienzaLavorativa a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza esperienza lavorativa"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range pa-recruit:DescrittoreCompetenza ;
+    rdfs:comment "Collega un'esperienza lavorativa a una competenza specifica."@it .
+
+pa-recruit:haCompetenzaExtracurriculare a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza extracurriculare"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:DescrittoreCompetenza ;
+    rdfs:comment "Indica che un candidato ha competenze acquisite in attività extracurricolari."@it .
+
+pa-recruit:haCompetenzaLinguistica a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza linguistica"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:CompetenzaLinguistica ;
+    rdfs:comment "Indica che un candidato possiede una competenza linguistica specifica."@it .
+
+pa-recruit:haCompetenzaPubblicazione a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha competenza pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range pa-recruit:DescrittoreCompetenza ;
+    rdfs:comment "Collega una pubblicazione accademica a una competenza specifica."@it .
+
+pa-recruit:haConsuntivoDiProcedura a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha consuntivo di procedura"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:ConsuntivoDiProcedura ;
+    rdfs:comment "Lega una pubblicazione di procedura di reclutamento alle informazioni di consuntivazione."@it .
+
+pa-recruit:haCurriculumVitae a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha curriculum vitae"@it ;
+    rdfs:domain CPV:Alive ;
+    rdfs:range pa-recruit:CurriculumVitae ;
+    rdfs:comment "Lega un candidato ad un suo curriculum vitae."@it .
+
+pa-recruit:haCurriculumVitaeDiCandidatura a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha curriculum vitae di candidatura"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:CurriculumVitae ;
+    rdfs:comment "Lega una candidatura al curriculum vitae in essa presentato."@it .
+
+pa-recruit:haDatoreDiLavoro a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha datore di lavoro"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range COV:Organization ;
+    rdfs:comment "Lega una esperienza lavorativa al datore di lavoro presso cui è stata svolta."@it .
+
+pa-recruit:haDescrittoreRuolo a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha descrittore ruolo"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range pa-recruit:DescrittoreRuolo ;
+    rdfs:comment "Collega un'esperienza lavorativa a un descrittore del ruolo svolto in quella specifica esperienza."@it .
+
+pa-recruit:haElementoStatistico a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha elemento statistico"@it ;
+    rdfs:domain pa-recruit:SerieStatistica ;
+    rdfs:range pa-recruit:ElementoStatistico ;
+    rdfs:comment "Collega una serie statistica a un elemento statistico specifico."@it .
+
+pa-recruit:haEntePubblicoCoinvolto a owl:ObjectProperty ;
+    rdfs:label "ha ente pubblico coinvolto"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range COV:PublicOrganization ;
+    rdfs:comment "Indica l'ente pubblico coinvolto in una procedura di reclutamento pubblicata."@it .
+
+pa-recruit:haEsameDiSelezione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esame di selezione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:EsameDiSelezione ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a un esame di selezione specifico."@it .
+
+pa-recruit:haEsitoPartecipazioneSessioneDiEsame a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esito partecipazione sessione di esame"@it ;
+    rdfs:domain pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:range pa-recruit:EsitoPartecipazioneSessioneDiEsame ;
+    rdfs:comment "Lega un partecipante alla sessione di esame al relativo esito."@it .
+
+pa-recruit:haEsperienzaDiFormazione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esperienza di formazione"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:EsperienzaDiFormazione ;
+    rdfs:comment "Collega un candidato a una specifica esperienza di formazione."@it .
+
+pa-recruit:haEsperienzaDiInsegnamento a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esperienza di insegnamento"@it ;
+    rdfs:domain pa-recruit:AttivitàDiInsegnamento ;
+    rdfs:range pa-recruit:EsperienzaGenerica ;
+    rdfs:comment "Lega una attività di insegnamento al suo descrittore."@it .
+
+pa-recruit:haEsperienzaGenerica a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esperienza generica"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:EsperienzaGenerica ;
+    rdfs:comment "Indica che un candidato ha maturato un'esperienza di tipo generico."@it .
+
+pa-recruit:haEsperienzaInDottorato a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esperienza in dottorato"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:DescrittoreGenerico ;
+    rdfs:comment "Collega una qualifica accademica a un'esperienza specifica di dottorato."@it .
+
+pa-recruit:haEsperienzaLavorativa a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha esperienza lavorativa"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:EsperienzaLavorativa ;
+    rdfs:comment "Collega un candidato a un'esperienza lavorativa specifica."@it .
+
+pa-recruit:haEventoDiFormazione a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha evento di formazione"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range pa-recruit:EventoDiFormazione ;
+    rdfs:comment "Collega una esperienza di formazione all'evento di formazione in cui è stata conseguita."@it .
+
+pa-recruit:haGradoDiCompetenzaLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di competenza lingua"@it ;
+    rdfs:domain pa-recruit:CompetenzaLinguistica ;
+    rdfs:range pa-recruit:GradoDiCompetenzaLingua ;
+    rdfs:comment "Lega una competenza linguistica al suo grado."@it .
+
+pa-recruit:haGradoDiComprensioneLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di comprensione lingua"@it ;
+    rdfs:subPropertyOf pa-recruit:haGradoDiCompetenzaLingua ;
+    rdfs:comment "Sotto proprietà che lega una competenza linguistica di comprensione al suo grado."@it .
+
+pa-recruit:haGradoDiConversazioneLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di conversazione lingua"@it ;
+    rdfs:subPropertyOf pa-recruit:haGradoDiCompetenzaLingua ;
+    rdfs:comment "Sotto proprietà che lega una competenza linguistica di conversazione al suo grado."@it .
+
+pa-recruit:haGradoDiLetturaLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di lettura lingua"@it ;
+    rdfs:subPropertyOf pa-recruit:haGradoDiCompetenzaLingua ;
+    rdfs:comment "Sotto proprietà che lega una competenza linguistica di lettura al suo grado."@it .
+
+pa-recruit:haGradoDiParlatoLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di parlato lingua"@it ;
+    rdfs:subPropertyOf pa-recruit:haGradoDiCompetenzaLingua ;
+    rdfs:comment "Sotto proprietà che lega una competenza linguistica di lingua parlata al suo grado."@it .
+
+pa-recruit:haGradoDiScritturaLingua a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha grado di scrittura lingua"@it ;
+    rdfs:subPropertyOf pa-recruit:haGradoDiCompetenzaLingua ;
+    rdfs:comment "Sotto proprietà che lega una competenza linguistica di scrittura al suo grado."@it .
+
+pa-recruit:haInformazioneAggiuntiva a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha informazione aggiuntiva"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:InformazioneAggiuntiva ;
+    rdfs:comment "Indica che una candidatura ha una informazione aggiuntiva associata."@it .
+
+pa-recruit:haIntervalloSalariale a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha intervallo salariale"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:IntervalloSalariale ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a un intervallo salariale specifico per la posizione prevista dalla procedura."@it .
+
+pa-recruit:haIstitutoDiFormazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha istituto di formazione"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range COV:Organization ;
+    rdfs:comment "Lega una esperienza di formazione all'istituto o organizzazione che l'ha erogata."@it .
+
+pa-recruit:haIstitutodiInsegnamento a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha istituto di insegnamento"@it ;
+    rdfs:domain pa-recruit:AttivitàDiInsegnamento ;
+    rdfs:range COV:Organization ;
+    rdfs:comment "Lega una esperienza di insegnamento all'istituto o organizzazione presso cui è stata svolta."@it .
+
+pa-recruit:haLinguaDiCompetenza a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha lingua di competenza"@it ;
+    rdfs:domain pa-recruit:CompetenzaLinguistica ;
+    rdfs:range pa-recruit:DescrittoreLingua ;
+    rdfs:comment "Collega una competenza linguistica a una lingua specifica."@it .
+
+pa-recruit:haLivelloDiPubblicazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha livello di pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range pa-recruit:LivelloDiPubblicazione ;
+    rdfs:comment "Lega una pubblicazione accademica al suo livello."@it .
+
+pa-recruit:haModalitàDiValutazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha modalità di valutazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:ModalitàDiValutazione ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a una modalità di valutazione specifica."@it .
+
+pa-recruit:haPagamentoTassaIscrizione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha pagamento tassa iscrizione"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:TassaIscrizione ;
+    rdfs:comment "Indica che una candidatura ha un pagamento di tassa di iscrizione associato."@it .
+
+pa-recruit:haPartecipanteSessioneDiEsame a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha partecipante sessione di esame"@it ;
+    rdfs:domain pa-recruit:SessioneDiEsame ;
+    rdfs:range pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:comment "Collega una sessione di esame a un partecipante alla sessione."@it .
+
+pa-recruit:haPatenteDiGuida a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha patente di guida"@it ;
+    rdfs:domain CPV:Alive ;
+    rdfs:range pa-recruit:PatenteDiGuida ;
+    rdfs:comment "Lega una persona alle patenti di guida conseguite."@it .
+
+pa-recruit:haPeriodoDiValiditàPatenteDiGuida a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha periodo di validità patente di guida"@it ;
+    rdfs:domain pa-recruit:PatenteDiGuida ;
+    rdfs:range pa-recruit:PeriodoDiValiditàPatenteDiGuida ;
+    rdfs:comment "Lega una patente di guida ai suoi periodi di validità nel tempo."@it .
+
+pa-recruit:haPreferenzaAggiuntiva a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha preferenza aggiuntiva"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:PreferenzaAggiuntiva ;
+    rdfs:comment "Indica che una candidatura ha una preferenza aggiuntiva associata."@it .
+
+pa-recruit:haPreferenzaAmbito a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha preferenza ambito"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:PreferenzaAmbito ;
+    rdfs:comment "Indica che una candidatura ha una preferenza per un ambito specifico."@it .
+
+pa-recruit:haPreferenzaLuogoDiLavoro a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha preferenza luogo di lavoro"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:PreferenzaLuogoDiLavoro ;
+    rdfs:comment "Indica che una candidatura ha una preferenza per un luogo di lavoro specifico."@it .
+
+pa-recruit:haProceduraReclutamentoDiCandidatura a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha procedura reclutamento di candidatura"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:comment "Collega una candidatura alla relativa procedura di reclutamento pubblicata."@it .
+
+pa-recruit:haProprietàDellaCandidatura a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha proprietà della candidatura"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:InformazioneAggiuntiva
+                    pa-recruit:PreferenzaAggiuntiva ) ] ;
+    rdfs:range pa-recruit:ProprietàDellaCandidatura ;
+    rdfs:comment "Lega una preferenza o informazione aggiuntiva alla proprietà che la descrive."@it .
+
+pa-recruit:haProvvedimentoIncaricoEstero a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha provvedimento incarico estero"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativaPA ;
+    rdfs:range pa-recruit:ProvvedimentoIncaricoEstero ;
+    rdfs:comment "Lega una esperienza lavorativa nella PA ad un provvedimento di incarico all'estero."@it .
+
+pa-recruit:haPubblicazioneAccademica a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha pubblicazione accademica"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:PubblicazioneAccademica ;
+    rdfs:comment "Indica che un candidato ha una pubblicazione accademica associata."@it .
+
+pa-recruit:haQualificaAccademica a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha qualifica accademica"@it ;
+    rdfs:domain pa-recruit:CurriculumVitae ;
+    rdfs:range pa-recruit:QualificaAccademica ;
+    rdfs:comment "Indica che un candidato ha una qualifica accademica specifica."@it .
+
+pa-recruit:haRegolaDiAmmissioneProcedura a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha regola di ammissione procedura"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:RegolaDiAmmissioneProcedura ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a una regola di ammissione specifica."@it .
+
+pa-recruit:haRegolaInValorizzazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha regola in valorizzazione"@it ;
+    rdfs:domain pa-recruit:ValorizzazioneRegolaAmmissione ;
+    rdfs:range pa-recruit:RegolaDiAmmissioneProcedura ;
+    rdfs:comment "Collega una valorizzazione di una regola di ammissione alla regola stessa."@it .
+
+pa-recruit:haRequisitoDiReclutamento a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha requisito di reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:RequisitoDiPartecipazione ;
+    rdfs:comment "Indica che una pubblicazione di reclutamento ha un requisito di partecipazione associato."@it .
+
+pa-recruit:haRequisitoInValorizzazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha requisito in valorizzazione"@it ;
+    rdfs:domain pa-recruit:ValorizzazioneRequisitoDiPartecipazione ;
+    rdfs:range pa-recruit:RequisitoDiPartecipazione ;
+    rdfs:comment "Collega una valorizzazione di un requisito di partecipazione al requisito stesso."@it .
+
+pa-recruit:haSerieStatisticaSuPubblicazione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha serie statistica su pubblicazione"@it ;
+    rdfs:domain pa-recruit:StatisticaPubblicazioneReclutamentoPA ;
+    rdfs:range pa-recruit:SerieStatistica ;
+    rdfs:comment "Collega una statistica di pubblicazione di reclutamento a una serie statistica specifica."@it .
+
+pa-recruit:haSessioneDiEsame a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha sessione di esame"@it ;
+    rdfs:domain pa-recruit:EsameDiSelezione ;
+    rdfs:range pa-recruit:SessioneDiEsame ;
+    rdfs:comment "Collega un esame di selezione a una sessione di esame specifica."@it .
+
+pa-recruit:haSoggettoPagatore a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha soggetto pagatore"@it ;
+    rdfs:domain pa-recruit:TassaIscrizione ;
+    rdfs:range CPV:Alive ;
+    rdfs:comment "Lega un pagamento alla persona che lo ha pagato"@it .
+
+pa-recruit:haSpecificaDiPreferenzaLuogoDiLavoro a owl:ObjectProperty ;
+    rdfs:label "ha specifica di preferenza luogo di lavoro"@it ;
+    rdfs:subPropertyOf CLV:hasLowerRank ;
+    rdfs:domain pa-recruit:PreferenzaLuogoDiLavoro ;
+    rdfs:range pa-recruit:PreferenzaLuogoDiLavoro ;
+    rdfs:comment "Lega una indicazione geografica del luogo di lavoro preferito ad un maggiore dettaglio geografico (esempio: da regione a provincia)."@it .
+
+pa-recruit:haStatoDiCandidatura a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha stato di candidatura"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:StatoDiCandidatura ;
+    rdfs:comment "Collega una candidatura a una sua condizione nel tempo."@it .
+
+pa-recruit:haStatoPubblicazioneDiReclutamento a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha stato pubblicazione di reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a una sua condizione nel tempo."@it .
+
+pa-recruit:haStatusDiProceduraReclutamento a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha status di procedura reclutamento"@it ;
+    rdfs:domain pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:range pa-recruit:StatusDiProceduraReclutamento ;
+    rdfs:comment "Collega uno stato di pubblicazione a uno specifico status di procedura di reclutamento."@it .
+
+pa-recruit:haTipoDiAttività a owl:ObjectProperty ;
+    rdfs:label "ha tipo di attività"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range pa-recruit:TipoDiAttività ;
+    rdfs:comment "Collega una pubblicazione di reclutamento a un tipo di attività specifica obiettivo della procedura stessa."@it .
+
+pa-recruit:haTipoDiAutore a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di autore"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range pa-recruit:TipoDiAutore ;
+    rdfs:comment "Lega una Pubblicazione accademica al tipo di autore."@it .
+
+pa-recruit:haTipoDiAzienda a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di azienda"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range pa-recruit:TipoDiAzienda ;
+    rdfs:comment "Lega una Esperienza lavorativa al tipo di azienda presso cui si è svolta."@it .
+
+pa-recruit:haTipoDiContratto a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di contratto"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range pa-recruit:TipoDiContratto ;
+    rdfs:comment "Lega una Esperienza lavorativa al tipo di contratto con cui è stata svolta."@it .
+
+pa-recruit:haTipoDiCorso a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di corso"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range pa-recruit:TipoDiCorso ;
+    rdfs:comment "Lega una Esperienza di formazione al tipo di corso frequentato."@it .
+
+pa-recruit:haTipoDiEsame a owl:ObjectProperty ;
+    rdfs:label "ha tipo di esame"@it ;
+    rdfs:domain pa-recruit:EsameDiSelezione ;
+    rdfs:range pa-recruit:TipoDiEsame ;
+    rdfs:comment "Lega un esame di selezione alla sua tipologia."@it .
+
+pa-recruit:haTipoDiIstitutoDiFormazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di istituto di formazione"@it ;
+    rdfs:domain pa-recruit:IstitutoDiFormazione ;
+    rdfs:range pa-recruit:TipoDiIstitutoDiFormazione ;
+    rdfs:comment "Lega un istituto di formazione al suo tipo."@it .
+
+pa-recruit:haTipoDiPubblicazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range pa-recruit:TipoDiPubblicazione ;
+    rdfs:comment "Lega una Pubblicazione accademica al suo tipo."@it .
+
+pa-recruit:haTipoDiQualifica a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo di qualifica"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:TipoDiQualifica ;
+    rdfs:comment "Lega una Qualifica accademica al suo tipo."@it .
+
+pa-recruit:haTipoMezzoDiTrasporto a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo mezzo di trasporto"@it ;
+    rdfs:domain pa-recruit:PatenteDiGuida ;
+    rdfs:range pa-recruit:TipoDiMezzoDiTrasporto ;
+    rdfs:comment "Lega una patente di guida al tipo di mezzo di trasporto di cui abilità la guida"@it .
+
+pa-recruit:haTipoOrarioDiLavoro a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo orario di lavoro"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range pa-recruit:TipoOrarioDiLavoro ;
+    rdfs:comment "Lega una Esperienza lavorativa al tipo di orario di lavoro con cui è stata svolta."@it .
+
+pa-recruit:haTipoRuoloInCorso a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha tipo ruolo in corso"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range pa-recruit:TipoRuoloInCorso ;
+    rdfs:comment "Lega una Esperienza di formazione al tipo di ruolo ricoperto nell'ambito di tale esperienza."@it .
+
+pa-recruit:haValorizzazioneRegolaDiAmmissione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha valorizzazione regola di ammissione"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:ValorizzazioneRegolaAmmissione ;
+    rdfs:comment "Collega una candidatura a una valorizzazione di una regola di ammissione."@it .
+
+pa-recruit:haValorizzazioneRequisitoDiPartecipazione a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "ha valorizzazione requisito di partecipazione"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range pa-recruit:ValorizzazioneRequisitoDiPartecipazione ;
+    rdfs:comment "Collega una candidatura a una valorizzazione di un requisito di partecipazione."@it .
+
+pa-recruit:riferisceAttoDiEquiparazioneQualificaEstera a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "riferisce atto di equiparazione qualifica estera"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:AttoDiEquiparazioneQualificaEstera ;
+    rdfs:comment "Lega una Qualifica accademica con l'atto di equiparazione che l'ha validata."@it .
+
+pa-recruit:rilasciataDaIstitutoDiFormazione a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "rilasciata da istituto di formazione"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range pa-recruit:IstitutoDiFormazione ;
+    rdfs:comment "Lega una Qualifica accademica all'istituto di formazione che l'ha rilasciata."@it .
+
+pa-recruit:èBanditaDaEntePubblico a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "è bandita da ente pubblico"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range COV:PublicOrganization,
+        [ a owl:Restriction ;
+            owl:onProperty SM:hasEmail ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Indica l'ente pubblico che ha avviato una procedura di reclutamento attraverso la pubblicazione di un annuncio."@it .
+
+pa-recruit:èCategoriaDiMezzoDiTrasporto a owl:ObjectProperty ;
+    rdfs:label "è categoria di mezzo di trasporto"@it ;
+    rdfs:domain pa-recruit:CategoriaPatenteDiGuida ;
+    rdfs:range pa-recruit:TipoDiMezzoDiTrasporto ;
+    rdfs:comment "Lega una categoria di patente di guida al mezzo di trasporto di cui abilita la guida."@it .
+
+pa-recruit:èGraduatoriaDiProceduraDiReclutamento a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "è graduatoria di procedura di reclutamento"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:comment "Collega una graduatoria alla relativa procedura di reclutamento pubblicata."@it .
+
+pa-recruit:èPosizioneDiPartecipanteInGraduatoria a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "è posizione di partecipante in graduatoria"@it ;
+    rdfs:domain pa-recruit:PosizioneInGraduatoriaDiReclutamento ;
+    rdfs:range pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:comment "Collega una specifica posizione della graduatoria al relativo partecipante all'esame di selezione."@it .
+
+pa-recruit:èPosizioneInGraduatoria a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "è posizione in graduatoria"@it ;
+    rdfs:domain pa-recruit:PosizioneInGraduatoriaDiReclutamento ;
+    rdfs:range pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:comment "Collega una specifica posizione alla relativa graduatoria."@it .
+
+RO:holdsRoleInTime a owl:ObjectProperty .
+
+SM:hasEmail a owl:ObjectProperty .
+
+### Datatypes
+
+xsd:boolean a rdfs:Datatype .
+
+xsd:dateTime a rdfs:Datatype .
+
+xsd:float a rdfs:Datatype .
+
+xsd:integer a rdfs:Datatype .
+
+xsd:string a rdfs:Datatype .
+
+### Data Properties
+
+CLV:lat a owl:DatatypeProperty .
+
+CLV:long a owl:DatatypeProperty .
+
+L0:identifier a owl:DatatypeProperty .
+
+L0:name a owl:DatatypeProperty .
+
+pa-recruit:areaDisciplinareDottorato a owl:DatatypeProperty ;
+    rdfs:label "area disciplinare dottorato"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Descrive l'area di specializzazione in cui è stato svolto il dottorato accademico."@it .
+
+pa-recruit:ausiliUtilizzatiInSessione a owl:DatatypeProperty ;
+    rdfs:label "ausili utilizzati in sessione"@it ;
+    rdfs:domain pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Eventuali ausili utilizzati dai portatori di disabilità durante la sessione di esame."@it .
+
+pa-recruit:autoreDellaPubblicazione a owl:DatatypeProperty ;
+    rdfs:label "autore della pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Autore della pubblicazione accademica."@it .
+
+pa-recruit:autoritàProvvedimentoEstero a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "autorità provvedimento estero"@it ;
+    rdfs:domain pa-recruit:ProvvedimentoIncaricoEstero ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Autorità emittente del provvedimento di assegnazione incarico all'estero."@it .
+
+pa-recruit:avvisoAutorePubblicazioneSingolo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso autore pubblicazione singolo"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che la pubblicazione accademica ha un solo autore."@it .
+
+pa-recruit:avvisoCandidatureAcquisite a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso candidature acquisite"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Evidenzia che le candidature alla procedure di reclutamento, in tutto o in parte, possono essere acquisite da un fornitore (portale) esterno."@it .
+
+pa-recruit:avvisoDottoratoEstero a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso dottorato estero"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che il dottorato è sto svolto all'estero."@it .
+
+pa-recruit:avvisoEsameFinale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso esame finale"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica se l'esperienza formativa prevedeva un esame finale."@it .
+
+pa-recruit:avvisoEsperienzaAttuale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso esperienza attuale"@it ;
+    rdfs:domain pa-recruit:EsperienzaGenerica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che l'esperienza è in corso al tempo della candidatura."@it .
+
+pa-recruit:avvisoImpiegoAttuale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso impiego attuale"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che l'esperienza lavorativa è in corso."@it .
+
+pa-recruit:avvisoLavoroEstero a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso lavoro estero"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativaPA ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che l'esperienza lavorativa è stata svolta all'estero"@it .
+
+pa-recruit:avvisoLode a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso lode"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica se la qualifica accademica è stata conseguita con lode."@it .
+
+pa-recruit:avvisoMadreLingua a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso madre lingua"@it ;
+    rdfs:domain pa-recruit:CompetenzaLinguistica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica che la lingua indicata è madrelingua per il candidato."@it .
+
+pa-recruit:avvisoPagamentoRichiesto a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso pagamento richiesto"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Segnala che la partecipazione alla procedura di reclutamento è a titolo oneroso."@it .
+
+pa-recruit:avvisoQualificaEstera a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso qualifica estera"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica se la qualifica accademica è stata conseguita all'estero."@it .
+
+pa-recruit:avvisoRisultatoSessionePubblicato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso risultato sessione pubblicato"@it ;
+    rdfs:domain pa-recruit:SessioneDiEsame ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Segnala che il risultato della sessione di esame è stato pubblicato."@it .
+
+pa-recruit:avvisoSuperamentoEsameDiStato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "avviso superamento esame di stato"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Indica se l'iscrizione ad un albo o registro prevedeva il superamento di un esame di abilitazione."@it .
+
+pa-recruit:codiceOIVDiControllo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "codice OIV di controllo"@it ;
+    rdfs:subPropertyOf L0:identifier ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:comment "Codice identificativo della procedura di reclutamento nell'ambito informativo degli Organismi Interni di Valutazione - OIV."@it .
+
+pa-recruit:collegamentoAGU a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "collegamento a GU"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Web link alla pubblicazione in gazzetta Ufficiale"@it .
+
+pa-recruit:collegamentoASitoPA a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "collegamento a sito PA"@it ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Web link alla procedura di reclutamento nel portale della Pubblica Amministrazione"@it .
+
+pa-recruit:collegamentoDiReindirizzamento a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "collegamento di reindirizzamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Web link di reindirizzamento alla procedura di reclutamento in portale esterno alla Pubblica Amministrazione."@it .
+
+pa-recruit:dataAttoEquiparazioneQualifica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data atto equiparazione qualifica"@it ;
+    rdfs:domain pa-recruit:AttoDiEquiparazioneQualificaEstera ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di emissione del provvedimento di equiparazione di una qualifica accademica estera."@it .
+
+pa-recruit:dataCostruzioneGraduatoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data costruzione graduatoria"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di termine della definizione della graduatoria."@it .
+
+pa-recruit:dataCreazioneDomanda a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data creazione domanda"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di creazione della domanda di candidatura. Corrisponde alla startDate del relativo stato della domanda."@it .
+
+pa-recruit:dataCreazioneGraduatoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data creazione graduatoria"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di inizio definizione della graduatoria."@it .
+
+pa-recruit:dataDellaPubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data della pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data della pubblicazione accademica."@it .
+
+pa-recruit:dataDiConseguimentoQualifica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data di conseguimento qualifica"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "La data in cui è stata conseguita la qualifica accademica."@it .
+
+pa-recruit:dataDiIngressoInSessione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data di ingresso in sessione"@it ;
+    rdfs:domain pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di accesso alla sessione di esame."@it .
+
+pa-recruit:dataDiPubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data di pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di pubblicazione della procedura di reclutamento sul portale a partire dalla quale i soggetti interessati possono presentare la propria candidatura. Corrisponde alla startDate del relativo stato della pubblicazione."@it .
+
+pa-recruit:dataDiSvolgimentoSessione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data di svolgimento sessione"@it ;
+    rdfs:domain pa-recruit:SessioneDiEsame ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data in cui si è scolta la sessione di esame."@it .
+
+pa-recruit:dataDiVisibilità a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data di visibilità"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "La data a partire dalla quale la procedura di reclutamento è visibile per la consultazione ma non per la candidatura."@it .
+
+pa-recruit:dataInvioDomanda a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data invio domanda"@it ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "La data in cui è stata inviata la domanda di partecipazione ad una procedura di reclutamento."@it .
+
+pa-recruit:dataProvvedimentoEstero a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data provvedimento estero"@it ;
+    rdfs:domain pa-recruit:ProvvedimentoIncaricoEstero ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data del provvedimento di assegnazione incarico all'estero."@it .
+
+pa-recruit:dataPubblicazioneGraduatoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data pubblicazione graduatoria"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "data di pubblicazione della graduatoria."@it .
+
+pa-recruit:dataTermineCandidature a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data termine candidature"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di termine per la presentazione di candidature alla procedura di selezione. Corrisponde alla endDate del relativo stato della pubblicazione."@it .
+
+pa-recruit:dataValiditàEquipollenzaQualifica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data validità equipollenza qualifica"@it ;
+    rdfs:domain pa-recruit:AttoDiEquipollenzaQualifica ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di inizio validità provvedimento di equipollenza di qualifica accademica estera."@it .
+
+pa-recruit:dataValiditàEquivalenzaQualifica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "data validità equivalenza qualifica"@it ;
+    rdfs:domain pa-recruit:AttoDiEquivalenzaQualifica ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment "Data di inizio validità provvedimento di equivalenza di qualifica accademica estera."@it .
+
+pa-recruit:descrizioneBrevePubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "descrizione breve pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Descrizione della procedura di reclutamento pubblicata."@it .
+
+pa-recruit:dettaglioAllaPosizioneInGraduatoria a owl:DatatypeProperty ;
+    rdfs:label "dettaglio alla posizione in graduatoria"@it ;
+    rdfs:domain pa-recruit:PosizioneInGraduatoriaDiReclutamento ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Indicazione di dettaglio relativa alla posizione in graduatoria."@it .
+
+pa-recruit:dettaglioSpecializzazione a owl:DatatypeProperty ;
+    rdfs:label "dettaglio specializzazione"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Ulteriore informazione circa il percorso di specializzazione."@it .
+
+pa-recruit:dimensioneAllegato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "dimensione allegato"@it ;
+    rdfs:domain pa-recruit:Allegato ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Dimensione in byte dell'allegato."@it .
+
+pa-recruit:durataCorsoDiStudio a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "durata corso di studio"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Durata del corso accademico frequentato."@it .
+
+pa-recruit:esperienzaDottoratoRilevante a owl:DatatypeProperty ;
+    rdfs:label "esperienza dottorato rilevante"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Descrizione testuale di una significativa esperienza svolta durante il dottorato."@it .
+
+pa-recruit:etichettaDellaProprietà a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "etichetta della proprietà"@it ;
+    rdfs:domain pa-recruit:ProprietàDellaCandidatura ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Denota una proprietà della candidatura."@it .
+
+pa-recruit:extraTimeInSessioneEsame a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "extra time in sessione esame"@it ;
+    rdfs:domain pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Ulteriore tempo utilizzato durante la sessione di esame, espresso in minuti. È solitamente concesso agli aventi disabilità."@it .
+
+pa-recruit:figuraProfessionaleDaReclutare a owl:DatatypeProperty ;
+    rdfs:label "figura professionale da reclutare"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Profilo sintetico della figura professionale oggetto della procedura di reclutamento."@it .
+
+pa-recruit:gradoDiDisabilitàRiconosciuta a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "grado di disabilità riconosciuta"@it ;
+    rdfs:domain pa-recruit:PartecipanteSessioneEsame ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Indicatore del grado di invalidità riconosciuta. Sono significativi solo valori superiori a 79%."@it .
+
+pa-recruit:identificativoCandidatura a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificativo candidatura"@it ;
+    rdfs:subPropertyOf L0:identifier ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:comment "Identificativo assegnato alla candidatura."@it .
+
+pa-recruit:identificativoDomandaDiCandidatura a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificativo domanda di candidatura"@it ;
+    rdfs:subPropertyOf L0:identifier ;
+    rdfs:domain pa-recruit:CandidaturaProceduraReclutamento ;
+    rdfs:comment "Identificativo assegnato alla domanda di candidatura ricevuta."@it .
+
+pa-recruit:identificativoEsterno a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificativo esterno"@it ;
+    rdfs:subPropertyOf L0:identifier ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:comment "Identificativo aggiuntivo della procedura di reclutamento."@it .
+
+pa-recruit:identificativoIscrizioneProfessionale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificativo iscrizione professionale"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Identificativo di iscrizione in registri o albi professionali."@it .
+
+pa-recruit:identificativoProvvedimentoEstero a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificativo provvedimento estero"@it ;
+    rdfs:domain pa-recruit:ProvvedimentoIncaricoEstero ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Identificativo del provvedimento di assegnazione incarico all'estero."@it .
+
+pa-recruit:identificatoreAttoEquiparazioneQualifica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "identificatore atto equiparazione qualifica"@it ;
+    rdfs:domain pa-recruit:AttoDiEquiparazioneQualificaEstera ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Identificatore del provvedimento di equiparazione di una qualifica accademica estera."@it .
+
+pa-recruit:importoPagato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "importo pagato"@it ;
+    rdfs:domain pa-recruit:TassaIscrizione ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Importo versato dal candidato per partecipare alla procedura di reclutamento."@it .
+
+pa-recruit:indicatoreDellaSessioneDiEsame a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "indicatore della sessione di esame"@it ;
+    rdfs:domain pa-recruit:SessioneDiEsame ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Indicatore progressivo della sessione di esame."@it .
+
+pa-recruit:indicatoreDiEsame a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "indicatore di esame"@it ;
+    rdfs:domain pa-recruit:EsameDiSelezione ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Indicatore progressivo dell'esame previsto nella selezione."@it .
+
+pa-recruit:ISBN a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "ISBN"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Codice ISBN della pubblicazione accademica."@it .
+
+pa-recruit:IUVDelPagamento a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "IUV del pagamento"@it ;
+    rdfs:domain pa-recruit:TassaIscrizione ;
+    rdfs:range xsd:string ;
+    rdfs:comment "IUV, o Identificativo Univoco di Versamento, è un codice di 18 cifre che identifica un pagamento specifico verso la Pubblica Amministrazione, utilizzabile attraverso il sistema nazionale pagoPA."@it .
+
+pa-recruit:nomeDelCampioneStatistico a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "nome del campione statistico"@it ;
+    rdfs:domain pa-recruit:StatisticaPubblicazioneReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome assegnato al campione statistico."@it .
+
+pa-recruit:nomeDellaPubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "nome della pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome della pubblicazione accademica."@it .
+
+pa-recruit:nomeLinguaInInglese a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "nome lingua in inglese"@it ;
+    rdfs:domain pa-recruit:DescrittoreLingua ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome della lingua in inglese."@it .
+
+pa-recruit:nomeLinguaInItaliano a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "nome lingua in italiano"@it ;
+    rdfs:domain pa-recruit:DescrittoreLingua ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome della lingua in italiano."@it .
+
+pa-recruit:nomeUniversitàEstera a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "nome università estera"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome dell'università estera in cui è stato svolto il dottorato."@it .
+
+pa-recruit:notaAllaPosizioneInGraduatoria a owl:DatatypeProperty ;
+    rdfs:label "nota alla posizione in graduatoria"@it ;
+    rdfs:domain pa-recruit:PosizioneInGraduatoriaDiReclutamento ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nota di commento alla posizione nella graduatoria."@it .
+
+pa-recruit:notaAllaPubblicazione a owl:DatatypeProperty ;
+    rdfs:label "nota alla pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nota testuale alla pubblicazione accademica."@it .
+
+pa-recruit:notaDiEsperienzaGenerica a owl:DatatypeProperty ;
+    rdfs:label "nota di esperienza generica"@it ;
+    rdfs:domain pa-recruit:EsperienzaGenerica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Eventuale nota descrittiva dell'esperienza."@it .
+
+pa-recruit:notaEsperienzaLavorativa a owl:DatatypeProperty ;
+    rdfs:label "nota esperienza lavorativa"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nota descrittiva dell'esperienza lavorativa."@it .
+
+pa-recruit:numeroAnniInsegnamento a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero anni insegnamento"@it ;
+    rdfs:domain pa-recruit:AttivitàDiInsegnamento ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di anni di insegnamento."@it .
+
+pa-recruit:numeroCandidature a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero candidature"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di candidature presenti in graduatoria."@it .
+
+pa-recruit:numeroCreditiAcquisiti a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero crediti acquisiti"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Numero di crediti acquisiti con l'esperienza formativa."@it .
+
+pa-recruit:numeroDiAbbandoni a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di abbandoni"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di partecipanti che ha abbandonato l'esame."@it .
+
+pa-recruit:numeroDiCandidati a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di candidati"@it ;
+    rdfs:domain pa-recruit:EsameDiSelezione ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di candidati previsti per l'esame."@it .
+
+pa-recruit:numeroDiCandidatureInPreparazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di candidature in preparazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di candidature relative alla procedura di reclutamento in stato di bozza."@it .
+
+pa-recruit:numeroDiCandidatureRicevute a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di candidature ricevute"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di candidature relative alla procedura di reclutamento completate e trasmesse."@it .
+
+pa-recruit:numeroDiEsclusi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di esclusi"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di partecipanti esclusi dall'esito dell'esame."@it .
+
+pa-recruit:numeroDiFigliACarico a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di figli a carico"@it ;
+    rdfs:domain CPV:Alive ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero dei figli a carico della persona."@it .
+
+pa-recruit:numeroDiPartecipanti a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di partecipanti"@it ;
+    rdfs:domain pa-recruit:EsameDiSelezione ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di partecipanti all'esame."@it .
+
+pa-recruit:numeroDiPosizioniAperte a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di posizioni aperte"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di posizioni aperte da ricoprire tramite la procedura di reclutamento."@it .
+
+pa-recruit:numeroDiProcedureTrattate a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di procedure trattate"@it ;
+    rdfs:domain pa-recruit:StatisticaPubblicazioneReclutamentoPA ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "È il numero di procedure di reclutamento che fanno parte del campione statistico."@it .
+
+pa-recruit:numeroDiPromossi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di promossi"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di promossi."@it .
+
+pa-recruit:numeroDiRespinti a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di respinti"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "numero di respinti."@it .
+
+pa-recruit:numeroDiTest a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di test"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di test previsti dall'esame."@it .
+
+pa-recruit:numeroDiTestVerificati a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero di test verificati"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:EsameDiSelezione
+                    pa-recruit:SessioneDiEsame ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di test verificati."@it .
+
+pa-recruit:numeroEsamiDiSelezione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero esami di selezione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di esami previsti dalla procedura di reclutamento."@it .
+
+pa-recruit:numeroOreFormazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero ore formazione"@it ;
+    rdfs:domain pa-recruit:EsperienzaDiFormazione ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Quantità di ore frequentate."@it .
+
+pa-recruit:numeroOreInsegnamento a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero ore insegnamento"@it ;
+    rdfs:domain pa-recruit:AttivitàDiInsegnamento ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero ore di insegnamento annue."@it .
+
+pa-recruit:numeroPaginePubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "numero pagine pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di pagine della pubblicazione accademica.",
+        "Numero di pagine della pubblicazione accademica."@it .
+
+pa-recruit:parolaChiaveSpecializzazione a owl:DatatypeProperty ;
+    rdfs:label "parola chiave specializzazione"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Indica una parola chiave tipica dell'ambito di specializzazione in cui si è svolto il dottorato."@it .
+
+pa-recruit:percentualeOreSettimanali a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "percentuale ore settimanali"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Percentuale di ore di lavoro nella settimana."@it .
+
+pa-recruit:percorsoDiAllegato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "percorso di allegato"@it ;
+    rdfs:domain pa-recruit:Allegato ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Posizione in cui si trova l'oggetto fisico che mantiene il contenuto dell'allegato (posizione file, indirizzo web, ...)."@it .
+
+pa-recruit:posizioneInGraduatoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "posizione in graduatoria"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:PartecipanteSessioneEsame
+                    pa-recruit:PosizioneInGraduatoriaDiReclutamento ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Posizione della candidatura nella graduatoria."@it .
+
+pa-recruit:punteggioConseguitoInSelezione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "punteggio conseguito in selezione"@it ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:PartecipanteSessioneEsame
+                    pa-recruit:PosizioneInGraduatoriaDiReclutamento ) ] ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Punteggio conseguito dalla candidatura durante la selezione."@it .
+
+pa-recruit:ruoloLavorativoRicoperto a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "ruolo lavorativo ricoperto"@it ;
+    rdfs:domain pa-recruit:EsperienzaLavorativa ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Ruolo ricoperto nell'ambito dell'esperienza lavorativa."@it .
+
+pa-recruit:salarioMassimo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "salario massimo"@it ;
+    rdfs:domain pa-recruit:IntervalloSalariale ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Valore massimo dell'intervallo salariale."@it .
+
+pa-recruit:salarioMinimo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "salario minimo"@it ;
+    rdfs:domain pa-recruit:IntervalloSalariale ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Valore minimo dell'intervallo salariale."@it .
+
+pa-recruit:sottotitoloDellaStatistica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "sottotitolo della statistica"@it ;
+    rdfs:domain pa-recruit:StatisticaPubblicazioneReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Sottotitolo descrittivo della sezione di statistiche."@it .
+
+pa-recruit:statusDescrittoreRuolo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "status descrittore ruolo"@it ;
+    rdfs:domain pa-recruit:DescrittoreRuolo ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Indica lo status (ad esempio: attivo) del ruolo descritto."@it .
+
+pa-recruit:statusDiCandidatura a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "status di candidatura"@it ;
+    rdfs:domain pa-recruit:StatoDiCandidatura ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Indica lo status assunto da una candidatura in un periodo temporale (ad esempio: bozza)."@it .
+
+pa-recruit:tipoDescrittoreRuolo a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tipo descrittore ruolo"@it ;
+    rdfs:domain pa-recruit:DescrittoreRuolo ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Indica l'ambito in cui è svolto il ruolo."@it .
+
+pa-recruit:tipoDiAllegato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tipo di allegato"@it ;
+    rdfs:domain pa-recruit:Allegato ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Tipo di allegato: pdf, doc, xml, ..."@it .
+
+pa-recruit:titoloAllegato a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo allegato"@it ;
+    rdfs:domain pa-recruit:Allegato ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Titolo dell'allegato."@it .
+
+pa-recruit:titoloDellaPubblicazione a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo della pubblicazione"@it ;
+    rdfs:domain pa-recruit:PubblicazioneAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Titolo della pubblicazione accademica."@it .
+
+pa-recruit:titoloDellaStatistica a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo della statistica"@it ;
+    rdfs:domain pa-recruit:StatisticaPubblicazioneReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Titolo della sezione di statistiche"@it .
+
+pa-recruit:titoloGraduatoria a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo graduatoria"@it ;
+    rdfs:domain pa-recruit:GraduatoriaDiReclutamento ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Denominazione della graduatoria."@it .
+
+pa-recruit:titoloInGU a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo in GU"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Titolo della pubblicazione in Gazzetta Ufficiale."@it .
+
+pa-recruit:titoloProceduraReclutamento a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "titolo procedura reclutamento"@it ;
+    rdfs:domain pa-recruit:PubblicazioneDiReclutamentoPA ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Titolo della procedura di reclutamento pubblicata."@it .
+
+pa-recruit:totaleDomandeRicevute a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "totale domande ricevute"@it ;
+    rdfs:domain pa-recruit:ConsuntivoDiProcedura ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Totale delle domande di partecipazione ricevute."@it .
+
+pa-recruit:totalePagamentiIncassati a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "totale pagamenti incassati"@it ;
+    rdfs:domain pa-recruit:ConsuntivoDiProcedura ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Importo totale dei pagamenti incassati dai partecipanti iscritti alla procedura di reclutamento."@it .
+
+pa-recruit:valoreDellaProprietà a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "valore della proprietà"@it ;
+    rdfs:domain pa-recruit:ProprietàDellaCandidatura ;
+    rdfs:range xsd:string ;
+    rdfs:comment "È il valore della proprietà."@it .
+
+pa-recruit:valoreDelRequisitoPerCandidatura a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "valore del requisito per candidatura"@it ;
+    rdfs:domain pa-recruit:ValorizzazioneRequisito ;
+    rdfs:range xsd:string ;
+    rdfs:comment "È il valore assegnato ad uno specifico requisito nell'ambito di una candidatura."@it .
+
+pa-recruit:valoreElementoStatistico a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "valore elemento statistico"@it ;
+    rdfs:domain pa-recruit:ElementoStatistico ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Valore numerico dell'elemento statistico."@it .
+
+pa-recruit:valoreElementoStatisticoTestuale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "valore elemento statistico testuale"@it ;
+    rdfs:domain pa-recruit:ElementoStatistico ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Valore testuale dell'elemento statistico."@it .
+
+pa-recruit:votoConseguito a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "voto conseguito"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Voto con cui è stata conseguita la qualifica accademica."@it .
+
+pa-recruit:votoMassimoConseguibile a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "voto massimo conseguibile"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Punteggio massimo conseguibile nell'ambito del corso accademico frequentato."@it .
+
+pa-recruit:votoTestuale a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "voto testuale"@it ;
+    rdfs:domain pa-recruit:QualificaAccademica ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Voto conseguito espresso in formato testuale."@it .
+
+### Classes
+
+CLV:AdminUnitComponent a owl:Class .
+
+COV:Organization a owl:Class .
+
+COV:PublicOrganization a owl:Class .
+
+CPV:Alive a owl:Class .
+
+L0:Sequence a owl:Class .
+
+pa-recruit:Allegato a owl:Class ;
+    rdfs:label "Allegato"@it ;
+    rdfs:comment "Documento integrativo di una lettera o una pratica per fornire informazioni aggiuntive o completarne il contenuto."@it .
+
+pa-recruit:AllegatoCandidatura a owl:Class ;
+    rdfs:label "Allegato candidatura"@it ;
+    rdfs:subClassOf pa-recruit:Allegato ;
+    rdfs:comment "Documento che accompagna la candidatura di un partecipante contenente informazioni e documenti richiesti per la procedura selettiva."@it .
+
+pa-recruit:AllegatoPubblicazioneReclutamento a owl:Class ;
+    rdfs:label "Allegato pubblicazione reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:Allegato ;
+    rdfs:comment "Documento correlato alla pubblicazione di procedure selettive di reclutamento che fornisce dettagli aggiuntivi riuardanti il concorso."@it .
+
+pa-recruit:AreaGeografica a owl:Class ;
+    rdfs:label "Area geografica"@it ;
+    rdfs:comment "Zona territoriale di assegnazione a cui saranno destinati i vincitori della procedura selettiva."@it .
+
+pa-recruit:AttivitàDiInsegnamento a owl:Class ;
+    rdfs:label "Attività di insegnamento"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haEsperienzaDiInsegnamento ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haIstitutodiInsegnamento ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:numeroAnniInsegnamento ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:numeroOreInsegnamento ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Incarico formativo svolto da un utente che può essere considerato nel processo di selezione."@it .
+
+pa-recruit:AttoDiEquiparazioneQualificaEstera a owl:Class ;
+    rdfs:label "Atto di equiparazione qualifica estera"@it ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:AttoDiEquipollenzaQualifica
+                    pa-recruit:AttoDiEquivalenzaQualifica ) ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haAutoritàDiEmissione ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Atto di riconoscimento di una qualifica accademica o professionale conseguita presso una stato estero necessaria per poter svolgere la relativa attività professionale in Italia o partecipare a concorsi indetti dalla PA."@it .
+
+pa-recruit:AttoDiEquipollenzaQualifica a owl:Class ;
+    rdfs:label "Atto di equipollenza qualifica"@it ;
+    owl:disjointWith pa-recruit:AttoDiEquivalenzaQualifica ;
+    rdfs:comment "Sottoclasse di Atto di equiparazione qualifica accademica riferita al riconoscimento accademico del titolo posseduto ovvero all'equiparazione del suo valore legale."@it .
+
+pa-recruit:AttoDiEquivalenzaQualifica a owl:Class ;
+    rdfs:label "Atto di equivalenza qualifica"@it ;
+    rdfs:comment "Sottoclasse di Atto di equiparazione qualifica accademica riferita al riconoscimento della validità del titolo posseduto al fine della partecipazione a corsi di studio o concorsi pubblici."@it .
+
+pa-recruit:AvvisoDiMobilità a owl:Class ;
+    rdfs:label "Avviso di mobilità"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:avvisoDiMobilità ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"avviso di mobilità\", relativa a procedure selettive riservate a soggetti già appartenenti alla Pubblica Amministrazione."@it .
+
+pa-recruit:AvvisoOIV a owl:Class ;
+    rdfs:label "Avviso OIV"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:avvisoOIV ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento\" PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"avviso OIV\" (Organismi indipendenti di valutazione)."@it .
+
+pa-recruit:BandoApprendistato a owl:Class ;
+    rdfs:label "Bando apprendistato"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:bandoApprendistato ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"bando apprendistato\", relativa a procedure di selezione per l'inserimento di personale con contratto di lavoro di apprendistato all'interno della Pubblica Amministrazione."@it .
+
+pa-recruit:CandidaturaProceduraReclutamento a owl:Class ;
+    rdfs:label "Candidatura procedura reclutamento"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCandidato ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haProceduraReclutamentoDiCandidatura ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haStatoDiCandidatura ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:identificativoCandidatura ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:identificativoDomandaDiCandidatura ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Domanda di partecipazione (application form) a una procedura di reclutamento."@it .
+
+pa-recruit:CategoriaDellaCompetenza a owl:Class ;
+    rdfs:label "Categoria della competenza"@it ;
+    rdfs:comment "Classifica le categorie in cui si articolano le competenze."@it .
+
+pa-recruit:CategoriaDiReclutamento a owl:Class ;
+    rdfs:label "Categoria di reclutamento"@it ;
+    rdfs:comment "Classificazione dei concorsi e bandi in base a specifici ambiti, modalità o settori."@it .
+
+pa-recruit:CategoriaPatenteDiGuida a owl:Class ;
+    rdfs:label "Categoria patente di guida"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:èCategoriaDiMezzoDiTrasporto ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica le categorie di patente di guida."@it .
+
+pa-recruit:CompetenzaLinguistica a owl:Class ;
+    rdfs:label "Competenza linguistica"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:avvisoMadreLingua ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haLinguaDiCompetenza ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Lingua straniera su cui un candidato ha compentenza."@it .
+
+pa-recruit:Concorso a owl:Class ;
+    rdfs:label "Concorso"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:concorso ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"concorso\", relativa a bandi pubblici per l'assunzione di personale nella Pubblica Amministrazione."@it .
+
+pa-recruit:ConcorsoDFP-FormezPA a owl:Class ;
+    rdfs:label "Concorso DFP - Formez PA"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:concorsoDFP-FormezPA ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"Concorso DFP-Formez PA\", relativa a bandi e avvisi gestiti con il supporto tecnico-operativo di Formez PA per conto delle amministrazioni centrali o locali ovvero banditi dalla Commissione interministeriale RIPAM."@it .
+
+pa-recruit:ConsuntivoDiProcedura a owl:Class ;
+    rdfs:label "Consuntivo di procedura"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haConsuntivoDiProcedura ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Totalizzazione delle dimensioni di misura della procedura di reclutamento: numero iscritti, pagamenti ricevuti, etc."@it .
+
+pa-recruit:CurriculumVitae a owl:Class ;
+    rdfs:label "Curriculum vitae"@it ;
+    rdfs:comment "Classifica le diverse istanze di curriculum vitae ovvero gli aggregati di informazioni concernenti i percorsi formativi, le esperienze professionali, le attitudini e le competenze possedute da un partecipante e presentate nell'ambito di una procedura di reclutamento."@it .
+
+pa-recruit:DescrittoreCompetenza a owl:Class ;
+    rdfs:label "Descrittore competenza"@it ;
+    rdfs:subClassOf pa-recruit:DescrittoreGenerico,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDellaCompetenza ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Sottoclasse di Descrittore generico dedicata a descrivere una competenza (skill)."@it .
+
+pa-recruit:DescrittoreGenerico a owl:Class ;
+    rdfs:label "Descrittore generico"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty L0:identifier ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty L0:name ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Istanzia la descrizione di un qualsiasi oggetto del mondo. È tipicamente costituito da un codice, un nome e una descrizione."@it .
+
+pa-recruit:DescrittoreLingua a owl:Class ;
+    rdfs:label "Descrittore lingua"@it ;
+    rdfs:subClassOf pa-recruit:DescrittoreGenerico,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:nomeLinguaInItaliano ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Sottoclasse di Descrittore generico dedicata alla descrizione di una lingua."@it .
+
+pa-recruit:DescrittoreRuolo a owl:Class ;
+    rdfs:label "Descrittore ruolo"@it ;
+    rdfs:subClassOf pa-recruit:DescrittoreGenerico ;
+    rdfs:comment "Definizione delle responsabilità e delle competenze proprie di un determinato ruolo professionale ricoperto."@it .
+
+pa-recruit:ElementoStatistico a owl:Class ;
+    rdfs:label "Elemento statistico"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty L0:name ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:valoreElementoStatisticoTestuale ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haElementoStatistico ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Dato quantitativo riferito a una determinata dimensione utilizzato nell'ambito di una serie statistica per analizzare e valutare i risultati delle procedure di reclutamento."@it .
+
+pa-recruit:EsameDiSelezione a owl:Class ;
+    rdfs:label "Esame di selezione"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoDiEsame ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:indicatoreDiEsame ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haEsameDiSelezione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    owl:disjointWith pa-recruit:SessioneDiEsame ;
+    rdfs:comment "Prova che i candidati devono superare per essere selezionati nell'ambito di una procedura di reclutamento."@it .
+
+pa-recruit:EsitoPartecipazioneSessioneDiEsame a owl:Class ;
+    rdfs:label "Esito partecipazione sessione di esame"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haEsitoPartecipazioneSessioneDiEsame ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Risultato ottenuto da un candidato nella partecipazione a una prova selettiva."@it .
+
+pa-recruit:EsperienzaDiFormazione a owl:Class ;
+    rdfs:label "Esperienza di formazione"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:avvisoEsameFinale ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haEventoDiFormazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haIstitutoDiFormazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoRuoloInCorso ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:numeroOreFormazione ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Esperienza formativa a cui un canditato ha preso parte."@it .
+
+pa-recruit:EsperienzaGenerica a owl:Class ;
+    rdfs:label "Esperienza generica"@it ;
+    rdfs:subClassOf TI:TimeIndexedEvent ;
+    rdfs:comment "Esperienza professionale non specifica ma che può rilevare per il profilo del partecipante."@it .
+
+pa-recruit:EsperienzaLavorativa a owl:Class ;
+    rdfs:label "Esperienza lavorativa"@it ;
+    rdfs:subClassOf TI:TimeIndexedEvent,
+        [ a owl:Restriction ;
+            owl:onProperty L0:identifier ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haDatoreDiLavoro ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoDiContratto ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoOrarioDiLavoro ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Esperienza professionale di un partecipante che può essere considerata significativa nel processo di selezione."@it .
+
+pa-recruit:EsperienzaLavorativaPA a owl:Class ;
+    rdfs:label "Esperienza lavorativa PA"@it ;
+    rdfs:subClassOf pa-recruit:EsperienzaLavorativa ;
+    owl:disjointWith pa-recruit:EsperienzaLavorativaPrivata ;
+    rdfs:comment "Esperienza professionale maturata all'interno della Pubblica Amministrazione."@it .
+
+pa-recruit:EsperienzaLavorativaPrivata a owl:Class ;
+    rdfs:label "Esperienza lavorativa privata"@it ;
+    rdfs:subClassOf pa-recruit:EsperienzaLavorativa ;
+    rdfs:comment "Esperienza professionale maturata in aziende private."@it .
+
+pa-recruit:EventoDiFormazione a owl:Class ;
+    rdfs:label "Evento di formazione"@it ;
+    rdfs:subClassOf pa-recruit:EsperienzaGenerica,
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haEventoDiFormazione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Evento formativo a cui un partecipante ha preso parte e che può contribuire alla valutazione nel processo di selezione."@it .
+
+pa-recruit:GradoDiCompetenzaLingua a owl:Class ;
+    rdfs:label "Grado di competenza lingua"@it ;
+    rdfs:comment "Classifica le competenza nell'utilizzo di una lingua nell'ambito dei diversi usi della stessa (comprensione, parlato, scritto, …) secondo lo standard internazionale."@it .
+
+pa-recruit:GraduatoriaDiReclutamento a owl:Class ;
+    rdfs:label "Graduatoria di reclutamento"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:dataCreazioneGraduatoria ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:titoloGraduatoria ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:èGraduatoriaDiProceduraDiReclutamento ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Istanza della classifica dei candidati in base ai risultati ottenuti nel processo di selezione."@it .
+
+pa-recruit:InformazioneAggiuntiva a owl:Class ;
+    rdfs:label "Informazione aggiuntiva"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haProprietàDellaCandidatura ;
+            owl:someValuesFrom owl:Thing ] ;
+    owl:disjointWith pa-recruit:PreferenzaAggiuntiva ;
+    rdfs:comment "Dettagli supplementari forniti dal candidato che possono rilevare nel punteggio attribuito alla candidatura."@it .
+
+pa-recruit:IntervalloSalariale a owl:Class ;
+    rdfs:label "Intervallo salariale"@it ;
+    rdfs:comment "Intervallo economico dello stipendio previsto per la posizione oggetto del reclutamento."@it .
+
+pa-recruit:IstitutoDiFormazione a owl:Class ;
+    rdfs:label "Istituto di formazione"@it ;
+    rdfs:subClassOf COV:Organization,
+        [ a owl:Restriction ;
+            owl:onProperty CLV:hasAddress ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoDiIstitutoDiFormazione ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica gli istituti di formazione nell'ambito del rilascio di una qualifica accademica. È sottoclasse di COV:Organization."@it .
+
+pa-recruit:LivelloDiPubblicazione a owl:Class ;
+    rdfs:label "Livello di pubblicazione"@it ;
+    rdfs:comment "Classifica la platea e il grado di diffusione della pubblicazione."@it .
+
+pa-recruit:ModalitàDiValutazione a owl:Class ;
+    rdfs:label "Modalità di valutazione"@it ;
+    rdfs:comment "Classificazione dei criteri e metodi utilizzati per valutare i candidati durante il processo di selezione."@it .
+
+pa-recruit:PartecipanteSessioneEsame a owl:Class ;
+    rdfs:label "Partecipante sessione esame"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haEsitoPartecipazioneSessioneDiEsame ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haPartecipanteSessioneDiEsame ] ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf RO:holdsRoleInTime ] ;
+            owl:someValuesFrom [ a owl:Restriction ;
+                    owl:onProperty [ owl:inverseOf pa-recruit:haCandidato ] ;
+                    owl:someValuesFrom owl:Thing ] ] ;
+    owl:disjointWith pa-recruit:PosizioneInGraduatoriaDiReclutamento ;
+    rdfs:comment "Ruolo assunto da un candidato al momento dell'effettiva partecipazione alla selezione per la procedura di reclutamento per cui ha presentato la candidatura."@it .
+
+pa-recruit:PatenteDiGuida a owl:Class ;
+    rdfs:label "Patente di guida"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaPatenteDiGuida ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haPeriodoDiValiditàPatenteDiGuida ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoMezzoDiTrasporto ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haPatenteDiGuida ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica le patenti di guida di mezzi di trasporto possedute da una persona."@it .
+
+pa-recruit:PeriodoDiValiditàPatenteDiGuida a owl:Class ;
+    rdfs:label "Periodo di validità patente di guida"@it ;
+    rdfs:subClassOf L0:Sequence,
+        TI:TimeInterval,
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haPeriodoDiValiditàPatenteDiGuida ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica la sequenza dei periodi di validità di una patente di guida."@it .
+
+pa-recruit:PosizioneInGraduatoriaDiReclutamento a owl:Class ;
+    rdfs:label "Posizione in graduatoria di reclutamento"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:èPosizioneInGraduatoria ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Posizione di un candidato all'interno della graduatoria della procedura selettiva."@it .
+
+pa-recruit:PreferenzaAggiuntiva a owl:Class ;
+    rdfs:label "Preferenza aggiuntiva"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haProprietàDellaCandidatura ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Opzione che permette a un candidato di esprimere ulteriori dichiarazioni, se richieste nella candidatura."@it .
+
+pa-recruit:PreferenzaAmbito a owl:Class ;
+    rdfs:label "Preferenza ambito"@it ;
+    rdfs:subClassOf pa-recruit:DescrittoreGenerico ;
+    rdfs:comment "Indicazione da parte di un candidato riguardo all'ambito professionale in cui desidera essere assegnato."@it .
+
+pa-recruit:PreferenzaLuogoDiLavoro a owl:Class ;
+    rdfs:label "Preferenza luogo di lavoro"@it ;
+    rdfs:subClassOf CLV:AdminUnitComponent,
+        [ a owl:Restriction ;
+            owl:onProperty CLV:lat ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty CLV:long ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Indicazione della sede di lavoro in cui un candidato preferirebbe essere assegnato."@it .
+
+pa-recruit:ProcedureStraordinarie a owl:Class ;
+    rdfs:label "Procedure straordinarie"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:procedureStraordinarie ) ] ] ;
+    rdfs:comment "Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"procedure straordinarie\"."@it .
+
+pa-recruit:ProprietàDellaCandidatura a owl:Class ;
+    rdfs:label "Proprietà della candidatura"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:etichettaDellaProprietà ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:valoreDellaProprietà ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Istanzia una proprietà o caratteristica del candidato che si vuole far rilevare nell'ambito di una candidatura."@it .
+
+pa-recruit:ProvvedimentoIncaricoEstero a owl:Class ;
+    rdfs:label "Provvedimento incarico estero"@it ;
+    rdfs:comment "Nell'ambito di un impiego nella PA, classifica i provvedimenti e gli atti di destinazione dei dipendenti presso sedi o dipartimenti in paesi esteri."@it .
+
+pa-recruit:PubblicazioneAccademica a owl:Class ;
+    rdfs:label "Pubblicazione accademica"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:autoreDellaPubblicazione ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:avvisoAutorePubblicazioneSingolo ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:dataDellaPubblicazione ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoDiPubblicazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:nomeDellaPubblicazione ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:numeroPaginePubblicazione ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:titoloDellaPubblicazione ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Articolo o lavoro di ricerca di un candidato pubblicato su riviste specializzate, libri o tesi che può essere considerato nel processo di selezione."@it .
+
+pa-recruit:PubblicazioneDiReclutamentoPA a owl:Class ;
+    rdfs:label "Pubblicazione di reclutamento PA"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haAreaDiReclutamento ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haEntePubblicoCoinvolto ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haStatoPubblicazioneDiReclutamento ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:èBanditaDaEntePubblico ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Annuncio ufficiale che informa cittadini e/o dipendenti pubblici riguardo a nuove opportunità di impiego nella Pubblica Amministrazione."@it .
+
+pa-recruit:QualificaAccademica a owl:Class ;
+    rdfs:label "Qualifica accademica"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:durataCorsoDiStudio ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haTipoDiQualifica ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:rilasciataDaIstitutoDiFormazione ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Attestato ufficiale rilasciato da un'istituzione scolastica o accademica accreditata, che certifica il superamento di un percorso formativo e il conseguimento delle competenze acquisite, con valore legale nel sistema educativo di istruzione e formazione."@it .
+
+pa-recruit:RegolaDiAmmissioneProcedura a owl:Class ;
+    rdfs:label "Regola di ammissione procedura"@it ;
+    rdfs:comment "Requisito specifico per l'ammissione a una procedura selettiva."@it .
+
+pa-recruit:RequisitoDiPartecipazione a owl:Class ;
+    rdfs:label "Requisito di partecipazione"@it ;
+    rdfs:comment "Condizione che un candidato deve soddisfare per poter partecipare a una procedura di reclutamento."@it .
+
+pa-recruit:SceltaPA-Sede a owl:Class ;
+    rdfs:label "Scelta PA-Sede"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:sceltaPA-Sede ) ] ] ;
+    rdfs:comment "Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"scelta PA-Sede\"."@it .
+
+pa-recruit:SelezioneProfessionistiEdEsperti a owl:Class ;
+    rdfs:label "Selezione professionisti ed esperti"@it ;
+    rdfs:subClassOf pa-recruit:PubblicazioneDiReclutamentoPA,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:oneOf (
+                            pa-recruit:selezioneProfessionistiEdEsperti ) ] ] ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"selezione professionisti ed esperti\", relativa alle procedure finalizzate al reclutamento di profili specialistici e professionali."@it .
+
+pa-recruit:SerieStatistica a owl:Class ;
+    rdfs:label "Serie statistica"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty L0:name ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haElementoStatistico ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haSerieStatisticaSuPubblicazione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Istanza di collezione di elementi statistici utilizzati per analizzare le tendenze nel reclutamento del personale."@it .
+
+pa-recruit:SessioneDiEsame a owl:Class ;
+    rdfs:label "Sessione di esame"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty CLV:hasAddress ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haSessioneDiEsame ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Evento in cui i candidati sostengono le prove di selezione."@it .
+
+pa-recruit:StatisticaPubblicazioneReclutamentoPA a owl:Class ;
+    rdfs:label "Statistica pubblicazione reclutamento PA"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haSerieStatisticaSuPubblicazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:nomeDelCampioneStatistico ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:sottotitoloDellaStatistica ;
+            owl:someValuesFrom rdfs:Literal ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:titoloDellaStatistica ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Istanza di serie statistiche relativi alle pubblicazioni di concorsi e bandi di reclutamento nella Pubblica Amministrazione."@it .
+
+pa-recruit:StatoApertoDiPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato aperto di pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Sottoclasse di \"stato pubblicazione di reclutamento\" che raggruppa le istanze in condizione di \"aperto\" ovvero la pubblicazione è attiva, ossia è possibile ancora candidarsi."@it .
+
+pa-recruit:StatoBozzaDiPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato bozza di pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Sottoclasse di \"stato pubblicazione di reclutamento\" che raggruppa le istanze in condizione di \"bozza\" ovvero la procedura è in fase di preparazione e non è ancora pubblicata."@it .
+
+pa-recruit:StatoChiusoDiPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato chiuso di pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Sottoclasse di \"stato pubblicazione di reclutamento\" che raggruppa le istanze in condizione di \"chiuso\" ovvero la pubblicazione non è più attiva e non è più possibile candidarsi."@it .
+
+pa-recruit:StatoDiCandidatura a owl:Class ;
+    rdfs:label "Stato di candidatura"@it ;
+    rdfs:subClassOf TI:TimeIndexedEvent ;
+    rdfs:comment "Oggettivazione della condizione di una candidatura rispetto al tempo."@it .
+
+pa-recruit:StatoEliminatoDiPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato eliminato di pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Sottoclasse di \"stato pubblicazione di reclutamento\" che raggruppa le istanze relative a pubblicazioni definitivamente rimosse."@it .
+
+pa-recruit:StatoInPubblicazioneDiPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato in pubblicazione di pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf pa-recruit:StatoPubblicazioneDiReclutamento ;
+    rdfs:comment "Sottoclasse di \"stato pubblicazione di reclutamento\" che raggruppa le istanze in fase di pubblicazione."@it .
+
+pa-recruit:StatoPubblicazioneDiReclutamento a owl:Class ;
+    rdfs:label "Stato pubblicazione di reclutamento"@it ;
+    rdfs:subClassOf TI:TimeIndexedEvent,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haStatusDiProceduraReclutamento ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Oggettivazione della condizione di una pubblicazione di reclutamento rispetto al tempo."@it .
+
+pa-recruit:StatusDiProceduraReclutamento a owl:Class ;
+    rdfs:label "Status di procedura reclutamento"@it ;
+    rdfs:comment "Classificazione della condizione che una pubblicazione di una procedura di reclutamento può assumere nel tempo."@it .
+
+pa-recruit:TassaIscrizione a owl:Class ;
+    rdfs:label "Tassa iscrizione"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haSoggettoPagatore ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haPagamentoTassaIscrizione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Importo richiesto al candidato per iscriversi al concorso pubblico."@it .
+
+pa-recruit:TipoDiAttività a owl:Class ;
+    rdfs:label "Tipo di attività"@it ;
+    rdfs:comment "Tipologia di lavoro o incarico per cui viene indetta la procedura selettiva."@it .
+
+pa-recruit:TipoDiAutore a owl:Class ;
+    rdfs:label "Tipo di autore"@it ;
+    rdfs:comment "Classifica un autore in base al suo coinvolgimento nell'ambito di una pubblicazione."@it .
+
+pa-recruit:TipoDiAzienda a owl:Class ;
+    rdfs:label "Tipo di azienda"@it ;
+    rdfs:comment "Classifica le tipologie delle aziende."@it .
+
+pa-recruit:TipoDiContratto a owl:Class ;
+    rdfs:label "Tipo di contratto"@it ;
+    rdfs:comment "Classifica le tipologie di contratto di lavoro."@it .
+
+pa-recruit:TipoDiCorso a owl:Class ;
+    rdfs:label "Tipo di corso"@it ;
+    rdfs:comment "Classifica le tipologie di corso di formazione anche relativamente al titolo conseguito al termine della frequenza dello stesso."@it .
+
+pa-recruit:TipoDiEsame a owl:Class ;
+    rdfs:label "Tipo di esame"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haTipoDiEsame ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica le diverse tipologie di esame."@it .
+
+pa-recruit:TipoDiIstitutoDiFormazione a owl:Class ;
+    rdfs:label "Tipo di istituto di formazione"@it ;
+    rdfs:comment "Classifica le tipologie di istituti di formazione."@it .
+
+pa-recruit:TipoDiMezzoDiTrasporto a owl:Class ;
+    rdfs:label "Tipo di mezzo di trasporto"@it ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:èCategoriaDiMezzoDiTrasporto ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Classifica le diverse tipologie di mezzo di trasporto che una persona può condurre."@it .
+
+pa-recruit:TipoDiPubblicazione a owl:Class ;
+    rdfs:label "Tipo di pubblicazione"@it ;
+    rdfs:comment "Classifica le tipologie associate ad una pubblicazione."@it .
+
+pa-recruit:TipoDiQualifica a owl:Class ;
+    rdfs:label "Tipo di qualifica"@it ;
+    rdfs:comment "Classifica le tipologie di qualifiche accademiche."@it .
+
+pa-recruit:TipoOrarioDiLavoro a owl:Class ;
+    rdfs:label "Tipo orario di lavoro"@it ;
+    rdfs:comment "Classifica le tipologie di orario di lavoro (full time, part time, …)"@it .
+
+pa-recruit:TipoRuoloInCorso a owl:Class ;
+    rdfs:label "Tipo ruolo in corso"@it ;
+    rdfs:comment "Classifica il ruolo ricoperto nell'ambito di un corso di formazione (docente, discente, …)"@it .
+
+pa-recruit:ValorizzazioneRegolaAmmissione a owl:Class ;
+    rdfs:label "Valorizzazione regola ammissione"@it ;
+    rdfs:subClassOf pa-recruit:ValorizzazioneRequisito,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haRegolaInValorizzazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haValorizzazioneRegolaDiAmmissione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    owl:disjointWith pa-recruit:ValorizzazioneRequisitoDiPartecipazione ;
+    rdfs:comment "Valorizzazione di una regola di ammissione per una specifica candidatura."@it .
+
+pa-recruit:ValorizzazioneRequisito a owl:Class ;
+    rdfs:label "Valorizzazione requisito"@it ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:unionOf (
+                    pa-recruit:ValorizzazioneRegolaAmmissione
+                    pa-recruit:ValorizzazioneRequisitoDiPartecipazione ) ],
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:valoreDelRequisitoPerCandidatura ;
+            owl:someValuesFrom rdfs:Literal ] ;
+    rdfs:comment "Generalizzazione della valorizzazione dei requisiti, generici e specifici, attribuiti alle candidature."@it .
+
+pa-recruit:ValorizzazioneRequisitoDiPartecipazione a owl:Class ;
+    rdfs:label "Valorizzazione requisito di partecipazione"@it ;
+    rdfs:subClassOf pa-recruit:ValorizzazioneRequisito,
+        [ a owl:Restriction ;
+            owl:onProperty pa-recruit:haRequisitoInValorizzazione ;
+            owl:someValuesFrom owl:Thing ],
+        [ a owl:Restriction ;
+            owl:onProperty [ owl:inverseOf pa-recruit:haValorizzazioneRequisitoDiPartecipazione ] ;
+            owl:someValuesFrom owl:Thing ] ;
+    rdfs:comment "Valorizzazione di un requisito di partecipazione per una specifica candidatura."@it .
+
+TI:TimeIndexedEvent a owl:Class .
+
+TI:TimeInterval a owl:Class .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:avvisoDiMobilità ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:avvisoOIV ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:bandoApprendistato ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:concorso ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:concorsoDFP-FormezPA ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:procedureStraordinarie ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:sceltaPA-Sede ) .
+
+[] a owl:Class ;
+    rdfs:subClassOf pa-recruit:CategoriaDiReclutamento ;
+    owl:oneOf (
+            pa-recruit:selezioneProfessionistiEdEsperti ) .
+
+### Individuals
+
+<https://w3id.org/italia/data/organization/public-organization/td> a dcatapit:Agent,
+        foaf:Agent,
+        owl:NamedIndividual ;
+    dct:identifier "TD" ;
+    foaf:name "Digital Transformation Team"@en,
+        "Team per la Trasformazione Digitale"@it .
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfp> a COV:PublicOrganization,
+        dcatapit:Agent,
+        foaf:Agent,
+        owl:NamedIndividual ;
+    rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    dct:identifier "dfp" ;
+    foaf:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    vcard:hasURL <https://github.com/DFPdati> .
+
+<https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a dcatapit:Organization,
+        owl:NamedIndividual,
+        vcard:Kind,
+        vcard:Organization ;
+    rdfs:label "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    dct:identifier "dfpDati" ;
+    foaf:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    vcard:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    vcard:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    vcard:hasURL <https://github.com/DFPdati> .
+
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES> a adms:SemanticAssetDistribution,
+        dcat:Distribution,
+        dcatapit:Distribution,
+        owl:NamedIndividual ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.n3> ;
+    dct:description "Questa è la distribuzione N-TRIPLES dell'ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
+        "This is the distribution in N-TRIPLES of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES> ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Distribuzione N-TRIPLES dell'ontologia del Dipartimento della Funzione Pubblica"@it,
+        "N-TRIPLES distribution of the inPA Recruitment Portal Ontology"@en .
+
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE> a adms:SemanticAssetDistribution,
+        dcat:Distribution,
+        dcatapit:Distribution,
+        owl:NamedIndividual ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.ttl> ;
+    dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
+        "This is the distribution in RDF/Turtle of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Distribuzione RDF/Turtle dell'ontologia del Dipartimento della Funzione Pubblica"@it,
+        "RDF/Turtle distribution of the inPA Recruitment Portal Ontology"@en .
+
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> a adms:SemanticAssetDistribution,
+        dcat:Distribution,
+        dcatapit:Distribution,
+        owl:NamedIndividual ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.owl> ;
+    dct:description "Questa è la distribuzione RDF/XML dell'ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
+        "This is the distribution in RDF/XML of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:title "Distribuzione RDF/XML dell'ontologia del Dipartimento della Funzione Pubblica"@it,
+        "RDF/XML distribution of the inPA Recruitment Portal Ontology"@en .
+
+pa-recruit:avvisoDiMobilità a owl:NamedIndividual ;
+    rdfs:label "avviso di mobilità"@it ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"avviso di mobilità\", relativa a procedure selettive riservate a soggetti già appartenenti alla Pubblica Amministrazione."@it .
+
+pa-recruit:avvisoOIV a owl:NamedIndividual ;
+    rdfs:label "avviso OIV"@it ;
+    rdfs:comment "Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"avviso OIV\"."@it .
+
+pa-recruit:bandoApprendistato a owl:NamedIndividual ;
+    rdfs:label "bando apprendistato"@it ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"bando apprendistato\", relativa a procedure di selezione per l'inserimento di apprendisti all'interno della Pubblica Amministrazione."@it .
+
+pa-recruit:concorso a owl:NamedIndividual ;
+    rdfs:label "concorso"@it ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"concorso\", relativa a bandi pubblici per l'assunzione di personale nella Pubblica Amministrazione."@it .
+
+pa-recruit:concorsoDFP-FormezPA a owl:NamedIndividual ;
+    rdfs:label "concorso DFP - Formez PA"@it ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"Concorso DFP-Formez PA\", relativa a bandi e avvisi gestiti con il supporto tecnico-operativo di Formez PA per conto delle amministrazioni centrali o locali"@it .
+
+pa-recruit:procedureStraordinarie a owl:NamedIndividual ;
+    rdfs:label "procedure straordinarie"@it ;
+    rdfs:comment "Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"procedure straordinarie\"."@it .
+
+pa-recruit:sceltaPA-Sede a owl:NamedIndividual ;
+    rdfs:label "scelta PA-Sede"@it ;
+    rdfs:comment "Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a \"scelta PA-Sede\"."@it .
+
+pa-recruit:selezioneProfessionistiEdEsperti a owl:NamedIndividual ;
+    rdfs:label "selezione professionisti ed esperti"@it ;
+    rdfs:comment "Sottoclasse di \"Pubblicazione di reclutamento PA\" che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore \"selezione professionisti ed esperti\", relativa alle procedure finalizzate al reclutamento di profili specialistici e professionali."@it .
+
+### Axioms
+
+[] a owl:AllDisjointClasses ;
+    owl:members (
+            pa-recruit:AvvisoDiMobilità
+            pa-recruit:AvvisoOIV
+            pa-recruit:BandoApprendistato
+            pa-recruit:Concorso
+            pa-recruit:ConcorsoDFP-FormezPA
+            pa-recruit:ProcedureStraordinarie
+            pa-recruit:SceltaPA-Sede
+            pa-recruit:SelezioneProfessionistiEdEsperti ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members (
+            pa-recruit:StatoApertoDiPubblicazioneDiReclutamento
+            pa-recruit:StatoBozzaDiPubblicazioneDiReclutamento
+            pa-recruit:StatoChiusoDiPubblicazioneDiReclutamento
+            pa-recruit:StatoEliminatoDiPubblicazioneDiReclutamento
+            pa-recruit:StatoInPubblicazioneDiPubblicazioneDiReclutamento ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members (
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:avvisoDiMobilità ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:avvisoOIV ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:bandoApprendistato ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:concorso ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:concorsoDFP-FormezPA ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:procedureStraordinarie ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:sceltaPA-Sede ) ]
+            [ a owl:Class ;
+                owl:oneOf (
+                        pa-recruit:selezioneProfessionistiEdEsperti ) ] ) .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:avvisoDiMobilità ) ] ;
+    rdfs:subClassOf pa-recruit:AvvisoDiMobilità .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:avvisoOIV ) ] ;
+    rdfs:subClassOf pa-recruit:AvvisoOIV .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:bandoApprendistato ) ] ;
+    rdfs:subClassOf pa-recruit:BandoApprendistato .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:concorso ) ] ;
+    rdfs:subClassOf pa-recruit:Concorso .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:concorsoDFP-FormezPA ) ] ;
+    rdfs:subClassOf pa-recruit:ConcorsoDFP-FormezPA .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:procedureStraordinarie ) ] ;
+    rdfs:subClassOf pa-recruit:ProcedureStraordinarie .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:sceltaPA-Sede ) ] ;
+    rdfs:subClassOf pa-recruit:SceltaPA-Sede .
+
+[] a owl:Restriction ;
+    owl:onProperty pa-recruit:haCategoriaDiReclutamento ;
+    owl:someValuesFrom [ a owl:Class ;
+            owl:oneOf (
+                    pa-recruit:selezioneProfessionistiEdEsperti ) ] ;
+    rdfs:subClassOf pa-recruit:SelezioneProfessionistiEdEsperti .
+
+### Serialized using the ttlser deterministic serializer v1.2.0
