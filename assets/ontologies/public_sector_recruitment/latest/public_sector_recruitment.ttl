@@ -8,7 +8,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix L0: <https://w3id.org/italia/onto/l0/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pa-recruit: <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/> .
+@prefix pa-recruit: <https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix RO: <https://w3id.org/italia/onto/RO/> .
@@ -44,14 +44,14 @@ pa-recruit: a owl:Ontology ;
         pa-recruit:PubblicazioneDiReclutamentoPA,
         pa-recruit:SessioneDiEsame ;
     adms:hasOntologyLanguage adms:OWL ;
-    adms:hasSemanticAssetDistribution <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES>,
-        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE>,
-        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> ;
+    adms:hasSemanticAssetDistribution <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES>,
+        <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE>,
+        <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML> ;
     adms:hasTask adms:AnnotationTask,
         adms:QueryFormulationTask,
         adms:SearchTask ;
     adms:last pa-recruit:1.0 ;
-    adms:officialURI "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment"^^xsd:anyURI ;
+    adms:officialURI "https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment"^^xsd:anyURI ;
     adms:prefix "pa-recruit" ;
     adms:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ;
     adms:status "draft" ;
@@ -69,7 +69,7 @@ pa-recruit: a owl:Ontology ;
     dct:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     dct:description "Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica."@it,
         "The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal."@en ;
-    dct:identifier "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment" ;
+    dct:identifier "https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment" ;
     dct:issued "2026-03-02T00:00:00+00:00"^^xsd:dateTime ;
     dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/ITA> ;
@@ -2335,7 +2335,7 @@ TI:TimeInterval a owl:Class .
     vcard:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
     vcard:hasURL <https://github.com/DFPdati> .
 
-<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
@@ -2348,7 +2348,7 @@ TI:TimeInterval a owl:Class .
     dct:title "Distribuzione N-TRIPLES dell'ontologia del Dipartimento della Funzione Pubblica"@it,
         "N-TRIPLES distribution of the inPA Recruitment Portal Ontology"@en .
 
-<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
@@ -2361,7 +2361,7 @@ TI:TimeInterval a owl:Class .
     dct:title "Distribuzione RDF/Turtle dell'ontologia del Dipartimento della Funzione Pubblica"@it,
         "RDF/Turtle distribution of the inPA Recruitment Portal Ontology"@en .
 
-<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
