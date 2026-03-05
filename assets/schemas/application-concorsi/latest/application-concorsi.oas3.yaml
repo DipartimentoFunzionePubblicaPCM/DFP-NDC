@@ -1,0 +1,3373 @@
+openapi: 3.0.1
+
+info:
+  title: Entry point for applications of public competitions of type “Concorsi” and “Concorsi DFP - Formez PA”
+  description: Enables searching applications of public competitions of type “Concorsi” and “Concorsi DFP - Formez PA” registered on the InPA Recruitment Portal.
+  termsOfService: /tos
+  x-summary: applications of public competitions of type “Concorsi” and “Concorsi DFP - Formez PA”
+  contact:
+    name: Dipartimento della Funzione Pubblica
+    url: https://www.funzionepubblica.gov.it
+  version: 0.0.1
+
+tags:
+  - name: competition-data
+    description: Operations related to public competitions
+  - name: application-data
+    description: Operations related to applications of public competitions
+  - name: ranking-data
+    description: Operations related to rankings of public competitions
+  - name: exam-data
+    description: Operations related to exams of public competitions
+  - name: fee-data
+    description: Operations related to fees of public competitions
+  - name: service-status
+    description: Service status of public competitions
+
+servers:
+  - url: /openapi/application/concorsi/api/v1
+    description: base url
+    x-sandbox: true
+
+paths:
+  /competitions:
+    get:
+      tags:
+        - competition-data
+      operationId: fetchCompetitions
+      description: Retrieves all public competitions based on search parameters.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/jsonlist+json:
+              schema:
+                $ref: '#/components/schemas/Competition'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}:
+    get:
+      tags:
+        - competition-data
+      operationId: fetchCompetitionItem
+      description: Retrieves a public competition by its id.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CompetitionDetail'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/applications:
+    get:
+      tags:
+        - application-data
+      operationId: fetchApplications
+      description: Retrieves all applications based on search parameters.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/jsonlist+json:
+              schema:
+                $ref: '#/components/schemas/Application'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/applications/{application-id}:
+    get:
+      tags:
+        - application-data
+      operationId: fetchApplicationItem
+      description: Retrieves an application by its id.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+        - name: application-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 40
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApplicationDetail'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/rankings:
+    get:
+      tags:
+        - ranking-data
+      operationId: fetchRankings
+      description: Retrieves all rankings based on search parameters.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/jsonlist+json:
+              schema:
+                $ref: '#/components/schemas/Ranking'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/rankings/{ranking-id}:
+    get:
+      tags:
+        - ranking-data
+      operationId: fetchRankingItem
+      description: Retrieves a ranking by its id.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+        - name: ranking-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 40
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RankingDetail'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/exams:
+    get:
+      tags:
+        - exam-data
+      operationId: fetchExams
+      description: Retrieves all exams based on search parameters.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/jsonlist+json:
+              schema:
+                $ref: '#/components/schemas/Exam'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/exams/{exam-id}:
+    get:
+      tags:
+        - exam-data
+      operationId: fetchExamItem
+      description: Retrieves an exam by its id.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+        - name: exam-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 40
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExamDetail'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/exams/{exam-id}/sessions/{session-id}:
+    get:
+      tags:
+        - exam-data
+      operationId: fetchSessionItem
+      description: Retrieves an exam session by its id.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+        - name: exam-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 40
+        - name: session-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 40
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionDetail'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/payments/summary:
+    get:
+      tags:
+        - fee-data
+      operationId: fetchTotFees
+      description: Retrieves the total fees for a specific competition.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentResponse'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+  /competitions/{competition-id}/payments:
+    get:
+      tags:
+        - fee-data
+      operationId: fetchFees
+      description: Retrieves all fees based on search parameters.
+      parameters:
+        - name: competition-id
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+            maxLength: 50
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/jsonlist+json:
+              schema:
+                $ref: '#/components/schemas/Payment'
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+  /status:
+    get:
+      tags:
+        - service-status
+      operationId: getStatus
+      description: Retrieves the public competition service status.
+      responses:
+        '200':
+          description: OK
+        default:
+          description: Unsuccessful operation
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/ErrorVM'
+
+components:
+  schemas:
+    ErrorVM:
+      description: |
+        This schema extends RFC7807 Problem Details for HTTP APIs
+        with the additional `timestamp` property used for debugging
+        purposes.
+      type: object
+      required:
+        - title
+        - status
+      properties:
+        type:
+          type: string
+          format: uri
+          description: Unique identifier of the type of issue
+          example: "https://example.com/probs/out-of-credit"
+        title:
+          type: string
+          description: Human readable description of the issue
+          maxLength: 255
+          example: "You do not have enough credit."
+        status:
+          type: integer
+          format: int32
+          minimum: 100
+          maximum: 599
+          description: Same as returned Http Status code
+          example: 400
+        timestamp:
+          type: string
+          description: Timestamp for debugging purposes
+          maxLength: 25
+
+    CategoriesResponse:
+      description: Response object containing an array of category objects.
+      type: object
+      properties:
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+
+    Category:
+      description: Contains the category of a public competition.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 50
+          example: '5'
+        name:
+          type: string
+          maxLength: 100
+          example: 'Selezione Professionisti ed Esperti'
+        description:
+          type: string
+          maxLength: 100
+          example: 'Selezione Professionisti ed Esperti'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        name: https://w3id.org/italia/onto/l0/name
+        description: https://w3id.org/italia/onto/l0/description
+      example:
+        id: '5'
+        name: 'Selezione Professionisti ed Esperti'
+        description: 'Selezione Professionisti ed Esperti'
+
+    AreasResponse:
+      description: Response object containing an array of Area objects.
+      type: object
+      properties:
+        areas:
+          type: array
+          items:
+            $ref: '#/components/schemas/Area'
+
+    Area:
+      description: Contains the geographical area of a public competition.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 12
+          example: '5'
+        name:
+          type: string
+          maxLength: 60
+          example: 'Lombardia'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AreaGeografica
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        name: https://w3id.org/italia/onto/l0/name
+      example:
+        id: '5'
+        name: 'Lombardia'
+
+    CompetitionStatusesResponse:
+      description: Response object containing an array of CompetitionStatus objects.
+      type: object
+      properties:
+        competitionStatuses:
+          type: array
+          items:
+            $ref: '#/components/schemas/CompetitionStatus'
+
+    CompetitionStatus:
+      description: Contains the status of a public competition.
+      type: object
+      properties:
+        name:
+          type: string
+          enum: [OPEN, CLOSED]
+          example: OPEN
+        label:
+          type: string
+          example: 'Aperto'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatusDiProceduraReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        name: https://w3id.org/italia/onto/l0/name
+        label: https://w3id.org/italia/onto/l0/description
+      example:
+        name: OPEN
+        label: 'Aperto'
+
+    SalariesResponse:
+      description: Response object containing an array of Salary objects.
+      type: object
+      properties:
+        salaries:
+          type: array
+          items:
+            $ref: '#/components/schemas/Salary'
+
+    Salary:
+      description: Contains a salary range in euro of a public competition.
+      type: object
+      required:
+        - label
+        - max
+        - min
+      properties:
+        label:
+          type: string
+          example: 'da 1000 a 20000'
+        max:
+          type: integer
+          format: int32
+          maximum: 99999999
+          example: 20000
+        min:
+          type: integer
+          format: int32
+          maximum: 99999999
+          minimum: 0
+          example: 1000
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/IntervalloSalariale
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        label: https://w3id.org/italia/onto/l0/description
+        max: salarioMassimo
+        min: salarioMinimo
+      example:
+        label: 'da 1000 a 20000'
+        max: 20000
+        min: 1000
+
+    BranchesResponse:
+      description: Response object containing an array of Branch objects.
+      type: object
+      properties:
+        branches:
+          type: array
+          items:
+            $ref: '#/components/schemas/Branch'
+
+    Branch:
+      description: Contains the economical branch of a public competition.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 50
+          example: '5'
+        name:
+          type: string
+          maxLength: 100
+          example: 'Appalti'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiAttività
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id:
+          '@id': haTipoDiAttività
+          '@type': '@id'
+          '@context':
+              "@base": 'https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/'
+        name: https://w3id.org/italia/onto/l0/name
+      example:
+        id: '5'
+        name: 'Appalti'
+
+    Company:
+      description: Contains the company of a public competition.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 20
+          example: '4'
+        ipaCode:
+          type: string
+          example: '004OLJ'
+        name:
+          type: string
+          maxLength: 255
+          example: 'Regione Abruzzo'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/onto/COV/PublicOrganization
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/onto/COV/
+        id: http://purl.org/dc/terms/identifier
+        ipaCode: IPAcode
+        name: legalName
+      example:
+        id: '4'
+        ipaCode: '004OLJ'
+        name: 'Regione Abruzzo'
+
+    Competition:
+      description: Retrieves a public competition object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 50
+          example: '0000ba506c7c45b9929b3a4apql1f6da'
+        title:
+          type: string
+          maxLength: 500
+          example: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        description:
+          type: string
+          description: Large text content
+          example: "<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>"
+        companies:
+          type: array
+          items:
+            $ref: '#/components/schemas/Company'
+        areas:
+          type: array
+          items:
+            $ref: '#/components/schemas/Area'
+        assessment:
+          $ref: '#/components/schemas/Assessment'
+        status:
+          $ref: '#/components/schemas/CompetitionStatus'
+        publicationDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        expiryDate:
+          type: string
+          format: date-time
+          example: '2024-12-28T14:35:22+02:00'
+        soughtAfterFigure:
+          type: string
+          description: Large text content
+          example: 'Esperto in attività di natura contabile e fiscale con esperienza minima di 3 anni fino a 5 anni'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        title: titoloProceduraReclutamento
+        description: https://w3id.org/italia/onto/l0/description
+        companies:
+          '@id': haEntePubblicoCoinvolto
+        areas:
+          '@id': haAreaDiReclutamento
+        assessment:
+          '@id': haModalitàDiValutazione
+        status:
+          '@id': haStatoPubblicazioneDiReclutamento
+        publicationDate: dataDiPubblicazione
+        expiryDate: dataTermineCandidature
+        soughtAfterFigure: figuraProfessionaleDaReclutare
+      example:
+        id: '0000ba506c7c45b9929b3a4apql1f6da'
+        title: 'AVVISO PUBBLICO DI SELEZIONE PER MOBILITA ESTERNA VOLONTARIA'
+        description: '<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>'
+        companies:
+          - id: '4'
+            ipaCode: '0040LJ'
+            name: 'Regione Abruzzo'
+        areas:
+          - id: '5'
+            name: 'Lombardia'
+        publicationDate: '2024-05-28T14:35:22+02:00'
+        expiryDate: '2024-12-28T14:35:22+02:00'
+        soughtAfterFigure: 'Esperto in attività di natura contabile e fiscale con esperienza minima di 3 anni fino a 5 anni'
+
+    CompetitionDetail:
+      description: Retrieves a public competition detail object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 50
+          example: '0000ba506c7c45b9929b3a4apql1f6da'
+        title:
+          type: string
+          maxLength: 500
+          example: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        description:
+          type: string
+          description: Large text content
+          example: "<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>"
+        shortDescription:
+          type: string
+          description: Large text content
+          example: "<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>"
+        requirements:
+          type: array
+          items:
+            type: string
+            maxLength: 1000
+          example: ["Essere dipendente in servizio a tempo indeterminato, con superamento del periodo di prova, presso Aziende o Enti del SSN, di cui agli art. 6/7 del CCNQ per la definizione dei comparti di contrattazione stipulato il 03/08/2021", "Non aver riportato nell’ultimo biennio valutazioni negative"]
+        status:
+          $ref: '#/components/schemas/CompetitionStatus'
+        visibilityDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        publicationDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        expiryDate:
+          type: string
+          format: date-time
+          example: '2024-12-28T14:35:22+02:00'
+        assessment:
+          $ref: '#/components/schemas/Assessment'
+        numExams:
+          type: integer
+          format: int32
+          example: 3
+        numAvailablePositions:
+          type: integer
+          format: int32
+          example: 50
+        numPendingApplications:
+          type: integer
+          format: int64
+          example: 5000
+        numSubmittedApplications:
+          type: integer
+          format: int64
+          example: 500000
+        paymentRequired:
+          type: boolean
+          example: true
+        companies:
+          type: array
+          items:
+            $ref: '#/components/schemas/Company'
+        attachments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Attachment'
+        importedApplications:
+          type: boolean
+          example: false
+        areas:
+          type: array
+          items:
+            $ref: '#/components/schemas/Area'
+        category:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+        branches:
+          type: array
+          items:
+            type: string
+            maxLength: 100
+          example: ["Appalti", "Accorpamento di ambiti previsti e non previsti"]
+        salary:
+          $ref: '#/components/schemas/Salary'
+        soughtAfterFigure:
+          type: string
+          description: Large text content
+          example: 'Esperto in attività di natura contabile e fiscale con esperienza minima di 3 anni fino a 5 anni'
+        officialGazetteLinkTitle:
+          type: string
+          maxLength: 500
+          example: "Gazzetta Ufficiale n. 103 del 30/12/2022"
+        officialGazetteLink:
+          type: string
+          maxLength: 500
+          example: "https://www.gazzettaufficiale.it/30giorni/concorsi"
+        paSiteLink:
+          type: string
+          maxLength: 500
+          example: "https://selezionionline.cnr.it/"
+        redirectLink:
+          type: string
+          maxLength: 500
+          example: "https://selezionionline.cnr.it/"
+        contactPersonEmail:
+          type: string
+          format: email
+          maxLength: 500
+          example: user@example.com
+        oivCode:
+          type: string
+          maxLength: 500
+          example: "735ecbac0a563b4c70aa195e5c12fc1f"
+        externalId:
+          type: string
+          maxLength: 500
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        title: titoloProceduraReclutamento
+        description: https://w3id.org/italia/onto/l0/description
+        shortDescription: descrizioneBrevePubblicazione
+        requirements:
+          '@id': haRequisitoDiReclutamento
+        status:
+          '@id': haStatoPubblicazioneDiReclutamento
+        visibilityDate: dataDiVisibilità
+        publicationDate: dataDiPubblicazione
+        expiryDate: dataTermineCandidature
+        assessment:
+          '@id': haModalitàDiValutazione
+        numExams: numeroEsamiDiSelezione
+        numAvailablePositions: numeroDiPosizioniAperte
+        numPendingApplications: numeroDiCandidatureInPreparazione
+        numSubmittedApplications: numeroDiCandidatureRicevute
+        paymentRequired: avvisoPagamentoRichiesto
+        companies:
+          '@id': haEntePubblicoCoinvolto
+        attachments:
+          '@id': haAllegatoPubblicazioneReclutamento
+        importedApplications: avvisoCandidatureAcquisite
+        areas:
+          '@id': haAreaDiReclutamento
+        category:
+          '@id': haCategoriaDiReclutamento
+        branches:
+          '@id': haTipoDiAttività
+        salary:
+          '@id': haIntervalloSalariale
+        soughtAfterFigure: figuraProfessionaleDaReclutare
+        officialGazetteLinkTitle: titoloInGU
+        officialGazetteLink: collegamentoAGU
+        paSiteLink: collegamentoASitoPA
+        redirectLink: collegamentoDiReindirizzamento
+        contactPersonEmail:
+          '@id': https://w3id.org/italia/onto/SM/hasContactPoint
+          '@context':
+              label: http://www.w3.org/2000/01/rdf-schema#label
+        oivCode: codiceOIVDiControllo
+        externalId: identificativoEsterno
+      example:
+        id: '0000ba506c7c45b9929b3a4apql1f6da'
+        title: 'AVVISO PUBBLICO DI SELEZIONE PER MOBILITA ESTERNA VOLONTARIA'
+        description: '<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>'
+        shortDescription: '<p>Avviso Pubblico Finalizzato alla Acquisizione delle Manifestazione di Interesse da parte delle amministrazioni dei piccoli Comuni</p>'
+        requirements:
+          - 'Essere dipendente in servizio a tempo indeterminato, con superamento del periodo di prova, presso Aziende o Enti del SSN, di cui agli art. 6/7 del CCNQ per la definizione dei comparti di contrattazione stipulato il 03/08/2021", "Non aver riportato nell’ultimo biennio valutazioni negative'
+        visibilityDate: '2024-05-28T14:35:22+02:00'
+        publicationDate: '2024-05-28T14:35:22+02:00'
+        expiryDate: '2024-12-28T14:35:22+02:00'
+        numExams: 3
+        numAvailablePositions: 50
+        numPendingApplications: 5000
+        numSubmittedApplications: 500000
+        paymentRequired: true
+        companies:
+          - id: '4'
+            ipaCode: '0040LJ'
+            name: 'Regione Abruzzo'
+        attachments:
+          - id: '1234'
+            title: 'Bando apprendistato 41 posti completo'
+            fileName: 'bando_apprendistato_41_posti_completo.pdf'
+            contentType: 'application/pdf'
+            contentLength: 5000
+        importedApplications: false
+        areas:
+          - id: '5'
+            name: 'Lombardia'
+        category:
+          - id: '5'
+            name: 'Selezione Professionisti ed Esperti'
+            description: 'Selezione Professionisti ed Esperti'
+        branches:
+          - 'Appalti", "Accorpamento di ambiti previsti e non previsti'
+        soughtAfterFigure: 'Esperto in attività di natura contabile e fiscale con esperienza minima di 3 anni fino a 5 anni'
+        officialGazetteLinkTitle: 'Gazzetta Ufficiale n. 103 del 30/12/2022'
+        officialGazetteLink: 'https://www.gazzettaufficiale.it/30giorni/concorsi'
+        paSiteLink: 'https://selezionionline.cnr.it/'
+        redirectLink: 'https://selezionionline.cnr.it/'
+        contactPersonEmail: 'user@example.com'
+        oivCode: '735ecbac0a563b4c70aa195e5c12fc1f'
+        externalId: '500'
+
+    AssessmentsResponse:
+      description: Response object containing an array of Assessment objects.
+      type: object
+      properties:
+        assessments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Assessment'
+
+    Assessment:
+      description: Contains the assessment of a public competition.
+      type: object
+      properties:
+        name:
+          type: string
+          enum:
+            - QUALIFICATIONS
+            - EXAMS
+            - INTERVIEW
+            - QUALIFICATIONS_EXAMS
+            - QUALIFICATIONS_INTERVIEW
+            - COURSE_EXAM
+            - PROFESSIONAL_SKILLS_TESTS
+          example: QUALIFICATIONS
+        label:
+          type: string
+          example: 'per titoli ed esami'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ModalitàDiValutazione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        name: https://w3id.org/italia/onto/l0/name
+        label: https://w3id.org/italia/onto/l0/description
+      example:
+        name: QUALIFICATIONS
+        label: 'per titoli ed esami'
+
+    Attachment:
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '1234'
+        title:
+          type: string
+          example: 'Bando apprendistato 41 posti completo'
+        fileName:
+          type: string
+          example: 'bando_apprendistato_41_posti_completo.pdf'
+        contentType:
+          type: string
+          example: 'application/pdf'
+        contentLength:
+          type: integer
+          format: int64
+          example: 5000
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AllegatoPubblicazioneReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        title: titoloAllegato
+        fileName: percorsoDiAllegato
+        contentType: tipoDiAllegato
+        contentLength: dimensioneAllegato
+      example:
+        id: '1234'
+        title: 'Bando apprendistato 41 posti completo'
+        fileName: 'bando_apprendistato_41_posti_completo.pdf'
+        contentType: 'application/pdf'
+        contentLength: 5000
+
+    ExamResultsResponse:
+      description: Response object containing an array of ExamResult objects.
+      type: object
+      properties:
+        examResults:
+          type: array
+          items:
+            $ref: '#/components/schemas/ExamResult'
+
+    ExamResult:
+      description: Contains the type of exam result of a public competition.
+      type: object
+      properties:
+        name:
+          type: string
+          enum:
+            - PASSED
+            - FAILED
+            - REJECTED
+            - ABANDONED
+          example: PASSED
+        label:
+          type: string
+          example: 'Non Superata'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        name: https://w3id.org/italia/onto/l0/name
+        label: https://w3id.org/italia/onto/l0/description
+      example:
+        name: PASSED
+        label: 'Non Superata'
+
+    Application:
+      description: Retrieves an application object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        applicationDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        submissionDate:
+          type: string
+          format: date-time
+          example: '2024-05-31T14:35:22+02:00'
+        status:
+          type: string
+          example: 'SUBMITTED'
+        competitionId:
+          type: string
+          maxLength: 50
+          example: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle:
+          type: string
+          maxLength: 500
+          example: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        personalData:
+          $ref: '#/components/schemas/PersonalData'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: identificativoDomandaDiCandidatura
+        applicationDate: dataCreazioneDomanda
+        submissionDate: dataInvioDomanda
+        status: descrizioneStatoDiCandidatura
+        competitionId: http://purl.org/dc/terms/identifier
+        competitionTitle: titoloProceduraReclutamento
+        personalData:
+          '@id': haCandidaturaProceduraReclutamento
+      example:
+        id: '0000040549da47f78cc421c13c88eaqk'
+        applicationDate: '2024-05-28T14:35:22+02:00'
+        submissionDate: '2024-05-31T14:35:22+02:00'
+        status: 'SUBMITTED'
+        competitionId: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+
+    ApplicationDetail:
+      description: Retrieves an application detail object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        applicationDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        submissionDate:
+          type: string
+          format: date-time
+          example: '2024-05-31T14:35:22+02:00'
+        status:
+          type: string
+          example: 'SUBMITTED'
+        competitionId:
+          type: string
+          maxLength: 50
+          example: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle:
+          type: string
+          maxLength: 500
+          example: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        specificRequirements:
+          type: array
+          items:
+            $ref: '#/components/schemas/Requirement'
+        personalData:
+          $ref: '#/components/schemas/PersonalData'
+        qualifications:
+          type: array
+          items:
+            $ref: '#/components/schemas/Qualification'
+        publications:
+          type: array
+          items:
+            $ref: '#/components/schemas/Publication'
+        paWorkExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/PaWorkExperience'
+        paOtherWorkExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/PaOtherWorkExperience'
+        privateWorkExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/PrivateWorkExperience'
+        otherWorkExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/OtherWorkExperience'
+        teachings:
+          type: array
+          items:
+            $ref: '#/components/schemas/Teaching'
+        courses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Course'
+        genericExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/Experience'
+        languageSkills:
+          type: array
+          items:
+            $ref: '#/components/schemas/LanguageSkill'
+        extracurricularSkills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+        workLocationPreferences:
+          type: array
+          items:
+            $ref: '#/components/schemas/Province'
+        branchPreferences:
+          type: array
+          items:
+            $ref: '#/components/schemas/GenericCategory'
+        genericRequirements:
+          type: array
+          items:
+            $ref: '#/components/schemas/Requirement'
+        additionalInformations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Requirement'
+        additionalPreferences:
+          type: array
+          items:
+            $ref: '#/components/schemas/Requirement'
+        attachments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Attachment'
+        code:
+          type: string
+          maxLength: 40
+          example: 'AC4310'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: identificativoDomandaDiCandidatura
+        applicationDate: dataCreazioneDomanda
+        submissionDate: dataInvioDomanda
+        status: descrizioneStatoDiCandidatura
+        competitionId: http://purl.org/dc/terms/identifier
+        competitionTitle: titoloProceduraReclutamento
+        specificRequirements:
+          '@id': haValorizzazioneRegolaDiAmmissione
+        personalData:
+          '@id': haCandidaturaProceduraReclutamento
+        qualifications:
+          '@id': haQualificaAccademica
+        publications:
+          '@id': haPubblicazioneAccademica
+        paWorkExperiences:
+          '@id': haEsperienzaLavorativa
+        paOtherWorkExperiences:
+          '@id': haEsperienzaLavorativa
+        privateWorkExperiences:
+          '@id': haEsperienzaLavorativa
+        otherWorkExperiences:
+          '@id': haEsperienzaLavorativa
+        teachings:
+          '@id': haAttivitàDiInsegnamento
+        courses:
+          '@id': haEsperienzaDiFormazione
+        genericExperiences:
+          '@id': haEsperienzaGenerica
+        languageSkills:
+          '@id': haCompetenzaLinguistica
+        extracurricularSkills:
+          '@id': haCompetenzaExtracurriculare
+        workLocationPreferences:
+          '@id': haPreferenzaLuogoDiLavoro
+        branchPreferences:
+          '@id': haPreferenzaAmbito
+        genericRequirements:
+          '@id': haValorizzazioneRequisitoDiPartecipazione
+        additionalInformations:
+          '@id': haInformazioneAggiuntiva
+        additionalPreferences:
+          '@id': haPreferenzaAggiuntiva
+        attachments:
+          '@id': haAllegatoCandidatura
+        code: identificativoCandidatura
+      example:
+        id: '0000040549da47f78cc421c13c88eaqk'
+        applicationDate: '2024-05-28T14:35:22+02:00'
+        submissionDate: '2024-05-31T14:35:22+02:00'
+        status: 'SUBMITTED'
+        competitionId: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        specificRequirements:
+          - label: 'Idoneità all’impiego'
+            value: 'Si'
+        qualifications:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            description: "Architettura del Paesaggio"
+            institute: "Politecnico di Milano"
+            instituteType: "ACME S.r.l."
+            instituteAddress: "Piazza Leonardo Da Vinci,32 - Milano"
+            graduationDate: "2001-12-19"
+            officialDuration: 4
+            gradeNumerator: 100
+            gradeDenominator: 110
+            gradeText: "Eccellente"
+            gradeWithHonor: false
+            decisionNumber: "1462/07"
+            decisionDate: "2001-12-19"
+            issuingAuthority: "Ministero della Salute"
+            equivalencyApplicationDate: "2001-12-19"
+            equivalentApplicationDate: "2001-12-19"
+            qualificationType: "Dottorato"
+            qualificationTypeDescription: "L/SC - Lauree in Scienze Criminologiche e della Sicurezza"
+            degreeAbroad: false
+            professionalRegistrationNumber: 169218
+            examCompleted: false
+            specializationDetails: "Iscritto al primo anno"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+            phdDisciplinaryArea: "Area 01 - Scienze matematiche e informatiche > INF/01 - Informatica\nArea 08 - Ingegneria civile e Architettura > ICAR/06 - Topografia e cartografia\nArea 08 - Ingegneria civile e Architettura > ICAR/20 - Tecnica e pianificazione urbanistica\nArea 08 - Ingegneria civile e Architettura > ICAR/19 - Restauro\n"
+            phdSpecializationKeywords: "gestione servizi alla persona; sociologia della conoscenza; tecniche di progettazione e protocolli di valutazione servizi; sociologia della comunicazione; sociologia dei gruppi; socializzazione primaria e secondaria; antropologia; metodologia della ricerca sociale."
+            phdAbroad: false
+            universityPhdAbroad: 'faculty of philology of saint petersburg state university'
+            mostRelevantPhdExperiences:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Procedimenti amministrativi"
+                description: "Procedimenti amministrativi"
+            mostRelevantPhdExperienceText: "progettazione"
+        publications:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            publicationType: "Pubblicazione"
+            publicationLevel:  "Internazionale"
+            title: "Telephone use, social networks and health status."
+            publicationName: "Etruscan News 22"
+            numPages: 350
+            publicationDate: "1981-12-19"
+            authors: "Paolo Rossi, Giuseppe Verdi, Antonio Bianchi"
+            isbn:  "978-88-7970-493-1"
+            singleAuthor: false
+            authorType: "Intermedio"
+            notes:  "Ha collaborato all'intera stesura della pubblicazione, Nome non in copertina ma sul dorso della pubblicazione"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        paWorkExperiences:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            companyType: "Convenzionato"
+            abroadDecisionNumber: "12102015"
+            abroadDecisionDate: "1981-12-19"
+            abroadDecisionAuthority: "European Commission"
+            workingTimeType: "Pieno"
+            employmentType: "Indeterminato"
+            abroad: true
+            employer: "Comune di Barletta"
+            employerAddress: "Piazza Roma"
+            jobTitle: "Avvocato semi-senior"
+            weeklyHoursPercentage: 2.25
+            startDate: "1981-12-19"
+            endDate: "1981-12-19"
+            current: true
+            description1: "Il ruolo dell'HR Manager"
+            description2: "Organizzazione Aziendale"
+            notes: "corso rivolto alle aree amministrative"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        paOtherWorkExperiences:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            employmentContractType: "Dipendente"
+            companyType: "Convenzionato"
+            employer: "Comune di Barletta"
+            employerAddress: "Piazza Roma"
+            jobTitle: "Avvocato semi-senior"
+            weeklyHoursPercentage: 2.25
+            startDate: "1981-12-19"
+            endDate: "1981-12-19"
+            current: true
+            description1: "Il ruolo dell'HR Manager"
+            description2: "Organizzazione Aziendale"
+            notes: "corso rivolto alle aree amministrative"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        privateWorkExperiences:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            employmentContractType: "Dipendente"
+            employer: "Comune di Barletta"
+            employerAddress: "Piazza Roma"
+            jobTitle: "Avvocato semi-senior"
+            weeklyHoursPercentage: 2.25
+            startDate: "1981-12-19"
+            endDate: "1981-12-19"
+            current: true
+            description1: "Il ruolo dell'HR Manager"
+            description2: "Organizzazione Aziendale"
+            notes: "corso rivolto alle aree amministrative"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        otherWorkExperiences:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            employmentContractType: "Dipendente"
+            employer: "Comune di Barletta"
+            employerAddress: "Piazza Roma"
+            jobTitle: "Avvocato semi-senior"
+            weeklyHoursPercentage: 2.25
+            startDate: "1981-12-19"
+            endDate: "1981-12-19"
+            current: true
+            description1: "Il ruolo dell'HR Manager"
+            description2: "Organizzazione Aziendale"
+            notes: "corso rivolto alle aree amministrative"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        teachings:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            employer:  "Alma Mater Studiorum - Università di Bologna"
+            employerAddress: "via zamboni 33"
+            hoursOfTeaching: 120
+            yearsOfTeaching: 1
+            experience:
+                id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                startDate: "1981-12-19"
+                endDate: "1981-12-19"
+                current: true
+                description1: "Il ruolo dell'HR Manager"
+                description2: "Organizzazione Aziendale"
+                notes: "corso rivolto alle aree amministrative"
+                skills:
+                  - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                    name: "Tecniche e strumenti di consultazione banche dati complesse"
+                    description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        courses:
+          - id: "0000040549da47f78cc421c13c88eaqk"
+            employer: "Ministero delle infrastrutture e dei Trasporti "
+            employerAddress: "Roma"
+            durationHours: 8
+            roleType: "Partecipante"
+            courseType: "Attestato di partecipazione"
+            hasExam: true
+            credits: 0.31
+            experience:
+                id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                startDate: "1981-12-19"
+                endDate: "1981-12-19"
+                current: true
+                description1: "Il ruolo dell'HR Manager"
+                description2: "Organizzazione Aziendale"
+                notes: "corso rivolto alle aree amministrative"
+                skills:
+                  - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                    name: "Tecniche e strumenti di consultazione banche dati complesse"
+                    description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        genericExperiences:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            startDate: "1981-12-19"
+            endDate: "1981-12-19"
+            current: true
+            description1: "Il ruolo dell'HR Manager"
+            description2: "Organizzazione Aziendale"
+            notes: "corso rivolto alle aree amministrative"
+            skills:
+              - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+                name: "Tecniche e strumenti di consultazione banche dati complesse"
+                description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        languageSkills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            nativeLanguage: true
+            listeningComprehension: A2
+            readingComprehension: A2
+            spokenInteraction: A2
+            spokenProduction: A2
+            writing: A2
+            language:
+              code: "de"
+              nativeName: "Deutsch"
+              enName: "German"
+              itName: "Tedesco"
+        extracurricularSkills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        workLocationPreferences:
+          - country: "Italia"
+            code: "AN"
+            name: "Ancona"
+            latitude: "42.7"
+            longitude: "12.8"
+        branchPreferences:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Procedimenti amministrativi"
+            description: "Procedimenti amministrativi"
+        genericRequirements:
+          - label: "Idoneità all’impiego"
+            value: "Si"
+        additionalInformations:
+          - label: "Idoneità all’impiego"
+            value: "Si"
+        additionalPreferences:
+          - label: "Idoneità all’impiego"
+            value: "Si"
+        attachments:
+          - id: 1234"
+            title: "Bando apprendistato 41 posti completo"
+            fileName: "bando_apprendistato_41_posti_completo.pdf"
+            contentType: "application/pdf"
+            contentLength: 5000
+        code: 'AC4310'
+
+    Ranking:
+      description: Retrieves a ranking object.
+      type: object
+      required:
+        - competitionId
+        - competitionTitle
+        - title
+        - applicantNumber
+        - creationDate
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        competitionId:
+          type: string
+          maxLength: 50
+          example: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle:
+          type: string
+          maxLength: 500
+          example: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        title:
+          type: string
+          example: 'Graduatoria'
+        creationDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        buildRankingDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        publishDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        applicantNumber:
+          type: integer
+          format: int32
+          example: 5000
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GraduatoriaDiReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        competitionId: http://purl.org/dc/terms/identifier
+        competitionTitle: titoloProceduraReclutamento
+        title: titoloGraduatoria
+        creationDate: dataCreazioneGraduatoria
+        buildRankingDate: dataCostruzioneGraduatoria
+        publishDate: dataPubblicazioneGraduatoria
+        applicantNumber: numeroCandidature
+      example:
+        id: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        competitionId: '0000ba506c7c45b9929b3a4apql1f6da'
+        competitionTitle: "AVVISO PUBBLICO DI SELEZIONE PER MOBILITA' ESTERNA VOLONTARIA"
+        title: 'Graduatoria'
+        creationDate: '2024-05-28T14:35:22+02:00'
+        buildRankingDate: '2024-05-28T14:35:22+02:00'
+        publishDate: '2024-05-28T14:35:22+02:00'
+        applicantNumber: 5000
+
+    RankingDetail:
+      description: Retrieves a ranking detail object.
+      type: object
+      required:
+        - taxCode
+        - firstName
+        - lastName
+        - dayOfBirth
+        - ranking
+        - rate
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        taxCode:
+          type: string
+          minLength: 12
+          maxLength: 20
+          example: 'RSSMRA85M01H501Z'
+        firstName:
+          type: string
+          example: 'Paolo'
+        lastName:
+          type: string
+          example: 'Rossi'
+        dayOfBirth:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        ranking:
+          type: integer
+          format: int32
+          example: 1965
+        rate:
+          type: number
+          format: double
+          example: 12345.67891
+        genericDetail:
+          type: string
+          example: 'idoneo'
+        notes:
+          type: string
+          maxLength: 500
+          example: '1 figlio a carico'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GraduatoriaDiReclutamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        taxCode: https://w3id.org/italia/onto/CPV/taxCode
+        firstName: https://w3id.org/italia/onto/CPV/givenName
+        lastName: https://w3id.org/italia/onto/CPV/familyName
+        dayOfBirth: https://w3id.org/italia/onto/CPV/dateOfBirth
+        ranking: posizioneInGraduatoria
+        rate: punteggioConseguitoInSelezione
+        genericDetail: dettaglioAllaPosizioneInGraduatoria
+        notes: notaAllaPosizioneInGraduatoria
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        taxCode: "RSSMRA85M01H501Z"
+        firstName: "Paolo"
+        lastName: "Rossi"
+        dayOfBirth: "1981-12-19"
+        ranking: 1965
+        rate: 12345.67891
+        genericDetail: "idoneo"
+        notes: "1 figlio a carico"
+
+    Exam:
+      description: Retrieves an exam object.
+      type: object
+      required:
+        - number
+        - examType
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        number:
+          type: integer
+          format: int32
+          example: 1
+        examType:
+          type: string
+          example: 'Scritta'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        number: indicatoreDiEsame
+        examType: https://w3id.org/italia/onto/l0/name
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        number: 1
+        examType: "Scritta"
+
+    ExamDetail:
+      description: Retrieves an exam detail object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        number:
+          type: integer
+          format: int32
+          example: 1
+        examType:
+          type: string
+          example: 'Scritta'
+        applicantsCount:
+          type: integer
+          format: int32
+          example: 50
+        participantsCount:
+          type: integer
+          format: int32
+          example: 25
+        passedCount:
+          type: integer
+          format: int32
+          example: 10
+        rejectedCount:
+          type: integer
+          format: int32
+          example: 1
+        abandonedCount:
+          type: integer
+          format: int32
+          example: 2
+        failedCount:
+          type: integer
+          format: int32
+          example: 12
+        testCount:
+          type: integer
+          format: int32
+          example: 50
+        testCheckedCount:
+          type: integer
+          format: int32
+          example: 7
+        session:
+          type: array
+          items:
+            $ref: '#/components/schemas/Session'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        number: indicatoreDiEsame
+        examType: https://w3id.org/italia/onto/l0/name
+        applicantsCount: numeroDiCandidati
+        participantsCount: numeroDiPartecipanti
+        passedCount: numeroDiPromossi
+        rejectedCount: numeroDiRespinti
+        abandonedCount: numeroDiAbbandoni
+        failedCount: numeroDiEsclusi
+        testCount: numeroDiTest
+        testCheckedCount: numeroDiTestVerificati
+        session:
+          '@id': haSessioneDiEsame
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        number: 1
+        examType: "Scritta"
+        applicantsCount: 50
+        participantsCount: 25
+        passedCount: 10
+        rejectedCount: 1
+        abandonedCount: 2
+        failedCount: 12
+        testCount: 50
+        testCheckedCount: 7
+        session:
+          - id: "00a088c943674314a7b3"
+            number: 1
+            location: "Roma"
+            executionDate: "2024-05-28T14:35:22+02:00"
+
+    Session:
+      description: Contains data of an exam session.
+      type: object
+      required:
+        - number
+        - location
+        - executionDate
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '00a088c943674314a7b3'
+        number:
+          type: integer
+          format: int32
+          example: 1
+        location:
+          type: string
+          example: 'Roma'
+        executionDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        number: indicatoreDellaSessioneDiEsame
+        location: https://w3id.org/italia/onto/l0/name
+        executionDate: dataDiSvolgimentoSessione
+      example:
+        id: "00a088c943674314a7b3"
+        number: 1
+        location: "Roma"
+        executionDate: "2024-05-28T14:35:22+02:00"
+
+    SessionDetail:
+      description: Retrieves a session detail object.
+      type: object
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        number:
+          type: integer
+          format: int32
+          example: 1
+        location:
+          type: string
+          example: 'Roma'
+        executionDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        resultPublished:
+          type: boolean
+          example: true
+        testCount:
+          type: integer
+          format: int32
+          example: 50
+        testCheckedCount:
+          type: integer
+          format: int32
+          example: 7
+        passedCount:
+          type: integer
+          format: int32
+          example: 10
+        rejectedCount:
+          type: integer
+          format: int32
+          example: 1
+        abandonedCount:
+          type: integer
+          format: int32
+          example: 2
+        failedCount:
+          type: integer
+          format: int32
+          example: 12
+        participants:
+          type: array
+          items:
+            $ref: '#/components/schemas/Participant'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        number: indicatoreDellaSessioneDiEsame
+        location: https://w3id.org/italia/onto/l0/name
+        executionDate: dataDiSvolgimentoSessione
+        resultPublished: avvisoRisultatoSessionePubblicato
+        testCount: numeroDiTest
+        testCheckedCount: numeroDiTestVerificati
+        passedCount: numeroDiPromossi
+        rejectedCount: numeroDiRespinti
+        abandonedCount: numeroDiAbbandoni
+        failedCount: numeroDiEsclusi
+        participants:
+          '@id': haPartecipanteSessioneDiEsame
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        number: 1
+        location: "Roma"
+        executionDate: "2024-05-28T14:35:22+02:00"
+        resultPublished: true
+        testCount: 50
+        testCheckedCount: 7
+        passedCount: 10
+        rejectedCount: 1
+        abandonedCount: 2
+        failedCount: 12
+        participants:
+          - firstName: "Paolo"
+            lastName: "Rossi"
+            taxCode: "RSSMRA85M01H501Z"
+            extraTimeMinutes: 15
+            disabilityOver79: 80
+            examAccommodations: "Lente di ingrandimento"
+            checkinDate: "2024-05-28T14:35:22+02:00"
+            ranking: 1965
+            rate: 12345.67891
+
+    Participant:
+      description: Retrieves data of a participant.
+      type: object
+      properties:
+        firstName:
+          type: string
+          example: 'Paolo'
+        lastName:
+          type: string
+          example: 'Rossi'
+        taxCode:
+          type: string
+          minLength: 12
+          maxLength: 20
+          example: 'RSSMRA85M01H501Z'
+        extraTimeMinutes:
+          type: integer
+          format: int32
+          example: 15
+        disabilityOver79:
+          type: integer
+          format: int32
+          example: 80
+        examAccommodations:
+          type: string
+          example: "Lente di ingrandimento"
+        checkinDate:
+          type: string
+          format: date-time
+          example: '2024-05-28T14:35:22+02:00'
+        examResult:
+          $ref: '#/components/schemas/ExamResult'
+        ranking:
+          type: integer
+          format: int32
+          example: 1965
+        rate:
+          type: number
+          format: double
+          example: 12345.67891
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PartecipanteSessioneEsame
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        firstName: https://w3id.org/italia/onto/CPV/givenName
+        lastName: https://w3id.org/italia/onto/CPV/familyName
+        taxCode: https://w3id.org/italia/onto/CPV/taxCode
+        extraTimeMinutes: extraTimeInSessioneEsame
+        disabilityOver79: gradoDiDisabilitàRiconosciuta
+        examAccommodations: ausiliUtilizzatiInSessione
+        checkinDate: dataDiIngressoInSessione
+        examResult:
+          '@id': haEsitoPartecipazioneSessioneDiEsame
+        ranking: posizioneInGraduatoria
+        rate: punteggioConseguitoInSelezione
+      example:
+        firstName: "Paolo"
+        lastName: "Rossi"
+        taxCode: "RSSMRA85M01H501Z"
+        extraTimeMinutes: 15
+        disabilityOver79: 80
+        examAccommodations: "Lente di ingrandimento"
+        checkinDate: "2024-05-28T14:35:22+02:00"
+        ranking: 1965
+        rate: 12345.67891
+
+    PaymentResponse:
+      description: Retrieves payments based on search parameters.
+      type: object
+      properties:
+        totalAmount:
+          type: number
+          format: double
+          example: 100000.50
+        totalNumber:
+          type: integer
+          format: int32
+          example: 50000
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConsuntivoDiProcedura
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        totalAmount: totalePagamentiIncassati
+        totalNumber: totaleDomandeRicevute
+      example:
+        totalAmount: 100000.50
+        totalNumber: 50000
+
+    Payment:
+      description: Retrieves a Payment object.
+      type: object
+      properties:
+        taxCode:
+          type: string
+          pattern: '^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$'
+          minLength: 16
+          maxLength: 16
+          example: 'RSSMRA85M01H501Z'
+        iuv:
+          type: string
+          example: '00102000000012345'
+        amount:
+          type: number
+          format: double
+          example: 25.50
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TassaIscrizione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        taxCode: https://w3id.org/italia/onto/CPV/taxCode
+        iuv: IUVDelPagamento
+        amount: importoPagato
+      example:
+        taxCode: "RSSMRA85M01H501Z"
+        iuv: "00102000000012345"
+        amount: 25.5
+
+    PersonalData:
+      description: Contains the applicant's personal data.
+      type: object
+      properties:
+        firstName:
+          type: string
+          example: 'Paolo'
+        lastName:
+          type: string
+          example: 'Rossi'
+        email:
+          type: string
+          format: email
+          example: "user@example.com"
+        mobilePhone:
+          type: string
+          pattern: '^\+\d{1,15}$'  # E.164 format: + followed by up to 15 digits
+          example: "+391234567890"
+        taxCode:
+          type: string
+          minLength: 12
+          maxLength: 20
+          example: 'RSSMRA85M01H501Z'
+        gender:
+          type: string
+          enum: [M, F]
+          example: M
+        maritalStatus:
+          type: string
+          example: 'Sposato'
+        drivingLicense:
+          type: string
+          description: List of driving license separated by semicolon.
+          example: 'NO;B'
+        otherDrivingLicense:
+          type: string
+          example: 'Patente mezzi agricoli'
+        ageDuringCompetition:
+          type: integer
+          format: int32
+          example: 22
+        dateOfBirth:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        pec:
+          type: string
+          format: email
+          example: "user@pec.it"
+        numDependentsChildren:
+          type: integer
+          format: int32
+          example: 3
+        birthLocation:
+          $ref: '#/components/schemas/Address'
+        residence:
+          $ref: '#/components/schemas/Address'
+        domicile:
+          $ref: '#/components/schemas/Address'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/onto/CPV/Alive
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/onto/CPV/
+        firstName: givenName
+        lastName: familyName
+        email:
+          '@id': https://w3id.org/italia/onto/SM/hasContactPoint
+          '@context':
+              label: http://www.w3.org/2000/01/rdf-schema#label
+        mobilePhone: https://w3id.org/italia/onto/SM/telephoneNumber
+        taxCode: taxCode
+        gender: https://w3id.org/italia/onto/l0/description
+        maritalStatus: https://w3id.org/italia/onto/RPO/maritalStatusDenomination
+        drivingLicense: https://w3id.org/italia/onto/l0/name
+        otherDrivingLicense: https://w3id.org/italia/onto/l0/name
+        ageDuringCompetition: age
+        dateOfBirth: dateOfBirth
+        pec:
+          '@id': https://w3id.org/italia/onto/SM/hasContactPoint
+          '@context':
+              label: http://www.w3.org/2000/01/rdf-schema#label
+        numDependentsChildren: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiFigliACarico
+        birthLocation:
+          '@id': hasBirthPlace
+        residence:
+          '@id': residentIn
+        domicile:
+          '@id': https://w3id.org/italia/onto/RPO/currentlyHasDomicileIn
+      example:
+        firstName: "Paolo"
+        lastName: "Rossi"
+        email: "user@example.com"
+        mobilePhone:  "+391234567890"
+        taxCode: "RSSMRA85M01H501Z"
+        gender: "M"
+        maritalStatus: "Sposato"
+        drivingLicense: "NO;B"
+        otherDrivingLicense: "Patente mezzi agricoli"
+        ageDuringCompetition: 22
+        dateOfBirth: "1981-12-19"
+        pec: "user@pec.it"
+        numDependentsChildren: 3
+
+    ApplicationStatus:
+      description: Contains the status of an application.
+      type: object
+      properties:
+        name:
+          type: string
+          enum: [PENDING, SUBMITTED]
+          example: PENDING
+        label:
+          type: string
+          example: 'In compilazione'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoDiCandidatura
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        name: statusDiCandidatura
+        label: https://w3id.org/italia/onto/l0/description
+      example:
+        name: PENDING
+        label: 'In compilazione'
+
+    Requirement:
+      description: Contains a requirement of an application.
+      type: object
+      properties:
+        label:
+          type: string
+          maxLength: 1000
+          example: "Idoneità all’impiego"
+        value:
+          type: string
+          maxLength: 255
+          example: 'Si'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ValorizzazioneRequisito
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        label: https://w3id.org/italia/onto/l0/name
+        value: valoreDelRequisitoPerCandidatura
+      example:
+        label: "Idoneità all’impiego"
+        value: 'Si'
+
+    Qualification:
+      description: Contains a qualificaton of an application.
+      type: object
+      required:
+        - officialDuration
+        - instituteAddress
+        - qualificationType
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        description:
+          type: string
+          maxLength: 200
+          example: 'Architettura del Paesaggio'
+        institute:
+          type: string
+          maxLength: 100
+          example: 'Politecnico di Milano'
+        instituteType:
+          type: string
+          maxLength: 255
+          example: 'ACME S.r.l.'
+        instituteAddress:
+          type: string
+          maxLength: 100
+          example: 'Piazza Leonardo Da Vinci,32 - Milano'
+        graduationDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "2001-12-19"
+        officialDuration:
+          type: integer
+          format: int32
+          example: 4
+        gradeNumerator:
+          type: integer
+          format: int32
+          maximum: 110
+          minimum: 0
+          example: 100
+        gradeDenominator:
+          type: integer
+          format: int32
+          maximum: 110
+          minimum: 1
+          example: 110
+        gradeText:
+          type: string
+          maxLength: 20
+          example: 'Eccellente'
+        gradeWithHonor:
+          type: boolean
+          example: false
+        decisionNumber:
+          type: string
+          maxLength: 100
+          example: '1462/07'
+        decisionDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "2001-12-19"
+        issuingAuthority:
+          type: string
+          maxLength: 45
+          example: 'Ministero della Salute'
+        equivalencyApplicationDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "2001-12-19"
+        equivalentApplicationDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "2001-12-19"
+        qualificationType:
+          type: string
+          example: 'Dottorato'
+        qualificationTypeDescription:
+          type: string
+          example: 'L/SC - Lauree in Scienze Criminologiche e della Sicurezza'
+        degreeAbroad:
+          type: boolean
+          example: false
+        professionalRegistrationNumber:
+          type: integer
+          format: int32
+          example: 169218
+        examCompleted:
+          type: boolean
+          example: false
+        specializationDetails:
+          type: string
+          example: 'Iscritto al primo anno'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+        phdCycle:
+          $ref: '#/components/schemas/GenericCategory'
+        phdScientificDisciplinaryArea:
+          $ref: '#/components/schemas/GenericCategory'
+        phdDisciplinaryArea:
+          type: string
+          example: |
+              Area 01 - Scienze matematiche e informatiche > INF/01 - Informatica
+              Area 08 - Ingegneria civile e Architettura > ICAR/06 - Topografia e cartografia
+              Area 08 - Ingegneria civile e Architettura > ICAR/20 - Tecnica e pianificazione urbanistica
+              Area 08 - Ingegneria civile e Architettura > ICAR/19 - Restauro
+        phdSpecializationKeywords:
+          type: string
+          description: Keywords useful for searching the candidate's specialization profile (minimum 1, maximum 50, separated by ';')
+          example: "gestione servizi alla persona; sociologia della conoscenza; tecniche di progettazione e protocolli di valutazione servizi; sociologia della comunicazione; sociologia dei gruppi; socializzazione primaria e secondaria; antropologia; metodologia della ricerca sociale."
+        phdAbroad:
+          type: boolean
+          example: false
+        universityPhdAbroad:
+          type: string
+          example: 'faculty of philology of saint petersburg state university'
+        mostRelevantPhdExperiences:
+          type: array
+          items:
+            $ref: '#/components/schemas/GenericCategory'
+        mostRelevantPhdExperienceText:
+          type: string
+          maxLength: 45
+          example: 'progettazione'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        description: https://w3id.org/italia/onto/l0/description
+        institute: https://w3id.org/italia/onto/l0/name
+        instituteType: https://w3id.org/italia/onto/l0/name
+        instituteAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        graduationDate: dataDiConseguimentoQualifica
+        officialDuration: durataCorsoDiStudio
+        gradeNumerator: votoConseguito
+        gradeDenominator: votoMassimoConseguibile
+        gradeText: votoTestuale
+        gradeWithHonor: avvisoLode
+        decisionNumber: identificatoreAttoEquiparazioneQualifica
+        decisionDate: dataAttoEquiparazioneQualifica
+        issuingAuthority: https://w3id.org/italia/onto/COV/legalName
+        equivalencyApplicationDate: dataValiditàEquipollenzaQualifica
+        equivalentApplicationDate: dataValiditàEquivalenzaQualifica
+        qualificationType: https://w3id.org/italia/onto/l0/description
+        qualificationTypeDescription:
+          '@id': haQualificaAccademica
+          '@type': '@id'
+          '@context':
+              "@base": 'https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/'
+        degreeAbroad: avvisoQualificaEstera
+        professionalRegistrationNumber: identificativoIscrizioneProfessionale
+        examCompleted: avvisoSuperamentoEsameDiStato
+        specializationDetails: dettaglioSpecializzazione
+        skills:
+          '@id': haCompetenzaAccademica
+        phdCycle:
+          '@id': haCicloDiDottorato
+        phdScientificDisciplinaryArea:
+          '@id': haAreaScientificaDottorato
+        phdDisciplinaryArea: areaDisciplinareDottorato
+        phdSpecializationKeywords: parolaChiaveSpecializzazione
+        phdAbroad: avvisoDottoratoEstero
+        universityPhdAbroad: universitàEstera
+        mostRelevantPhdExperiences:
+          '@id': haEsperienzaInDottorato
+        mostRelevantPhdExperienceText: esperienzaDottoratoRilevante
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        description: "Architettura del Paesaggio"
+        institute: "Politecnico di Milano"
+        instituteType: "ACME S.r.l."
+        instituteAddress: "Piazza Leonardo Da Vinci,32 - Milano"
+        graduationDate: "2001-12-19"
+        officialDuration: 4
+        gradeNumerator: 100
+        gradeDenominator: 110
+        gradeText: "Eccellente"
+        gradeWithHonor: false
+        decisionNumber: "1462/07"
+        decisionDate: "2001-12-19"
+        issuingAuthority: "Ministero della Salute"
+        equivalencyApplicationDate: "2001-12-19"
+        equivalentApplicationDate: "2001-12-19"
+        qualificationType: "Dottorato"
+        qualificationTypeDescription: "82"
+        degreeAbroad: false
+        professionalRegistrationNumber: 169218
+        examCompleted: false
+        specializationDetails: "Iscritto al primo anno"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+        phdDisciplinaryArea: "Area 01 - Scienze matematiche e informatiche > INF/01 - Informatica\nArea 08 - Ingegneria civile e Architettura > ICAR/06 - Topografia e cartografia\nArea 08 - Ingegneria civile e Architettura > ICAR/20 - Tecnica e pianificazione urbanistica\nArea 08 - Ingegneria civile e Architettura > ICAR/19 - Restauro\n"
+        phdSpecializationKeywords: "gestione servizi alla persona; sociologia della conoscenza; tecniche di progettazione e protocolli di valutazione servizi; sociologia della comunicazione; sociologia dei gruppi; socializzazione primaria e secondaria; antropologia; metodologia della ricerca sociale."
+        phdAbroad: false
+        universityPhdAbroad: "faculty of philology of saint petersburg state university"
+        mostRelevantPhdExperiences:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Procedimenti amministrativi"
+            description: "Procedimenti amministrativi"
+        mostRelevantPhdExperienceText: "progettazione"
+
+    Publication:
+      description: Contains a publication of an application.
+      type: object
+      required:
+        - publicationType
+        - title
+        - publicationName
+        - numPages
+        - publicationDate
+        - authors
+        - singleAuthor
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        publicationType:
+          type: string
+          maxLength: 30
+          example: 'Pubblicazione'
+        publicationLevel:
+          type: string
+          maxLength: 30
+          example: 'Internazionale'
+        title:
+          type: string
+          maxLength: 255
+          example: 'Telephone use, social networks and health status.'
+        publicationName:
+          type: string
+          maxLength: 100
+          example: 'Etruscan News 22'
+        numPages:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 9999999999
+          example: 350
+        publicationDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        authors:
+          type: string
+          maxLength: 255
+          example: 'Paolo Rossi, Giuseppe Verdi, Antonio Bianchi'
+        isbn:
+          type: string
+          example: '978-88-7970-493-1'
+        singleAuthor:
+          type: boolean
+          example: false
+        authorType:
+          type: string
+          maxLength: 30
+          example: 'Intermedio'
+        notes:
+          type: string
+          maxLength: 255
+          example: "Ha collaborato all'intera stesura della pubblicazione, Nome non in copertina ma sul dorso della pubblicazione"
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneAccademica
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        publicationType: https://w3id.org/italia/onto/l0/description
+        publicationLevel: https://w3id.org/italia/onto/l0/description
+        title: titoloDellaPubblicazione
+        publicationName: nomeDellaPubblicazione
+        numPages: numeroPagineDellaPubblicazione
+        publicationDate: dataDellaPubblicazione
+        authors: autoreDellaPubblicazione
+        isbn: ISBN
+        singleAuthor: avvisoAutorePubblicazioneSingolo
+        authorType: https://w3id.org/italia/onto/l0/description
+        notes: notaAllaPubblicazione
+        skills:
+          '@id': haCompetenzaPubblicazione
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        publicationType: "Pubblicazione"
+        publicationLevel: "Internazionale"
+        title: "Telephone use, social networks and health status."
+        publicationName: "Etruscan News 22"
+        numPages: 350
+        publicationDate: "1981-12-19"
+        authors: "Paolo Rossi, Giuseppe Verdi, Antonio Bianchi"
+        isbn: "978-88-7970-493-1"
+        singleAuthor: false
+        authorType: "Intermedio"
+        notes: "Ha collaborato all'intera stesura della pubblicazione, Nome non in copertina ma sul dorso della pubblicazione"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    PaWorkExperience:
+      description: Contains a work experience as an employee in the public administration.
+      type: object
+      required:
+        - workingTimeType
+        - employmentType
+        - employer
+        - employerAddress
+        - startDate
+        - description1
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        companyType:
+          type: string
+          maxLength: 20
+          example: 'Convenzionato'
+        abroadDecisionNumber:
+          type: string
+          example: '12102015'
+        abroadDecisionDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        abroadDecisionAuthority:
+          type: string
+          example: 'European Commission'
+        workingTimeType:
+          type: string
+          maxLength: 20
+          example: 'Pieno'
+        employmentType:
+          type: string
+          maxLength: 50
+          example: 'Indeterminato'
+        abroad:
+          type: boolean
+          example: true
+        jobTitleType:
+          $ref: '#/components/schemas/JobTitleType'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Comune di Barletta'
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'Piazza Roma'
+        jobTitle:
+          type: string
+          maxLength: 200
+          example: 'Avvocato semi-senior'
+        weeklyHoursPercentage:
+          type: number
+          format: double
+          example: 2.25
+        startDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        endDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        current:
+          type: boolean
+          example: true
+        description1:
+          type: string
+          maxLength: 1000
+          example: "Il ruolo dell'HR Manager"
+        description2:
+          type: string
+          maxLength: 500
+          example: 'Organizzazione Aziendale'
+        notes:
+          type: string
+          maxLength: 255
+          example: 'corso rivolto alle aree amministrative'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        companyType: https://w3id.org/italia/onto/l0/description
+        abroadDecisionNumber: identificativoProvvedimentoEstero
+        abroadDecisionDate: dataProvvedimentoEstero
+        abroadDecisionAuthority: autoritàProvvedimentoEstero
+        workingTimeType: https://w3id.org/italia/onto/l0/description
+        employmentType: https://w3id.org/italia/onto/l0/description
+        abroad: avvisoLavoroEstero
+        jobTitleType:
+          '@id': haDescrittoreRuolo
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        jobTitle: ruoloLavorativoRicoperto
+        weeklyHoursPercentage: percentualeOreSettimanali
+        startDate: https://w3id.org/italia/onto/TI/startTime
+        endDate: https://w3id.org/italia/onto/TI/endTime
+        current: avvisoImpiegoAttuale
+        description1: https://w3id.org/italia/onto/l0/description
+        description2: https://w3id.org/italia/onto/l0/description
+        notes: notaEsperienzaLavorativa
+        skills:
+          '@id': haCompetenzaEsperienzaLavorativa
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        companyType: "Convenzionato"
+        abroadDecisionNumber: "12102015"
+        abroadDecisionDate: "1981-12-19"
+        abroadDecisionAuthority: "European Commission"
+        workingTimeType: "Pieno"
+        employmentType: "Indeterminato"
+        abroad: true
+        employer: "Comune di Barletta"
+        employerAddress: "Piazza Roma"
+        jobTitle: "Avvocato semi-senior"
+        weeklyHoursPercentage: 2.25
+        startDate: "1981-12-19"
+        endDate: "1981-12-19"
+        current: true
+        description1: "Il ruolo dell'HR Manager"
+        description2: "Organizzazione Aziendale"
+        notes: "corso rivolto alle aree amministrative"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    PaOtherWorkExperience:
+      description: Contains other types of work experience in the public administration.
+      type: object
+      required:
+        - employer
+        - employerAddress
+        - startDate
+        - description1
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        employmentContractType:
+          type: string
+          maxLength: 40
+          example: 'Dipendente'
+        jobTitleType:
+          $ref: '#/components/schemas/JobTitleType'
+        companyType:
+          type: string
+          maxLength: 20
+          example: 'Convenzionato'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Comune di Barletta'
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'Piazza Roma'
+        jobTitle:
+          type: string
+          maxLength: 200
+          example: 'Avvocato semi-senior'
+        weeklyHoursPercentage:
+          type: number
+          format: double
+          example: 2.25
+        startDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        endDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        current:
+          type: boolean
+          example: true
+        description1:
+          type: string
+          maxLength: 1000
+          example: "Il ruolo dell'HR Manager"
+        description2:
+          type: string
+          maxLength: 500
+          example: 'Organizzazione Aziendale'
+        notes:
+          type: string
+          maxLength: 255
+          example: 'corso rivolto alle aree amministrative'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        employmentContractType: https://w3id.org/italia/onto/l0/description
+        jobTitleType:
+          '@id': haDescrittoreRuolo
+        companyType: https://w3id.org/italia/onto/l0/description
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        jobTitle: ruoloLavorativoRicoperto
+        weeklyHoursPercentage: percentualeOreSettimanali
+        startDate: https://w3id.org/italia/onto/TI/startTime
+        endDate: https://w3id.org/italia/onto/TI/endTime
+        current: avvisoImpiegoAttuale
+        description1: https://w3id.org/italia/onto/l0/description
+        description2: https://w3id.org/italia/onto/l0/description
+        notes: notaEsperienzaLavorativa
+        skills:
+          '@id': haCompetenzaEsperienzaLavorativa
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        employmentContractType: "Dipendente"
+        companyType: "Convenzionato"
+        employer: "Comune di Barletta"
+        employerAddress: "Piazza Roma"
+        jobTitle: "Avvocato semi-senior"
+        weeklyHoursPercentage: 2.25
+        startDate: "1981-12-19"
+        endDate: "1981-12-19"
+        current: true
+        description1: "Il ruolo dell'HR Manager"
+        description2: "Organizzazione Aziendale"
+        notes: "corso rivolto alle aree amministrative"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    PrivateWorkExperience:
+      description: Contains a work experience in the private sector.
+      type: object
+      required:
+        - employer
+        - employerAddress
+        - startDate
+        - description1
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        employmentContractType:
+          type: string
+          maxLength: 40
+          example: 'Dipendente'
+        jobTitleType:
+          $ref: '#/components/schemas/JobTitleType'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Comune di Barletta'
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'Piazza Roma'
+        jobTitle:
+          type: string
+          maxLength: 200
+          example: 'Avvocato semi-senior'
+        weeklyHoursPercentage:
+          type: number
+          format: double
+          example: 2.25
+        startDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        endDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        current:
+          type: boolean
+          example: true
+        description1:
+          type: string
+          maxLength: 1000
+          example: "Il ruolo dell'HR Manager"
+        description2:
+          type: string
+          maxLength: 500
+          example: 'Organizzazione Aziendale'
+        notes:
+          type: string
+          maxLength: 255
+          example: 'corso rivolto alle aree amministrative'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPrivata
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        employmentContractType: https://w3id.org/italia/onto/l0/description
+        jobTitleType:
+          '@id': haDescrittoreRuolo
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        jobTitle: ruoloLavorativoRicoperto
+        weeklyHoursPercentage: percentualeOreSettimanali
+        startDate: https://w3id.org/italia/onto/TI/startTime
+        endDate: https://w3id.org/italia/onto/TI/endTime
+        current: avvisoImpiegoAttuale
+        description1: https://w3id.org/italia/onto/l0/description
+        description2: https://w3id.org/italia/onto/l0/description
+        notes: notaEsperienzaLavorativa
+        skills:
+          '@id': haCompetenzaEsperienzaLavorativa
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        employmentContractType: "Dipendente"
+        employer: "Comune di Barletta"
+        employerAddress: "Piazza Roma"
+        jobTitle: "Avvocato semi-senior"
+        weeklyHoursPercentage: 2.25
+        startDate: "1981-12-19"
+        endDate: "1981-12-19"
+        current: true
+        description1: "Il ruolo dell'HR Manager"
+        description2: "Organizzazione Aziendale"
+        notes: "corso rivolto alle aree amministrative"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    OtherWorkExperience:
+      description: Contains other types of work experience.
+      type: object
+      required:
+        - employer
+        - employerAddress
+        - startDate
+        - description1
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        employmentContractType:
+          type: string
+          maxLength: 40
+          example: 'Dipendente'
+        jobTitleType:
+          $ref: '#/components/schemas/JobTitleType'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Comune di Barletta'
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'Piazza Roma'
+        jobTitle:
+          type: string
+          maxLength: 200
+          example: 'Avvocato semi-senior'
+        weeklyHoursPercentage:
+          type: number
+          format: double
+          example: 2.25
+        startDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        endDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        current:
+          type: boolean
+          example: true
+        description1:
+          type: string
+          maxLength: 1000
+          example: "Il ruolo dell'HR Manager"
+        description2:
+          type: string
+          maxLength: 500
+          example: 'Organizzazione Aziendale'
+        notes:
+          type: string
+          maxLength: 255
+          example: 'corso rivolto alle aree amministrative'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPrivata
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        employmentContractType: https://w3id.org/italia/onto/l0/description
+        jobTitleType:
+          '@id': haDescrittoreRuolo
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        jobTitle: ruoloLavorativoRicoperto
+        weeklyHoursPercentage: percentualeOreSettimanali
+        startDate: https://w3id.org/italia/onto/TI/startTime
+        endDate: https://w3id.org/italia/onto/TI/endTime
+        current: avvisoImpiegoAttuale
+        description1: https://w3id.org/italia/onto/l0/description
+        description2: https://w3id.org/italia/onto/l0/description
+        notes: notaEsperienzaLavorativa
+        skills:
+          '@id': haCompetenzaEsperienzaLavorativa
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        employmentContractType: "Dipendente"
+        employer: "Comune di Barletta"
+        employerAddress: "Piazza Roma"
+        jobTitle: "Avvocato semi-senior"
+        weeklyHoursPercentage: 2.25
+        startDate: "1981-12-19"
+        endDate: "1981-12-19"
+        current: true
+        description1: "Il ruolo dell'HR Manager"
+        description2: "Organizzazione Aziendale"
+        notes: "corso rivolto alle aree amministrative"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    Teaching:
+      description: Contains a teaching experience of an application.
+      type: object
+      required:
+        - employer
+        - employerAddress
+        - hoursOfTeaching
+        - yearsOfTeaching
+        - experience
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Alma Mater Studiorum - Università di Bologna'
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'via zamboni 33'
+        hoursOfTeaching:
+          type: integer
+          format: int32
+          example: 120
+        yearsOfTeaching:
+          type: integer
+          format: int32
+          example: 1
+        experience:
+          $ref: '#/components/schemas/Experience'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttivitàDiInsegnamento
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        hoursOfTeaching: numeroOreInsegnamento
+        yearsOfTeaching: numeroAnniInsegnamento
+        experience:
+          '@id': haEsperienzaDiInsegnamento
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        employer:  "Alma Mater Studiorum - Università di Bologna"
+        employerAddress: "via zamboni 33"
+        hoursOfTeaching: 120
+        yearsOfTeaching: 1
+        experience:
+          id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+          startDate: "1981-12-19"
+          endDate: "1981-12-19"
+          current: true
+          description1: "Il ruolo dell'HR Manager"
+          description2: "Organizzazione Aziendale"
+          notes: "corso rivolto alle aree amministrative"
+          skills:
+            - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+              name: "Tecniche e strumenti di consultazione banche dati complesse"
+              description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    Course:
+      description: Contains a course, congress or conference of an application.
+      type: object
+      required:
+        - employer
+        - employerAddress
+        - durationHours
+        - roleType
+        - hasExam
+        - experience
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0000040549da47f78cc421c13c88eaqk'
+        employer:
+          type: string
+          maxLength: 255
+          example: 'Ministero delle infrastrutture e dei Trasporti '
+        employerAddress:
+          type: string
+          maxLength: 255
+          example: 'Roma'
+        durationHours:
+          type: integer
+          format: int32
+          example: 8
+        roleType:
+          type: string
+          example: 'Partecipante'
+        courseType:
+          type: string
+          example: 'Attestato di partecipazione'
+        hasExam:
+          type: boolean
+          example: true
+        credits:
+          type: number
+          format: double
+          example: 0.31
+        experience:
+          $ref: '#/components/schemas/Experience'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaDiFormazione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        employer: https://w3id.org/italia/onto/COV/legalName
+        employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
+        durationHours: numeroOreFormazione
+        roleType: https://w3id.org/italia/onto/l0/description
+        courseType: https://w3id.org/italia/onto/l0/description
+        hasExam: avvisoEsameFinale
+        credits: numeroCreditiAcquisiti
+        experience:
+          '@id': haEsperienzaDiInsegnamento
+      example:
+        id: "0000040549da47f78cc421c13c88eaqk"
+        employer: "Ministero delle infrastrutture e dei Trasporti "
+        employerAddress: "Roma"
+        durationHours: 8
+        roleType: "Partecipante"
+        courseType: "Attestato di partecipazione"
+        hasExam: true
+        credits: 0.31
+        experience:
+          id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+          startDate: "1981-12-19"
+          endDate: "1981-12-19"
+          current: true
+          description1: "Il ruolo dell'HR Manager"
+          description2: "Organizzazione Aziendale"
+          notes: "corso rivolto alle aree amministrative"
+          skills:
+            - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+              name: "Tecniche e strumenti di consultazione banche dati complesse"
+              description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    Experience:
+      description: Contains a generic experience of an application.
+      type: object
+      required:
+      - startDate
+      - description1
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        startDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        endDate:
+          type: string
+          format: date
+          description: Date in the format year-month-day (YYYY-MM-DD)
+          example: "1981-12-19"
+        current:
+          type: boolean
+          example: true
+        description1:
+          type: string
+          maxLength: 1000
+          example: "Il ruolo dell'HR Manager"
+        description2:
+          type: string
+          maxLength: 500
+          example: 'Organizzazione Aziendale'
+        notes:
+          type: string
+          maxLength: 255
+          example: 'corso rivolto alle aree amministrative'
+        skills:
+          type: array
+          items:
+            $ref: '#/components/schemas/Skill'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaDiFormazione
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        startDate: https://w3id.org/italia/onto/TI/startTime
+        endDate: https://w3id.org/italia/onto/TI/endTime
+        current: avvisoEsperienzaAttuale
+        description1: https://w3id.org/italia/onto/l0/description
+        description2: https://w3id.org/italia/onto/l0/description
+        notes: notaDiEsperienzaGenerica
+        skills:
+          '@id': haCompetenzaEsperienzaGenerica
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        startDate: "1981-12-19"
+        endDate: "1981-12-19"
+        current: true
+        description1: "Il ruolo dell'HR Manager"
+        description2: "Organizzazione Aziendale"
+        notes: "corso rivolto alle aree amministrative"
+        skills:
+          - id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+            name: "Tecniche e strumenti di consultazione banche dati complesse"
+            description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    LanguageSkill:
+      description: Contains a language skill of an application.
+      type: object
+      required:
+        - language
+        - nativeLanguage
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        language:
+          $ref: '#/components/schemas/Language'
+        nativeLanguage:
+          type: boolean
+          example: true
+        listeningComprehension:
+          type: string
+          enum: [A1, A2, B1, B2, C1, C2]
+          example: A2
+        readingComprehension:
+          type: string
+          enum: [A1, A2, B1, B2, C1, C2]
+          example: A2
+        spokenInteraction:
+          type: string
+          enum: [A1, A2, B1, B2, C1, C2]
+          example: A2
+        spokenProduction:
+          type: string
+          enum: [A1, A2, B1, B2, C1, C2]
+          example: A2
+        writing:
+          type: string
+          enum: [A1, A2, B1, B2, C1, C2]
+          example: A2
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CompetenzaLinguistica
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        language:
+          '@id': hhaLinguaDiCompetenza
+        nativeLanguage: avvisoMadreLingua
+        listeningComprehension: https://w3id.org/italia/onto/l0/name
+        readingComprehension: https://w3id.org/italia/onto/l0/name
+        spokenInteraction: https://w3id.org/italia/onto/l0/name
+        spokenProduction: https://w3id.org/italia/onto/l0/name
+        writing: https://w3id.org/italia/onto/l0/name
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        nativeLanguage: true
+        listeningComprehension: A2
+        readingComprehension: A2
+        spokenInteraction: A2
+        spokenProduction: A2
+        writing: A2
+        language:
+          code: "de"
+          nativeName: "Deutsch"
+          enName: "German"
+          itName: "Tedesco"
+
+    Skill:
+      description: Contains a skill of an application.
+      type: object
+      required:
+        - name
+      properties:
+        id:
+          type: string
+          maxLength: 40
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        name:
+          type: string
+          example: 'Tecniche e strumenti di consultazione banche dati complesse'
+        description:
+          type: string
+          example: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreCompetenza
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        name: https://w3id.org/italia/onto/l0/name
+        description: https://w3id.org/italia/onto/l0/description
+      example:
+        id: "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        name: "Tecniche e strumenti di consultazione banche dati complesse"
+        description: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
+
+    Province:
+      description: Contains data of a province.
+      type: object
+      required:
+        - code
+        - name
+      properties:
+        country:
+          type: string
+          example: 'Italia'
+        code:
+          type: string
+          example: 'AN'
+        name:
+          type: string
+          example: 'Ancona'
+        latitude:
+          type: string
+          example: '42.7'
+        longitude:
+          type: string
+          example: '12.8'
+        region:
+            $ref: '#/components/schemas/Region'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/onto/CLV/Province
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/onto/CLV/
+        country:
+          '@id': hasCountry
+          '@type': '@id'
+          '@context':
+              "@base": 'https://schema.gov.it/lodview/controlled-vocabulary/territorial-classifications/countries/'
+        code: http://purl.org/dc/terms/identifier
+        name: https://w3id.org/italia/onto/l0/name
+        latitude: lat
+        longitude: long
+        region:
+          '@id': hasRegion
+      example:
+        country: "Z103"
+        code: "AN"
+        name: "Ancona"
+        latitude: "42.7"
+        longitude: "12.8"
+
+    Region:
+      description: Contains data of a region.
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          example: 'Marche'
+        latitude:
+          type: string
+          example: '43.4'
+        longitude:
+          type: string
+          example: '13.28'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/onto/CLV/Region
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/onto/CLV/
+        name:
+          '@id': hasRegion
+          '@type': '@id'
+          '@context':
+              "@base": 'https://schema.gov.it/lodview/controlled-vocabulary/territorial-classifications/regions/'
+        latitude: lat
+        longitude: long
+      example:
+        name: "11"
+        latitude: "42.7"
+        longitude: "12.8"
+
+    GenericCategory:
+      description: Contains a generic category.
+      type: object
+      required:
+        - name
+      properties:
+        id:
+          type: string
+          maxLength: 50
+          example: '0006c355-c517-4ad5-b2c9-1de51321asd2'
+        name:
+          type: string
+          example: 'Procedimenti amministrativi'
+        description:
+          type: string
+          example: 'Procedimenti amministrativi'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreGenerico
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        name: https://w3id.org/italia/onto/l0/name
+        description: https://w3id.org/italia/onto/l0/description
+      example:
+        id:  "0006c355-c517-4ad5-b2c9-1de51321asd2"
+        name: "Procedimenti amministrativi"
+        description: "Procedimenti amministrativi"
+
+    Address:
+      description: Contains data of an address.
+      type: object
+      properties:
+        address:
+          type: string
+          example: 'Via Roma'
+        number:
+          type: string
+          example: '27'
+        country:
+          type: string
+          example: 'Italia'
+        city:
+          type: string
+          example: 'Roma'
+        cityCode:
+          type: string
+          example: 'RM'
+        state:
+          type: string
+          example: 'Lazio'
+        zipCode:
+          type: string
+          example: '20092'
+      x-jsonld-type: https://w3id.org/italia/onto/CLV/Address
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/onto/CLV/
+        address: fullAddress
+        number: streetNumber
+        country:
+          '@id': hasCountry
+          '@type': '@id'
+          '@context':
+              "@base": 'https://schema.gov.it/lodview/controlled-vocabulary/territorial-classifications/countries/'
+        city:
+          '@id': hasCity
+          '@type': '@id'
+          '@context':
+              "@base": 'https://schema.gov.it/lodview/controlled-vocabulary/territorial-classifications/cities/'
+        cityCode: acronym
+        state:
+          '@id': hasRegion
+          '@type': '@id'
+          '@context':
+              "@base": 'https://schema.gov.it/lodview/controlled-vocabulary/territorial-classifications/regions/'
+        zipCode:  postCode
+      example:
+        address: 'Via Roma'
+        number: '27'
+        country: 'Z103'
+        city: '001812'
+        cityCode: 'RM'
+        state: "11"
+        zipCode: '20092'
+
+    Language:
+      description: Contains data of a language.
+      type: object
+      required:
+        - code
+        - nativeName
+        - enName
+        - itName
+      properties:
+        code:
+          type: string
+          example: 'de'
+        nativeName:
+          type: string
+          example: 'Deutsch'
+        enName:
+          type: string
+          example: 'German'
+        itName:
+          type: string
+          example: 'Tedesco'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreLingua
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        code: http://purl.org/dc/terms/identifier
+        nativeName: https://w3id.org/italia/onto/l0/name
+        enName: nomeLinguaInInglese
+        itName: nomeLinguaInItaliano
+      example:
+        code: "de"
+        nativeName: "Deutsch"
+        enName:  "German"
+        itName: "Tedesco"
+
+    JobTitleType:
+      description: Contains data of a job title type.
+      type: object
+      required:
+        - description
+        - status
+      properties:
+        id:
+          type: string
+          maxLength: 20
+          example: '00a088c943674314a7b3'
+        description:
+          type: string
+          example: 'Funzionario di vigilanza (Cat. D) – Enti Locali'
+        type:
+          type: string
+          example: 'Altra PA'
+        status:
+          type: string
+          example: 'Attivo'
+      additionalProperties: false
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreRuolo
+      x-jsonld-context:
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
+        id: http://purl.org/dc/terms/identifier
+        description: https://w3id.org/italia/onto/l0/description
+        type: tipoDescrittoreRuolo
+        status: statusDescrittoreRuolo
+      example:
+        id: '00a088c943674314a7b3'
+        description: 'Funzionario di vigilanza (Cat. D) – Enti Locali'
+        type: 'Altra PA'
+        status: 'Attivo'
