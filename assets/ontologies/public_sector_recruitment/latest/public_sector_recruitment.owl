@@ -1,17 +1,29 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/italia/onto/RO/"
-     xml:base="https://w3id.org/italia/onto/RO/"
-     xmlns:ns1="https://w3id.org/italia/onto/ADMS/"
-     xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+<rdf:RDF xmlns="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/"
+     xml:base="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/"
+     xmlns:L0="https://w3id.org/italia/onto/l0/"
+     xmlns:RO="https://w3id.org/italia/onto/RO/"
+     xmlns:SM="https://w3id.org/italia/onto/SM/"
+     xmlns:TI="https://w3id.org/italia/onto/TI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
+     xmlns:COV="https://w3id.org/italia/onto/COV/"
+     xmlns:CPV="https://w3id.org/italia/onto/CPV/"
+     xmlns:RPO="https://w3id.org/italia/onto/RPO/"
+     xmlns:dct="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="https://w3id.org/italia/onto/ADMS/"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/italia/onto/RO/">
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+     xmlns:pa-recruit="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/">
+    <owl:Ontology rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/1.0"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/CLV/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/COV/"/>
@@ -21,19 +33,19 @@
         <owl:imports rdf:resource="https://w3id.org/italia/onto/SM/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/TI/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/l0/"/>
-        <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
-        <dcterms:creator rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
-        <dcterms:description xml:lang="it">Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dcterms:description>
-        <dcterms:description xml:lang="en">The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal.</dcterms:description>
-        <dcterms:identifier>https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</dcterms:identifier>
-        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dcterms:issued>
-        <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-        <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dcterms:modified>
-        <dcterms:publisher rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
-        <dcterms:rightsHolder rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
-        <dcterms:title xml:lang="it">Ontologia del Dipartimento della Funzione Pubblica</dcterms:title>
-        <dcterms:title xml:lang="en">inPA Recruitment Portal Ontology</dcterms:title>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+        <dct:creator rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
+        <dct:description xml:lang="it">Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
+        <dct:description xml:lang="en">The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal.</dct:description>
+        <dct:identifier>https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dct:modified>
+        <dct:publisher rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
+        <dct:rightsHolder rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
+        <dct:title xml:lang="it">Ontologia del Dipartimento della Funzione Pubblica</dct:title>
+        <dct:title xml:lang="en">inPA Recruitment Portal Ontology</dct:title>
         <rdfs:comment xml:lang="it">Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</rdfs:comment>
         <rdfs:comment xml:lang="en">The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/"/>
@@ -47,35 +59,35 @@
         <dcat:keyword xml:lang="it">Curriculum Vitae</dcat:keyword>
         <dcat:keyword xml:lang="it">Sessione Di Esame</dcat:keyword>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
-        <ns1:acronym>dfp</ns1:acronym>
-        <ns1:hasContributor rdf:resource="https://w3id.org/italia/data/organization/public-organization/td"/>
-        <ns1:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
-        <ns1:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento"/>
-        <ns1:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
-        <ns1:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CurriculumVitae"/>
-        <ns1:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
-        <ns1:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame"/>
-        <ns1:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
-        <ns1:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES"/>
-        <ns1:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE"/>
-        <ns1:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML"/>
-        <ns1:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
-        <ns1:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
-        <ns1:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
-        <ns1:last rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/1.0"/>
-        <ns1:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</ns1:officialURI>
-        <ns1:prefix>pa-recruit</ns1:prefix>
-        <ns1:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/NDC"/>
-        <ns1:status>draft</ns1:status>
-        <ns1:target xml:lang="it">Cittadini</ns1:target>
-        <ns1:target xml:lang="it">Imprese</ns1:target>
-        <ns1:target xml:lang="it">Pubbliche Amministrazioni</ns1:target>
-        <ns1:type rdf:resource="https://w3id.org/italia/onto/ADMS/ServiceOnytology"/>
+        <adms:acronym>dfp</adms:acronym>
+        <adms:hasContributor rdf:resource="https://w3id.org/italia/data/organization/public-organization/td"/>
+        <adms:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CurriculumVitae"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame"/>
+        <adms:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML"/>
+        <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
+        <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
+        <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
+        <adms:last rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/1.0"/>
+        <adms:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</adms:officialURI>
+        <adms:prefix>pa-recruit</adms:prefix>
+        <adms:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/NDC"/>
+        <adms:status>draft</adms:status>
+        <adms:target xml:lang="it">Cittadini</adms:target>
+        <adms:target xml:lang="it">Imprese</adms:target>
+        <adms:target xml:lang="it">Pubbliche Amministrazioni</adms:target>
+        <adms:type rdf:resource="https://w3id.org/italia/onto/ADMS/ServiceOnytology"/>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -83,220 +95,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
-
-
-    <!-- http://purl.org/dc/terms/accrualPeriodicity -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
-
-
-
-    <!-- http://purl.org/dc/terms/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
-
-
-
-    <!-- http://purl.org/dc/terms/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
-
-
-
-    <!-- http://purl.org/dc/terms/format -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/format"/>
-
-
-
-    <!-- http://purl.org/dc/terms/identifier -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
-
-
-
-    <!-- http://purl.org/dc/terms/issued -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
-
-
-
-    <!-- http://purl.org/dc/terms/language -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
-
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-
-
-
-    <!-- http://purl.org/dc/terms/modified -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
-
-
-
-    <!-- http://purl.org/dc/terms/publisher -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
-
-
-
-    <!-- http://purl.org/dc/terms/rightsHolder -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rightsHolder"/>
-
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-
-
-
-    <!-- http://www.w3.org/2006/vcard/ns#fn -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
-
-
-
-    <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
-
+    
 
 
     <!-- http://www.w3.org/2006/vcard/ns#hasURL -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasURL"/>
+    
 
 
-
-    <!-- http://www.w3.org/ns/dcat#accessURL -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
-
-
-
-    <!-- http://www.w3.org/ns/dcat#contactPoint -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
-
-
-
-    <!-- http://www.w3.org/ns/dcat#downloadURL -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
-
-
-
-    <!-- http://www.w3.org/ns/dcat#keyword -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#keyword"/>
-
-
-
-    <!-- http://www.w3.org/ns/dcat#theme -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#theme"/>
-
-
-
-    <!-- http://xmlns.com/foaf/0.1/name -->
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/acronym -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/acronym"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasContributor -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasContributor"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasFormalityLevel -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasFormalityLevel"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasKeyClass -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasKeyClass"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasOntologyLanguage -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/hasTask -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasTask"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/last -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/last"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/officialURI -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/officialURI"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/prefix -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/prefix"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/semanticAssetInUse -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/semanticAssetInUse"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/status -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/status"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/target -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/target"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/type -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/type"/>
-
-
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -304,40 +112,40 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#boolean -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#boolean"/>
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#dateTime -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#float -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#integer -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
-
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#string -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -345,31 +153,31 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CLV/hasAddress -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasAddress"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CLV/hasLowerRank -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/CLV/hasLowerRank"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/RO/holdsRoleInTime -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/RO/holdsRoleInTime"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/SM/hasEmail -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/italia/onto/SM/hasEmail"/>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAllegatoCandidatura -->
@@ -381,7 +189,7 @@
         <rdfs:comment xml:lang="it">Specifica che una candidatura per una procedura di reclutamento ha un allegato associato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha allegato candidatura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAllegatoPubblicazioneReclutamento -->
@@ -393,7 +201,7 @@
         <rdfs:comment xml:lang="it">Indica che una pubblicazione di reclutamento ha un allegato associato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha allegato pubblicazione reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAreaDiReclutamento -->
@@ -404,7 +212,7 @@
         <rdfs:comment xml:lang="it">Indica l&apos;area geografica a cui è dedicata la procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">ha area di reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAreaScientificaDottorato -->
@@ -417,7 +225,7 @@
         <rdfs:comment xml:lang="it">Collega una qualifica accademica a un&apos;area scientifica specifica di dottorato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha area scientifica dottorato</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAttivitàDiInsegnamento -->
@@ -429,7 +237,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato ha svolto attività di insegnamento.</rdfs:comment>
         <rdfs:label xml:lang="it">ha attività di insegnamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haAutoritàDiEmissione -->
@@ -441,7 +249,7 @@
         <rdfs:comment xml:lang="it">Lega un atto di equiparazione qualifica estera all&apos;istituzione pubblica che lo ha emesso.</rdfs:comment>
         <rdfs:label xml:lang="it">ha autorità di emissione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCandidato -->
@@ -453,7 +261,7 @@
         <rdfs:comment xml:lang="it">Lega una candidatura alla persona che si è candidata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha candidato</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDellaCompetenza -->
@@ -465,7 +273,7 @@
         <rdfs:comment xml:lang="it">Lega un descrittore di competenza alla sua categoria</rdfs:comment>
         <rdfs:label xml:lang="it">ha categoria della competenza</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento -->
@@ -477,7 +285,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a una categoria specifica di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">ha categoria di reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaPatenteDiGuida -->
@@ -489,7 +297,7 @@
         <rdfs:comment xml:lang="it">Lega una patente di guida alla relativa categoria.</rdfs:comment>
         <rdfs:label xml:lang="it">ha categoria patente di guida</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCicloDiDottorato -->
@@ -502,7 +310,7 @@
         <rdfs:comment xml:lang="it">Collega una qualifica accademica a un ciclo di dottorato specifico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha ciclo di dottorato</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaAccademica -->
@@ -515,7 +323,7 @@
         <rdfs:comment xml:lang="it">Indica che una qualifica accademica è associata a una specifica competenza.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza accademica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaEsperienzaGenerica -->
@@ -527,7 +335,7 @@
         <rdfs:comment xml:lang="it">Indica che ad un&apos;esperienza generica è associata a una competenza.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza esperienza generica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaEsperienzaLavorativa -->
@@ -540,7 +348,7 @@
         <rdfs:comment xml:lang="it">Collega un&apos;esperienza lavorativa a una competenza specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza esperienza lavorativa</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaExtracurriculare -->
@@ -552,7 +360,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato ha competenze acquisite in attività extracurricolari.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza extracurriculare</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaLinguistica -->
@@ -564,7 +372,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato possiede una competenza linguistica specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza linguistica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCompetenzaPubblicazione -->
@@ -577,7 +385,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione accademica a una competenza specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha competenza pubblicazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haConsuntivoDiProcedura -->
@@ -589,7 +397,7 @@
         <rdfs:comment xml:lang="it">Lega una pubblicazione di procedura di reclutamento alle informazioni di consuntivazione.</rdfs:comment>
         <rdfs:label xml:lang="it">ha consuntivo di procedura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCurriculumVitae -->
@@ -601,7 +409,7 @@
         <rdfs:comment xml:lang="it">Lega un candidato ad un suo curriculum vitae.</rdfs:comment>
         <rdfs:label xml:lang="it">ha curriculum vitae</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCurriculumVitaeDiCandidatura -->
@@ -613,7 +421,7 @@
         <rdfs:comment xml:lang="it">Lega una candidatura al curriculum vitae in essa presentato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha curriculum vitae di candidatura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haDatoreDiLavoro -->
@@ -625,7 +433,7 @@
         <rdfs:comment xml:lang="it">Lega una esperienza lavorativa al datore di lavoro presso cui è stata svolta.</rdfs:comment>
         <rdfs:label xml:lang="it">ha datore di lavoro</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haDescrittoreRuolo -->
@@ -638,7 +446,7 @@
         <rdfs:comment xml:lang="it">Collega un&apos;esperienza lavorativa a un descrittore del ruolo svolto in quella specifica esperienza.</rdfs:comment>
         <rdfs:label xml:lang="it">ha descrittore ruolo</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haElementoStatistico -->
@@ -650,7 +458,7 @@
         <rdfs:comment xml:lang="it">Collega una serie statistica a un elemento statistico specifico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha elemento statistico</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEntePubblicoCoinvolto -->
@@ -661,7 +469,7 @@
         <rdfs:comment xml:lang="it">Indica l&apos;ente pubblico coinvolto in una procedura di reclutamento pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha ente pubblico coinvolto</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsameDiSelezione -->
@@ -673,7 +481,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a un esame di selezione specifico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esame di selezione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsitoPartecipazioneSessioneDiEsame -->
@@ -685,7 +493,7 @@
         <rdfs:comment xml:lang="it">Lega un partecipante alla sessione di esame al relativo esito.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esito partecipazione sessione di esame</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsperienzaDiFormazione -->
@@ -697,7 +505,7 @@
         <rdfs:comment xml:lang="it">Collega un candidato a una specifica esperienza di formazione.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esperienza di formazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsperienzaDiInsegnamento -->
@@ -709,7 +517,7 @@
         <rdfs:comment xml:lang="it">Lega una attività di insegnamento al suo descrittore.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esperienza di insegnamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsperienzaGenerica -->
@@ -721,7 +529,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato ha maturato un&apos;esperienza di tipo generico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esperienza generica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsperienzaInDottorato -->
@@ -733,7 +541,7 @@
         <rdfs:comment xml:lang="it">Collega una qualifica accademica a un&apos;esperienza specifica di dottorato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esperienza in dottorato</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEsperienzaLavorativa -->
@@ -745,7 +553,7 @@
         <rdfs:comment xml:lang="it">Collega un candidato a un&apos;esperienza lavorativa specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha esperienza lavorativa</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haEventoDiFormazione -->
@@ -758,7 +566,7 @@
         <rdfs:comment xml:lang="it">Collega una esperienza di formazione all&apos;evento di formazione in cui è stata conseguita.</rdfs:comment>
         <rdfs:label xml:lang="it">ha evento di formazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiCompetenzaLingua -->
@@ -770,7 +578,7 @@
         <rdfs:comment xml:lang="it">Lega una competenza linguistica al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di competenza lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiComprensioneLingua -->
@@ -781,7 +589,7 @@
         <rdfs:comment xml:lang="it">Sotto proprietà che lega una competenza linguistica di comprensione al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di comprensione lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiConversazioneLingua -->
@@ -792,7 +600,7 @@
         <rdfs:comment xml:lang="it">Sotto proprietà che lega una competenza linguistica di conversazione al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di conversazione lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiLetturaLingua -->
@@ -803,7 +611,7 @@
         <rdfs:comment xml:lang="it">Sotto proprietà che lega una competenza linguistica di lettura al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di lettura lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiParlatoLingua -->
@@ -814,7 +622,7 @@
         <rdfs:comment xml:lang="it">Sotto proprietà che lega una competenza linguistica di lingua parlata al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di parlato lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haGradoDiScritturaLingua -->
@@ -825,7 +633,7 @@
         <rdfs:comment xml:lang="it">Sotto proprietà che lega una competenza linguistica di scrittura al suo grado.</rdfs:comment>
         <rdfs:label xml:lang="it">ha grado di scrittura lingua</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haInformazioneAggiuntiva -->
@@ -837,7 +645,7 @@
         <rdfs:comment xml:lang="it">Indica che una candidatura ha una informazione aggiuntiva associata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha informazione aggiuntiva</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haIntervalloSalariale -->
@@ -850,7 +658,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a un intervallo salariale specifico per la posizione prevista dalla procedura.</rdfs:comment>
         <rdfs:label xml:lang="it">ha intervallo salariale</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haIstitutoDiFormazione -->
@@ -862,7 +670,7 @@
         <rdfs:comment xml:lang="it">Lega una esperienza di formazione all&apos;istituto o organizzazione che l&apos;ha erogata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha istituto di formazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haIstitutodiInsegnamento -->
@@ -874,7 +682,7 @@
         <rdfs:comment xml:lang="it">Lega una esperienza di insegnamento all&apos;istituto o organizzazione presso cui è stata svolta.</rdfs:comment>
         <rdfs:label xml:lang="it">ha istituto di insegnamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haLinguaDiCompetenza -->
@@ -886,7 +694,7 @@
         <rdfs:comment xml:lang="it">Collega una competenza linguistica a una lingua specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha lingua di competenza</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haLivelloDiPubblicazione -->
@@ -898,7 +706,7 @@
         <rdfs:comment xml:lang="it">Lega una pubblicazione accademica al suo livello.</rdfs:comment>
         <rdfs:label xml:lang="it">ha livello di pubblicazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haModalitàDiValutazione -->
@@ -910,7 +718,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a una modalità di valutazione specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha modalità di valutazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPagamentoTassaIscrizione -->
@@ -922,7 +730,7 @@
         <rdfs:comment xml:lang="it">Indica che una candidatura ha un pagamento di tassa di iscrizione associato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha pagamento tassa iscrizione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPartecipanteSessioneDiEsame -->
@@ -934,7 +742,7 @@
         <rdfs:comment xml:lang="it">Collega una sessione di esame a un partecipante alla sessione.</rdfs:comment>
         <rdfs:label xml:lang="it">ha partecipante sessione di esame</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPatenteDiGuida -->
@@ -946,7 +754,7 @@
         <rdfs:comment xml:lang="it">Lega una persona alle patenti di guida conseguite.</rdfs:comment>
         <rdfs:label xml:lang="it">ha patente di guida</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPeriodoDiValiditàPatenteDiGuida -->
@@ -958,7 +766,7 @@
         <rdfs:comment xml:lang="it">Lega una patente di guida ai suoi periodi di validità nel tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha periodo di validità patente di guida</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPreferenzaAggiuntiva -->
@@ -970,7 +778,7 @@
         <rdfs:comment xml:lang="it">Indica che una candidatura ha una preferenza aggiuntiva associata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha preferenza aggiuntiva</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPreferenzaAmbito -->
@@ -982,7 +790,7 @@
         <rdfs:comment xml:lang="it">Indica che una candidatura ha una preferenza per un ambito specifico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha preferenza ambito</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPreferenzaLuogoDiLavoro -->
@@ -994,7 +802,7 @@
         <rdfs:comment xml:lang="it">Indica che una candidatura ha una preferenza per un luogo di lavoro specifico.</rdfs:comment>
         <rdfs:label xml:lang="it">ha preferenza luogo di lavoro</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haProceduraReclutamentoDiCandidatura -->
@@ -1006,7 +814,7 @@
         <rdfs:comment xml:lang="it">Collega una candidatura alla relativa procedura di reclutamento pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha procedura reclutamento di candidatura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haProprietàDellaCandidatura -->
@@ -1025,7 +833,7 @@
         <rdfs:comment xml:lang="it">Lega una preferenza o informazione aggiuntiva alla proprietà che la descrive.</rdfs:comment>
         <rdfs:label xml:lang="it">ha proprietà della candidatura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haProvvedimentoIncaricoEstero -->
@@ -1037,7 +845,7 @@
         <rdfs:comment xml:lang="it">Lega una esperienza lavorativa nella PA ad un provvedimento di incarico all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">ha provvedimento incarico estero</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haPubblicazioneAccademica -->
@@ -1049,7 +857,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato ha una pubblicazione accademica associata.</rdfs:comment>
         <rdfs:label xml:lang="it">ha pubblicazione accademica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haQualificaAccademica -->
@@ -1061,7 +869,7 @@
         <rdfs:comment xml:lang="it">Indica che un candidato ha una qualifica accademica specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha qualifica accademica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haRegolaDiAmmissioneProcedura -->
@@ -1073,7 +881,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a una regola di ammissione specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha regola di ammissione procedura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haRegolaInValorizzazione -->
@@ -1085,7 +893,7 @@
         <rdfs:comment xml:lang="it">Collega una valorizzazione di una regola di ammissione alla regola stessa.</rdfs:comment>
         <rdfs:label xml:lang="it">ha regola in valorizzazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haRequisitoDiReclutamento -->
@@ -1097,7 +905,7 @@
         <rdfs:comment xml:lang="it">Indica che una pubblicazione di reclutamento ha un requisito di partecipazione associato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha requisito di reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haRequisitoInValorizzazione -->
@@ -1109,7 +917,7 @@
         <rdfs:comment xml:lang="it">Collega una valorizzazione di un requisito di partecipazione al requisito stesso.</rdfs:comment>
         <rdfs:label xml:lang="it">ha requisito in valorizzazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haSerieStatisticaSuPubblicazione -->
@@ -1121,7 +929,7 @@
         <rdfs:comment xml:lang="it">Collega una statistica di pubblicazione di reclutamento a una serie statistica specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha serie statistica su pubblicazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haSessioneDiEsame -->
@@ -1133,7 +941,7 @@
         <rdfs:comment xml:lang="it">Collega un esame di selezione a una sessione di esame specifica.</rdfs:comment>
         <rdfs:label xml:lang="it">ha sessione di esame</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haSoggettoPagatore -->
@@ -1145,7 +953,7 @@
         <rdfs:comment xml:lang="it">Lega un pagamento alla persona che lo ha pagato</rdfs:comment>
         <rdfs:label xml:lang="it">ha soggetto pagatore</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haSpecificaDiPreferenzaLuogoDiLavoro -->
@@ -1157,7 +965,7 @@
         <rdfs:comment xml:lang="it">Lega una indicazione geografica del luogo di lavoro preferito ad un maggiore dettaglio geografico (esempio: da regione a provincia).</rdfs:comment>
         <rdfs:label xml:lang="it">ha specifica di preferenza luogo di lavoro</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haStatoDiCandidatura -->
@@ -1169,7 +977,7 @@
         <rdfs:comment xml:lang="it">Collega una candidatura a una sua condizione nel tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha stato di candidatura</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haStatoPubblicazioneDiReclutamento -->
@@ -1181,7 +989,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a una sua condizione nel tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha stato pubblicazione di reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haStatusDiProceduraReclutamento -->
@@ -1193,7 +1001,7 @@
         <rdfs:comment xml:lang="it">Collega uno stato di pubblicazione a uno specifico status di procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">ha status di procedura reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiAttività -->
@@ -1204,7 +1012,7 @@
         <rdfs:comment xml:lang="it">Collega una pubblicazione di reclutamento a un tipo di attività specifica obiettivo della procedura stessa.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di attività</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiAutore -->
@@ -1216,7 +1024,7 @@
         <rdfs:comment xml:lang="it">Lega una Pubblicazione accademica al tipo di autore.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di autore</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiAzienda -->
@@ -1228,7 +1036,7 @@
         <rdfs:comment xml:lang="it">Lega una Esperienza lavorativa al tipo di azienda presso cui si è svolta.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di azienda</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiContratto -->
@@ -1240,7 +1048,7 @@
         <rdfs:comment xml:lang="it">Lega una Esperienza lavorativa al tipo di contratto con cui è stata svolta.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di contratto</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiCorso -->
@@ -1252,7 +1060,7 @@
         <rdfs:comment xml:lang="it">Lega una Esperienza di formazione al tipo di corso frequentato.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di corso</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiEsame -->
@@ -1263,7 +1071,7 @@
         <rdfs:comment xml:lang="it">Lega un esame di selezione alla sua tipologia.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di esame</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiIstitutoDiFormazione -->
@@ -1275,7 +1083,7 @@
         <rdfs:comment xml:lang="it">Lega un istituto di formazione al suo tipo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di istituto di formazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiPubblicazione -->
@@ -1287,7 +1095,7 @@
         <rdfs:comment xml:lang="it">Lega una Pubblicazione accademica al suo tipo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di pubblicazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoDiQualifica -->
@@ -1299,7 +1107,7 @@
         <rdfs:comment xml:lang="it">Lega una Qualifica accademica al suo tipo.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo di qualifica</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoMezzoDiTrasporto -->
@@ -1311,7 +1119,7 @@
         <rdfs:comment xml:lang="it">Lega una patente di guida al tipo di mezzo di trasporto di cui abilità la guida</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo mezzo di trasporto</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoOrarioDiLavoro -->
@@ -1323,7 +1131,7 @@
         <rdfs:comment xml:lang="it">Lega una Esperienza lavorativa al tipo di orario di lavoro con cui è stata svolta.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo orario di lavoro</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haTipoRuoloInCorso -->
@@ -1335,7 +1143,7 @@
         <rdfs:comment xml:lang="it">Lega una Esperienza di formazione al tipo di ruolo ricoperto nell&apos;ambito di tale esperienza.</rdfs:comment>
         <rdfs:label xml:lang="it">ha tipo ruolo in corso</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haValorizzazioneRegolaDiAmmissione -->
@@ -1347,7 +1155,7 @@
         <rdfs:comment xml:lang="it">Collega una candidatura a una valorizzazione di una regola di ammissione.</rdfs:comment>
         <rdfs:label xml:lang="it">ha valorizzazione regola di ammissione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haValorizzazioneRequisitoDiPartecipazione -->
@@ -1359,7 +1167,7 @@
         <rdfs:comment xml:lang="it">Collega una candidatura a una valorizzazione di un requisito di partecipazione.</rdfs:comment>
         <rdfs:label xml:lang="it">ha valorizzazione requisito di partecipazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/riferisceAttoDiEquiparazioneQualificaEstera -->
@@ -1371,7 +1179,7 @@
         <rdfs:comment xml:lang="it">Lega una Qualifica accademica con l&apos;atto di equiparazione che l&apos;ha validata.</rdfs:comment>
         <rdfs:label xml:lang="it">riferisce atto di equiparazione qualifica estera</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/rilasciataDaIstitutoDiFormazione -->
@@ -1383,7 +1191,7 @@
         <rdfs:comment xml:lang="it">Lega una Qualifica accademica all&apos;istituto di formazione che l&apos;ha rilasciata.</rdfs:comment>
         <rdfs:label xml:lang="it">rilasciata da istituto di formazione</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/èBanditaDaEntePubblico -->
@@ -1401,7 +1209,7 @@
         <rdfs:comment xml:lang="it">Indica l&apos;ente pubblico che ha avviato una procedura di reclutamento attraverso la pubblicazione di un annuncio.</rdfs:comment>
         <rdfs:label xml:lang="it">è bandita da ente pubblico</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/èCategoriaDiMezzoDiTrasporto -->
@@ -1412,7 +1220,7 @@
         <rdfs:comment xml:lang="it">Lega una categoria di patente di guida al mezzo di trasporto di cui abilita la guida.</rdfs:comment>
         <rdfs:label xml:lang="it">è categoria di mezzo di trasporto</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/èGraduatoriaDiProceduraDiReclutamento -->
@@ -1424,7 +1232,7 @@
         <rdfs:comment xml:lang="it">Collega una graduatoria alla relativa procedura di reclutamento pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">è graduatoria di procedura di reclutamento</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/èPosizioneDiPartecipanteInGraduatoria -->
@@ -1436,7 +1244,7 @@
         <rdfs:comment xml:lang="it">Collega una specifica posizione della graduatoria al relativo partecipante all&apos;esame di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">è posizione di partecipante in graduatoria</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/èPosizioneInGraduatoria -->
@@ -1448,10 +1256,10 @@
         <rdfs:comment xml:lang="it">Collega una specifica posizione alla relativa graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">è posizione in graduatoria</rdfs:label>
     </owl:ObjectProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -1459,31 +1267,31 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CLV/lat -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/lat"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CLV/long -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/CLV/long"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/l0/identifier -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/l0/identifier"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/l0/name -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/italia/onto/l0/name"/>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ISBN -->
@@ -1495,7 +1303,7 @@
         <rdfs:comment xml:lang="it">Codice ISBN della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">ISBN</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/IUVDelPagamento -->
@@ -1507,7 +1315,7 @@
         <rdfs:comment xml:lang="it">IUV, o Identificativo Univoco di Versamento, è un codice di 18 cifre che identifica un pagamento specifico verso la Pubblica Amministrazione, utilizzabile attraverso il sistema nazionale pagoPA.</rdfs:comment>
         <rdfs:label xml:lang="it">IUV del pagamento</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/areaDisciplinareDottorato -->
@@ -1518,7 +1326,7 @@
         <rdfs:comment xml:lang="it">Descrive l&apos;area di specializzazione in cui è stato svolto il dottorato accademico.</rdfs:comment>
         <rdfs:label xml:lang="it">area disciplinare dottorato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ausiliUtilizzatiInSessione -->
@@ -1529,7 +1337,7 @@
         <rdfs:comment xml:lang="it">Eventuali ausili utilizzati dai portatori di disabilità durante la sessione di esame.</rdfs:comment>
         <rdfs:label xml:lang="it">ausili utilizzati in sessione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/autoreDellaPubblicazione -->
@@ -1540,7 +1348,7 @@
         <rdfs:comment xml:lang="it">Autore della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">autore della pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/autoritàProvvedimentoEstero -->
@@ -1552,7 +1360,7 @@
         <rdfs:comment xml:lang="it">Autorità emittente del provvedimento di assegnazione incarico all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">autorità provvedimento estero</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoAutorePubblicazioneSingolo -->
@@ -1564,7 +1372,7 @@
         <rdfs:comment xml:lang="it">Indica che la pubblicazione accademica ha un solo autore.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso autore pubblicazione singolo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoCandidatureAcquisite -->
@@ -1576,7 +1384,7 @@
         <rdfs:comment xml:lang="it">Evidenzia che le candidature alla procedure di reclutamento, in tutto o in parte, possono essere acquisite da un fornitore (portale) esterno.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso candidature acquisite</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDottoratoEstero -->
@@ -1588,7 +1396,7 @@
         <rdfs:comment xml:lang="it">Indica che il dottorato è sto svolto all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso dottorato estero</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoEsameFinale -->
@@ -1600,7 +1408,7 @@
         <rdfs:comment xml:lang="it">Indica se l&apos;esperienza formativa prevedeva un esame finale.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso esame finale</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoEsperienzaAttuale -->
@@ -1612,7 +1420,7 @@
         <rdfs:comment xml:lang="it">Indica che l&apos;esperienza è in corso al tempo della candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso esperienza attuale</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoImpiegoAttuale -->
@@ -1624,7 +1432,7 @@
         <rdfs:comment xml:lang="it">Indica che l&apos;esperienza lavorativa è in corso.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso impiego attuale</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoLavoroEstero -->
@@ -1636,7 +1444,7 @@
         <rdfs:comment xml:lang="it">Indica che l&apos;esperienza lavorativa è stata svolta all&apos;estero</rdfs:comment>
         <rdfs:label xml:lang="it">avviso lavoro estero</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoLode -->
@@ -1648,7 +1456,7 @@
         <rdfs:comment xml:lang="it">Indica se la qualifica accademica è stata conseguita con lode.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso lode</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoMadreLingua -->
@@ -1660,7 +1468,7 @@
         <rdfs:comment xml:lang="it">Indica che la lingua indicata è madrelingua per il candidato.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso madre lingua</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoPagamentoRichiesto -->
@@ -1672,7 +1480,7 @@
         <rdfs:comment xml:lang="it">Segnala che la partecipazione alla procedura di reclutamento è a titolo oneroso.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso pagamento richiesto</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoQualificaEstera -->
@@ -1684,7 +1492,7 @@
         <rdfs:comment xml:lang="it">Indica se la qualifica accademica è stata conseguita all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso qualifica estera</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoRisultatoSessionePubblicato -->
@@ -1696,7 +1504,7 @@
         <rdfs:comment xml:lang="it">Segnala che il risultato della sessione di esame è stato pubblicato.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso risultato sessione pubblicato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoSuperamentoEsameDiStato -->
@@ -1708,7 +1516,7 @@
         <rdfs:comment xml:lang="it">Indica se l&apos;iscrizione ad un albo o registro prevedeva il superamento di un esame di abilitazione.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso superamento esame di stato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/codiceOIVDiControllo -->
@@ -1720,7 +1528,7 @@
         <rdfs:comment xml:lang="it">Codice identificativo della procedura di reclutamento nell&apos;ambito informativo degli Organismi Interni di Valutazione - OIV.</rdfs:comment>
         <rdfs:label xml:lang="it">codice OIV di controllo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/collegamentoAGU -->
@@ -1732,7 +1540,7 @@
         <rdfs:comment xml:lang="it">Web link alla pubblicazione in gazzetta Ufficiale</rdfs:comment>
         <rdfs:label xml:lang="it">collegamento a GU</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/collegamentoASitoPA -->
@@ -1743,7 +1551,7 @@
         <rdfs:comment xml:lang="it">Web link alla procedura di reclutamento nel portale della Pubblica Amministrazione</rdfs:comment>
         <rdfs:label xml:lang="it">collegamento a sito PA</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/collegamentoDiReindirizzamento -->
@@ -1755,7 +1563,7 @@
         <rdfs:comment xml:lang="it">Web link di reindirizzamento alla procedura di reclutamento in portale esterno alla Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">collegamento di reindirizzamento</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataAttoEquiparazioneQualifica -->
@@ -1767,7 +1575,7 @@
         <rdfs:comment xml:lang="it">Data di emissione del provvedimento di equiparazione di una qualifica accademica estera.</rdfs:comment>
         <rdfs:label xml:lang="it">data atto equiparazione qualifica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataCostruzioneGraduatoria -->
@@ -1779,7 +1587,7 @@
         <rdfs:comment xml:lang="it">Data di termine della definizione della graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">data costruzione graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataCreazioneDomanda -->
@@ -1791,7 +1599,7 @@
         <rdfs:comment xml:lang="it">Data di creazione della domanda di candidatura. Corrisponde alla startDate del relativo stato della domanda.</rdfs:comment>
         <rdfs:label xml:lang="it">data creazione domanda</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataCreazioneGraduatoria -->
@@ -1803,7 +1611,7 @@
         <rdfs:comment xml:lang="it">Data di inizio definizione della graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">data creazione graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDellaPubblicazione -->
@@ -1815,7 +1623,7 @@
         <rdfs:comment xml:lang="it">Data della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">data della pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDiConseguimentoQualifica -->
@@ -1827,7 +1635,7 @@
         <rdfs:comment xml:lang="it">La data in cui è stata conseguita la qualifica accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">data di conseguimento qualifica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDiIngressoInSessione -->
@@ -1839,7 +1647,7 @@
         <rdfs:comment xml:lang="it">Data di accesso alla sessione di esame.</rdfs:comment>
         <rdfs:label xml:lang="it">data di ingresso in sessione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDiPubblicazione -->
@@ -1851,7 +1659,7 @@
         <rdfs:comment xml:lang="it">Data di pubblicazione della procedura di reclutamento sul portale a partire dalla quale i soggetti interessati possono presentare la propria candidatura. Corrisponde alla startDate del relativo stato della pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">data di pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDiSvolgimentoSessione -->
@@ -1863,7 +1671,7 @@
         <rdfs:comment xml:lang="it">Data in cui si è scolta la sessione di esame.</rdfs:comment>
         <rdfs:label xml:lang="it">data di svolgimento sessione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataDiVisibilità -->
@@ -1875,7 +1683,7 @@
         <rdfs:comment xml:lang="it">La data a partire dalla quale la procedura di reclutamento è visibile per la consultazione ma non per la candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">data di visibilità</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataInvioDomanda -->
@@ -1887,7 +1695,7 @@
         <rdfs:comment xml:lang="it">La data in cui è stata inviata la domanda di partecipazione ad una procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">data invio domanda</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataProvvedimentoEstero -->
@@ -1899,7 +1707,7 @@
         <rdfs:comment xml:lang="it">Data del provvedimento di assegnazione incarico all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">data provvedimento estero</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataPubblicazioneGraduatoria -->
@@ -1911,7 +1719,7 @@
         <rdfs:comment xml:lang="it">data di pubblicazione della graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">data pubblicazione graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataTermineCandidature -->
@@ -1923,7 +1731,7 @@
         <rdfs:comment xml:lang="it">Data di termine per la presentazione di candidature alla procedura di selezione. Corrisponde alla endDate del relativo stato della pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">data termine candidature</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataValiditàEquipollenzaQualifica -->
@@ -1935,7 +1743,7 @@
         <rdfs:comment xml:lang="it">Data di inizio validità provvedimento di equipollenza di qualifica accademica estera.</rdfs:comment>
         <rdfs:label xml:lang="it">data validità equipollenza qualifica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dataValiditàEquivalenzaQualifica -->
@@ -1947,7 +1755,7 @@
         <rdfs:comment xml:lang="it">Data di inizio validità provvedimento di equivalenza di qualifica accademica estera.</rdfs:comment>
         <rdfs:label xml:lang="it">data validità equivalenza qualifica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/descrizioneBrevePubblicazione -->
@@ -1959,7 +1767,7 @@
         <rdfs:comment xml:lang="it">Descrizione della procedura di reclutamento pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">descrizione breve pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dettaglioAllaPosizioneInGraduatoria -->
@@ -1970,7 +1778,7 @@
         <rdfs:comment xml:lang="it">Indicazione di dettaglio relativa alla posizione in graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">dettaglio alla posizione in graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dettaglioSpecializzazione -->
@@ -1981,7 +1789,7 @@
         <rdfs:comment xml:lang="it">Ulteriore informazione circa il percorso di specializzazione.</rdfs:comment>
         <rdfs:label xml:lang="it">dettaglio specializzazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/dimensioneAllegato -->
@@ -1993,7 +1801,7 @@
         <rdfs:comment xml:lang="it">Dimensione in byte dell&apos;allegato.</rdfs:comment>
         <rdfs:label xml:lang="it">dimensione allegato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/durataCorsoDiStudio -->
@@ -2005,7 +1813,7 @@
         <rdfs:comment xml:lang="it">Durata del corso accademico frequentato.</rdfs:comment>
         <rdfs:label xml:lang="it">durata corso di studio</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/esperienzaDottoratoRilevante -->
@@ -2016,7 +1824,7 @@
         <rdfs:comment xml:lang="it">Descrizione testuale di una significativa esperienza svolta durante il dottorato.</rdfs:comment>
         <rdfs:label xml:lang="it">esperienza dottorato rilevante</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/etichettaDellaProprietà -->
@@ -2028,7 +1836,7 @@
         <rdfs:comment xml:lang="it">Denota una proprietà della candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">etichetta della proprietà</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/extraTimeInSessioneEsame -->
@@ -2040,7 +1848,7 @@
         <rdfs:comment xml:lang="it">Ulteriore tempo utilizzato durante la sessione di esame, espresso in minuti. È solitamente concesso agli aventi disabilità.</rdfs:comment>
         <rdfs:label xml:lang="it">extra time in sessione esame</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/figuraProfessionaleDaReclutare -->
@@ -2051,7 +1859,7 @@
         <rdfs:comment xml:lang="it">Profilo sintetico della figura professionale oggetto della procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">figura professionale da reclutare</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/gradoDiDisabilitàRiconosciuta -->
@@ -2063,7 +1871,7 @@
         <rdfs:comment xml:lang="it">Indicatore del grado di invalidità riconosciuta. Sono significativi solo valori superiori a 79%.</rdfs:comment>
         <rdfs:label xml:lang="it">grado di disabilità riconosciuta</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificativoCandidatura -->
@@ -2075,7 +1883,7 @@
         <rdfs:comment xml:lang="it">Identificativo assegnato alla candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">identificativo candidatura</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificativoDomandaDiCandidatura -->
@@ -2087,7 +1895,7 @@
         <rdfs:comment xml:lang="it">Identificativo assegnato alla domanda di candidatura ricevuta.</rdfs:comment>
         <rdfs:label xml:lang="it">identificativo domanda di candidatura</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificativoEsterno -->
@@ -2099,7 +1907,7 @@
         <rdfs:comment xml:lang="it">Identificativo aggiuntivo della procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">identificativo esterno</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificativoIscrizioneProfessionale -->
@@ -2111,7 +1919,7 @@
         <rdfs:comment xml:lang="it">Identificativo di iscrizione in registri o albi professionali.</rdfs:comment>
         <rdfs:label xml:lang="it">identificativo iscrizione professionale</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificativoProvvedimentoEstero -->
@@ -2123,7 +1931,7 @@
         <rdfs:comment xml:lang="it">Identificativo del provvedimento di assegnazione incarico all&apos;estero.</rdfs:comment>
         <rdfs:label xml:lang="it">identificativo provvedimento estero</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/identificatoreAttoEquiparazioneQualifica -->
@@ -2135,7 +1943,7 @@
         <rdfs:comment xml:lang="it">Identificatore del provvedimento di equiparazione di una qualifica accademica estera.</rdfs:comment>
         <rdfs:label xml:lang="it">identificatore atto equiparazione qualifica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/importoPagato -->
@@ -2147,7 +1955,7 @@
         <rdfs:comment xml:lang="it">Importo versato dal candidato per partecipare alla procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">importo pagato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/indicatoreDellaSessioneDiEsame -->
@@ -2159,7 +1967,7 @@
         <rdfs:comment xml:lang="it">Indicatore progressivo della sessione di esame.</rdfs:comment>
         <rdfs:label xml:lang="it">indicatore della sessione di esame</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/indicatoreDiEsame -->
@@ -2171,7 +1979,7 @@
         <rdfs:comment xml:lang="it">Indicatore progressivo dell&apos;esame previsto nella selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">indicatore di esame</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/nomeDelCampioneStatistico -->
@@ -2183,7 +1991,7 @@
         <rdfs:comment xml:lang="it">Nome assegnato al campione statistico.</rdfs:comment>
         <rdfs:label xml:lang="it">nome del campione statistico</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/nomeDellaPubblicazione -->
@@ -2195,7 +2003,7 @@
         <rdfs:comment xml:lang="it">Nome della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">nome della pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/nomeLinguaInInglese -->
@@ -2207,7 +2015,7 @@
         <rdfs:comment xml:lang="it">Nome della lingua in inglese.</rdfs:comment>
         <rdfs:label xml:lang="it">nome lingua in inglese</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/nomeLinguaInItaliano -->
@@ -2219,7 +2027,7 @@
         <rdfs:comment xml:lang="it">Nome della lingua in italiano.</rdfs:comment>
         <rdfs:label xml:lang="it">nome lingua in italiano</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/nomeUniversitàEstera -->
@@ -2231,7 +2039,7 @@
         <rdfs:comment xml:lang="it">Nome dell&apos;università estera in cui è stato svolto il dottorato.</rdfs:comment>
         <rdfs:label xml:lang="it">nome università estera</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/notaAllaPosizioneInGraduatoria -->
@@ -2242,7 +2050,7 @@
         <rdfs:comment xml:lang="it">Nota di commento alla posizione nella graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">nota alla posizione in graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/notaAllaPubblicazione -->
@@ -2253,7 +2061,7 @@
         <rdfs:comment xml:lang="it">Nota testuale alla pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">nota alla pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/notaDiEsperienzaGenerica -->
@@ -2264,7 +2072,7 @@
         <rdfs:comment xml:lang="it">Eventuale nota descrittiva dell&apos;esperienza.</rdfs:comment>
         <rdfs:label xml:lang="it">nota di esperienza generica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/notaEsperienzaLavorativa -->
@@ -2275,7 +2083,7 @@
         <rdfs:comment xml:lang="it">Nota descrittiva dell&apos;esperienza lavorativa.</rdfs:comment>
         <rdfs:label xml:lang="it">nota esperienza lavorativa</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroAnniInsegnamento -->
@@ -2287,7 +2095,7 @@
         <rdfs:comment xml:lang="it">Numero di anni di insegnamento.</rdfs:comment>
         <rdfs:label xml:lang="it">numero anni insegnamento</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroCandidature -->
@@ -2299,7 +2107,7 @@
         <rdfs:comment xml:lang="it">Numero di candidature presenti in graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">numero candidature</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroCreditiAcquisiti -->
@@ -2311,7 +2119,7 @@
         <rdfs:comment xml:lang="it">Numero di crediti acquisiti con l&apos;esperienza formativa.</rdfs:comment>
         <rdfs:label xml:lang="it">numero crediti acquisiti</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiAbbandoni -->
@@ -2330,7 +2138,7 @@
         <rdfs:comment xml:lang="it">Numero di partecipanti che ha abbandonato l&apos;esame.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di abbandoni</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiCandidati -->
@@ -2342,7 +2150,7 @@
         <rdfs:comment xml:lang="it">Numero di candidati previsti per l&apos;esame.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di candidati</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiCandidatureInPreparazione -->
@@ -2354,7 +2162,7 @@
         <rdfs:comment xml:lang="it">Numero di candidature relative alla procedura di reclutamento in stato di bozza.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di candidature in preparazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiCandidatureRicevute -->
@@ -2366,7 +2174,7 @@
         <rdfs:comment xml:lang="it">Numero di candidature relative alla procedura di reclutamento completate e trasmesse.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di candidature ricevute</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiEsclusi -->
@@ -2385,7 +2193,7 @@
         <rdfs:comment xml:lang="it">Numero di partecipanti esclusi dall&apos;esito dell&apos;esame.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di esclusi</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiFigliACarico -->
@@ -2397,7 +2205,7 @@
         <rdfs:comment xml:lang="it">Numero dei figli a carico della persona.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di figli a carico</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiPartecipanti -->
@@ -2409,7 +2217,7 @@
         <rdfs:comment xml:lang="it">Numero di partecipanti all&apos;esame.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di partecipanti</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiPosizioniAperte -->
@@ -2421,7 +2229,7 @@
         <rdfs:comment xml:lang="it">Numero di posizioni aperte da ricoprire tramite la procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di posizioni aperte</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiProcedureTrattate -->
@@ -2433,7 +2241,7 @@
         <rdfs:comment xml:lang="it">È il numero di procedure di reclutamento che fanno parte del campione statistico.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di procedure trattate</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiPromossi -->
@@ -2452,7 +2260,7 @@
         <rdfs:comment xml:lang="it">Numero di promossi.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di promossi</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiRespinti -->
@@ -2471,7 +2279,7 @@
         <rdfs:comment xml:lang="it">numero di respinti.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di respinti</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiTest -->
@@ -2490,7 +2298,7 @@
         <rdfs:comment xml:lang="it">Numero di test previsti dall&apos;esame.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di test</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiTestVerificati -->
@@ -2509,7 +2317,7 @@
         <rdfs:comment xml:lang="it">Numero di test verificati.</rdfs:comment>
         <rdfs:label xml:lang="it">numero di test verificati</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroEsamiDiSelezione -->
@@ -2521,7 +2329,7 @@
         <rdfs:comment xml:lang="it">Numero di esami previsti dalla procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">numero esami di selezione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroOreFormazione -->
@@ -2533,7 +2341,7 @@
         <rdfs:comment xml:lang="it">Quantità di ore frequentate.</rdfs:comment>
         <rdfs:label xml:lang="it">numero ore formazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroOreInsegnamento -->
@@ -2545,7 +2353,7 @@
         <rdfs:comment xml:lang="it">Numero ore di insegnamento annue.</rdfs:comment>
         <rdfs:label xml:lang="it">numero ore insegnamento</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroPaginePubblicazione -->
@@ -2554,11 +2362,11 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneAccademica"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment>Numero di pagine della pubblicazione accademica.</rdfs:comment>
         <rdfs:comment xml:lang="it">Numero di pagine della pubblicazione accademica.</rdfs:comment>
+        <rdfs:comment>Numero di pagine della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">numero pagine pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/parolaChiaveSpecializzazione -->
@@ -2569,7 +2377,7 @@
         <rdfs:comment xml:lang="it">Indica una parola chiave tipica dell&apos;ambito di specializzazione in cui si è svolto il dottorato.</rdfs:comment>
         <rdfs:label xml:lang="it">parola chiave specializzazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/percentualeOreSettimanali -->
@@ -2581,7 +2389,7 @@
         <rdfs:comment xml:lang="it">Percentuale di ore di lavoro nella settimana.</rdfs:comment>
         <rdfs:label xml:lang="it">percentuale ore settimanali</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/percorsoDiAllegato -->
@@ -2593,7 +2401,7 @@
         <rdfs:comment xml:lang="it">Posizione in cui si trova l&apos;oggetto fisico che mantiene il contenuto dell&apos;allegato (posizione file, indirizzo web, ...).</rdfs:comment>
         <rdfs:label xml:lang="it">percorso di allegato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/posizioneInGraduatoria -->
@@ -2612,7 +2420,7 @@
         <rdfs:comment xml:lang="it">Posizione della candidatura nella graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">posizione in graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/punteggioConseguitoInSelezione -->
@@ -2631,7 +2439,7 @@
         <rdfs:comment xml:lang="it">Punteggio conseguito dalla candidatura durante la selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">punteggio conseguito in selezione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ruoloLavorativoRicoperto -->
@@ -2643,7 +2451,7 @@
         <rdfs:comment xml:lang="it">Ruolo ricoperto nell&apos;ambito dell&apos;esperienza lavorativa.</rdfs:comment>
         <rdfs:label xml:lang="it">ruolo lavorativo ricoperto</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/salarioMassimo -->
@@ -2655,7 +2463,7 @@
         <rdfs:comment xml:lang="it">Valore massimo dell&apos;intervallo salariale.</rdfs:comment>
         <rdfs:label xml:lang="it">salario massimo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/salarioMinimo -->
@@ -2667,7 +2475,7 @@
         <rdfs:comment xml:lang="it">Valore minimo dell&apos;intervallo salariale.</rdfs:comment>
         <rdfs:label xml:lang="it">salario minimo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sottotitoloDellaStatistica -->
@@ -2679,7 +2487,7 @@
         <rdfs:comment xml:lang="it">Sottotitolo descrittivo della sezione di statistiche.</rdfs:comment>
         <rdfs:label xml:lang="it">sottotitolo della statistica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/statusDescrittoreRuolo -->
@@ -2691,7 +2499,7 @@
         <rdfs:comment xml:lang="it">Indica lo status (ad esempio: attivo) del ruolo descritto.</rdfs:comment>
         <rdfs:label xml:lang="it">status descrittore ruolo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/statusDiCandidatura -->
@@ -2703,7 +2511,7 @@
         <rdfs:comment xml:lang="it">Indica lo status assunto da una candidatura in un periodo temporale (ad esempio: bozza).</rdfs:comment>
         <rdfs:label xml:lang="it">status di candidatura</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/tipoDescrittoreRuolo -->
@@ -2715,7 +2523,7 @@
         <rdfs:comment xml:lang="it">Indica l&apos;ambito in cui è svolto il ruolo.</rdfs:comment>
         <rdfs:label xml:lang="it">tipo descrittore ruolo</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/tipoDiAllegato -->
@@ -2727,7 +2535,7 @@
         <rdfs:comment xml:lang="it">Tipo di allegato: pdf, doc, xml, ...</rdfs:comment>
         <rdfs:label xml:lang="it">tipo di allegato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloAllegato -->
@@ -2739,7 +2547,7 @@
         <rdfs:comment xml:lang="it">Titolo dell&apos;allegato.</rdfs:comment>
         <rdfs:label xml:lang="it">titolo allegato</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloDellaPubblicazione -->
@@ -2751,7 +2559,7 @@
         <rdfs:comment xml:lang="it">Titolo della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">titolo della pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloDellaStatistica -->
@@ -2763,7 +2571,7 @@
         <rdfs:comment xml:lang="it">Titolo della sezione di statistiche</rdfs:comment>
         <rdfs:label xml:lang="it">titolo della statistica</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloGraduatoria -->
@@ -2775,7 +2583,7 @@
         <rdfs:comment xml:lang="it">Denominazione della graduatoria.</rdfs:comment>
         <rdfs:label xml:lang="it">titolo graduatoria</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloInGU -->
@@ -2787,7 +2595,7 @@
         <rdfs:comment xml:lang="it">Titolo della pubblicazione in Gazzetta Ufficiale.</rdfs:comment>
         <rdfs:label xml:lang="it">titolo in GU</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/titoloProceduraReclutamento -->
@@ -2799,7 +2607,7 @@
         <rdfs:comment xml:lang="it">Titolo della procedura di reclutamento pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">titolo procedura reclutamento</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/totaleDomandeRicevute -->
@@ -2811,7 +2619,7 @@
         <rdfs:comment xml:lang="it">Totale delle domande di partecipazione ricevute.</rdfs:comment>
         <rdfs:label xml:lang="it">totale domande ricevute</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/totalePagamentiIncassati -->
@@ -2823,7 +2631,7 @@
         <rdfs:comment xml:lang="it">Importo totale dei pagamenti incassati dai partecipanti iscritti alla procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">totale pagamenti incassati</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/valoreDelRequisitoPerCandidatura -->
@@ -2835,7 +2643,7 @@
         <rdfs:comment xml:lang="it">È il valore assegnato ad uno specifico requisito nell&apos;ambito di una candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">valore del requisito per candidatura</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/valoreDellaProprietà -->
@@ -2847,7 +2655,7 @@
         <rdfs:comment xml:lang="it">È il valore della proprietà.</rdfs:comment>
         <rdfs:label xml:lang="it">valore della proprietà</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/valoreElementoStatistico -->
@@ -2859,7 +2667,7 @@
         <rdfs:comment xml:lang="it">Valore numerico dell&apos;elemento statistico.</rdfs:comment>
         <rdfs:label xml:lang="it">valore elemento statistico</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/valoreElementoStatisticoTestuale -->
@@ -2871,7 +2679,7 @@
         <rdfs:comment xml:lang="it">Valore testuale dell&apos;elemento statistico.</rdfs:comment>
         <rdfs:label xml:lang="it">valore elemento statistico testuale</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/votoConseguito -->
@@ -2883,7 +2691,7 @@
         <rdfs:comment xml:lang="it">Voto con cui è stata conseguita la qualifica accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">voto conseguito</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/votoMassimoConseguibile -->
@@ -2895,7 +2703,7 @@
         <rdfs:comment xml:lang="it">Punteggio massimo conseguibile nell&apos;ambito del corso accademico frequentato.</rdfs:comment>
         <rdfs:label xml:lang="it">voto massimo conseguibile</rdfs:label>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/votoTestuale -->
@@ -2907,10 +2715,10 @@
         <rdfs:comment xml:lang="it">Voto conseguito espresso in formato testuale.</rdfs:comment>
         <rdfs:label xml:lang="it">voto testuale</rdfs:label>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -2918,97 +2726,49 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
-
-
-    <!-- http://dati.gov.it/onto/dcatapit#Agent -->
-
-    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
-
-
-
-    <!-- http://dati.gov.it/onto/dcatapit#Distribution -->
-
-    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
-
-
-
-    <!-- http://dati.gov.it/onto/dcatapit#Organization -->
-
-    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
-
-
-
-    <!-- http://www.w3.org/2006/vcard/ns#Kind -->
-
-    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
-
-
-
-    <!-- http://www.w3.org/2006/vcard/ns#Organization -->
-
-    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
-
-
-
-    <!-- http://www.w3.org/ns/dcat#Distribution -->
-
-    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Distribution"/>
-
-
-
-    <!-- http://xmlns.com/foaf/0.1/Agent -->
-
-    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
-
-
-
-    <!-- https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution -->
-
-    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CLV/AdminUnitComponent -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/CLV/AdminUnitComponent"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/COV/Organization -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/COV/Organization"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/COV/PublicOrganization -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/COV/PublicOrganization"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/CPV/Alive -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/CPV/Alive"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/TI/TimeIndexedEvent -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/TI/TimeIndexedEvent"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/TI/TimeInterval -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/TI/TimeInterval"/>
-
+    
 
 
     <!-- https://w3id.org/italia/onto/l0/Sequence -->
 
     <owl:Class rdf:about="https://w3id.org/italia/onto/l0/Sequence"/>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/Allegato -->
@@ -3017,7 +2777,7 @@
         <rdfs:comment xml:lang="it">Documento integrativo di una lettera o una pratica per fornire informazioni aggiuntive o completarne il contenuto.</rdfs:comment>
         <rdfs:label xml:lang="it">Allegato</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AllegatoCandidatura -->
@@ -3027,7 +2787,7 @@
         <rdfs:comment xml:lang="it">Documento che accompagna la candidatura di un partecipante contenente informazioni e documenti richiesti per la procedura selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Allegato candidatura</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AllegatoPubblicazioneReclutamento -->
@@ -3037,7 +2797,7 @@
         <rdfs:comment xml:lang="it">Documento correlato alla pubblicazione di procedure selettive di reclutamento che fornisce dettagli aggiuntivi riuardanti il concorso.</rdfs:comment>
         <rdfs:label xml:lang="it">Allegato pubblicazione reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AreaGeografica -->
@@ -3046,7 +2806,7 @@
         <rdfs:comment xml:lang="it">Zona territoriale di assegnazione a cui saranno destinati i vincitori della procedura selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Area geografica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttivitàDiInsegnamento -->
@@ -3079,7 +2839,7 @@
         <rdfs:comment xml:lang="it">Incarico formativo svolto da un utente che può essere considerato nel processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Attività di insegnamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttoDiEquiparazioneQualificaEstera -->
@@ -3102,7 +2862,7 @@
         <rdfs:comment xml:lang="it">Atto di riconoscimento di una qualifica accademica o professionale conseguita presso una stato estero necessaria per poter svolgere la relativa attività professionale in Italia o partecipare a concorsi indetti dalla PA.</rdfs:comment>
         <rdfs:label xml:lang="it">Atto di equiparazione qualifica estera</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttoDiEquipollenzaQualifica -->
@@ -3112,7 +2872,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Atto di equiparazione qualifica accademica riferita al riconoscimento accademico del titolo posseduto ovvero all&apos;equiparazione del suo valore legale.</rdfs:comment>
         <rdfs:label xml:lang="it">Atto di equipollenza qualifica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttoDiEquivalenzaQualifica -->
@@ -3121,37 +2881,73 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Atto di equiparazione qualifica accademica riferita al riconoscimento della validità del titolo posseduto al fine della partecipazione a corsi di studio o concorsi pubblici.</rdfs:comment>
         <rdfs:label xml:lang="it">Atto di equivalenza qualifica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoDiMobilità -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoDiMobilità">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDiMobilità"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;avviso di mobilità&quot;, relativa a procedure selettive riservate a soggetti già appartenenti alla Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Avviso di mobilità</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoOIV -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoOIV">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoOIV"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento&quot; PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;avviso OIV&quot; (Organismi indipendenti di valutazione).</rdfs:comment>
         <rdfs:label xml:lang="it">Avviso OIV</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/BandoApprendistato -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/BandoApprendistato">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/bandoApprendistato"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;bando apprendistato&quot;, relativa a procedure di selezione per l&apos;inserimento di personale con contratto di lavoro di apprendistato all&apos;interno della Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Bando apprendistato</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento -->
@@ -3190,7 +2986,7 @@
         <rdfs:comment xml:lang="it">Domanda di partecipazione (application form) a una procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Candidatura procedura reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDellaCompetenza -->
@@ -3199,7 +2995,7 @@
         <rdfs:comment xml:lang="it">Classifica le categorie in cui si articolano le competenze.</rdfs:comment>
         <rdfs:label xml:lang="it">Categoria della competenza</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento -->
@@ -3208,7 +3004,7 @@
         <rdfs:comment xml:lang="it">Classificazione dei concorsi e bandi in base a specifici ambiti, modalità o settori.</rdfs:comment>
         <rdfs:label xml:lang="it">Categoria di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaPatenteDiGuida -->
@@ -3223,7 +3019,7 @@
         <rdfs:comment xml:lang="it">Classifica le categorie di patente di guida.</rdfs:comment>
         <rdfs:label xml:lang="it">Categoria patente di guida</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CompetenzaLinguistica -->
@@ -3244,27 +3040,51 @@
         <rdfs:comment xml:lang="it">Lingua straniera su cui un candidato ha compentenza.</rdfs:comment>
         <rdfs:label xml:lang="it">Competenza linguistica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/Concorso -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/Concorso">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorso"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;concorso&quot;, relativa a bandi pubblici per l&apos;assunzione di personale nella Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Concorso</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConcorsoDFP-FormezPA -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConcorsoDFP-FormezPA">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorsoDFP-FormezPA"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;Concorso DFP-Formez PA&quot;, relativa a bandi e avvisi gestiti con il supporto tecnico-operativo di Formez PA per conto delle amministrazioni centrali o locali ovvero banditi dalla Commissione interministeriale RIPAM.</rdfs:comment>
         <rdfs:label xml:lang="it">Concorso DFP - Formez PA</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConsuntivoDiProcedura -->
@@ -3283,7 +3103,7 @@
         <rdfs:comment xml:lang="it">Totalizzazione delle dimensioni di misura della procedura di reclutamento: numero iscritti, pagamenti ricevuti, etc.</rdfs:comment>
         <rdfs:label xml:lang="it">Consuntivo di procedura</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CurriculumVitae -->
@@ -3292,7 +3112,7 @@
         <rdfs:comment xml:lang="it">Classifica le diverse istanze di curriculum vitae ovvero gli aggregati di informazioni concernenti i percorsi formativi, le esperienze professionali, le attitudini e le competenze possedute da un partecipante e presentate nell&apos;ambito di una procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Curriculum vitae</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreCompetenza -->
@@ -3308,7 +3128,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Descrittore generico dedicata a descrivere una competenza (skill).</rdfs:comment>
         <rdfs:label xml:lang="it">Descrittore competenza</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreGenerico -->
@@ -3329,7 +3149,7 @@
         <rdfs:comment xml:lang="it">Istanzia la descrizione di un qualsiasi oggetto del mondo. È tipicamente costituito da un codice, un nome e una descrizione.</rdfs:comment>
         <rdfs:label xml:lang="it">Descrittore generico</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreLingua -->
@@ -3345,7 +3165,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Descrittore generico dedicata alla descrizione di una lingua.</rdfs:comment>
         <rdfs:label xml:lang="it">Descrittore lingua</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreRuolo -->
@@ -3355,7 +3175,7 @@
         <rdfs:comment xml:lang="it">Definizione delle responsabilità e delle competenze proprie di un determinato ruolo professionale ricoperto.</rdfs:comment>
         <rdfs:label xml:lang="it">Descrittore ruolo</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ElementoStatistico -->
@@ -3386,7 +3206,7 @@
         <rdfs:comment xml:lang="it">Dato quantitativo riferito a una determinata dimensione utilizzato nell&apos;ambito di una serie statistica per analizzare e valutare i risultati delle procedure di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Elemento statistico</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione -->
@@ -3418,7 +3238,7 @@
         <rdfs:comment xml:lang="it">Prova che i candidati devono superare per essere selezionati nell&apos;ambito di una procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Esame di selezione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsitoPartecipazioneSessioneDiEsame -->
@@ -3437,7 +3257,7 @@
         <rdfs:comment xml:lang="it">Risultato ottenuto da un candidato nella partecipazione a una prova selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Esito partecipazione sessione di esame</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaDiFormazione -->
@@ -3476,7 +3296,7 @@
         <rdfs:comment xml:lang="it">Esperienza formativa a cui un canditato ha preso parte.</rdfs:comment>
         <rdfs:label xml:lang="it">Esperienza di formazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaGenerica -->
@@ -3486,7 +3306,7 @@
         <rdfs:comment xml:lang="it">Esperienza professionale non specifica ma che può rilevare per il profilo del partecipante.</rdfs:comment>
         <rdfs:label xml:lang="it">Esperienza generica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativa -->
@@ -3520,7 +3340,7 @@
         <rdfs:comment xml:lang="it">Esperienza professionale di un partecipante che può essere considerata significativa nel processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Esperienza lavorativa</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA -->
@@ -3531,7 +3351,7 @@
         <rdfs:comment xml:lang="it">Esperienza professionale maturata all&apos;interno della Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Esperienza lavorativa PA</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPrivata -->
@@ -3541,7 +3361,7 @@
         <rdfs:comment xml:lang="it">Esperienza professionale maturata in aziende private.</rdfs:comment>
         <rdfs:label xml:lang="it">Esperienza lavorativa privata</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EventoDiFormazione -->
@@ -3561,7 +3381,7 @@
         <rdfs:comment xml:lang="it">Evento formativo a cui un partecipante ha preso parte e che può contribuire alla valutazione nel processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Evento di formazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GradoDiCompetenzaLingua -->
@@ -3570,7 +3390,7 @@
         <rdfs:comment xml:lang="it">Classifica le competenza nell&apos;utilizzo di una lingua nell&apos;ambito dei diversi usi della stessa (comprensione, parlato, scritto, …) secondo lo standard internazionale.</rdfs:comment>
         <rdfs:label xml:lang="it">Grado di competenza lingua</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GraduatoriaDiReclutamento -->
@@ -3597,7 +3417,7 @@
         <rdfs:comment xml:lang="it">Istanza della classifica dei candidati in base ai risultati ottenuti nel processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Graduatoria di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/InformazioneAggiuntiva -->
@@ -3613,7 +3433,7 @@
         <rdfs:comment xml:lang="it">Dettagli supplementari forniti dal candidato che possono rilevare nel punteggio attribuito alla candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Informazione aggiuntiva</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/IntervalloSalariale -->
@@ -3622,7 +3442,7 @@
         <rdfs:comment xml:lang="it">Intervallo economico dello stipendio previsto per la posizione oggetto del reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Intervallo salariale</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/IstitutoDiFormazione -->
@@ -3644,7 +3464,7 @@
         <rdfs:comment xml:lang="it">Classifica gli istituti di formazione nell&apos;ambito del rilascio di una qualifica accademica. È sottoclasse di COV:Organization.</rdfs:comment>
         <rdfs:label xml:lang="it">Istituto di formazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/LivelloDiPubblicazione -->
@@ -3653,7 +3473,7 @@
         <rdfs:comment xml:lang="it">Classifica la platea e il grado di diffusione della pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Livello di pubblicazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ModalitàDiValutazione -->
@@ -3662,7 +3482,7 @@
         <rdfs:comment xml:lang="it">Classificazione dei criteri e metodi utilizzati per valutare i candidati durante il processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Modalità di valutazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PartecipanteSessioneEsame -->
@@ -3707,7 +3527,7 @@
         <rdfs:comment xml:lang="it">Ruolo assunto da un candidato al momento dell&apos;effettiva partecipazione alla selezione per la procedura di reclutamento per cui ha presentato la candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Partecipante sessione esame</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PatenteDiGuida -->
@@ -3744,7 +3564,7 @@
         <rdfs:comment xml:lang="it">Classifica le patenti di guida di mezzi di trasporto possedute da una persona.</rdfs:comment>
         <rdfs:label xml:lang="it">Patente di guida</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PeriodoDiValiditàPatenteDiGuida -->
@@ -3765,7 +3585,7 @@
         <rdfs:comment xml:lang="it">Classifica la sequenza dei periodi di validità di una patente di guida.</rdfs:comment>
         <rdfs:label xml:lang="it">Periodo di validità patente di guida</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PosizioneInGraduatoriaDiReclutamento -->
@@ -3780,7 +3600,7 @@
         <rdfs:comment xml:lang="it">Posizione di un candidato all&apos;interno della graduatoria della procedura selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Posizione in graduatoria di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PreferenzaAggiuntiva -->
@@ -3795,7 +3615,7 @@
         <rdfs:comment xml:lang="it">Opzione che permette a un candidato di esprimere ulteriori dichiarazioni, se richieste nella candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Preferenza aggiuntiva</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PreferenzaAmbito -->
@@ -3805,7 +3625,7 @@
         <rdfs:comment xml:lang="it">Indicazione da parte di un candidato riguardo all&apos;ambito professionale in cui desidera essere assegnato.</rdfs:comment>
         <rdfs:label xml:lang="it">Preferenza ambito</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PreferenzaLuogoDiLavoro -->
@@ -3827,17 +3647,29 @@
         <rdfs:comment xml:lang="it">Indicazione della sede di lavoro in cui un candidato preferirebbe essere assegnato.</rdfs:comment>
         <rdfs:label xml:lang="it">Preferenza luogo di lavoro</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ProcedureStraordinarie -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ProcedureStraordinarie">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/procedureStraordinarie"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;procedure straordinarie&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">Procedure straordinarie</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ProprietàDellaCandidatura -->
@@ -3858,7 +3690,7 @@
         <rdfs:comment xml:lang="it">Istanzia una proprietà o caratteristica del candidato che si vuole far rilevare nell&apos;ambito di una candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Proprietà della candidatura</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ProvvedimentoIncaricoEstero -->
@@ -3867,7 +3699,7 @@
         <rdfs:comment xml:lang="it">Nell&apos;ambito di un impiego nella PA, classifica i provvedimenti e gli atti di destinazione dei dipendenti presso sedi o dipartimenti in paesi esteri.</rdfs:comment>
         <rdfs:label xml:lang="it">Provvedimento incarico estero</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneAccademica -->
@@ -3918,7 +3750,7 @@
         <rdfs:comment xml:lang="it">Articolo o lavoro di ricerca di un candidato pubblicato su riviste specializzate, libri o tesi che può essere considerato nel processo di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Pubblicazione accademica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA -->
@@ -3957,7 +3789,7 @@
         <rdfs:comment xml:lang="it">Annuncio ufficiale che informa cittadini e/o dipendenti pubblici riguardo a nuove opportunità di impiego nella Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Pubblicazione di reclutamento PA</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica -->
@@ -3984,7 +3816,7 @@
         <rdfs:comment xml:lang="it">Attestato ufficiale rilasciato da un&apos;istituzione scolastica o accademica accreditata, che certifica il superamento di un percorso formativo e il conseguimento delle competenze acquisite, con valore legale nel sistema educativo di istruzione e formazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Qualifica accademica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/RegolaDiAmmissioneProcedura -->
@@ -3993,7 +3825,7 @@
         <rdfs:comment xml:lang="it">Requisito specifico per l&apos;ammissione a una procedura selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Regola di ammissione procedura</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/RequisitoDiPartecipazione -->
@@ -4002,27 +3834,51 @@
         <rdfs:comment xml:lang="it">Condizione che un candidato deve soddisfare per poter partecipare a una procedura di reclutamento.</rdfs:comment>
         <rdfs:label xml:lang="it">Requisito di partecipazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SceltaPA-Sede -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SceltaPA-Sede">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sceltaPA-Sede"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;scelta PA-Sede&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">Scelta PA-Sede</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SelezioneProfessionistiEdEsperti -->
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SelezioneProfessionistiEdEsperti">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/selezioneProfessionistiEdEsperti"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;selezione professionisti ed esperti&quot;, relativa alle procedure finalizzate al reclutamento di profili specialistici e professionali.</rdfs:comment>
         <rdfs:label xml:lang="it">Selezione professionisti ed esperti</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SerieStatistica -->
@@ -4053,7 +3909,7 @@
         <rdfs:comment xml:lang="it">Istanza di collezione di elementi statistici utilizzati per analizzare le tendenze nel reclutamento del personale.</rdfs:comment>
         <rdfs:label xml:lang="it">Serie statistica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame -->
@@ -4078,7 +3934,7 @@
         <rdfs:comment xml:lang="it">Evento in cui i candidati sostengono le prove di selezione.</rdfs:comment>
         <rdfs:label xml:lang="it">Sessione di esame</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatisticaPubblicazioneReclutamentoPA -->
@@ -4111,7 +3967,7 @@
         <rdfs:comment xml:lang="it">Istanza di serie statistiche relativi alle pubblicazioni di concorsi e bandi di reclutamento nella Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Statistica pubblicazione reclutamento PA</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoApertoDiPubblicazioneDiReclutamento -->
@@ -4121,7 +3977,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;stato pubblicazione di reclutamento&quot; che raggruppa le istanze in condizione di &quot;aperto&quot; ovvero la pubblicazione è attiva, ossia è possibile ancora candidarsi.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato aperto di pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoBozzaDiPubblicazioneDiReclutamento -->
@@ -4131,7 +3987,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;stato pubblicazione di reclutamento&quot; che raggruppa le istanze in condizione di &quot;bozza&quot; ovvero la procedura è in fase di preparazione e non è ancora pubblicata.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato bozza di pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoChiusoDiPubblicazioneDiReclutamento -->
@@ -4141,7 +3997,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;stato pubblicazione di reclutamento&quot; che raggruppa le istanze in condizione di &quot;chiuso&quot; ovvero la pubblicazione non è più attiva e non è più possibile candidarsi.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato chiuso di pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoDiCandidatura -->
@@ -4151,7 +4007,7 @@
         <rdfs:comment xml:lang="it">Oggettivazione della condizione di una candidatura rispetto al tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato di candidatura</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoEliminatoDiPubblicazioneDiReclutamento -->
@@ -4161,7 +4017,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;stato pubblicazione di reclutamento&quot; che raggruppa le istanze relative a pubblicazioni definitivamente rimosse.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato eliminato di pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoInPubblicazioneDiPubblicazioneDiReclutamento -->
@@ -4171,7 +4027,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;stato pubblicazione di reclutamento&quot; che raggruppa le istanze in fase di pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato in pubblicazione di pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoPubblicazioneDiReclutamento -->
@@ -4187,7 +4043,7 @@
         <rdfs:comment xml:lang="it">Oggettivazione della condizione di una pubblicazione di reclutamento rispetto al tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">Stato pubblicazione di reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatusDiProceduraReclutamento -->
@@ -4196,7 +4052,7 @@
         <rdfs:comment xml:lang="it">Classificazione della condizione che una pubblicazione di una procedura di reclutamento può assumere nel tempo.</rdfs:comment>
         <rdfs:label xml:lang="it">Status di procedura reclutamento</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TassaIscrizione -->
@@ -4221,7 +4077,7 @@
         <rdfs:comment xml:lang="it">Importo richiesto al candidato per iscriversi al concorso pubblico.</rdfs:comment>
         <rdfs:label xml:lang="it">Tassa iscrizione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiAttività -->
@@ -4230,7 +4086,7 @@
         <rdfs:comment xml:lang="it">Tipologia di lavoro o incarico per cui viene indetta la procedura selettiva.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di attività</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiAutore -->
@@ -4239,7 +4095,7 @@
         <rdfs:comment xml:lang="it">Classifica un autore in base al suo coinvolgimento nell&apos;ambito di una pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di autore</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiAzienda -->
@@ -4248,7 +4104,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie delle aziende.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di azienda</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiContratto -->
@@ -4257,7 +4113,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie di contratto di lavoro.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di contratto</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiCorso -->
@@ -4266,7 +4122,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie di corso di formazione anche relativamente al titolo conseguito al termine della frequenza dello stesso.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di corso</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiEsame -->
@@ -4285,7 +4141,7 @@
         <rdfs:comment xml:lang="it">Classifica le diverse tipologie di esame.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di esame</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiIstitutoDiFormazione -->
@@ -4294,7 +4150,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie di istituti di formazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di istituto di formazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiMezzoDiTrasporto -->
@@ -4313,7 +4169,7 @@
         <rdfs:comment xml:lang="it">Classifica le diverse tipologie di mezzo di trasporto che una persona può condurre.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di mezzo di trasporto</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiPubblicazione -->
@@ -4322,7 +4178,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie associate ad una pubblicazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di pubblicazione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiQualifica -->
@@ -4331,7 +4187,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie di qualifiche accademiche.</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo di qualifica</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoOrarioDiLavoro -->
@@ -4340,7 +4196,7 @@
         <rdfs:comment xml:lang="it">Classifica le tipologie di orario di lavoro (full time, part time, …)</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo orario di lavoro</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoRuoloInCorso -->
@@ -4349,7 +4205,7 @@
         <rdfs:comment xml:lang="it">Classifica il ruolo ricoperto nell&apos;ambito di un corso di formazione (docente, discente, …)</rdfs:comment>
         <rdfs:label xml:lang="it">Tipo ruolo in corso</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ValorizzazioneRegolaAmmissione -->
@@ -4376,7 +4232,7 @@
         <rdfs:comment xml:lang="it">Valorizzazione di una regola di ammissione per una specifica candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Valorizzazione regola ammissione</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ValorizzazioneRequisito -->
@@ -4399,7 +4255,7 @@
         <rdfs:comment xml:lang="it">Generalizzazione della valorizzazione dei requisiti, generici e specifici, attribuiti alle candidature.</rdfs:comment>
         <rdfs:label xml:lang="it">Valorizzazione requisito</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ValorizzazioneRequisitoDiPartecipazione -->
@@ -4425,10 +4281,10 @@
         <rdfs:comment xml:lang="it">Valorizzazione di un requisito di partecipazione per una specifica candidatura.</rdfs:comment>
         <rdfs:label xml:lang="it">Valorizzazione requisito di partecipazione</rdfs:label>
     </owl:Class>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -4436,7 +4292,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- https://w3id.org/italia/data/organization/public-organization/td -->
@@ -4444,11 +4300,11 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/italia/data/organization/public-organization/td">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dcterms:identifier>TD</dcterms:identifier>
+        <dct:identifier>TD</dct:identifier>
         <foaf:name xml:lang="en">Digital Transformation Team</foaf:name>
         <foaf:name xml:lang="it">Team per la Trasformazione Digitale</foaf:name>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/data/organization/dfp -->
@@ -4457,14 +4313,14 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/COV/PublicOrganization"/>
-        <dcterms:identifier>dfp</dcterms:identifier>
+        <dct:identifier>dfp</dct:identifier>
         <rdfs:label xml:lang="en">Department of Civil Service of the Presidency of the Council of Ministers</rdfs:label>
         <rdfs:label xml:lang="it">Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri</rdfs:label>
-        <ns2:hasURL rdf:resource="https://github.com/DFPdati"/>
+        <vcard:hasURL rdf:resource="https://github.com/DFPdati"/>
         <foaf:name xml:lang="en">Department of Civil Service of the Presidency of the Council of Ministers</foaf:name>
         <foaf:name xml:lang="it">Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri</foaf:name>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/data/organization/dfpDati -->
@@ -4473,16 +4329,16 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Organization"/>
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
         <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
-        <dcterms:identifier>dfpDati</dcterms:identifier>
+        <dct:identifier>dfpDati</dct:identifier>
         <rdfs:label xml:lang="en">Department of Civil Service - Data</rdfs:label>
         <rdfs:label xml:lang="it">Dipartimento della Funzione Pubblica - Dati</rdfs:label>
-        <ns2:fn>Dipartimento della Funzione Pubblica - Dati</ns2:fn>
-        <ns2:hasEmail rdf:resource="mailto:m.rocchia@funzionepubblica.it"/>
-        <ns2:hasURL rdf:resource="https://github.com/DFPdati"/>
+        <vcard:fn>Dipartimento della Funzione Pubblica - Dati</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:m.rocchia@funzionepubblica.it"/>
+        <vcard:hasURL rdf:resource="https://github.com/DFPdati"/>
         <foaf:name xml:lang="en">Department of Civil Service - Data</foaf:name>
         <foaf:name xml:lang="it">Dipartimento della Funzione Pubblica - Dati</foaf:name>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES -->
@@ -4491,16 +4347,16 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dcterms:description xml:lang="it">Questa è la distribuzione N-TRIPLES dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dcterms:description>
-        <dcterms:description xml:lang="en">This is the distribution in N-TRIPLES of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dcterms:description>
-        <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"/>
-        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:title xml:lang="it">Distribuzione N-TRIPLES dell&apos;ontologia del Dipartimento della Funzione Pubblica</dcterms:title>
-        <dcterms:title xml:lang="en">N-TRIPLES distribution of the inPA Recruitment Portal Ontology</dcterms:title>
+        <dct:description xml:lang="it">Questa è la distribuzione N-TRIPLES dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in N-TRIPLES of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:title xml:lang="it">Distribuzione N-TRIPLES dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
+        <dct:title xml:lang="en">N-TRIPLES distribution of the inPA Recruitment Portal Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.n3"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE -->
@@ -4509,16 +4365,16 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dcterms:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dcterms:description>
-        <dcterms:description xml:lang="en">This is the distribution in RDF/Turtle of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dcterms:description>
-        <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
-        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:title xml:lang="it">Distribuzione RDF/Turtle dell&apos;ontologia del Dipartimento della Funzione Pubblica</dcterms:title>
-        <dcterms:title xml:lang="en">RDF/Turtle distribution of the inPA Recruitment Portal Ontology</dcterms:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of the inPA Recruitment Portal Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.ttl"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML -->
@@ -4527,16 +4383,16 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dcterms:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dcterms:description>
-        <dcterms:description xml:lang="en">This is the distribution in RDF/XML of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dcterms:description>
-        <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia del Dipartimento della Funzione Pubblica</dcterms:title>
-        <dcterms:title xml:lang="en">RDF/XML distribution of the inPA Recruitment Portal Ontology</dcterms:title>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of the inPA Recruitment Portal Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.owl"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDiMobilità -->
@@ -4545,7 +4401,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;avviso di mobilità&quot;, relativa a procedure selettive riservate a soggetti già appartenenti alla Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso di mobilità</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoOIV -->
@@ -4554,7 +4410,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;avviso OIV&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">avviso OIV</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/bandoApprendistato -->
@@ -4563,7 +4419,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;bando apprendistato&quot;, relativa a procedure di selezione per l&apos;inserimento di apprendisti all&apos;interno della Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">bando apprendistato</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorso -->
@@ -4572,7 +4428,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;concorso&quot;, relativa a bandi pubblici per l&apos;assunzione di personale nella Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">concorso</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorsoDFP-FormezPA -->
@@ -4581,7 +4437,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;Concorso DFP-Formez PA&quot;, relativa a bandi e avvisi gestiti con il supporto tecnico-operativo di Formez PA per conto delle amministrazioni centrali o locali</rdfs:comment>
         <rdfs:label xml:lang="it">concorso DFP - Formez PA</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/procedureStraordinarie -->
@@ -4590,7 +4446,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;procedure straordinarie&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">procedure straordinarie</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sceltaPA-Sede -->
@@ -4599,7 +4455,7 @@
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;scelta PA-Sede&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">scelta PA-Sede</rdfs:label>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/selezioneProfessionistiEdEsperti -->
@@ -4608,10 +4464,10 @@
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;selezione professionisti ed esperti&quot;, relativa alle procedure finalizzate al reclutamento di profili specialistici e professionali.</rdfs:comment>
         <rdfs:label xml:lang="it">selezione professionisti ed esperti</rdfs:label>
     </owl:NamedIndividual>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // General axioms
@@ -4619,6 +4475,142 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDiMobilità"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoOIV"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/bandoApprendistato"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorso"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorsoDFP-FormezPA"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/procedureStraordinarie"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sceltaPA-Sede"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/selezioneProfessionistiEdEsperti"/>
+        </owl:oneOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+    </owl:Class>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDiMobilità"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoDiMobilità"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoOIV"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AvvisoOIV"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/bandoApprendistato"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/BandoApprendistato"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorso"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/Concorso"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorsoDFP-FormezPA"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConcorsoDFP-FormezPA"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/procedureStraordinarie"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ProcedureStraordinarie"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sceltaPA-Sede"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SceltaPA-Sede"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/selezioneProfessionistiEdEsperti"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SelezioneProfessionistiEdEsperti"/>
+    </owl:Restriction>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -4642,9 +4634,54 @@
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoInPubblicazioneDiPubblicazioneDiReclutamento"/>
         </owl:members>
     </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoDiMobilità"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/avvisoOIV"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/bandoApprendistato"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorso"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/concorsoDFP-FormezPA"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/procedureStraordinarie"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/sceltaPA-Sede"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/selezioneProfessionistiEdEsperti"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
