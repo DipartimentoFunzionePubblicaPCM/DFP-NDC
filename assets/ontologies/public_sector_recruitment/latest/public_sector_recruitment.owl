@@ -4523,8 +4523,8 @@
         </owl:oneOf>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
     </owl:Class>
-   
-   
+
+
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -4548,7 +4548,7 @@
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoInPubblicazioneDiPubblicazioneDiReclutamento"/>
         </owl:members>
     </rdf:Description>
-    
+
 </rdf:RDF>
 
 
