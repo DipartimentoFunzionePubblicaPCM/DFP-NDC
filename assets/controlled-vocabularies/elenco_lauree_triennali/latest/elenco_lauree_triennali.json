@@ -1,1102 +1,1542 @@
 [
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/1",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "1",
-    "label_it": "1/S ANTROPOLOGIA CULTURALE ED ETNOLOGIA",
+    "label_it": "01 Biotecnologie",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/10",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/10",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "10",
-    "label_it": "13/S EDITORIA, COMUNICAZIONE MULTIMEDIALE E GIORNALISMO",
+    "label_it": "10 Ingegneria industriale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/100",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/100",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "100",
-    "label_it": "95/S STORIA DELL\u2019ARTE",
+    "label_it": "L30 - Lauree in Scienze e Tecnologie Fisiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/101",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/101",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "101",
-    "label_it": "96/S STORIA DELLA FILOSOFIA",
+    "label_it": "L31 - Lauree in Scienze e Tecnologie Informatiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/102",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/102",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "102",
-    "label_it": "97/S STORIA MEDIEVALE",
+    "label_it": "L32 - Lauree in Scienze e Tecnologie per l'Ambiente e la Natura",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/103",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/103",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "103",
-    "label_it": "98/S STORIA MODERNA",
+    "label_it": "L33 - Lauree in Scienze Economiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/104",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/104",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "104",
-    "label_it": "99/S STUDI EUROPEI",
+    "label_it": "L34 - Lauree in Scienze Geologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/105",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/105",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "105",
-    "label_it": "SNT/01/S SCIENZE INFERMIERISTICHE E OSTETRICHE",
+    "label_it": "L35 - Lauree in Scienze Matematiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/106",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/106",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "106",
-    "label_it": "SNT/02/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA RIABILITAZIONE",
+    "label_it": "L36 - Lauree in Scienze Politiche e delle Relazioni Internazionali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/107",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/107",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "107",
-    "label_it": "SNT/03/S SCIENZE DELLE PROFESSIONI SANITARIE TECNICHE",
+    "label_it": "L37 - Lauree in Scienze Sociali per la Cooperazione, lo Sviluppo e la Pace",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/108",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/108",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "108",
-    "label_it": "SNT/04/S SCIENZE DELLE PROFESSIONI SANITARIE DELLA PREVENZIONE",
+    "label_it": "L38 - Lauree in Scienze Zootecniche e Tecnologie delle Produzioni Animali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/109",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/109",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "109",
-    "label_it": "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL'INFORMAZIONE GIURIDICA",
+    "label_it": "L39 - Lauree in Servizio Sociale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/11",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/11",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "11",
-    "label_it": "14/S FARMACIA E FARMACIA INDUSTRIALE",
+    "label_it": "11 Lingue e culture moderne",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/110",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/110",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "110",
-    "label_it": "DS/S SCIENZE DELLA DIFESA E DELLA SICUREZZA",
+    "label_it": "L40 - Lauree in Sociologia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/12",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/111",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "111",
+    "label_it": "L41 - Lauree in Statistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/112",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "112",
+    "label_it": "L42 - Lauree in Storia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/113",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "113",
+    "label_it": "L43 - Lauree in Tecnologie per la Conservazione e il Restauro dei Beni Culturali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/114",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "114",
+    "label_it": "Laurea in Infermieristica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/115",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "115",
+    "label_it": "SNT/01 Scienze infermieristiche e ostetriche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/116",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "116",
+    "label_it": "SNT/02 Scienze delle professioni sanitarie della riabilitazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/117",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "117",
+    "label_it": "SNT/03 Scienze delle professioni sanitarie tecniche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/118",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "118",
+    "label_it": "SNT/04 Scienze delle professioni sanitarie della prevenzione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/119",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "119",
+    "label_it": "SNT1 \u2013 Infermieristica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/12",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "12",
-    "label_it": "15/S FILOLOGIA E LETTERATURE DELL\u2019ANTICHIT\u00c0",
+    "label_it": "12 Scienze biologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/13",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/120",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "120",
+    "label_it": "SNT1 \u2013 Infermieristica pediatrica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/121",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "121",
+    "label_it": "SNT1 \u2013 Ostetricia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/122",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "122",
+    "label_it": "SNT2 \u2013 Educatore Professionale Sanitario ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/123",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "123",
+    "label_it": "SNT2 \u2013 Fisioterapia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/124",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "124",
+    "label_it": "SNT2 \u2013 Logopedia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/125",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "125",
+    "label_it": "SNT2 \u2013 Ortottica ed Assistenza Oftalmologica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/126",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "126",
+    "label_it": "SNT2 \u2013 Podologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/127",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "127",
+    "label_it": "SNT2 \u2013 Tecnica della Riabilitazione Psichiatrica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/128",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "128",
+    "label_it": "SNT2 \u2013 Terapia della Neuro e Psicomotricita' dell\u2019Eta\u2019 Evolutiva",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/129",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "129",
+    "label_it": "SNT2 \u2013 Terapia Occupazionale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/13",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "13",
-    "label_it": "16/S FILOLOGIA MODERNA",
+    "label_it": "13 Scienze dei beni culturali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/14",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/130",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "130",
+    "label_it": "SNT3 \u2013 Dietistica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/131",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "131",
+    "label_it": "SNT3 \u2013 Igiene Dentale",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/132",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "132",
+    "label_it": "SNT3 \u2013 Tecnice Audioprotesiche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/133",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "133",
+    "label_it": "SNT3 \u2013 Tecniche Audiometriche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/134",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "134",
+    "label_it": "SNT3 \u2013 Tecniche di Fisiopatologia Cardiocircolatoria e Perfusione Cardiovascolare",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/135",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "135",
+    "label_it": "SNT3 \u2013 Tecniche di Laboratorio Biomedico",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/136",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "136",
+    "label_it": "SNT3 \u2013 Tecniche di Neurofisiopatologia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/137",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "137",
+    "label_it": "SNT3 \u2013 Tecniche di Radiologia Medica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/138",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "138",
+    "label_it": "SNT3 \u2013 Tecniche Ortopediche",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/139",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "139",
+    "label_it": "SNT4 \u2013 Assistenza Sanitaria",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/14",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "14",
-    "label_it": "17/S FILOSOFIA E STORIA DELLA SCIENZA",
+    "label_it": "14 Scienze della comunicazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/15",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/140",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "140",
+    "label_it": "SNT4 \u2013 Tecniche della Prevenzione nell'Ambiente e nei Luoghi Di Lavoro",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/141",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "141",
+    "label_it": "Diploma Accademico di I Livello - Conservatori o Istituti Superiori di Studi Musicali",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/142",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "142",
+    "label_it": "Diploma accademico di I livello - Accademie Belle Arti",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/143",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "143",
+    "label_it": "Diploma di I livello - Istituto Superiore delle Industrie Artistiche (ISIA)",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/144",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "144",
+    "label_it": "Diploma di I livello - Accademia Nazionale di Arte Drammatica",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/145",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "145",
+    "label_it": "Diploma accademico di I livello - Accademia Nazionale di Danza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/146",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "146",
+    "label_it": "L/DS - Scienze della Difesa e della Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/147",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "147",
+    "label_it": "DS/1 - Scienze della Difesa e della Sicurezza",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/148",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "148",
+    "label_it": "Laurea in Scienze Religiose",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/149",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "149",
+    "label_it": "L \u2013 Sc. Mat. - Scienze dei Materiali ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/15",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "15",
-    "label_it": "18/S FILOSOFIA TEORETICA, MORALE, POLITICA ED ESTETICA",
+    "label_it": "15 Scienze politiche e delle relazioni internazionali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/16",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/150",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "150",
+    "label_it": "L/GASTR Scienze, Culture e Politiche della Gastronomia ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/151",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "151",
+    "label_it": "L-P01 PROFESSIONI Tecniche per l\u2019Edilizia e il Territorio ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/152",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "152",
+    "label_it": "L-P02 PROFESSIONI Tecniche Agrarie, Alimentari e Forestali ",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/153",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "153",
+    "label_it": "L-P03 PROFESSIONI Tecniche Industriali e dell\u2019Informazione",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/154",
+    "@type": [
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "skos:Concept"
+    ],
+    "id": "154",
+    "label_it": "L19 - Lauree in Scienze dell'Educazione e della Formazione - indirizzo specifico per educatori dei servizi educativi per l\u2019infanzia",
+    "level": "1"
+  },
+  {
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/16",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "16",
-    "label_it": "19/S FINANZA",
+    "label_it": "16 Scienze della Terra",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/17",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/17",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "17",
-    "label_it": "2/S ARCHEOLOGIA",
+    "label_it": "17 Scienze dell'economia e della gestione aziendale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/18",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/18",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "18",
-    "label_it": "20/S FISICA",
+    "label_it": "18 Scienze dell'educazione e della formazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/19",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/19",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "19",
-    "label_it": "21/S GEOGRAFIA",
+    "label_it": "19 Scienze dell'amministrazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/2",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "2",
-    "label_it": "10/S CONSERVAZIONE DEI BENI ARCHITETTONICI E AMBIENTALI",
+    "label_it": "02 Scienze dei servizi giuridici",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/20",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/20",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "20",
-    "label_it": "22/S GIURISPRUDENZA",
+    "label_it": "20 Scienze e tecnologie agrarie, agroalimentari e forestali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/21",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/21",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "21",
-    "label_it": "23/S INFORMATICA",
+    "label_it": "21 Scienze e tecnologie chimiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/22",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/22",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "22",
-    "label_it": "24/S INFORMATICA PER LE DISCIPLINE UMANISTICHE",
+    "label_it": "22 Scienze e tecnologie della navigazione marittima e aerea",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/23",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/23",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "23",
-    "label_it": "25/S INGEGNERIA AEROSPAZIALE E ASTRONAUTICA",
+    "label_it": "23 Scienze e tecnologie delle arti figurative, della musica, dello spettacolo e della moda",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/24",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/24",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "24",
-    "label_it": "26/S INGEGNERIA BIOMEDICA",
+    "label_it": "24 Scienze e tecnologie farmaceutiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/25",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/25",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "25",
-    "label_it": "27/S INGEGNERIA CHIMICA",
+    "label_it": "25 Scienze e tecnologie fisiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/26",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/26",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "26",
-    "label_it": "28/S INGEGNERIA CIVILE",
+    "label_it": "26 Scienze e tecnologie informatiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/27",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/27",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "27",
-    "label_it": "29/S INGEGNERIA DELL\u2019AUTOMAZIONE",
+    "label_it": "27 Scienze e tecnologie per l'ambiente e la natura",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/28",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/28",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "28",
-    "label_it": "3/S ARCHITETTURA DEL PAESAGGIO",
+    "label_it": "28 Scienze economiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/29",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/29",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "29",
-    "label_it": "30/S INGEGNERIA DELLE TELECOMUNICAZIONI",
+    "label_it": "29 Filosofia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/3",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/3",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "3",
-    "label_it": "100/S TECNICHE E METODI PER LA SOCIET\u00c0 DELL\u2019INFORMAZIONE",
+    "label_it": "03 Scienze della mediazione linguistica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/30",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/30",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "30",
-    "label_it": "31/S INGEGNERIA ELETTRICA",
+    "label_it": "30 Scienze geografiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/31",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/31",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "31",
-    "label_it": "32/S INGEGNERIA ELETTRONICA",
+    "label_it": "31 Scienze giuridiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/32",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/32",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "32",
-    "label_it": "33/S INGEGNERIA ENERGETICA E NUCLEARE",
+    "label_it": "32 Scienze matematiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/33",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/33",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "33",
-    "label_it": "34/S INGEGNERIA GESTIONALE",
+    "label_it": "33 Scienze delle attivit\u00e0 motorie e sportive",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/34",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/34",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "34",
-    "label_it": "35/S INGEGNERIA INFORMATICA",
+    "label_it": "34 Scienze e tecniche psicologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/35",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/35",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "35",
-    "label_it": "36/S INGEGNERIA MECCANICA",
+    "label_it": "35 Scienze sociali per la cooperazione, lo sviluppo e la pace",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/36",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/36",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "36",
-    "label_it": "37/S INGEGNERIA NAVALE",
+    "label_it": "36 Scienze sociologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/37",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/37",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "37",
-    "label_it": "38/S INGEGNERIA PER L\u2019AMBIENTE E IL TERRITORIO",
+    "label_it": "37 Scienze statistiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/38",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/38",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "38",
-    "label_it": "39/S INTERPRETARIATO DI CONFERENZA",
+    "label_it": "38 Scienze storiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/39",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/39",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "39",
-    "label_it": "4/S ARCHITETTURA E INGEGNERIA EDILE",
+    "label_it": "39 Scienze del turismo",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/4",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/4",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "4",
-    "label_it": "101/S TEORIA DELLA COMUNICAZIONE",
+    "label_it": "04 Scienze dell'architettura e dell'ingegneria edile",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/40",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/40",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "40",
-    "label_it": "40/S LINGUA E CULTURA ITALIANA",
+    "label_it": "40 Scienze e tecnologie zootecniche e delle produzioni animali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/41",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/41",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "41",
-    "label_it": "41/S LINGUE E LETTERATURE AFROASIATICHE",
+    "label_it": "41 Tecnologie per la conservazione e il restauro dei beni culturali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/42",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/42",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "42",
-    "label_it": "42/S LINGUE E LETTERATURE MODERNE EUROAMERICANE",
+    "label_it": "42 Disegno industriale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/43",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/43",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "43",
-    "label_it": "43/S LINGUE STRANIERE PER LA COMUNICAZIONE INTERNAZIONALE",
+    "label_it": "L/DC - Lauree in Scienze della Difesa e della Sicurezza",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/44",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/44",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "44",
-    "label_it": "44/S LINGUISTICA",
+    "label_it": "L/SC - Lauree in Scienze Criminologiche e della Sicurezza",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/45",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/45",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "45",
-    "label_it": "45/S MATEMATICA",
+    "label_it": "L/SNT01 - Lauree delle Professioni Sanitarie Infermieristiche e Professione Sanitaria Ostetrica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/46",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/46",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "46",
-    "label_it": "46/S MEDICINA E CHIRURGIA",
+    "label_it": "L/SNT02 - Lauree delle Professioni Sanitarie della Riabilitazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/47",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/47",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "47",
-    "label_it": "47/S MEDICINA VETERINARIA",
+    "label_it": "L/SNT03 - Lauree delle Professioni Sanitarie Tecniche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/48",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/48",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "48",
-    "label_it": "48/S METODI PER L\u2019ANALISI VALUTATIVA DEI SISTEMI COMPLESSI",
+    "label_it": "L/SNT04 - Lauree delle Professioni Sanitarie della Prevenzione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/49",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/49",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "49",
-    "label_it": "49/S METODI PER LA RICERCA EMPIRICA NELLE SCIENZE SOCIALI",
+    "label_it": "L/SNT1 \u2013 Infermieristica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/5",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/5",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "5",
-    "label_it": "102/S TEORIA E TECNICHE DELLA NORMAZIONE E DELL\u2019INFORMAZIONE GIURIDICA",
+    "label_it": "05 Lettere",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/50",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/50",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "50",
-    "label_it": "5/S ARCHIVISTICA E BIBLIOTECONOMIA",
+    "label_it": "L/SNT1 \u2013 Infermieristica pediatrica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/51",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/51",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "51",
-    "label_it": "50/S MODELLISTICA MATEMATICO-FISICA PER L\u2019INGEGNERIA",
+    "label_it": "L/SNT1 \u2013 Ostetricia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/52",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/52",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "52",
-    "label_it": "51/S MUSICOLOGIA E BENI MUSICALI",
+    "label_it": "L/SNT2 \u2013 Educazione professionale ",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/53",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/53",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "53",
-    "label_it": "52/S ODONTOIATRIA E PROTESI DENTARIA",
+    "label_it": "L/SNT2 \u2013 Fisioterapia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/54",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/54",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "54",
-    "label_it": "53/S ORGANIZZAZIONE E GESTIONE DEI SERVIZI PER LO SPORT E LE ATTIVIT\u00c0 MOTORIE",
+    "label_it": "L/SNT2 \u2013 Logopedia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/55",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/55",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "55",
-    "label_it": "54/S PIANIFICAZIONE TERRITORIALE URBANISTICA E AMBIENTALE",
+    "label_it": "L/SNT2 \u2013 Ortottica ed Assistenza Oftalmologica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/56",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/56",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "56",
-    "label_it": "55/S PROGETTAZIONE E GESTIONE DEI SISTEMI TURISTICI",
+    "label_it": "L/SNT2 \u2013 Podologia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/57",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/57",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "57",
-    "label_it": "56/S PROGRAMMAZIONE E GESTIONE DEI SERVIZI EDUCATIVI E FORMATIVI",
+    "label_it": "L/SNT2 \u2013 Tecnica della Riabilitazione Psichiatrica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/58",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/58",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "58",
-    "label_it": "57/S PROGRAMMAZIONE E GESTIONE DELLE POLITICHE E DEI SERVIZI SOCIALI",
+    "label_it": "L/SNT2 \u2013 Terapia della Neuro e Psicomotricita' dell\u2019Eta\u2019 Evolutiva",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/59",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/59",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "59",
-    "label_it": "58/S PSICOLOGIA",
+    "label_it": "L/SNT2 \u2013 Terapia Occupazionale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/6",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/6",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "6",
-    "label_it": "103/S TEORIE E METODI DEL DISEGNO INDUSTRIALE",
+    "label_it": "06 Scienze del servizio sociale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/60",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/60",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "60",
-    "label_it": "59/S PUBBLICIT\u00c0 E COMUNICAZIONE D\u2019IMPRESA",
+    "label_it": "L/SNT3 \u2013 Dietistica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/61",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/61",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "61",
-    "label_it": "6/S BIOLOGIA",
+    "label_it": "L/SNT3 \u2013 Igiene Dentale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/62",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/62",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "62",
-    "label_it": "60/S RELAZIONI INTERNAZIONALI",
+    "label_it": "L/SNT3 \u2013 Tecnice Audioprotesiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/63",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/63",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "63",
-    "label_it": "61/S SCIENZA E INGEGNERIA DEI MATERIALI",
+    "label_it": "L/SNT3 \u2013 Tecniche Audiometriche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/64",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/64",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "64",
-    "label_it": "62/S SCIENZE CHIMICHE",
+    "label_it": "L/SNT3 \u2013 Tecniche di Fisiopatologia Cardiocircolatoria e Perfusione Cardiovascolare",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/65",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/65",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "65",
-    "label_it": "63/S SCIENZE COGNITIVE",
+    "label_it": "L/SNT3 \u2013 Tecniche di Laboratorio Biomedico",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/66",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/66",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "66",
-    "label_it": "64/S SCIENZE DELL\u2019ECONOMIA",
+    "label_it": "L/SNT3 \u2013 Tecniche di Neurofisiopatologia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/67",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/67",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "67",
-    "label_it": "65/S SCIENZE DELL\u2019EDUCAZIONE DEGLI ADULTI E DELLA FORMAZIONE CONTINUA",
+    "label_it": "L/SNT3 \u2013 Tecniche di Radiologia Medica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/68",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/68",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "68",
-    "label_it": "66/S SCIENZE DELL\u2019UNIVERSO",
+    "label_it": "L/SNT3 \u2013 Tecniche Ortopediche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/69",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/69",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "69",
-    "label_it": "67/S SCIENZE DELLA COMUNICAZIONE SOCIALE E ISTITUZIONALE",
+    "label_it": "L/SNT4 \u2013 Assistenza Sanitaria",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/7",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/7",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "7",
-    "label_it": "104/S TRADUZIONE LETTERARIA E IN TRADUZIONE TECNICO-SCIENTIFICA",
+    "label_it": "07 Urbanistica e scienze della pianificazione territoriale e ambientale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/70",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/70",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "70",
-    "label_it": "68/S SCIENZE DELLA NATURA",
+    "label_it": "L/SNT4 \u2013 Tecniche della Prevenzione nell'Ambiente e nei Luoghi Di Lavoro",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/71",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/71",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "71",
-    "label_it": "69/S SCIENZE DELLA NUTRIZIONE UMANA",
+    "label_it": "L01 - Lauree in Beni Culturali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/72",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/72",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "72",
-    "label_it": "7/S BIOTECNOLOGIE AGRARIE",
+    "label_it": "L02 - Lauree in Biotecnologie",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/73",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/73",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "73",
-    "label_it": "70/S SCIENZE DELLA POLITICA",
+    "label_it": "L03 - Lauree in Discipline delle Arti Figurative, della Musica, dello Spettacolo e della Moda",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/74",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/74",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "74",
-    "label_it": "71/S SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI",
+    "label_it": "L04 - Lauree in Disegno Industriale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/75",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/75",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "75",
-    "label_it": "72/S SCIENZE DELLE RELIGIONI",
+    "label_it": "L05 - Lauree in Filosofia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/76",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/76",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "76",
-    "label_it": "73/S SCIENZE DELLO SPETTACOLO E DELLA PRODUZIONE MULTIMEDIALE",
+    "label_it": "L06 - Lauree in Geografia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/77",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/77",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "77",
-    "label_it": "74/S SCIENZE E GESTIONE DELLE RISORSE RURALI E FORESTALI",
+    "label_it": "L07 - Lauree in Ingegneria Civile e Ambientale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/78",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/78",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "78",
-    "label_it": "75/S SCIENZE E TECNICA DELLO SPORT",
+    "label_it": "L08 - Lauree in Ingegneria dell'Informazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/79",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/79",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "79",
-    "label_it": "76/S SCIENZE E TECNICHE DELLE ATTIVIT\u00c0 MOTORIE PREVENTIVE E ADATTATIVE",
+    "label_it": "L09 - Lauree in Ingegneria Industriale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/8",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/8",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "8",
-    "label_it": "11/S CONSERVAZIONE DEI BENI SCIENTIFICI E DELLA CIVILT\u00c0 INDUSTRIALE",
+    "label_it": "08 Ingegneria civile e ambientale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/80",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/80",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "80",
-    "label_it": "77/S SCIENZE E TECNOLOGIE AGRARIE",
+    "label_it": "L10 - Lauree in Lettere",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/81",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/81",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "81",
-    "label_it": "78/S SCIENZE E TECNOLOGIE AGROALIMENTARI",
+    "label_it": "L11 - Lauree in Lingue e Culture Moderne",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/82",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/82",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "82",
-    "label_it": "79/S SCIENZE E TECNOLOGIE AGROZOOTECNICHE",
+    "label_it": "L12 - Lauree in Mediazione Linguistica",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/83",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/83",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "83",
-    "label_it": "8/S BIOTECNOLOGIE INDUSTRIALI",
+    "label_it": "L13 - Lauree in Scienze Biologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/84",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/84",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "84",
-    "label_it": "80/S SCIENZE E TECNOLOGIE DEI SISTEMI DI NAVIGAZIONE",
+    "label_it": "L14 - Lauree in Scienze dei Servizi Giuridici",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/85",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/85",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "85",
-    "label_it": "81/S SCIENZE E TECNOLOGIE DELLA CHIMICA INDUSTRIALE",
+    "label_it": "L15 - Lauree in Scienze del Turismo",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/86",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/86",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "86",
-    "label_it": "82/S SCIENZE E TECNOLOGIE PER L\u2019AMBIENTE E IL TERRITORIO",
+    "label_it": "L16 - Lauree in Scienze dell'Amministrazione e dell'Organizzazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/87",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/87",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "87",
-    "label_it": "83/S SCIENZE ECONOMICHE PER L\u2019AMBIENTE E LA CULTURA",
+    "label_it": "L17 - Lauree in Scienze dell'Architettura",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/88",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/88",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "88",
-    "label_it": "84/S SCIENZE ECONOMICO-AZIENDALI",
+    "label_it": "L18 - Lauree in Scienze dell'Economia e della Gestione Aziendale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/89",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/89",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "89",
-    "label_it": "85/S SCIENZE GEOFISICHE",
+    "label_it": "L19 - Lauree in Scienze dell'Educazione e della Formazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/9",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/9",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "9",
-    "label_it": "12/S CONSERVAZIONE E RESTAURO DEL PATRIMONIO STORICO-ARTISTICO",
+    "label_it": "09 Ingegneria dell'informazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/90",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/90",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "90",
-    "label_it": "86/S SCIENZE GEOLOGICHE",
+    "label_it": "L20 - Lauree in Scienze della Comunicazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/91",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/91",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "91",
-    "label_it": "87/S SCIENZE PEDAGOGICHE",
+    "label_it": "L21 - Lauree in Scienze della Pianificazione Territoriale, Urbanistica, Paesaggistica e Ambientale",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/92",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/92",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "92",
-    "label_it": "88/S SCIENZE PER LA COOPERAZIONE ALLO SVILUPPO",
+    "label_it": "L22 - Lauree in Scienze delle Attivit\u00e0 Motorie e Sportive",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/93",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/93",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "93",
-    "label_it": "89/S SOCIOLOGIA",
+    "label_it": "L23 - Lauree in Scienze e Tecniche dell'Edilizia",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/94",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/94",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "94",
-    "label_it": "9/S BIOTECNOLOGIE MEDICHE, VETERINARIE E FARMACEUTICHE",
+    "label_it": "L24 - Lauree in Scienze e Tecniche Psicologiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/95",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/95",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "95",
-    "label_it": "90/S STATISTICA DEMOGRAFICA E SOCIALE",
+    "label_it": "L25 - Lauree in Scienze e Tecnologie Agrarie e Forestali",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/96",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/96",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "96",
-    "label_it": "91/S STATISTICA ECONOMICA, FINANZIARIA ED ATTUARIALE",
+    "label_it": "L26 - Lauree in Scienze e Tecnologie Agro-Alimentari",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/97",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/97",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "97",
-    "label_it": "92/S STATISTICA PER LA RICERCA SPERIMENTALE",
+    "label_it": "L27 - Lauree in Scienze e Tecnologie Chimiche",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/98",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/98",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "98",
-    "label_it": "93/S STORIA ANTICA",
+    "label_it": "L28 - Lauree in Scienze e Tecnologie della Navigazione",
     "level": "1"
   },
   {
-    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/99",
+    "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/99",
     "@type": [
       "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
       "skos:Concept"
     ],
     "id": "99",
-    "label_it": "94/S STORIA CONTEMPORANEA",
+    "label_it": "L29 - Lauree in Scienze e Tecnologie Farmaceutiche",
     "level": "1"
   }
 ]
