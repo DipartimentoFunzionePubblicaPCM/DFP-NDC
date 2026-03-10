@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/"
-     xml:base="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/"
+<rdf:RDF xmlns="https://w3id.org/italia/onto/RO/"
+     xml:base="https://w3id.org/italia/onto/RO/"
      xmlns:L0="https://w3id.org/italia/onto/l0/"
      xmlns:RO="https://w3id.org/italia/onto/RO/"
      xmlns:SM="https://w3id.org/italia/onto/SM/"
      xmlns:TI="https://w3id.org/italia/onto/TI/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:CLV="https://w3id.org/italia/onto/CLV/"
      xmlns:COV="https://w3id.org/italia/onto/COV/"
      xmlns:CPV="https://w3id.org/italia/onto/CPV/"
@@ -18,12 +17,11 @@
      xmlns:adms="https://w3id.org/italia/onto/ADMS/"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
      xmlns:pa-recruit="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/">
-    <owl:Ontology rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/">
+    <owl:Ontology rdf:about="https://w3id.org/italia/onto/RO/">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/1.0"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/CLV/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/COV/"/>
@@ -35,8 +33,8 @@
         <owl:imports rdf:resource="https://w3id.org/italia/onto/l0/"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
-        <dct:description xml:lang="it">Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
-        <dct:description xml:lang="en">The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal.</dct:description>
+        <dct:description xml:lang="it">La risorsa modella il dominio del reclutamento del personale all&apos;interno delle amministrazioni pubbliche italiane, attraverso il portale inPA (portale unico del reclutamento - in Pubblica Amministrazione). La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</dct:description>
+        <dct:description xml:lang="en">The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</dct:description>
         <dct:identifier>https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment</dct:identifier>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
@@ -44,13 +42,13 @@
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dct:modified>
         <dct:publisher rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
         <dct:rightsHolder rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
-        <dct:title xml:lang="it">Ontologia del Dipartimento della Funzione Pubblica</dct:title>
-        <dct:title xml:lang="en">inPA Recruitment Portal Ontology</dct:title>
-        <rdfs:comment xml:lang="it">Ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</rdfs:comment>
-        <rdfs:comment xml:lang="en">The inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</rdfs:comment>
+        <dct:title xml:lang="it">Ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
+        <dct:title xml:lang="en">Recruitment in the Public Administration Ontology</dct:title>
+        <rdfs:comment xml:lang="it">La risorsa modella il dominio del reclutamento del personale all&apos;interno delle amministrazioni pubbliche italiane, attraverso il portale inPA (portale unico del reclutamento - in Pubblica Amministrazione). La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/"/>
-        <rdfs:label xml:lang="it">Ontologia del Dipartimento della Funzione Pubblica</rdfs:label>
-        <rdfs:label xml:lang="en">inPA Recruitment Portal Ontology</rdfs:label>
+        <rdfs:label xml:lang="it">Ontologia del reclutamento nella Pubblica Amministrazione</rdfs:label>
+        <rdfs:label xml:lang="en">Recruitment in the Public Administration Ontology</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0 - Modified 02 March 2026</owl:versionInfo>
         <owl:versionInfo xml:lang="it">Versione 1.0 - Modificata il 2 Marzo 2026</owl:versionInfo>
         <dcat:contactPoint rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfpDati"/>
@@ -98,9 +96,213 @@
 
 
 
+    <!-- http://purl.org/dc/terms/accrualPeriodicity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
+
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/format"/>
+
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+
+
+
+    <!-- http://purl.org/dc/terms/rightsHolder -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rightsHolder"/>
+
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#fn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#fn"/>
+
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#hasEmail -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+
+
+
     <!-- http://www.w3.org/2006/vcard/ns#hasURL -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2006/vcard/ns#hasURL"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#contactPoint -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#contactPoint"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadURL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#keyword -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#theme -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#theme"/>
+
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/acronym -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/acronym"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasContributor -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasContributor"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasFormalityLevel -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasFormalityLevel"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasKeyClass -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasKeyClass"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasOntologyLanguage -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasOntologyLanguage"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/hasTask -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/hasTask"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/last -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/last"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/officialURI -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/officialURI"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/prefix -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/prefix"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/semanticAssetInUse -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/semanticAssetInUse"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/status -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/status"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/target -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/target"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/type -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/italia/onto/ADMS/type"/>
 
 
 
@@ -2362,8 +2564,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneAccademica"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment xml:lang="it">Numero di pagine della pubblicazione accademica.</rdfs:comment>
         <rdfs:comment>Numero di pagine della pubblicazione accademica.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Numero di pagine della pubblicazione accademica.</rdfs:comment>
         <rdfs:label xml:lang="it">numero pagine pubblicazione</rdfs:label>
     </owl:DatatypeProperty>
 
@@ -2726,6 +2928,54 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
+
+
+    <!-- http://dati.gov.it/onto/dcatapit#Agent -->
+
+    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Agent"/>
+
+
+
+    <!-- http://dati.gov.it/onto/dcatapit#Distribution -->
+
+    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Distribution"/>
+
+
+
+    <!-- http://dati.gov.it/onto/dcatapit#Organization -->
+
+    <owl:Class rdf:about="http://dati.gov.it/onto/dcatapit#Organization"/>
+
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Kind -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Kind"/>
+
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/vcard/ns#Organization"/>
+
+
+
+    <!-- http://www.w3.org/ns/dcat#Distribution -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Distribution"/>
+
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+
+
+
+    <!-- https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution -->
+
+    <owl:Class rdf:about="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
 
 
 
@@ -4347,12 +4597,12 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione N-TRIPLES dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
-        <dct:description xml:lang="en">This is the distribution in N-TRIPLES of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:description xml:lang="it">Questa è la distribuzione N-TRIPLES dell&apos;ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in N-TRIPLES of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"/>
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dct:title xml:lang="it">Distribuzione N-TRIPLES dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
-        <dct:title xml:lang="en">N-TRIPLES distribution of the inPA Recruitment Portal Ontology</dct:title>
+        <dct:title xml:lang="it">Distribuzione N-TRIPLES dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
+        <dct:title xml:lang="en">N-TRIPLES distribution of the Recruitment in the Public Administration Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.n3"/>
     </owl:NamedIndividual>
@@ -4365,12 +4615,12 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
-        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/Turtle dell&apos;ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/Turtle of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"/>
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
-        <dct:title xml:lang="en">RDF/Turtle distribution of the inPA Recruitment Portal Ontology</dct:title>
+        <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
+        <dct:title xml:lang="en">RDF/Turtle distribution of the Recruitment in the Public Administration Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.ttl"/>
     </owl:NamedIndividual>
@@ -4383,12 +4633,12 @@
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
-        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia dei processi di reclutamento nel Portale inPA (Portale unico del reclutamento – in Pubblica Amministrazione) del Ministero per la Pubblica Amministrazione ed in particolare del Dipartimento della Funzione Pubblica.</dct:description>
-        <dct:description xml:lang="en">This is the distribution in RDF/XML of the inPA Recruitment Portal Ontology describes some of the main concepts of the Recruitment Portal</dct:description>
+        <dct:description xml:lang="it">Questa è la distribuzione RDF/XML dell&apos;ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</dct:description>
+        <dct:description xml:lang="en">This is the distribution in RDF/XML of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</dct:description>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia del Dipartimento della Funzione Pubblica</dct:title>
-        <dct:title xml:lang="en">RDF/XML distribution of the inPA Recruitment Portal Ontology</dct:title>
+        <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
+        <dct:title xml:lang="en">RDF/XML distribution of the Recruitment in the Public Administration Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
         <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.owl"/>
     </owl:NamedIndividual>
@@ -4523,8 +4773,94 @@
         </owl:oneOf>
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
     </owl:Class>
-
-
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoDiMobilità"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoOIV"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/BandoApprendistato"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/Concorso"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ConcorsoDFP-FormezPA"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ProcedureStraordinarie"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SceltaPA-Sede"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SelezioneProfessionistiEdEsperti"/>
+    </owl:Restriction>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -4548,9 +4884,54 @@
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoInPubblicazioneDiPubblicazioneDiReclutamento"/>
         </owl:members>
     </rdf:Description>
-
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
+                </owl:oneOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

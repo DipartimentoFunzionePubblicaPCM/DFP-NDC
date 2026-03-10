@@ -1,12 +1,12 @@
 @prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://www.w3.org/ns/dcat#> .
-@prefix ns4: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns3: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
 @prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix ns8: <http://www.w3.org/ns/adms#> .
-@prefix ns9: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns7: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns8: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix ns9: <http://www.w3.org/ns/adms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -48,12 +48,12 @@
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali> a <http://dati.gov.it/onto/dcatapit#Dataset>,
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:ConceptScheme,
-        ns8:Asset ;
-    rdfs:label "Controlled vocabulary of master's degree typologies"@en,
-        "Vocabolario controllato della tipologia di lauree magistrali"@it ;
-    ns1:prefLabel "Vocabolario controllato della tipologia di lauree magistrali"@it ;
-    rdfs:comment "Controlled vocabulary of master's degree typologies"@en,
-        "Vocabolario controllato della tipologia di lauree magistrali"@it ;
+        ns9:Asset ;
+    rdfs:label "Master's Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle lauree magistrali"@it ;
+    ns1:prefLabel "Vocabolario controllato delle lauree magistrali"@it ;
+    rdfs:comment "La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     owl:versionInfo "0.1" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali> ;
     ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/1>,
@@ -174,31 +174,31 @@
     ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns2:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
     ns2:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:description "Controlled vocabulary of master's degree typologies"@en,
-        "Vocabolario controllato della tipologia di lauree magistrali"@it ;
+    ns2:description "La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns2:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali" ;
     ns2:issued "2026-02-26"^^xsd:date ;
     ns2:language <http://publications.europa.eu/resource/authority/language/ITA> ;
     ns2:modified "2026-02-26"^^xsd:date ;
     ns2:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     ns2:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:title "Controlled vocabulary of master's degree typologies"@en,
-        "Vocabolario controllato della tipologia di lauree magistrali"@it ;
+    ns2:title "Master's Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle lauree magistrali"@it ;
     ns2:type <http://purl.org/adms/assettype/CodeList> ;
-    ns3:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
-    ns3:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_CSV>,
+    ns4:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns4:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_CSV>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_JSON_LD>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_RDF_TURTLE> ;
-    ns3:keyword "application recruitment procedure"@en,
+    ns4:keyword "application recruitment procedure"@en,
         "candidatura procedura reclutamento"@it,
         "categoria di reclutamento"@it,
         "citizen's curriculum vitae"@en,
         "curriculum vitae del cittadino"@it,
         "recruitment category"@en ;
-    ns3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
-    ns7:numberOfLevels "1" ;
-    ns8:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
-    ns9:keyConcept "elenco_lauree_magistrali" .
+    ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns7:keyConcept "elenco_lauree_magistrali" ;
+    ns8:numberOfLevels "1" ;
+    ns9:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -208,7 +208,7 @@
     ns1:notation "1" ;
     ns2:identifier "1" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -218,7 +218,7 @@
     ns1:notation "2" ;
     ns2:identifier "2" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -229,7 +229,7 @@
     ns2:description "SCIENZE_INFERMIERISTICHE; OSTETRICIA; INF_PED; RUOLI_SANITARI;  " ;
     ns2:identifier "3" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -240,7 +240,7 @@
     ns2:description "RUOLI_SANITARI; EDU_PROF_SAN; FISIOTERAPIA; LOGOPEDISTA; ORTOTTISTA; PODOLOGO; TEC_RIAB_PSIC; TEC_NEURO_PSICOMOTR; TERAP_OCCUPAZ; " ;
     ns2:identifier "4" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -251,7 +251,7 @@
     ns2:description "DIETISTICA; IGIEN_DENT; RUOLI_SANITARI; TEC_ORTOPED; TEC_FIS_CARDCIRC; AUDIOMETRISTA; AUDIOPROTESISTA; TEC_LAB_BIO; TEC_RAD_MED; TEC_NEUROFISIOPAT; " ;
     ns2:identifier "5" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -262,7 +262,7 @@
     ns2:description "RUOLI_SANITARI; ASS_SAN; TECNICO_PREV; " ;
     ns2:identifier "6" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -273,7 +273,7 @@
     ns2:description "ANTROPOLOGIA; LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "7" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -284,7 +284,7 @@
     ns2:description "LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "8" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -295,7 +295,7 @@
     ns2:description "GEOM_LAUREATO; ARCHITETTURA; ARCHITETTURA_2; ISTR_TECNICO; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "9" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -306,7 +306,7 @@
     ns2:description "ING_EDILE_ARCHITETT; GEOM_LAUREATO; INGEGNERIA; ARCHITETTURA_2; ISTR_TECNICO; MAECI_DIR;" ;
     ns2:identifier "10" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -317,7 +317,7 @@
     ns2:description "LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "11" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -328,7 +328,7 @@
     ns2:description "BIOLOGIA; RUOLI_SANITARI_2; BIOLOGIA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "12" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -339,7 +339,7 @@
     ns2:description "BIOLOGIA; BIOLOGIA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "13" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -350,7 +350,7 @@
     ns2:description "BIOLOGIA; BIOLOGIA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "14" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -361,7 +361,7 @@
     ns2:description "BIOLOGIA; RUOLI_SANITARI_2; BIOLOGIA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "15" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -372,7 +372,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "16" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -383,7 +383,7 @@
     ns2:description "LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "17" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -394,7 +394,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "18" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -405,7 +405,7 @@
     ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "19" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -416,7 +416,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "20" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -427,7 +427,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "21" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -438,7 +438,7 @@
     ns2:description "ECONOMIA; STATISTICA; ECONOMIA_2; STATISTICA_3; STAT_FINANZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "22" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -449,7 +449,7 @@
     ns2:description "FISICA; DIR_FISICO; RUOLI_SANITARI_2; ASTRONOMIA; FISICA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "23" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -460,7 +460,7 @@
     ns2:description "INFORMATICA; CTP_ING_INF; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "24" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -471,7 +471,7 @@
     ns2:description "SCIENZE_POLITICHE; SCIENZE_COMUNICAZIONE; SCIENZE_COMUNICAZIONE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "25" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -482,7 +482,7 @@
     ns2:description "INGEGNERIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "26" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -493,7 +493,7 @@
     ns2:description "INGEGNERIA; ING_BIOMEDICA; CTP_ING_INF; ING_MEDICA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "27" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -504,7 +504,7 @@
     ns2:description "INGEGNERIA; ING_CHIMICA; INGEGNERIA_SICUREZZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "28" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -515,7 +515,7 @@
     ns2:description "ING_EDILE; ING_CIVILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; ING_EDILE_2; ISTR_TECNICO; ING_CIVILE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "29" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/30> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -526,7 +526,7 @@
     ns2:description "ING_EDILE; ING_CIVILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; ING_EDILE_2; ISTR_TECNICO; ING_CIVILE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "30" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/31> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -537,7 +537,7 @@
     ns2:description "ING_ELETTRONICA; ING_ELETTRICA; INGEGNERIA; CTP_ING_INF; ING_AUTOMAZIONE; INGEGNERIA_SICUREZZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "31" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/32> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -548,7 +548,7 @@
     ns2:description "INGEGNERIA_SICUREZZA; ING_EDILE; ING_CIVILE;  ING_ELETTRICA; ING_TELECOMUNICAZIONI; GEOM_LAUREATO; INGEGNERIA; CTP_ING_INF; ING_CHIMICA; ING_AMB_TERR; ING_NUCLEARE; ING_EDILE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "32" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/33> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -559,7 +559,7 @@
     ns2:description "ING_TELECOMUNICAZIONI; INGEGNERIA; CTP_ING_INF; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "33" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/34> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -570,7 +570,7 @@
     ns2:description "ING_ELETTRICA; INGEGNERIA; INGEGNERIA_SICUREZZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "34" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/35> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -581,7 +581,7 @@
     ns2:description "ING_ELETTRONICA; INGEGNERIA; CTP_ING_INF; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "35" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/36> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -592,7 +592,7 @@
     ns2:description "INGEGNERIA; ING_NUCLEARE; INGEGNERIA_SICUREZZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "36" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/37> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -603,7 +603,7 @@
     ns2:description "ING_GESTIONALE; INGEGNERIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "37" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/38> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -614,7 +614,7 @@
     ns2:description "ING_INFORMATICA; INGEGNERIA; CTP_ING_INF; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "38" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/39> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -625,7 +625,7 @@
     ns2:description "ING_MECCANICA; ING_INDUSTRIALE; INGEGNERIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "39" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/40> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -636,7 +636,7 @@
     ns2:description "INGEGNERIA; ING_INDUSTRIALE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "40" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/41> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -647,7 +647,7 @@
     ns2:description "GEOM_LAUREATO; INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; ISTR_TECNICO; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "41" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/42> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -658,7 +658,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "42" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/43> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -669,7 +669,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "43" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/44> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -680,7 +680,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "44" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/45> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -691,7 +691,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "45" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/46> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -702,7 +702,7 @@
     ns2:description "MATEMATICA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "46" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/47> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -713,7 +713,7 @@
     ns2:description "MEDICINA; MEDICINA_CHIRURGIA; LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2;  " ;
     ns2:identifier "47" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/48> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -724,7 +724,7 @@
     ns2:description "MEDICINA_VETERINARIA; RUOLI_SANITARI_2;  " ;
     ns2:identifier "48" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/49> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -735,7 +735,7 @@
     ns2:description "LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "49" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/50> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -746,7 +746,7 @@
     ns2:description "MATEMATICA; FISICA; INGEGNERIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "50" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/51> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -757,7 +757,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "51" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/52> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -768,7 +768,7 @@
     ns2:description "LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
     ns2:identifier "52" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/53> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -779,7 +779,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "53" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/54> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -790,7 +790,7 @@
     ns2:description "GEOM_LAUREATO; PIAN_TERR_URB; PIAN_TERR_URB_AMB; POLITICHE_TERRITORIO; URBANISTICA; ISTR_TECNICO; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "54" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/55> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -801,7 +801,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "55" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/56> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -812,7 +812,7 @@
     ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "56" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/57> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -823,7 +823,7 @@
     ns2:description "PSICOLOGIA; RUOLI_SANITARI_2; AREA_SOCIO_PSICO; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "57" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/58> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -834,7 +834,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "58" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/59> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -845,7 +845,7 @@
     ns2:description "INGEGNERIA; ING_MAT; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "59" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/60> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -856,7 +856,7 @@
     ns2:description "CHIMICA; RUOLI_SANITARI_2;  LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "60" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/61> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -867,7 +867,7 @@
     ns2:description "AREA_SOCIO_PSICO; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "61" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/62> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -878,7 +878,7 @@
     ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "62" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/63> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -889,7 +889,7 @@
     ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "63" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/64> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -900,7 +900,7 @@
     ns2:description "FISICA; RUOLI_SANITARI_2; ASTRONOMIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "64" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/65> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -911,7 +911,7 @@
     ns2:description "SCIENZE_POLITICHE; SCIENZE_COMUNICAZIONE; SCIENZE_COMUNICAZIONE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "65" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/66> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -922,7 +922,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "66" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/67> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -933,7 +933,7 @@
     ns2:description "BIOLOGIA; RUOLI_SANITARI_2; DIET_NUTR; MAECI_DIR;" ;
     ns2:identifier "67" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/68> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -944,7 +944,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "68" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/69> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -955,7 +955,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "69" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/70> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -966,7 +966,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "70" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/71> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -977,7 +977,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "71" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/72> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -988,7 +988,7 @@
     ns2:description "INFORMATICA; CTP_ING_INF; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "72" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/73> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -999,7 +999,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "73" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/74> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1010,7 +1010,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "74" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/75> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1021,7 +1021,7 @@
     ns2:description "TECN_AGRARIE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "75" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/76> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1032,7 +1032,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "76" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/77> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1043,7 +1043,7 @@
     ns2:description "CHIMICA; RUOLI_SANITARI_2;  LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "77" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/78> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1054,7 +1054,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "78" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/79> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1065,7 +1065,7 @@
     ns2:description "TECN_AGRARIE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "79" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/80> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1076,7 +1076,7 @@
     ns2:description "GEOLOGIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "80" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/81> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1087,7 +1087,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "81" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/82> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1098,7 +1098,7 @@
     ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "82" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/83> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1109,7 +1109,7 @@
     ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "83" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/84> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1120,7 +1120,7 @@
     ns2:description "FILOSOFIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "84" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/85> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1131,7 +1131,7 @@
     ns2:description "GEOLOGIA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "85" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/86> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1142,7 +1142,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "86" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/87> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1153,7 +1153,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "87" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/88> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1164,7 +1164,7 @@
     ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; STAT_FINANZA; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "88" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/89> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1175,7 +1175,7 @@
     ns2:description "STATISTICA; STATISTICA_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "89" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/90> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1186,7 +1186,7 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "90" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/91> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1197,7 +1197,7 @@
     ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "91" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/92> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1208,7 +1208,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "92" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/93> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1219,7 +1219,7 @@
     ns2:description "SCIENZE_POLITICHE; ASS_SOC; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "93" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/94> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1230,7 +1230,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; AREA_SOCIO_PSICO; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "94" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/95> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1241,7 +1241,7 @@
     ns2:description "LETTERE; BENI_CULTURALI; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "95" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/96> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1252,7 +1252,7 @@
     ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; SCIENZE_POLITICHE_3; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "96" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/97> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1263,7 +1263,7 @@
     ns2:description "INFORMATICA; CTP_ING_INF; SCIENZE_COMUNICAZIONE; SCIENZE_COMUNICAZIONE_2; MAECI_DIR;" ;
     ns2:identifier "97" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/98> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1274,7 +1274,7 @@
     ns2:description "SCIENZE_POLITICHE; SCIENZE_COMUNICAZIONE; SCIENZE_COMUNICAZIONE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "98" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/99> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1285,7 +1285,7 @@
     ns2:description "SCIENZE_POLITICHE; AREA_SOCIO_PSICO; SCIENZE_COMUNICAZIONE; SCIENZE_EDUCAZIONE; SCIENZE_COMUNICAZIONE_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "99" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/100> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1296,7 +1296,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "100" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/101> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1307,7 +1307,7 @@
     ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "101" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/102> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1318,7 +1318,7 @@
     ns2:description "AREA_SOCIO_PSICO; MAECI_DIR;" ;
     ns2:identifier "102" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/103> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1328,7 +1328,7 @@
     ns1:notation "103" ;
     ns2:identifier "103" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/104> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1338,7 +1338,7 @@
     ns1:notation "104" ;
     ns2:identifier "104" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/105> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1348,7 +1348,7 @@
     ns1:notation "105" ;
     ns2:identifier "105" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/106> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1358,7 +1358,7 @@
     ns1:notation "106" ;
     ns2:identifier "106" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/107> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1368,7 +1368,7 @@
     ns1:notation "107" ;
     ns2:identifier "107" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/108> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1379,7 +1379,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "108" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/109> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1390,7 +1390,7 @@
     ns2:description "MAECI_DIR;" ;
     ns2:identifier "109" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/110> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1401,7 +1401,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "110" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/111> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1412,7 +1412,7 @@
     ns2:description "MAECI_DIR;" ;
     ns2:identifier "111" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/112> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1423,7 +1423,7 @@
     ns2:description "MAECI_DIR;" ;
     ns2:identifier "112" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/113> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1434,7 +1434,7 @@
     ns2:description "LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "113" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/114> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1445,7 +1445,7 @@
     ns2:description "BENI_CULTURALI; " ;
     ns2:identifier "114" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali/115> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns1:Concept ;
@@ -1456,39 +1456,39 @@
     ns2:description "LETTERE; LM_MAECI02; MAECI_DIR;" ;
     ns2:identifier "115" ;
     ns2:type "LAUREA_MAGISTRALE" ;
-    ns4:hasRankOrder "1" .
+    ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns3:Distribution ;
-    ns2:description "Controlled vocabulary of master's degree typologies CSV distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree magistrali"@it ;
+        ns4:Distribution ;
+    ns2:description "Questa è la distribuzione CSV del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is CSV distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of master's degree typologies CSV distribution"@en,
-        "Distribuzione CSV del vocabolario controllato della tipologia di lauree magistrali"@it ;
-    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
-    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.csv> .
+    ns2:title "Distribuzione CSV del vocabolario controllato delle lauree magistrali"@it,
+        "Master's Degrees Controlled Vocabulary CSV distribution"@en ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.csv> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns3:Distribution ;
-    ns2:description "Controlled vocabulary of master's degree typologies JSON_LD distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree magistrali"@it ;
+        ns4:Distribution ;
+    ns2:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is JSON_LD distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of master's degree typologies JSON_LD distribution"@en,
-        "Distribuzione JSON_LD del vocabolario controllato della tipologia di lauree magistrali"@it ;
-    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
-    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.json> .
+    ns2:title "Distribuzione JSON_LD del vocabolario controllato delle lauree magistrali"@it,
+        "Master's Degrees Controlled Vocabulary JSON_LD distribution"@en ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.json> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns3:Distribution ;
-    ns2:description "Controlled vocabulary of master's degree typologies RDF/turtle distribution"@en,
-        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree magistrali"@it ;
+        ns4:Distribution ;
+    ns2:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is RDF/turtle distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of master's degree typologies RDF/turtle distribution"@en,
-        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree magistrali"@it ;
-    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
-    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.ttl> .
+    ns2:title "Distribuzione RDF/Turtle del vocabolario controllato delle lauree magistrali"@it,
+        "Master's Degrees Controlled Vocabulary RDF/turtle distribution"@en ;
+    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
+    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.ttl> .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0

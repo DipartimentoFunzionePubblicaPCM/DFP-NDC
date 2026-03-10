@@ -1,12 +1,12 @@
-@prefix ns1: <https://w3id.org/italia/onto/CLV/> .
-@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <https://w3id.org/italia/onto/CLV/> .
 @prefix ns3: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns4: <http://www.w3.org/ns/dcat#> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://www.w3.org/ns/adms#> .
-@prefix ns8: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix ns9: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns7: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns8: <http://www.w3.org/ns/adms#> .
+@prefix ns9: <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -15,61 +15,61 @@
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
         <https://w3id.org/italia/onto/COV/PublicOrganization>,
-        ns6:Agent,
+        ns5:Agent,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
         "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
-    ns2:identifier "dfp" ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns6:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
-        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
+    ns1:identifier "dfp" ;
+    ns5:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns6:hasURL <https://github.com/DFPdati> .
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
-        ns5:Kind,
-        ns5:Organization,
+        ns6:Kind,
+        ns6:Organization,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service - Data"@en,
         "Dipartimento della Funzione Pubblica - Dati"@it ;
-    ns2:identifier "dfpDati" ;
-    ns5:fn "Dipartimento della Funzione Pubblica - Dati" ;
-    ns5:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns6:name "Department of Civil Service - Data"@en,
-        "Dipartimento della Funzione Pubblica - Dati"@it .
+    ns1:identifier "dfpDati" ;
+    ns5:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns6:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns6:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns6:hasURL <https://github.com/DFPdati> .
 
 ### Annotations
 
 <https://w3id.org/italia/data/standard/SKOS> a <http://dati.gov.it/onto/dcatapit#Standard>,
-        ns2:Standard ;
-    ns2:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
-    ns2:identifier "SKOS" ;
-    ns2:title "Simple Knowledge Organization System - SKOS" .
+        ns1:Standard ;
+    ns1:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    ns1:identifier "SKOS" ;
+    ns1:title "Simple Knowledge Organization System - SKOS" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> a <http://dati.gov.it/onto/dcatapit#Dataset>,
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns3:ConceptScheme,
-        ns7:Asset ;
-    rdfs:label "Controlled vocabulary of the types of degrees under the old system"@en,
-        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns3:prefLabel "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    rdfs:comment "Controlled vocabulary of the types of degrees under the old system"@en,
-        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+        ns8:Asset ;
+    rdfs:label "Degrees under the Old System Controlled Vocabulary"@en,
+        "Vocabolario controllato delle lauree del vecchio ordinamento"@it ;
+    ns3:prefLabel "Vocabolario controllato delle lauree del vecchio ordinamento"@it ;
+    rdfs:comment "La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
+        "The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
     owl:versionInfo "0.1" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
-    ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-    ns2:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
-    ns2:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:description "Controlled vocabulary of the types of degrees under the old system"@en,
-        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns2:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento" ;
-    ns2:issued "2026-02-26"^^xsd:date ;
-    ns2:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-    ns2:modified "2026-02-26"^^xsd:date ;
-    ns2:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:title "Controlled vocabulary of the types of degrees under the old system"@en,
-        "Vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns2:type <http://purl.org/adms/assettype/CodeList> ;
+    ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
+    ns1:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns1:description "La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
+        "The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
+    ns1:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento" ;
+    ns1:issued "2026-02-26"^^xsd:date ;
+    ns1:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+    ns1:modified "2026-02-26"^^xsd:date ;
+    ns1:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns1:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns1:title "Degrees under the Old System Controlled Vocabulary"@en,
+        "Vocabolario controllato delle lauree del vecchio ordinamento"@it ;
+    ns1:type <http://purl.org/adms/assettype/CodeList> ;
     ns3:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/2>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/3>,
@@ -224,18 +224,18 @@
         "curriculum vitae del cittadino"@it,
         "recruitment category"@en ;
     ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
-    ns7:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
-    ns8:numberOfLevels "1" ;
-    ns9:keyConcept "elenco_lauree_vecchio_ordinamento" .
+    ns7:keyConcept "elenco_lauree_vecchio_ordinamento" ;
+    ns8:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+    ns9:numberOfLevels "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns3:Concept ;
     rdfs:label "Architettura"@it ;
     ns3:prefLabel "Architettura"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GEOM_LAUREATO; ARCHITETTURA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "1" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GEOM_LAUREATO; ARCHITETTURA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "1" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "1" .
 
@@ -243,10 +243,10 @@
         ns3:Concept ;
     rdfs:label "Astronomia"@it ;
     ns3:prefLabel "Astronomia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ASTRONOMIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "2" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ASTRONOMIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "2" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "2" .
 
@@ -254,10 +254,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie agro-industriali"@it ;
     ns3:prefLabel "Biotecnologie agro-industriali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "3" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "3" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "3" .
 
@@ -265,10 +265,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie farmaceutiche"@it ;
     ns3:prefLabel "Biotecnologie farmaceutiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
-    ns2:identifier "4" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns1:identifier "4" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "4" .
 
@@ -276,10 +276,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo"@it ;
     ns3:prefLabel "Biotecnologie indirizzo"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
-    ns2:identifier "5" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns1:identifier "5" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "5" .
 
@@ -287,10 +287,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo Biotecnologie agrarie vegetali"@it ;
     ns3:prefLabel "Biotecnologie indirizzo Biotecnologie agrarie vegetali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "6" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "6" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "6" .
 
@@ -298,10 +298,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo Biotecnologie industriali"@it ;
     ns3:prefLabel "Biotecnologie indirizzo Biotecnologie industriali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "7" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "7" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "7" .
 
@@ -309,10 +309,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo Biotecnologie mediche"@it ;
     ns3:prefLabel "Biotecnologie indirizzo Biotecnologie mediche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "8" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "8" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "8" .
 
@@ -320,10 +320,10 @@
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo Biotecnologie veterinarie"@it ;
     ns3:prefLabel "Biotecnologie indirizzo Biotecnologie veterinarie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "9" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "9" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "9" .
 
@@ -331,10 +331,10 @@
         ns3:Concept ;
     rdfs:label "Chimica"@it ;
     ns3:prefLabel "Chimica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "10" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "10" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "10" .
 
@@ -342,10 +342,10 @@
         ns3:Concept ;
     rdfs:label "Chimica e Tecnologie Farmaceutiche o Chimica e tecnologia farmaceutiche"@it ;
     ns3:prefLabel "Chimica e Tecnologie Farmaceutiche o Chimica e tecnologia farmaceutiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "11" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "11" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "11" .
 
@@ -353,10 +353,10 @@
         ns3:Concept ;
     rdfs:label "Chimica Industriale"@it ;
     ns3:prefLabel "Chimica Industriale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "12" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "CHIMICA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "12" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "12" .
 
@@ -364,10 +364,10 @@
         ns3:Concept ;
     rdfs:label "Comunicazione Internazionale"@it ;
     ns3:prefLabel "Comunicazione Internazionale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "13" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "13" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "13" .
 
@@ -375,10 +375,10 @@
         ns3:Concept ;
     rdfs:label "Discipline economiche e sociali"@it ;
     ns3:prefLabel "Discipline economiche e sociali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "14" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "14" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "14" .
 
@@ -386,10 +386,10 @@
         ns3:Concept ;
     rdfs:label "Disegno industriale"@it ;
     ns3:prefLabel "Disegno industriale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "15" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "15" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "15" .
 
@@ -397,10 +397,10 @@
         ns3:Concept ;
     rdfs:label "Economia ambientale"@it ;
     ns3:prefLabel "Economia ambientale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "16" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "16" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "16" .
 
@@ -408,10 +408,10 @@
         ns3:Concept ;
     rdfs:label "Economia assicurativa e previdenziale"@it ;
     ns3:prefLabel "Economia assicurativa e previdenziale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "17" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "17" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "17" .
 
@@ -419,10 +419,10 @@
         ns3:Concept ;
     rdfs:label "Economia aziendale"@it ;
     ns3:prefLabel "Economia aziendale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "18" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "18" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "18" .
 
@@ -430,10 +430,10 @@
         ns3:Concept ;
     rdfs:label "Economia bancaria"@it ;
     ns3:prefLabel "Economia bancaria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "19" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "19" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "19" .
 
@@ -441,10 +441,10 @@
         ns3:Concept ;
     rdfs:label "Economia bancaria, finanziaria e assicurativa"@it ;
     ns3:prefLabel "Economia bancaria, finanziaria e assicurativa"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "20" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "20" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "20" .
 
@@ -452,10 +452,10 @@
         ns3:Concept ;
     rdfs:label "Economia del commercio internazionale e dei mercati valutari"@it ;
     ns3:prefLabel "Economia del commercio internazionale e dei mercati valutari"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "21" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "21" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "21" .
 
@@ -463,10 +463,10 @@
         ns3:Concept ;
     rdfs:label "Economia del turismo"@it ;
     ns3:prefLabel "Economia del turismo"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "22" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "22" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "22" .
 
@@ -474,10 +474,10 @@
         ns3:Concept ;
     rdfs:label "Economia delle amministrazioni pubbliche e delle istituzioni internazionali"@it ;
     ns3:prefLabel "Economia delle amministrazioni pubbliche e delle istituzioni internazionali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "23" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "23" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "23" .
 
@@ -485,10 +485,10 @@
         ns3:Concept ;
     rdfs:label "Economia delle istituzioni e dei mercati finanziari"@it ;
     ns3:prefLabel "Economia delle istituzioni e dei mercati finanziari"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "24" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "24" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "24" .
 
@@ -496,10 +496,10 @@
         ns3:Concept ;
     rdfs:label "Economia e commercio"@it ;
     ns3:prefLabel "Economia e commercio"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "25" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "25" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "25" .
 
@@ -507,10 +507,10 @@
         ns3:Concept ;
     rdfs:label "Economia e finanza"@it ;
     ns3:prefLabel "Economia e finanza"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "26" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "26" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "26" .
 
@@ -518,10 +518,10 @@
         ns3:Concept ;
     rdfs:label "Economia e gestione dei servizi"@it ;
     ns3:prefLabel "Economia e gestione dei servizi"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "27" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "27" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "27" .
 
@@ -529,10 +529,10 @@
         ns3:Concept ;
     rdfs:label "Economia e legislazione per l’impresa"@it ;
     ns3:prefLabel "Economia e legislazione per l’impresa"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "28" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "28" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "28" .
 
@@ -540,10 +540,10 @@
         ns3:Concept ;
     rdfs:label "Economia industriale"@it ;
     ns3:prefLabel "Economia industriale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "29" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "29" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "29" .
 
@@ -551,10 +551,10 @@
         ns3:Concept ;
     rdfs:label "Economia marittima e dei trasporti"@it ;
     ns3:prefLabel "Economia marittima e dei trasporti"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "30" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "30" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "30" .
 
@@ -562,10 +562,10 @@
         ns3:Concept ;
     rdfs:label "Economia per le arti, la cultura e la comunicazione"@it ;
     ns3:prefLabel "Economia per le arti, la cultura e la comunicazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "31" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "31" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "31" .
 
@@ -573,10 +573,10 @@
         ns3:Concept ;
     rdfs:label "Economia politica"@it ;
     ns3:prefLabel "Economia politica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "32" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; ECONOMIA_COMMERCIO; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "32" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "32" .
 
@@ -584,10 +584,10 @@
         ns3:Concept ;
     rdfs:label "Farmacia"@it ;
     ns3:prefLabel "Farmacia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "33" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "FARMACIA; CTF; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "33" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "33" .
 
@@ -595,10 +595,10 @@
         ns3:Concept ;
     rdfs:label "Filologia e storia dell'Europa Orientale"@it ;
     ns3:prefLabel "Filologia e storia dell'Europa Orientale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "34" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "34" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "34" .
 
@@ -606,10 +606,10 @@
         ns3:Concept ;
     rdfs:label "Filologie, storia e cultura dei paesi islamici"@it ;
     ns3:prefLabel "Filologie, storia e cultura dei paesi islamici"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "35" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "35" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "35" .
 
@@ -617,10 +617,10 @@
         ns3:Concept ;
     rdfs:label "Filosofia"@it ;
     ns3:prefLabel "Filosofia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "FILOSOFIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "36" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "FILOSOFIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "36" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "36" .
 
@@ -628,10 +628,10 @@
         ns3:Concept ;
     rdfs:label "Fisica"@it ;
     ns3:prefLabel "Fisica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "FISICA; DIR_FISICO; RUOLI_SANITARI_2; FISICA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "37" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "FISICA; DIR_FISICO; RUOLI_SANITARI_2; FISICA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "37" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "37" .
 
@@ -639,10 +639,10 @@
         ns3:Concept ;
     rdfs:label "Geografia"@it ;
     ns3:prefLabel "Geografia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "38" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "38" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "38" .
 
@@ -650,10 +650,10 @@
         ns3:Concept ;
     rdfs:label "Giurisprudenza"@it ;
     ns3:prefLabel "Giurisprudenza"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "39" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; GIURISPRUDENZA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "39" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "39" .
 
@@ -661,10 +661,10 @@
         ns3:Concept ;
     rdfs:label "Informatica"@it ;
     ns3:prefLabel "Informatica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "40" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "40" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "40" .
 
@@ -672,10 +672,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria aerospaziale"@it ;
     ns3:prefLabel "Ingegneria aerospaziale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "41" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "41" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "41" .
 
@@ -683,10 +683,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria biomedica"@it ;
     ns3:prefLabel "Ingegneria biomedica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_BIOMEDICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "42" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_BIOMEDICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "42" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "42" .
 
@@ -694,10 +694,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria chimica"@it ;
     ns3:prefLabel "Ingegneria chimica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_CHIMICA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "43" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_CHIMICA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "43" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "43" .
 
@@ -705,10 +705,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria civile"@it ;
     ns3:prefLabel "Ingegneria civile"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_CIVILE; INGEGNERIA; GEOM_LAUREATO; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "44" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_CIVILE; INGEGNERIA; GEOM_LAUREATO; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "44" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "44" .
 
@@ -716,10 +716,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria dei materiali"@it ;
     ns3:prefLabel "Ingegneria dei materiali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_MAT; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "45" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_MAT; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "45" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "45" .
 
@@ -727,10 +727,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria delle telecomunicazioni"@it ;
     ns3:prefLabel "Ingegneria delle telecomunicazioni"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_TELECOMUNICAZIONI; INGEGNERIA; CTP_ING_INF; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "46" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_TELECOMUNICAZIONI; INGEGNERIA; CTP_ING_INF; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "46" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "46" .
 
@@ -738,10 +738,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria edile"@it ;
     ns3:prefLabel "Ingegneria edile"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_EDILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "47" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_EDILE; GEOM_LAUREATO; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "47" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "47" .
 
@@ -749,10 +749,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria edile - Architettura"@it ;
     ns3:prefLabel "Ingegneria edile - Architettura"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_EDILE_ARCHITETT; GEOM_LAUREATO; INGEGNERIA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "48" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_EDILE_ARCHITETT; GEOM_LAUREATO; INGEGNERIA; ARCHITETTURA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "48" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "48" .
 
@@ -760,10 +760,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria elettrica"@it ;
     ns3:prefLabel "Ingegneria elettrica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_ELETTRICA; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "49" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_ELETTRICA; INGEGNERIA; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "49" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "49" .
 
@@ -771,10 +771,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria elettronica"@it ;
     ns3:prefLabel "Ingegneria elettronica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_ELETTRONICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "50" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_ELETTRONICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "50" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "50" .
 
@@ -782,10 +782,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria gestionale"@it ;
     ns3:prefLabel "Ingegneria gestionale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_GESTIONALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "51" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_GESTIONALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "51" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "51" .
 
@@ -793,10 +793,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria industriale"@it ;
     ns3:prefLabel "Ingegneria industriale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_INDUSTRIALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "52" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_INDUSTRIALE; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "52" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "52" .
 
@@ -804,10 +804,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria informatica"@it ;
     ns3:prefLabel "Ingegneria informatica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_INFORMATICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "53" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_INFORMATICA; INGEGNERIA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "53" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "53" .
 
@@ -815,10 +815,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria meccanica"@it ;
     ns3:prefLabel "Ingegneria meccanica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_MECCANICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "54" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_MECCANICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "54" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "54" .
 
@@ -826,10 +826,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria medica"@it ;
     ns3:prefLabel "Ingegneria medica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_MEDICA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "55" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_MEDICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "55" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "55" .
 
@@ -837,10 +837,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria navale"@it ;
     ns3:prefLabel "Ingegneria navale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_INDUSTRIALE; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "56" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_INDUSTRIALE; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "56" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "56" .
 
@@ -848,10 +848,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria nucleare"@it ;
     ns3:prefLabel "Ingegneria nucleare"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_NUCLEARE; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "57" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_NUCLEARE; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "57" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "57" .
 
@@ -859,10 +859,10 @@
         ns3:Concept ;
     rdfs:label "Ingegneria per l’ambiente e il territorio"@it ;
     ns3:prefLabel "Ingegneria per l’ambiente e il territorio"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GEOM_LAUREATO; INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "58" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GEOM_LAUREATO; INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "58" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "58" .
 
@@ -870,10 +870,10 @@
         ns3:Concept ;
     rdfs:label "Lettere"@it ;
     ns3:prefLabel "Lettere"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LETTERE; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "59" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LETTERE; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "59" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "59" .
 
@@ -881,10 +881,10 @@
         ns3:Concept ;
     rdfs:label "Lingua e cultura italiana"@it ;
     ns3:prefLabel "Lingua e cultura italiana"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "60" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "60" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "60" .
 
@@ -892,10 +892,10 @@
         ns3:Concept ;
     rdfs:label "Lingue e civiltà orientali"@it ;
     ns3:prefLabel "Lingue e civiltà orientali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "61" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "61" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "61" .
 
@@ -903,10 +903,10 @@
         ns3:Concept ;
     rdfs:label "Lingue e culture dell’Europa Orientale"@it ;
     ns3:prefLabel "Lingue e culture dell’Europa Orientale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "62" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "62" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "62" .
 
@@ -914,10 +914,10 @@
         ns3:Concept ;
     rdfs:label "Lingue e culture europee"@it ;
     ns3:prefLabel "Lingue e culture europee"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "63" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "63" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "63" .
 
@@ -925,10 +925,10 @@
         ns3:Concept ;
     rdfs:label "Lingue e letterature orientali"@it ;
     ns3:prefLabel "Lingue e letterature orientali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "64" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "64" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "64" .
 
@@ -936,10 +936,10 @@
         ns3:Concept ;
     rdfs:label "Lingue e letterature straniere"@it ;
     ns3:prefLabel "Lingue e letterature straniere"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "65" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "65" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "65" .
 
@@ -947,10 +947,10 @@
         ns3:Concept ;
     rdfs:label "Lingue, culture ed istituzioni dei paesi del Mediterraneo"@it ;
     ns3:prefLabel "Lingue, culture ed istituzioni dei paesi del Mediterraneo"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "66" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "66" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "66" .
 
@@ -958,10 +958,10 @@
         ns3:Concept ;
     rdfs:label "Marketing"@it ;
     ns3:prefLabel "Marketing"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "67" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "67" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "67" .
 
@@ -969,10 +969,10 @@
         ns3:Concept ;
     rdfs:label "Matematica"@it ;
     ns3:prefLabel "Matematica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MATEMATICA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "68" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MATEMATICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "68" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "68" .
 
@@ -980,10 +980,10 @@
         ns3:Concept ;
     rdfs:label "Materie letterarie"@it ;
     ns3:prefLabel "Materie letterarie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "69" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "69" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "69" .
 
@@ -991,10 +991,10 @@
         ns3:Concept ;
     rdfs:label "Medicina e Chirurgia"@it ;
     ns3:prefLabel "Medicina e Chirurgia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MEDICINA; MEDICINA_CHIRURGIA; LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
-    ns2:identifier "70" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MEDICINA; MEDICINA_CHIRURGIA; LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
+    ns1:identifier "70" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "70" .
 
@@ -1002,10 +1002,10 @@
         ns3:Concept ;
     rdfs:label "Medicina veterinaria"@it ;
     ns3:prefLabel "Medicina veterinaria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MEDICINA_VETERINARIA; RUOLI_SANITARI_2;  " ;
-    ns2:identifier "71" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MEDICINA_VETERINARIA; RUOLI_SANITARI_2;  " ;
+    ns1:identifier "71" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "71" .
 
@@ -1013,10 +1013,10 @@
         ns3:Concept ;
     rdfs:label "Musicologia"@it ;
     ns3:prefLabel "Musicologia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "72" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "72" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "72" .
 
@@ -1024,10 +1024,10 @@
         ns3:Concept ;
     rdfs:label "Odontoiatria e protesi dentaria"@it ;
     ns3:prefLabel "Odontoiatria e protesi dentaria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
-    ns2:identifier "73" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LAUREA_ODONTOIATRIA; RUOLI_SANITARI_2; ODONTOIATRIA_1; " ;
+    ns1:identifier "73" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "73" .
 
@@ -1035,10 +1035,10 @@
         ns3:Concept ;
     rdfs:label "Pedagogia"@it ;
     ns3:prefLabel "Pedagogia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "74" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "74" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "74" .
 
@@ -1046,10 +1046,10 @@
         ns3:Concept ;
     rdfs:label "Pianificazione territoriale e urbanistica"@it ;
     ns3:prefLabel "Pianificazione territoriale e urbanistica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GEOM_LAUREATO; ARCHITETTURA; PIAN_TERR_URB; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "75" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GEOM_LAUREATO; ARCHITETTURA; PIAN_TERR_URB; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "75" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "75" .
 
@@ -1057,10 +1057,10 @@
         ns3:Concept ;
     rdfs:label "Pianificazione territoriale, urbanistica e ambientale"@it ;
     ns3:prefLabel "Pianificazione territoriale, urbanistica e ambientale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GEOM_LAUREATO; ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "76" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GEOM_LAUREATO; ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "76" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "76" .
 
@@ -1068,10 +1068,10 @@
         ns3:Concept ;
     rdfs:label "Politica del territorio"@it ;
     ns3:prefLabel "Politica del territorio"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "77" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "77" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "77" .
 
@@ -1079,10 +1079,10 @@
         ns3:Concept ;
     rdfs:label "Psicologia"@it ;
     ns3:prefLabel "Psicologia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "PSICOLOGIA; RUOLI_SANITARI_2; AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "78" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "PSICOLOGIA; RUOLI_SANITARI_2; AREA_SOCIO_PSICO; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "78" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "78" .
 
@@ -1090,10 +1090,10 @@
         ns3:Concept ;
     rdfs:label "Relazioni pubbliche"@it ;
     ns3:prefLabel "Relazioni pubbliche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "79" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "79" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "79" .
 
@@ -1101,10 +1101,10 @@
         ns3:Concept ;
     rdfs:label "Scienza dei materiali"@it ;
     ns3:prefLabel "Scienza dei materiali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "80" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "80" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "80" .
 
@@ -1112,10 +1112,10 @@
         ns3:Concept ;
     rdfs:label "Scienze agrarie"@it ;
     ns3:prefLabel "Scienze agrarie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "81" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "81" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "81" .
 
@@ -1123,10 +1123,10 @@
         ns3:Concept ;
     rdfs:label "Scienze agrarie tropicali e subtropicali"@it ;
     ns3:prefLabel "Scienze agrarie tropicali e subtropicali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "82" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "82" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "82" .
 
@@ -1134,10 +1134,10 @@
         ns3:Concept ;
     rdfs:label "Scienze ambientali"@it ;
     ns3:prefLabel "Scienze ambientali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "83" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "83" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "83" .
 
@@ -1145,10 +1145,10 @@
         ns3:Concept ;
     rdfs:label "Scienze biologiche"@it ;
     ns3:prefLabel "Scienze biologiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "BIOLOGIA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "84" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "BIOLOGIA; RUOLI_SANITARI_2;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "84" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "84" .
 
@@ -1156,11 +1156,11 @@
         ns3:Concept ;
     rdfs:label "Scienze dell’amministrazione"@it ;
     ns3:prefLabel "Scienze dell’amministrazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description """SCIENZE_POLITICHE; GIURISPRUDENZA; COLL_AMM_INTERNAZ;
+    ns1:description """SCIENZE_POLITICHE; GIURISPRUDENZA; COLL_AMM_INTERNAZ;
 COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" ;
-    ns2:identifier "85" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "85" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "85" .
 
@@ -1168,10 +1168,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze dell’educazione"@it ;
     ns3:prefLabel "Scienze dell’educazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "86" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "AREA_SOCIO_PSICO; SCIENZE_EDUCAZIONE; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "86" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "86" .
 
@@ -1179,10 +1179,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze dell’informazione"@it ;
     ns3:prefLabel "Scienze dell’informazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "87" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INFORMATICA; CTP_ING_INF; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "87" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "87" .
 
@@ -1190,10 +1190,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze della comunicazione"@it ;
     ns3:prefLabel "Scienze della comunicazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_COMUNICAZIONE; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "88" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_COMUNICAZIONE; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "88" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "88" .
 
@@ -1201,10 +1201,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze della cultura"@it ;
     ns3:prefLabel "Scienze della cultura"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "89" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GIURISPRUDENZA; COLL_AMM_INTERNAZ; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "89" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "89" .
 
@@ -1212,10 +1212,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze della formazione primaria"@it ;
     ns3:prefLabel "Scienze della formazione primaria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "AREA_SOCIO_PSICO; MAECI_DIR;" ;
-    ns2:identifier "90" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "AREA_SOCIO_PSICO; MAECI_DIR;" ;
+    ns1:identifier "90" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "90" .
 
@@ -1223,10 +1223,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze delle produzioni animali"@it ;
     ns3:prefLabel "Scienze delle produzioni animali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "91" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "91" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "91" .
 
@@ -1234,10 +1234,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze della programmazione sanitaria"@it ;
     ns3:prefLabel "Scienze della programmazione sanitaria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "92" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; ECONOMIA_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "92" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "92" .
 
@@ -1245,10 +1245,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze e tecniche dell’interculturalità"@it ;
     ns3:prefLabel "Scienze e tecniche dell’interculturalità"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "93" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "93" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "93" .
 
@@ -1256,10 +1256,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze e tecnologie agrarie"@it ;
     ns3:prefLabel "Scienze e tecnologie agrarie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "94" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "94" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "94" .
 
@@ -1267,10 +1267,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze e tecnologie alimentari"@it ;
     ns3:prefLabel "Scienze e tecnologie alimentari"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "95" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "95" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "95" .
 
@@ -1278,10 +1278,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze e tecnologie delle produzioni animali"@it ;
     ns3:prefLabel "Scienze e tecnologie delle produzioni animali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MAECI_DIR;" ;
-    ns2:identifier "96" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MAECI_DIR;" ;
+    ns1:identifier "96" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "96" .
 
@@ -1289,10 +1289,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze economiche, statistiche e sociali"@it ;
     ns3:prefLabel "Scienze economiche, statistiche e sociali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; STATISTICA;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "97" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ;  COLL_AMM_CAT_D; STATISTICA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "97" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "97" .
 
@@ -1300,10 +1300,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze forestali - Scienze forestali e ambientali"@it ;
     ns3:prefLabel "Scienze forestali - Scienze forestali e ambientali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "98" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "98" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "98" .
 
@@ -1311,10 +1311,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze geologiche"@it ;
     ns3:prefLabel "Scienze geologiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "GEOLOGIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "99" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "GEOLOGIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "99" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "99" .
 
@@ -1322,10 +1322,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze internazionali e diplomatiche"@it ;
     ns3:prefLabel "Scienze internazionali e diplomatiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "100" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "100" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "100" .
 
@@ -1333,10 +1333,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze motorie"@it ;
     ns3:prefLabel "Scienze motorie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "101" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "101" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "101" .
 
@@ -1344,10 +1344,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze naturali"@it ;
     ns3:prefLabel "Scienze naturali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "102" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "102" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "102" .
 
@@ -1355,10 +1355,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze nautiche"@it ;
     ns3:prefLabel "Scienze nautiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MATEMATICA; FISICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "103" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MATEMATICA; FISICA; INGEGNERIA; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "103" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "103" .
 
@@ -1366,10 +1366,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze politiche"@it ;
     ns3:prefLabel "Scienze politiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "104" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "104" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "104" .
 
@@ -1377,10 +1377,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze statistiche demografiche e sociali"@it ;
     ns3:prefLabel "Scienze statistiche demografiche e sociali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "105" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "105" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "105" .
 
@@ -1388,10 +1388,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze statistiche ed attuariali"@it ;
     ns3:prefLabel "Scienze statistiche ed attuariali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "106" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "106" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "106" .
 
@@ -1399,10 +1399,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze statistiche ed economiche"@it ;
     ns3:prefLabel "Scienze statistiche ed economiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "107" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "107" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "107" .
 
@@ -1410,10 +1410,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze strategiche"@it ;
     ns3:prefLabel "Scienze strategiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_STRATEGICHE; MAECI_DIR;" ;
-    ns2:identifier "108" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_STRATEGICHE; MAECI_DIR;" ;
+    ns1:identifier "108" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "108" .
 
@@ -1421,10 +1421,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze turistiche"@it ;
     ns3:prefLabel "Scienze turistiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "109" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "109" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "109" .
 
@@ -1432,10 +1432,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Servizio sociale"@it ;
     ns3:prefLabel "Servizio sociale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "110" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "110" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "110" .
 
@@ -1443,10 +1443,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Sociologia"@it ;
     ns3:prefLabel "Sociologia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_SOCIO_PSICO; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "111" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "SCIENZE_POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; AREA_SOCIO_PSICO; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "111" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "111" .
 
@@ -1454,10 +1454,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Statistica"@it ;
     ns3:prefLabel "Statistica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "112" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "112" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "112" .
 
@@ -1465,10 +1465,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Statistica e informatica per l’azienda"@it ;
     ns3:prefLabel "Statistica e informatica per l’azienda"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "113" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "STATISTICA; STATISTICA_2; STATISTICA_3; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "113" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "113" .
 
@@ -1476,10 +1476,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Storia"@it ;
     ns3:prefLabel "Storia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "114" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "114" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "114" .
 
@@ -1487,10 +1487,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Storia e conservazione dei beni architettonici e ambientali"@it ;
     ns3:prefLabel "Storia e conservazione dei beni architettonici e ambientali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "115" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ARCHITETTURA;  LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "115" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "115" .
 
@@ -1498,10 +1498,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Storia e conservazione dei beni culturali"@it ;
     ns3:prefLabel "Storia e conservazione dei beni culturali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "BENI_CULTURALI; LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "116" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "BENI_CULTURALI; LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "116" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "116" .
 
@@ -1509,10 +1509,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Studi comparatistici"@it ;
     ns3:prefLabel "Studi comparatistici"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "117" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "117" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "117" .
 
@@ -1520,10 +1520,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Traduzione ed interpretazione"@it ;
     ns3:prefLabel "Traduzione ed interpretazione"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "118" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "118" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "118" .
 
@@ -1531,10 +1531,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Urbanistica"@it ;
     ns3:prefLabel "Urbanistica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "119" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "119" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "119" .
 
@@ -1542,10 +1542,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Biotecnologie"@it ;
     ns3:prefLabel "Biotecnologie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
-    ns2:identifier "120" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "RUOLI_SANITARI_3; MAECI_DIR;" ;
+    ns1:identifier "120" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "120" .
 
@@ -1553,10 +1553,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Commercio internazionale e mercati valutari"@it ;
     ns3:prefLabel "Commercio internazionale e mercati valutari"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "121" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "121" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "121" .
 
@@ -1564,10 +1564,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Conservazione dei Beni Culturali"@it ;
     ns3:prefLabel "Conservazione dei Beni Culturali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "122" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "122" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "122" .
 
@@ -1575,10 +1575,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
     ns3:prefLabel "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
-    ns2:identifier "123" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
+    ns1:identifier "123" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "123" .
 
@@ -1586,10 +1586,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Ingegneria forestale"@it ;
     ns3:prefLabel "Ingegneria forestale"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
-    ns2:identifier "124" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns1:identifier "124" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "124" .
 
@@ -1597,10 +1597,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Ingegneria idraulica"@it ;
     ns3:prefLabel "Ingegneria idraulica"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
-    ns2:identifier "125" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns1:identifier "125" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "125" .
 
@@ -1608,10 +1608,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Ingegneria mineraria"@it ;
     ns3:prefLabel "Ingegneria mineraria"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
-    ns2:identifier "126" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "INGEGNERIA; ING_AMB_TERR; INGEGNERIA_SICUREZZA; MAECI_DIR;" ;
+    ns1:identifier "126" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "126" .
 
@@ -1619,10 +1619,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze bancarie e assicurative"@it ;
     ns3:prefLabel "Scienze bancarie e assicurative"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "127" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "127" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "127" .
 
@@ -1630,10 +1630,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze delle preparazioni alimentari"@it ;
     ns3:prefLabel "Scienze delle preparazioni alimentari"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MAECI_DIR;" ;
-    ns2:identifier "128" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MAECI_DIR;" ;
+    ns1:identifier "128" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "128" .
 
@@ -1641,10 +1641,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze economiche"@it ;
     ns3:prefLabel "Scienze economiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "129" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "129" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "129" .
 
@@ -1652,10 +1652,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze economiche e bancarie"@it ;
     ns3:prefLabel "Scienze economiche e bancarie"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "130" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "130" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "130" .
 
@@ -1663,10 +1663,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze economiche e sociali"@it ;
     ns3:prefLabel "Scienze economiche e sociali"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "131" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "131" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "131" .
 
@@ -1674,10 +1674,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze economico - marittime"@it ;
     ns3:prefLabel "Scienze economico - marittime"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
-    ns2:identifier "132" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; MAECI_DIR;" ;
+    ns1:identifier "132" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "132" .
 
@@ -1685,10 +1685,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Scienze statistiche e demografiche"@it ;
     ns3:prefLabel "Scienze statistiche e demografiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; MAECI_DIR;" ;
-    ns2:identifier "133" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ECONOMIA; STATISTICA; SCIENZE POLITICHE; COLL_AMM_INTERNAZ; COLL_AMM_CAT_D; ECONOMIA_COMMERCIO; SCIENZE_POLITICHE; MAECI_DIR;" ;
+    ns1:identifier "133" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "133" .
 
@@ -1696,10 +1696,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
     ns3:prefLabel "Ingegneria delle tecnologie industriali (Indirizzo economico-organizzativo)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
-    ns2:identifier "134" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "ING_GESTIONALE; INGEGNERIA; MAECI_DIR;" ;
+    ns1:identifier "134" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "134" .
 
@@ -1707,10 +1707,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Teologia"@it ;
     ns3:prefLabel "Teologia"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "MAECI_DIR;" ;
-    ns2:identifier "135" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "MAECI_DIR;" ;
+    ns1:identifier "135" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "135" .
 
@@ -1718,10 +1718,10 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Discipline delle Arti, della Musica e dello Spettacolo"@it ;
     ns3:prefLabel "Discipline delle Arti, della Musica e dello Spettacolo"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "136" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "136" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "136" .
 
@@ -1729,9 +1729,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma di Conservatorio (V.O.) (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
     ns3:prefLabel "Diploma di Conservatorio (V.O.) (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "137" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "137" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "137" .
 
@@ -1739,9 +1739,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma dell'Accademia Nazionale di Danza (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
     ns3:prefLabel "Diploma dell'Accademia Nazionale di Danza (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "138" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "138" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "138" .
 
@@ -1749,9 +1749,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma rilasciato da Istituti Musicali Pareggiati (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
     ns3:prefLabel "Diploma rilasciato da Istituti Musicali Pareggiati (congiuntamente al possesso del Diploma di Scuola secondaria di II grado)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "139" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "139" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "139" .
 
@@ -1759,9 +1759,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma di Istituto Superiore delle Industrie Artistiche (ISIA) (V.O.) "@it ;
     ns3:prefLabel "Diploma di Istituto Superiore delle Industrie Artistiche (ISIA) (V.O.) "@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "140" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "140" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "140" .
 
@@ -1769,9 +1769,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma di Accademia di Belle Arti (V.O.)"@it ;
     ns3:prefLabel "Diploma di Accademia di Belle Arti (V.O.)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "141" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "141" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "141" .
 
@@ -1779,9 +1779,9 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Diploma dell'Accademia Nazionale di Arte Drammatica (V.O.)"@it ;
     ns3:prefLabel "Diploma dell'Accademia Nazionale di Arte Drammatica (V.O.)"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:identifier "142" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:identifier "142" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "142" .
 
@@ -1789,43 +1789,43 @@ COLL_AMM_CAT_D; AREA_GIURIDICA; SCIENZE_POLITICHE_2; LVO_MAECI02; MAECI_DIR;""" 
         ns3:Concept ;
     rdfs:label "Biotecnologie indirizzo Biotecnologie Farmaceutiche"@it ;
     ns3:prefLabel "Biotecnologie indirizzo Biotecnologie Farmaceutiche"@it ;
-    ns1:hasRankOrder "1" ;
-    ns2:description "LVO_MAECI02; MAECI_DIR;" ;
-    ns2:identifier "143" ;
-    ns2:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns1:description "LVO_MAECI02; MAECI_DIR;" ;
+    ns1:identifier "143" ;
+    ns1:type "LAUREA_VECCHIO_ORDINAMENTO" ;
+    ns2:hasRankOrder "1" ;
     ns3:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns3:notation "143" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the types of degrees under the old system CSV distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns2:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the types of degrees under the old system CSV distribution"@en,
-        "Distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns1:description "Questa è la distribuzione CSV del vocabolario controllato delle lauree del vecchio ordinamento. La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
+        "This is CSV distribution of Degrees under the Old System controlled vocabulary. The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
+    ns1:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns1:title "Degrees under the Old System Controlled Vocabulary CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato delle lauree del vecchio ordinamento"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.csv> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the types of degrees under the old system JSON_LD distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns2:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
-    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the types of degrees under the old system JSON_LD distribution"@en,
-        "Distribuzione JSON_LD del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle lauree del vecchio ordinamento. La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
+        "This is JSON_LD distribution of Degrees under the Old System controlled vocabulary. The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
+    ns1:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns1:title "Degrees under the Old System Controlled Vocabulary JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato delle lauree del vecchio ordinamento"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.json> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_vecchio_ordinamento/distribution/ELVO_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the types of degrees under the old system RDF/turtle distribution"@en,
-        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
-    ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-    ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the types of degrees under the old system RDF/turtle distribution"@en,
-        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di lauree del vecchio ordinamento"@it ;
+    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle lauree del vecchio ordinamento. La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
+        "This is RDF/turtle distribution of Degrees under the Old System controlled vocabulary. The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
+    ns1:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns1:title "Degrees under the Old System Controlled Vocabulary RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato delle lauree del vecchio ordinamento"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_vecchio_ordinamento/latest/elenco_lauree_vecchio_ordinamento.ttl> .
 

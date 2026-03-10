@@ -1,12 +1,12 @@
 @prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://purl.org/dc/terms/> .
 @prefix ns3: <https://w3id.org/italia/onto/CLV/> .
-@prefix ns4: <http://www.w3.org/ns/dcat#> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix ns8: <https://w3id.org/italia/onto/NDC/> .
-@prefix ns9: <http://www.w3.org/ns/adms#> .
+@prefix ns4: <https://w3id.org/italia/onto/NDC/> .
+@prefix ns5: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix ns6: <http://www.w3.org/ns/dcat#> .
+@prefix ns7: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns8: <http://www.w3.org/ns/adms#> .
+@prefix ns9: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -15,26 +15,26 @@
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
         <https://w3id.org/italia/onto/COV/PublicOrganization>,
-        ns6:Agent,
+        ns9:Agent,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
         "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
     ns2:identifier "dfp" ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns6:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+    ns7:hasURL <https://github.com/DFPdati> ;
+    ns9:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
         "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
-        ns5:Kind,
-        ns5:Organization,
+        ns7:Kind,
+        ns7:Organization,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service - Data"@en,
         "Dipartimento della Funzione Pubblica - Dati"@it ;
     ns2:identifier "dfpDati" ;
-    ns5:fn "Dipartimento della Funzione Pubblica - Dati" ;
-    ns5:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns6:name "Department of Civil Service - Data"@en,
+    ns7:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns7:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns7:hasURL <https://github.com/DFPdati> ;
+    ns9:name "Department of Civil Service - Data"@en,
         "Dipartimento della Funzione Pubblica - Dati"@it .
 
 ### Annotations
@@ -48,12 +48,12 @@
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA> a <http://dati.gov.it/onto/dcatapit#Dataset>,
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA>,
         ns1:ConceptScheme,
-        ns9:Asset ;
-    rdfs:label "Controlled vocabulary of the type of qualification of work experience in public administrations"@en,
-        "Vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
-    ns1:prefLabel "Vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
-    rdfs:comment "Controlled vocabulary of the type of qualification of work experience in public administrations"@en,
-        "Vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+        ns8:Asset ;
+    rdfs:label "Vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it,
+        "Work Experience Qualifications in the Public Administration Controlled Vocabulary"@en ;
+    ns1:prefLabel "Vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it ;
+    rdfs:comment "La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
+        "The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
     owl:versionInfo "0.1" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA> ;
     ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA/1>,
@@ -1973,31 +1973,31 @@
     ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns2:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
     ns2:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:description "Controlled vocabulary of the type of qualification of work experience in public administrations"@en,
-        "Vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+    ns2:description "Vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it,
+        "Work Experience Qualifications in the Public Administration Controlled Vocabulary"@en ;
     ns2:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA" ;
     ns2:issued "2026-02-26"^^xsd:date ;
     ns2:language <http://publications.europa.eu/resource/authority/language/ITA> ;
     ns2:modified "2026-02-26"^^xsd:date ;
     ns2:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     ns2:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns2:title "Controlled vocabulary of the type of qualification of work experience in public administrations"@en,
-        "Vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+    ns2:title "La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
+        "The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
     ns2:type <http://purl.org/adms/assettype/CodeList> ;
-    ns4:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
-    ns4:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_CSV>,
+    ns4:keyConcept "elenco_qualifiche_esperienza_lavoro_PA" ;
+    ns5:numberOfLevels "1" ;
+    ns6:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns6:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_CSV>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_JSON_LD>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_RDF_TURTLE> ;
-    ns4:keyword "application recruitment procedure"@en,
+    ns6:keyword "application recruitment procedure"@en,
         "candidatura procedura reclutamento"@it,
         "categoria di reclutamento"@it,
         "citizen's curriculum vitae"@en,
         "curriculum vitae del cittadino"@it,
         "recruitment category"@en ;
-    ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
-    ns7:numberOfLevels "1" ;
-    ns8:keyConcept "elenco_qualifiche_esperienza_lavoro_PA" ;
-    ns9:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> .
+    ns6:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns8:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA>,
         ns1:Concept ;
@@ -21140,36 +21140,36 @@
     ns3:hasRankOrder "1" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the type of qualification of work experience in public administrations CSV distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+        ns6:Distribution ;
+    ns2:description "Questa è la distribuzione CSV del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione. La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
+        "This is CSV distribution of Work Experience Qualifications in the Public Administration Controlled Vocabulary. The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the type of qualification of work experience in public administrations CSV distribution"@en,
-        "Distribuzione CSV del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.csv> .
+    ns2:title "Distribuzione CSV del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it,
+        "Work Experience Qualifications in the Public Administration Controlled Vocabulary CSV distribution"@en ;
+    ns6:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
+    ns6:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.csv> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the type of qualification of work experience in public administrations JSON_LD distribution"@en,
-        "Questa è la distribuzione CSV del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+        ns6:Distribution ;
+    ns2:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione. La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
+        "This is JSON_LD distribution of Work Experience Qualifications in the Public Administration Controlled Vocabulary. The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the type of qualification of work experience in public administrations JSON_LD distribution"@en,
-        "Distribuzione JSON_LD del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.json> .
+    ns2:title "Distribuzione JSON_LD del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it,
+        "Work Experience Qualifications in the Public Administration Controlled Vocabulary JSON_LD distribution"@en ;
+    ns6:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
+    ns6:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.json> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_qualifiche_esperienza_lavoro_PA/distribution/ELPA_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns2:description "Controlled vocabulary of the type of qualification of work experience in public administrations RDF/turtle distribution"@en,
-        "Questa è la distribuzione RDF/Turtle del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
+        ns6:Distribution ;
+    ns2:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione. La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
+        "This is RDF/turtle distribution of Work Experience Qualifications in the Public Administration Controlled Vocabulary. The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
     ns2:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     ns2:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns2:title "Controlled vocabulary of the type of qualification of work experience in public administrations RDF/turtle distribution"@en,
-        "Distribuzione RDF/Turtle del vocabolario controllato della tipologia di qualifica dell' esperienza lavoratoriva nelle Pubbliche Amministrazioni"@it ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.ttl> .
+    ns2:title "Distribuzione RDF/Turtle del vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it,
+        "Work Experience Qualifications in the Public Administration Controlled Vocabulary RDF/turtle distribution"@en ;
+    ns6:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest> ;
+    ns6:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_qualifiche_esperienza_lavoro_PA/latest/elenco_qualifiche_esperienza_lavoro_PA.ttl> .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0
