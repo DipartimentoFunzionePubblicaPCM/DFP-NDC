@@ -54,7 +54,7 @@
     ns1:prefLabel "Vocabolario controllato dei settori concorsuali"@it ;
     rdfs:comment "La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
         "The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori> ;
     ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2>,

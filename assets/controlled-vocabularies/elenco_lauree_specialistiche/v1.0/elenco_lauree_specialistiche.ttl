@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato delle lauree specialistiche"@it ;
     rdfs:comment "La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
         "The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche> ;
     ns2:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2>,

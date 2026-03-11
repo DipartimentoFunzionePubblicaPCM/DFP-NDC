@@ -54,7 +54,7 @@
     ns3:prefLabel "Vocabolario controllato dei diplomi di specializzazione"@it ;
     rdfs:comment "La risorsa definisce l'elenco dei diplomi di specializzazione post-lauream rilasciati dalle scuole di specializzazione del sistema universitario italiano. Il vocabolario comprende, tra gli altri, le specializzazioni del settore medico-sanitario, veterinario, psicologico, della giurisprudenza e dei beni culturali, permettendo l'identificazione univoca dei titoli e dei relativi codici per favorire l'interoperabilità dei dati sulle qualifiche accademiche superiori."@it,
         "The resource defines the list of post-graduate specialization diplomas issued by specialization schools within the Italian university system. The vocabulary includes, among others, specializations in the medical-health, veterinary, psychological, law, and cultural heritage fields, allowing unique identification of the titles and related codes to promote data interoperability on higher academic qualifications."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_specializzazioni> ;
     ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;

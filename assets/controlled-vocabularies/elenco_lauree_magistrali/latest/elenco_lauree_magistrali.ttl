@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato delle lauree magistrali"@it ;
     rdfs:comment "La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
         "The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_magistrali> ;
     ns1:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
     ns1:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_CSV>,

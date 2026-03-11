@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato dei settori scientifico-disciplinari per il dottorato (SSD)"@it ;
     rdfs:comment "La risorsa definisce la classificazione dei settori scientifico-disciplinari (SSD), definiti dal Ministero dell'Università e della Ricerca (MUR) e organizzati dal Consiglio Universitario Nazionale (CUN). Questi sono specificamente utilizzati nell'ambito dei corsi di dottorato di ricerca. Il vocabolario permette di identificare le aree tematiche di ricerca accademica, garantendo la standardizzazione dei dati relativi ai percorsi di dottorato e facilitando l'interoperabilità tra i sistemi del Ministero e delle università."@it,
         "The resource defines the classification of scientific-disciplinary sectors (SSD), as defined by the Ministry of University and Research (MUR) and organized by the National University Council (CUN). These are specifically used for doctoral courses. The vocabulary allows identification of academic research areas, ensuring standardization of data related to doctoral programs and facilitating interoperability between Ministry and university systems."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_settori_scientifico_disciplinari_dottorato> ;
     ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;

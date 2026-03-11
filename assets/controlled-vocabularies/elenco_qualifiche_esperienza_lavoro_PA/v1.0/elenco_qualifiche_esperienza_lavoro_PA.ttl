@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato delle qualifiche d'esperienza nella Pubblica Amministrazione"@it ;
     rdfs:comment "La risorsa definisce l'elenco delle qualifiche e dei profili professionali relativi alle esperienze lavorative maturate all'interno delle amministrazioni pubbliche italiane, distinte dai titoli accademici. Il vocabolario permette di standardizzare la classificazione delle mansioni e dei livelli di inquadramento, facilitando l'interoperabilità dei dati nei sistemi di reclutamento e gestione del personale pubblico."@it,
         "The resource defines the list of qualifications and professional profiles related to work experiences acquired within Italian public administrations, distinct from academic degrees. The vocabulary allows standardization of task classification and job levels, facilitating data interoperability in recruitment and personnel management systems."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA> ;
     ns2:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_esperienza_lavoro_PA/2>,

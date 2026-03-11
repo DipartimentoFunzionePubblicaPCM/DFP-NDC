@@ -54,7 +54,7 @@
     ns3:prefLabel "Vocabolario controllato delle lauree del vecchio ordinamento"@it ;
     rdfs:comment "La risorsa definisce l'elenco dei titoli di livello universitario conseguiti secondo gli ordinamenti didattici precedenti alla riforma del  D.M. 509/99. Il vocabolario permette di mappare le denominazioni storiche dei corsi di laurea e i relativi codici identificativi per garantire la coerenza e l'interoperabilità dei dati relativi ai titoli di studio nel sistema nazionale."@it,
         "The resource defines the list of university-level degrees obtained according to the curricula prior to the D.M. 509/99 reform. The vocabulary allows mapping of historical degree names and their corresponding codes to ensure data consistency and interoperability regarding academic qualifications within the national system."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_vecchio_ordinamento> ;
     ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;

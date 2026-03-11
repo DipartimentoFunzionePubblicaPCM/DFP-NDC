@@ -3138,18 +3138,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoDiMobilità">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;avviso di mobilità&quot;, relativa a procedure selettive riservate a soggetti già appartenenti alla Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Avviso di mobilità</rdfs:label>
     </owl:Class>
@@ -3160,18 +3148,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoOIV">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento&quot; PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;avviso OIV&quot; (Organismi indipendenti di valutazione).</rdfs:comment>
         <rdfs:label xml:lang="it">Avviso OIV</rdfs:label>
     </owl:Class>
@@ -3182,18 +3158,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/BandoApprendistato">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;bando apprendistato&quot;, relativa a procedure di selezione per l&apos;inserimento di personale con contratto di lavoro di apprendistato all&apos;interno della Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Bando apprendistato</rdfs:label>
     </owl:Class>
@@ -3297,18 +3261,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/Concorso">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;concorso&quot;, relativa a bandi pubblici per l&apos;assunzione di personale nella Pubblica Amministrazione.</rdfs:comment>
         <rdfs:label xml:lang="it">Concorso</rdfs:label>
     </owl:Class>
@@ -3319,18 +3271,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ConcorsoDFP-FormezPA">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;Concorso DFP-Formez PA&quot;, relativa a bandi e avvisi gestiti con il supporto tecnico-operativo di Formez PA per conto delle amministrazioni centrali o locali ovvero banditi dalla Commissione interministeriale RIPAM.</rdfs:comment>
         <rdfs:label xml:lang="it">Concorso DFP - Formez PA</rdfs:label>
     </owl:Class>
@@ -3904,18 +3844,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ProcedureStraordinarie">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;procedure straordinarie&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">Procedure straordinarie</rdfs:label>
     </owl:Class>
@@ -4091,18 +4019,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SceltaPA-Sede">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di Pubblicazione di reclutamento PA che raggruppa le pubblicazioni con categoria di reclutamento valorizzata a &quot;scelta PA-Sede&quot;.</rdfs:comment>
         <rdfs:label xml:lang="it">Scelta PA-Sede</rdfs:label>
     </owl:Class>
@@ -4113,18 +4029,6 @@
 
     <owl:Class rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SelezioneProfessionistiEdEsperti">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:oneOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
-                        </owl:oneOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="it">Sottoclasse di &quot;Pubblicazione di reclutamento PA&quot; che raggruppa le pubblicazioni con categoria di reclutamento caratterizzate dal valore &quot;selezione professionisti ed esperti&quot;, relativa alle procedure finalizzate al reclutamento di profili specialistici e professionali.</rdfs:comment>
         <rdfs:label xml:lang="it">Selezione professionisti ed esperti</rdfs:label>
     </owl:Class>
@@ -4725,142 +4629,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Class>
-        <owl:oneOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
-        </owl:oneOf>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-    </owl:Class>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoDiMobilità"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AvvisoOIV"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/BandoApprendistato"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/Concorso"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ConcorsoDFP-FormezPA"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ProcedureStraordinarie"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SceltaPA-Sede"/>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/haCategoriaDiReclutamento"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SelezioneProfessionistiEdEsperti"/>
-    </owl:Restriction>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -4882,51 +4650,6 @@
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoChiusoDiPubblicazioneDiReclutamento"/>
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoEliminatoDiPubblicazioneDiReclutamento"/>
             <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoInPubblicazioneDiPubblicazioneDiReclutamento"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoDiMobilità"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/avvisoOIV"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/bandoApprendistato"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorso"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/concorsoDFP-FormezPA"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/procedureStraordinarie"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/sceltaPA-Sede"/>
-                </owl:oneOf>
-            </owl:Class>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/selezioneProfessionistiEdEsperti"/>
-                </owl:oneOf>
-            </owl:Class>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

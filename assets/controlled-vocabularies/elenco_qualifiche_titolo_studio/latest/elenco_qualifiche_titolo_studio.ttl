@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato delle qualifiche professionali e dei titoli di studio non universitari"@it ;
     rdfs:comment "La risorsa definisce l'elenco standardizzato delle qualifiche professionali, dei diplomi tecnici e dei titoli di formazione specialistica non universitaria riconosciuti a livello regionale e nazionale. Il vocabolario permette di classificare in modo univoco le competenze tecnico-operative (es. in ambito sanitario, forestale, sportivo e artigianale) richieste per l'accesso ai concorsi della Pubblica Amministrazione, garantendo la coerenza dei dati tra i sistemi di certificazione delle competenze e i portali di reclutamento."@it,
         "The resource defines the standardized list of professional qualifications, technical diplomas, and non-university specialist training recognized at regional and national levels. The vocabulary allows unambiguous classification of technical-operative skills (e.g., in healthcare, forestry, sports, and artisanal fields) required for access to Public Administration competitions, ensuring data consistency between certification systems and recruitment portals."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio> ;
     ns2:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_qualifiche_titolo_studio/2>,

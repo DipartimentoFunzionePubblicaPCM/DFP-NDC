@@ -54,7 +54,7 @@
     ns1:prefLabel "Vocabolario controllato dei diplomi universitari"@it ;
     rdfs:comment "La risorsa definisce l'elenco dei titoli relativi ai diplomi universitari rilasciati dal sistema di istruzione superiore italiano. La risorsa permette di identificare univocamente le qualifiche professionalizzanti e i relativi codici di classificazione per favorire l'interoperabilità dei dati sulle carriere studentesche e i titoli di studio."@it,
         "The resource defines the list of titles related to university degrees issued by the Italian higher education system. The resource allows for the unique identification of professional qualifications and their classification codes to promote data interoperability on student careers and academic degrees."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_diplomi_universitari> ;
     ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_diplomi_universitari/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_diplomi_universitari/2>,

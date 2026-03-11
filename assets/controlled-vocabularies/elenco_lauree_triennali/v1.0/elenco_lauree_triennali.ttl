@@ -54,7 +54,7 @@
     ns2:prefLabel "Vocabolario controllato delle lauree triennali"@it ;
     rdfs:comment "La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
         "The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali> ;
     ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
     ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
