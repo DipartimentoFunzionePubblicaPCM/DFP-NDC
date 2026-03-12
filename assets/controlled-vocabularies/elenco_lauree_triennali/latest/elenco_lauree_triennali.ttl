@@ -49,9 +49,9 @@
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns3:ConceptScheme,
         ns9:Asset ;
-    rdfs:label "Bachelor's Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree triennali"@it ;
-    ns3:prefLabel "Vocabolario controllato delle lauree triennali"@it ;
+    rdfs:label "Degree classes's of Bachelor Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
+    ns3:prefLabel "Vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
     rdfs:comment "La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
         "The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
     owl:versionInfo "1.0" ;
@@ -67,8 +67,8 @@
     ns1:modified "2026-02-26"^^xsd:date ;
     ns1:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     ns1:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns1:title "Bachelor's Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree triennali"@it ;
+    ns1:title "Degree classes's of Bachelor Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
     ns1:type <http://purl.org/adms/assettype/CodeList> ;
     ns3:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/2>,
@@ -1926,34 +1926,34 @@
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_triennali/distribution/ELT_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns1:description "Questa è la distribuzione CSV del vocabolario controllato delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
-        "This is CSV distribution of Bachelor's Degrees controlled vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
+    ns1:description "Questa è la distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
+        "This is CSV distribution of Degree classes's of Bachelor Degrees Controlled Vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Bachelor's Degrees Controlled Vocabulary CSV distribution"@en,
-        "Distribuzione CSV del vocabolario controllato delle lauree triennali"@it ;
+    ns1:title "Degree classes's of Bachelor Degrees Controlled Vocabulary CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest/elenco_lauree_triennali.csv> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_triennali/distribution/ELT_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
-        "This is JSON_LD distribution of Bachelor's Degrees controlled vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
+    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
+        "This is JSON_LD distribution of Degree classes's of Bachelor Degrees Controlled Vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Bachelor's Degrees Controlled Vocabulary JSON_LD distribution"@en,
-        "Distribuzione JSON_LD del vocabolario controllato delle lauree triennali"@it ;
+    ns1:title "Degree classes's of Bachelor Degrees Controlled Vocabulary JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest/elenco_lauree_triennali.json> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_triennali/distribution/ELT_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns4:Distribution ;
-    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
-        "This is RDF/turtle distribution of Bachelor's Degrees controlled vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
+    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree triennali. La risorsa definisce l'elenco delle classi di laurea di primo livello attive nel sistema universitario italiano dalla riforma del D.M. 509/99, includendo i relativi codici identificativi e le denominazioni ufficiali. Il vocabolario facilita l'interoperabilità dei dati tra i sistemi informativi della Pubblica Amministrazione e garantisce la corretta classificazione dei titoli di studio conseguiti a seguito della riforma universitaria."@it,
+        "This is RDF/turtle distribution of Degree classes's of Bachelor Degrees Controlled Vocabulary. The resource defines the list of first-level degree classes active in the Italian university system since the D.M. 509/99 reform, including their identification codes and official names. The vocabulary facilitates data interoperability among Public Administration information systems and ensures correct classification of degrees obtained following the university reform."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Bachelor's Degrees Controlled Vocabulary RDF/turtle distribution"@en,
-        "Distribuzione RDF/Turtle del vocabolario controllato delle lauree triennali"@it ;
+    ns1:title "Degree classes's of Bachelor Degrees Controlled Vocabulary RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree triennali"@it ;
     ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest> ;
     ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_triennali/latest/elenco_lauree_triennali.ttl> .
 

@@ -49,9 +49,9 @@
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns2:ConceptScheme,
         ns6:Asset ;
-    rdfs:label "Master's Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree magistrali"@it ;
-    ns2:prefLabel "Vocabolario controllato delle lauree magistrali"@it ;
+    rdfs:label "Degree classes's of Master Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree magistrali"@it ;
+    ns2:prefLabel "Vocabolario controllato delle classi di laurea delle lauree magistrali"@it ;
     rdfs:comment "La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
         "The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     owl:versionInfo "1.0" ;
@@ -193,8 +193,8 @@
     ns3:modified "2026-02-26"^^xsd:date ;
     ns3:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     ns3:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns3:title "Master's Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree magistrali"@it ;
+    ns3:title "Degree classes's of Master Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree magistrali"@it ;
     ns3:type <http://purl.org/adms/assettype/CodeList> ;
     ns6:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
     ns7:numberOfLevels "1" ;
@@ -1462,33 +1462,33 @@
         ns1:Distribution ;
     ns1:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
     ns1:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.csv> ;
-    ns3:description "Questa è la distribuzione CSV del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
-        "This is CSV distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
+    ns3:description "Questa è la distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is CSV distribution of Degree classes's of Master Degrees Controlled Vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns3:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     ns3:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns3:title "Distribuzione CSV del vocabolario controllato delle lauree magistrali"@it,
-        "Master's Degrees Controlled Vocabulary CSV distribution"@en .
+    ns3:title "Degree classes's of Master Degrees Controlled Vocabulary CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree magistrali"@it .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns1:Distribution ;
     ns1:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
     ns1:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.json> ;
-    ns3:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
-        "This is JSON_LD distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
+    ns3:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is JSON_LD distribution of Degree classes's of Master Degrees Controlled Vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns3:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     ns3:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns3:title "Distribuzione JSON_LD del vocabolario controllato delle lauree magistrali"@it,
-        "Master's Degrees Controlled Vocabulary JSON_LD distribution"@en .
+    ns3:title "Degree classes's of Master Degrees Controlled Vocabulary JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree magistrali"@it .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_magistrali/distribution/ELM_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns1:Distribution ;
     ns1:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest> ;
     ns1:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_magistrali/latest/elenco_lauree_magistrali.ttl> ;
-    ns3:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
-        "This is RDF/turtle distribution of Master's Degrees controlled vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
+    ns3:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree magistrali. La risorsa definisce l'elenco ufficiale delle classi di laurea magistrale attive nel sistema universitario italiano dal D.M. 270/2004, includendo i relativi codici identificativi e le denominazioni estese. La risorsa favorisce l'interoperabilità dei dati tra le amministrazioni pubbliche e gli enti di istruzione superiore, garantendo la coerenza nella classificazione dei titoli di studio di secondo ciclo del sistema universitario."@it,
+        "This is RDF/turtle distribution of Degree classes's of Master Degrees Controlled Vocabulary. The resource defines the official list of master's degree classes active in the Italian university system since D.M. 270/2004, including their identification codes and full names. The resource promotes data interoperability between public administrations and higher education institutions, ensuring consistency in the classification of second-cycle academic degrees within the university system."@en ;
     ns3:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     ns3:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns3:title "Distribuzione RDF/Turtle del vocabolario controllato delle lauree magistrali"@it,
-        "Master's Degrees Controlled Vocabulary RDF/turtle distribution"@en .
+    ns3:title "Degree classes's of Master Degrees Controlled Vocabulary RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree magistrali"@it .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0

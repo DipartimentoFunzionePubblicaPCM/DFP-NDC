@@ -49,9 +49,9 @@
         <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica>,
         ns2:ConceptScheme,
         ns9:Asset ;
-    rdfs:label "Specialized Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree specialistiche"@it ;
-    ns2:prefLabel "Vocabolario controllato delle lauree specialistiche"@it ;
+    rdfs:label "Degree classes's of Specialized Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
+    ns2:prefLabel "Vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
     rdfs:comment "La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
         "The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
     owl:versionInfo "1.0" ;
@@ -67,8 +67,8 @@
     ns1:modified "2026-02-26"^^xsd:date ;
     ns1:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     ns1:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns1:title "Specialized Degrees Controlled Vocabulary"@en,
-        "Vocabolario controllato delle lauree specialistiche"@it ;
+    ns1:title "Degree classes's of Specialized Degrees Controlled Vocabulary"@en,
+        "Vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
     ns1:type <http://purl.org/adms/assettype/CodeList> ;
     ns2:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_specialistiche/2>,
@@ -1406,34 +1406,34 @@
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns5:Distribution ;
-    ns1:description "Questa è la distribuzione CSV del vocabolario controllato delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
-        "This is CSV distribution of Specialized Degrees controlled vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
+    ns1:description "Questa è la distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
+        "This is CSV distribution of Degree classes's of Specialized Degrees Controlled Vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione CSV del vocabolario controllato delle lauree specialistiche"@it,
-        "Specialized Degrees Controlled Vocabulary CSV distribution"@en ;
+    ns1:title "Degree classes's of Specialized Degrees Controlled Vocabulary CSV distribution"@en,
+        "Distribuzione CSV del vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
     ns5:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
     ns5:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.csv> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns5:Distribution ;
-    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
-        "This is JSON_LD distribution of Specialized Degrees controlled vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
+    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
+        "This is JSON_LD distribution of Degree classes's of Specialized Degrees Controlled Vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione JSON_LD del vocabolario controllato delle lauree specialistiche"@it,
-        "Specialized Degrees Controlled Vocabulary JSON_LD distribution"@en ;
+    ns1:title "Degree classes's of Specialized Degrees Controlled Vocabulary JSON_LD distribution"@en,
+        "Distribuzione JSON_LD del vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
     ns5:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
     ns5:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.json> .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_lauree_specialistiche/distribution/ELS_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
         ns5:Distribution ;
-    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
-        "This is RDF/turtle distribution of Specialized Degrees controlled vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
+    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree specialistiche. La risorsa definisce l'elenco delle classi di laurea specialistica istituite nell'ambito della riforma universitaria del  D.M. 509/99. Il vocabolario permette di identificare i titoli di studio di secondo livello e i relativi codici ministeriali, facilitando lo scambio di dati tra le pubbliche amministrazioni e garantendo la coerenza nelle certificazioni dei titoli universitari."@it,
+        "This is RDF/turtle distribution of Degree classes's of Specialized Degrees Controlled Vocabulary. The resource defines the list of specialized degree classes established within the framework of the D.M. 509/99 university reform. The vocabulary allows the identification of second-level academic degrees and their ministerial codes, facilitating data exchange between public administrations and ensuring consistency in the certification of university degrees."@en ;
     ns1:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione RDF/Turtle del vocabolario controllato delle lauree specialistiche"@it,
-        "Specialized Degrees Controlled Vocabulary RDF/turtle distribution"@en ;
+    ns1:title "Degree classes's of Specialized Degrees Controlled Vocabulary RDF/turtle distribution"@en,
+        "Distribuzione RDF/Turtle del vocabolario controllato delle classi di laurea delle lauree specialistiche"@it ;
     ns5:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest> ;
     ns5:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_lauree_specialistiche/latest/elenco_lauree_specialistiche.ttl> .
 
