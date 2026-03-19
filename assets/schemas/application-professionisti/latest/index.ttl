@@ -31,7 +31,7 @@
 <https://w3id.org/italia/public-administration-governance/data/organization/dfp> a dcatapit:Agent,
         foaf:Agent,
         owl:NamedIndividual ;
-    dct:identifier "mlps" ;
+    dct:identifier "dfp" ;
     foaf:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
         "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
 
