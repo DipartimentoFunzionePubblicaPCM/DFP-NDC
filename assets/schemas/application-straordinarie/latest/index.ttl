@@ -63,7 +63,7 @@
     dct:issued "2026-03-02"^^xsd:date ;
     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
     dct:modified "2026-03-02"^^xsd:date ;
-    dct:publisher <https://w3id.org/italia/labour-social-policies/data/organization/mlps> ;
+    dct:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     dct:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     dct:title "Consultazione Application scelta straordinarie API"@it .
 
