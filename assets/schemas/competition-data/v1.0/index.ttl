@@ -32,8 +32,8 @@
         foaf:Agent,
         owl:NamedIndividual ;
     dct:identifier "mlps" ;
-    foaf:name "Ministero del Lavoro e delle politiche sociali"@it,
-        "Ministry of Labor and Social Policies"@en .
+    foaf:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
 
 ### Annotations
 
