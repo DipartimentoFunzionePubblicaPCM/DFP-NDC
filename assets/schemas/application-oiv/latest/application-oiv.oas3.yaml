@@ -440,9 +440,9 @@ components:
           maxLength: 100
           example: 'Selezione Professionisti ed Esperti'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         name: https://w3id.org/italia/onto/l0/name
         description: https://w3id.org/italia/onto/l0/description
@@ -473,9 +473,9 @@ components:
           maxLength: 60
           example: 'Lombardia'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AreaGeografica
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AreaGeografica
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         name: https://w3id.org/italia/onto/l0/name
       example:
@@ -503,9 +503,9 @@ components:
           type: string
           example: 'Aperto'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatusDiProceduraReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatusDiProceduraReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         name: https://w3id.org/italia/onto/l0/name
         label: https://w3id.org/italia/onto/l0/description
       example:
@@ -544,9 +544,9 @@ components:
           minimum: 0
           example: 1000
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/IntervalloSalariale
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/IntervalloSalariale
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         label: https://w3id.org/italia/onto/l0/description
         max: salarioMassimo
         min: salarioMinimo
@@ -577,9 +577,9 @@ components:
           maxLength: 100
           example: 'Appalti'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/TipoDiAttività
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoDiAttività
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id:
           '@id': haTipoDiAttività
           '@type': '@id'
@@ -658,9 +658,9 @@ components:
           description: Large text content
           example: 'Esperto in attività di natura contabile e fiscale con esperienza minima di 3 anni fino a 5 anni'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         title: titoloProceduraReclutamento
         description: https://w3id.org/italia/onto/l0/description
@@ -811,9 +811,9 @@ components:
           type: string
           maxLength: 500
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         title: titoloProceduraReclutamento
         description: https://w3id.org/italia/onto/l0/description
@@ -928,9 +928,9 @@ components:
           type: string
           example: 'per titoli ed esami'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ModalitàDiValutazione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ModalitàDiValutazione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         name: https://w3id.org/italia/onto/l0/name
         label: https://w3id.org/italia/onto/l0/description
       example:
@@ -958,9 +958,9 @@ components:
           format: int64
           example: 5000
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AllegatoPubblicazioneReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AllegatoPubblicazioneReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         title: titoloAllegato
         fileName: percorsoDiAllegato
@@ -998,9 +998,9 @@ components:
           type: string
           example: 'Non Superata'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsameDiSelezione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         name: https://w3id.org/italia/onto/l0/name
         label: https://w3id.org/italia/onto/l0/description
       example:
@@ -1037,9 +1037,9 @@ components:
         personalData:
           $ref: '#/components/schemas/PersonalData'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CandidaturaProceduraReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: identificativoDomandaDiCandidatura
         applicationDate: dataCreazioneDomanda
         submissionDate: dataInvioDomanda
@@ -1162,9 +1162,9 @@ components:
           maxLength: 40
           example: 'AC4310'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CandidaturaProceduraReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: identificativoDomandaDiCandidatura
         applicationDate: dataCreazioneDomanda
         submissionDate: dataInvioDomanda
@@ -1485,9 +1485,9 @@ components:
           format: int32
           example: 5000
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/GraduatoriaDiReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GraduatoriaDiReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         competitionId: http://purl.org/dc/terms/identifier
         competitionTitle: titoloProceduraReclutamento
@@ -1553,9 +1553,9 @@ components:
           maxLength: 500
           example: '1 figlio a carico'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/GraduatoriaDiReclutamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/GraduatoriaDiReclutamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         taxCode: https://w3id.org/italia/onto/CPV/taxCode
         firstName: https://w3id.org/italia/onto/CPV/givenName
@@ -1595,9 +1595,9 @@ components:
           type: string
           example: 'Scritta'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsameDiSelezione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         number: indicatoreDiEsame
         examType: https://w3id.org/italia/onto/l0/name
@@ -1658,9 +1658,9 @@ components:
           items:
             $ref: '#/components/schemas/Session'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsameDiSelezione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsameDiSelezione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         number: indicatoreDiEsame
         examType: https://w3id.org/italia/onto/l0/name
@@ -1716,9 +1716,9 @@ components:
           format: date-time
           example: '2024-05-28T14:35:22+02:00'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SessioneDiEsame
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         number: indicatoreDellaSessioneDiEsame
         location: https://w3id.org/italia/onto/l0/name
@@ -1780,9 +1780,9 @@ components:
           items:
             $ref: '#/components/schemas/Participant'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SessioneDiEsame
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         number: indicatoreDellaSessioneDiEsame
         location: https://w3id.org/italia/onto/l0/name
@@ -1860,9 +1860,9 @@ components:
           format: double
           example: 12345.67891
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PartecipanteSessioneEsame
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PartecipanteSessioneEsame
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         firstName: https://w3id.org/italia/onto/CPV/givenName
         lastName: https://w3id.org/italia/onto/CPV/familyName
         taxCode: https://w3id.org/italia/onto/CPV/taxCode
@@ -1898,9 +1898,9 @@ components:
           format: int32
           example: 50000
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ConsuntivoDiProcedura
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ConsuntivoDiProcedura
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         totalAmount: totalePagamentiIncassati
         totalNumber: totaleDomandeRicevute
       example:
@@ -1925,9 +1925,9 @@ components:
           format: double
           example: 25.50
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/TassaIscrizione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TassaIscrizione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         taxCode: https://w3id.org/italia/onto/CPV/taxCode
         iuv: IUVDelPagamento
         amount: importoPagato
@@ -2018,7 +2018,7 @@ components:
           '@id': https://w3id.org/italia/onto/SM/hasContactPoint
           '@context':
               label: http://www.w3.org/2000/01/rdf-schema#label
-        numDependentsChildren: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/numeroDiFigliACarico
+        numDependentsChildren: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/numeroDiFigliACarico
         birthLocation:
           '@id': hasBirthPlace
         residence:
@@ -2052,9 +2052,9 @@ components:
           type: string
           example: 'In compilazione'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/StatoDiCandidatura
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/StatoDiCandidatura
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         name: statusDiCandidatura
         label: https://w3id.org/italia/onto/l0/description
       example:
@@ -2074,9 +2074,9 @@ components:
           maxLength: 255
           example: 'Si'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/ValorizzazioneRequisito
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/ValorizzazioneRequisito
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         label: https://w3id.org/italia/onto/l0/name
         value: valoreDelRequisitoPerCandidatura
       example:
@@ -2215,9 +2215,9 @@ components:
           maxLength: 45
           example: 'progettazione'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/QualificaAccademica
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         description: https://w3id.org/italia/onto/l0/description
         institute: https://w3id.org/italia/onto/l0/name
@@ -2360,9 +2360,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneAccademica
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneAccademica
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         publicationType: https://w3id.org/italia/onto/l0/description
         publicationLevel: https://w3id.org/italia/onto/l0/description
@@ -2484,9 +2484,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaLavorativaPA
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         companyType: https://w3id.org/italia/onto/l0/description
         abroadDecisionNumber: identificativoProvvedimentoEstero
@@ -2602,9 +2602,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaLavorativaPA
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPA
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         employmentContractType: https://w3id.org/italia/onto/l0/description
         jobTitleType:
@@ -2706,9 +2706,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaLavorativaPrivata
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPrivata
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         employmentContractType: https://w3id.org/italia/onto/l0/description
         jobTitleType:
@@ -2808,9 +2808,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaLavorativaPrivata
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaLavorativaPrivata
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         employmentContractType: https://w3id.org/italia/onto/l0/description
         jobTitleType:
@@ -2878,9 +2878,9 @@ components:
         experience:
           $ref: '#/components/schemas/Experience'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/AttivitàDiInsegnamento
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/AttivitàDiInsegnamento
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         employer: https://w3id.org/italia/onto/COV/legalName
         employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
@@ -2950,9 +2950,9 @@ components:
         experience:
           $ref: '#/components/schemas/Experience'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaDiFormazione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaDiFormazione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         employer: https://w3id.org/italia/onto/COV/legalName
         employerAddress: https://w3id.org/italia/onto/CLV/fullAddress
@@ -3026,9 +3026,9 @@ components:
           items:
             $ref: '#/components/schemas/Skill'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/EsperienzaDiFormazione
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/EsperienzaDiFormazione
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         startDate: https://w3id.org/italia/onto/TI/startTime
         endDate: https://w3id.org/italia/onto/TI/endTime
@@ -3088,9 +3088,9 @@ components:
           enum: [A1, A2, B1, B2, C1, C2]
           example: A2
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CompetenzaLinguistica
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CompetenzaLinguistica
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         language:
           '@id': hhaLinguaDiCompetenza
@@ -3131,9 +3131,9 @@ components:
           type: string
           example: "Capacità di utilizzare tecniche e strumenti per predisporre tabelle, indici, viste di analisi dei dati e predisporre reportistica sulla base dell'ambito ed oggetto dell'analisi richiesto"
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/DescrittoreCompetenza
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreCompetenza
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         name: https://w3id.org/italia/onto/l0/name
         description: https://w3id.org/italia/onto/l0/description
@@ -3236,9 +3236,9 @@ components:
           type: string
           example: 'Procedimenti amministrativi'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/DescrittoreGenerico
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreGenerico
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         name: https://w3id.org/italia/onto/l0/name
         description: https://w3id.org/italia/onto/l0/description
@@ -3325,9 +3325,9 @@ components:
           type: string
           example: 'Tedesco'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/DescrittoreLingua
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreLingua
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         code: http://purl.org/dc/terms/identifier
         nativeName: https://w3id.org/italia/onto/l0/name
         enName: nomeLinguaInInglese
@@ -3359,9 +3359,9 @@ components:
           type: string
           example: 'Attivo'
       additionalProperties: false
-      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/DescrittoreRuolo
+      x-jsonld-type: https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/DescrittoreRuolo
       x-jsonld-context:
-        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/
+        "@vocab": https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/
         id: http://purl.org/dc/terms/identifier
         description: https://w3id.org/italia/onto/l0/description
         type: tipoDescrittoreRuolo

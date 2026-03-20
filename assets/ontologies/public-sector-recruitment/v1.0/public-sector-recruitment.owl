@@ -21,9 +21,9 @@
      xmlns:learn="https://w3id.org/italia/onto/Learning/"
      xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
-     xmlns:pa-recruit="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/">
+     xmlns:pa-recruit="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/RO/">
-        <owl:versionIRI rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/1.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/1.0"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/CLV/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/COV/"/>
         <owl:imports rdf:resource="https://w3id.org/italia/onto/CPV/"/>
@@ -36,7 +36,7 @@
         <dct:creator rdf:resource="https://w3id.org/italia/public-administration-governance/data/organization/dfp"/>
         <dct:description xml:lang="it">La risorsa modella il dominio del reclutamento del personale all&apos;interno delle amministrazioni pubbliche italiane, attraverso il portale inPA (portale unico del reclutamento - in Pubblica Amministrazione). La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</dct:description>
         <dct:description xml:lang="en">The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</dct:description>
-        <dct:identifier>https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment</dct:identifier>
+        <dct:identifier>https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</dct:identifier>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-02T00:00:00+00:00</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
@@ -47,7 +47,7 @@
         <dct:title xml:lang="en">Recruitment in the Public Administration Ontology</dct:title>
         <rdfs:comment xml:lang="it">La risorsa modella il dominio del reclutamento del personale all&apos;interno delle amministrazioni pubbliche italiane, attraverso il portale inPA (portale unico del reclutamento - in Pubblica Amministrazione). La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l&apos;interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento.</rdfs:comment>
         <rdfs:comment xml:lang="en">The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/"/>
         <rdfs:label xml:lang="it">Ontologia del reclutamento nella Pubblica Amministrazione</rdfs:label>
         <rdfs:label xml:lang="en">Recruitment in the Public Administration Ontology</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0 - Modified 02 March 2026</owl:versionInfo>
@@ -61,20 +61,20 @@
         <adms:acronym>dfp</adms:acronym>
         <adms:hasContributor rdf:resource="https://w3id.org/italia/data/organization/public-organization/td"/>
         <adms:hasFormalityLevel rdf:resource="https://w3id.org/italia/onto/ADMS/Formal"/>
-        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CandidaturaProceduraReclutamento"/>
-        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CategoriaDiReclutamento"/>
-        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/CurriculumVitae"/>
-        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/PubblicazioneDiReclutamentoPA"/>
-        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/SessioneDiEsame"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CandidaturaProceduraReclutamento"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CurriculumVitae"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/PubblicazioneDiReclutamentoPA"/>
+        <adms:hasKeyClass rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/SessioneDiEsame"/>
         <adms:hasOntologyLanguage rdf:resource="https://w3id.org/italia/onto/ADMS/OWL"/>
-        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES"/>
-        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE"/>
-        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE"/>
+        <adms:hasSemanticAssetDistribution rdf:resource="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML"/>
         <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/AnnotationTask"/>
         <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/QueryFormulationTask"/>
         <adms:hasTask rdf:resource="https://w3id.org/italia/onto/ADMS/SearchTask"/>
-        <adms:last rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/1.0"/>
-        <adms:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment</adms:officialURI>
+        <adms:last rdf:resource="https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/1.0"/>
+        <adms:officialURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment</adms:officialURI>
         <adms:prefix>pa-recruit</adms:prefix>
         <adms:semanticAssetInUse rdf:resource="https://w3id.org/italia/data/project/NDC"/>
         <adms:status>draft</adms:status>
@@ -4503,9 +4503,9 @@
 
 
 
-    <!-- https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES -->
+    <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
@@ -4515,15 +4515,15 @@
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dct:title xml:lang="it">Distribuzione N-TRIPLES dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
         <dct:title xml:lang="en">N-TRIPLES distribution of the Recruitment in the Public Administration Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.n3"/>
+        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.n3"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE -->
+    <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
@@ -4533,15 +4533,15 @@
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of the Recruitment in the Public Administration Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.ttl"/>
+        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.ttl"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML -->
+    <!-- https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML">
+    <owl:NamedIndividual rdf:about="https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML">
         <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution"/>
@@ -4551,8 +4551,8 @@
         <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia del reclutamento nella Pubblica Amministrazione</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of the Recruitment in the Public Administration Ontology</dct:title>
-        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.owl"/>
+        <dcat:accessURL rdf:resource="https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.owl"/>
     </owl:NamedIndividual>
 
 
