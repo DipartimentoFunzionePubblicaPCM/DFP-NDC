@@ -15,7 +15,7 @@
 
 ### Individuals
 
-<https://w3id.org/italia/labour-social-policies/data/organization/DGInnovazioneDiv3> a dcatapit:Organization,
+<https://w3id.org/italia/labour-social-policies/data/organization/dfpDati> a dcatapit:Organization,
         owl:NamedIndividual,
         vcard:Kind,
         vcard:Organization ;
