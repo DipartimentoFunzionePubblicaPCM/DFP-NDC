@@ -1,10 +1,10 @@
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ns3: <https://w3id.org/italia/onto/CLV/> .
-@prefix ns4: <http://www.w3.org/ns/dcat#> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <https://w3id.org/italia/onto/CLV/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
 @prefix ns6: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix ns7: <http://xmlns.com/foaf/0.1/> .
+@prefix ns7: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns8: <https://w3id.org/italia/onto/NDC/> .
 @prefix ns9: <http://www.w3.org/ns/adms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -15,62 +15,48 @@
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfp> a <http://dati.gov.it/onto/dcatapit#Agent>,
         <https://w3id.org/italia/onto/COV/PublicOrganization>,
-        ns7:Agent,
+        ns5:Agent,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service of the Presidency of the Council of Ministers"@en,
         "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
-    ns1:identifier "dfp" ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns7:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
-        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it .
+    ns4:identifier "dfp" ;
+    ns5:name "Department of Civil Service of the Presidency of the Council of Ministers"@en,
+        "Dipartimento della Funzione Pubblica della Presidenza del Consiglio dei Ministri"@it ;
+    ns7:hasURL <https://github.com/DFPdati> .
 
 <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> a <http://dati.gov.it/onto/dcatapit#Organization>,
-        ns5:Kind,
-        ns5:Organization,
+        ns7:Kind,
+        ns7:Organization,
         owl:NamedIndividual ;
     rdfs:label "Department of Civil Service - Data"@en,
         "Dipartimento della Funzione Pubblica - Dati"@it ;
-    ns1:identifier "dfpDati" ;
-    ns5:fn "Dipartimento della Funzione Pubblica - Dati" ;
-    ns5:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
-    ns5:hasURL <https://github.com/DFPdati> ;
-    ns7:name "Department of Civil Service - Data"@en,
-        "Dipartimento della Funzione Pubblica - Dati"@it .
+    ns4:identifier "dfpDati" ;
+    ns5:name "Department of Civil Service - Data"@en,
+        "Dipartimento della Funzione Pubblica - Dati"@it ;
+    ns7:fn "Dipartimento della Funzione Pubblica - Dati" ;
+    ns7:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
+    ns7:hasURL <https://github.com/DFPdati> .
 
 ### Annotations
 
 <https://w3id.org/italia/data/standard/SKOS> a <http://dati.gov.it/onto/dcatapit#Standard>,
-        ns1:Standard ;
-    ns1:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
-    ns1:identifier "SKOS" ;
-    ns1:title "Simple Knowledge Organization System - SKOS" .
+        ns4:Standard ;
+    ns4:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    ns4:identifier "SKOS" ;
+    ns4:title "Simple Knowledge Organization System - SKOS" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori> a <http://dati.gov.it/onto/dcatapit#Dataset>,
-        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:ConceptScheme,
+        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:ConceptScheme,
         ns9:Asset ;
     rdfs:label "Recruitment Sectors Controlled Vocabulary"@en,
         "Vocabolario controllato dei settori concorsuali"@it ;
-    ns2:prefLabel "Vocabolario controllato dei settori concorsuali"@it ;
+    ns1:prefLabel "Vocabolario controllato dei settori concorsuali"@it ;
     rdfs:comment "La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
         "The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
     owl:versionInfo "1.0" ;
     rdfs:isDefinedBy <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns1:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-    ns1:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
-    ns1:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns1:description "La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
-        "The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
-    ns1:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori" ;
-    ns1:issued "2026-02-26"^^xsd:date ;
-    ns1:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-    ns1:modified "2026-02-26"^^xsd:date ;
-    ns1:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns1:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
-    ns1:title "Recruitment Sectors Controlled Vocabulary"@en,
-        "Vocabolario controllato dei settori concorsuali"@it ;
-    ns1:type <http://purl.org/adms/assettype/CodeList> ;
-    ns2:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1>,
+    ns1:hasTopConcept <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/3>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/4>,
@@ -99,313 +85,327 @@
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/27>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/28>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/29> ;
-    ns4:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
-    ns4:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_CSV>,
+    ns3:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
+    ns3:distribution <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_CSV>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_JSON_LD>,
         <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_RDF_TURTLE> ;
-    ns4:keyword "application recruitment procedure"@en,
+    ns3:keyword "application recruitment procedure"@en,
         "candidatura procedura reclutamento"@it,
         "categoria di reclutamento"@it,
         "citizen's curriculum vitae"@en,
         "curriculum vitae del cittadino"@it,
         "recruitment category"@en ;
-    ns4:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns3:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    ns4:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    ns4:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
+    ns4:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:description "La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
+        "The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
+    ns4:identifier "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori" ;
+    ns4:issued "2026-02-26"^^xsd:date ;
+    ns4:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+    ns4:modified "2026-02-26"^^xsd:date ;
+    ns4:publisher <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:rightsHolder <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
+    ns4:title "Recruitment Sectors Controlled Vocabulary"@en,
+        "Vocabolario controllato dei settori concorsuali"@it ;
+    ns4:type <http://purl.org/adms/assettype/CodeList> ;
     ns6:numberOfLevels "1" ;
     ns8:keyConcept "elenco_concorso_settori" ;
     ns9:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Ambito non indicato dalla Regione"@it ;
-    ns2:prefLabel "Ambito non indicato dalla Regione"@it ;
-    ns1:identifier "1" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "1" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Ambito non indicato dalla Regione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "1" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "1" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Accorpamento di ambiti previsti e non previsti"@it ;
-    ns2:prefLabel "Accorpamento di ambiti previsti e non previsti"@it ;
-    ns1:identifier "2" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "2" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Accorpamento di ambiti previsti e non previsti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "2" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "2" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Accorpamento di soli ambiti previsti"@it ;
-    ns2:prefLabel "Accorpamento di soli ambiti previsti"@it ;
-    ns1:identifier "3" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "3" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Accorpamento di soli ambiti previsti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "3" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "3" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Agricoltura e foreste"@it ;
-    ns2:prefLabel "Agricoltura e foreste"@it ;
-    ns1:identifier "4" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "4" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Agricoltura e foreste"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "4" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "4" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Amministrazione"@it ;
-    ns2:prefLabel "Amministrazione"@it ;
-    ns1:identifier "5" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "5" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Amministrazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "5" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "5" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Appalti"@it ;
-    ns2:prefLabel "Appalti"@it ;
-    ns1:identifier "6" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "6" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Appalti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "6" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "6" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Autorizzazione attività di cava"@it ;
-    ns2:prefLabel "Autorizzazione attività di cava"@it ;
-    ns1:identifier "7" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "7" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Autorizzazione attività di cava"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "7" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "7" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Beni culturali"@it ;
-    ns2:prefLabel "Beni culturali"@it ;
-    ns1:identifier "8" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "8" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Beni culturali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "8" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "8" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Bonifiche"@it ;
-    ns2:prefLabel "Bonifiche"@it ;
-    ns1:identifier "9" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "9" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Bonifiche"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "9" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "9" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Contabilità"@it ;
-    ns2:prefLabel "Contabilità"@it ;
-    ns1:identifier "10" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "10" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Contabilità"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "10" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "10" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Edilizia e urbanistica"@it ;
-    ns2:prefLabel "Edilizia e urbanistica"@it ;
-    ns1:identifier "11" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "11" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Edilizia e urbanistica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "11" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "11" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Infrastrutture digitali"@it ;
-    ns2:prefLabel "Infrastrutture digitali"@it ;
-    ns1:identifier "12" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "12" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Infrastrutture digitali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "12" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "12" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Istruttoria domande di sostegno PSR "@it ;
-    ns2:prefLabel "Istruttoria domande di sostegno PSR "@it ;
-    ns1:identifier "13" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "13" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Istruttoria domande di sostegno PSR "@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "13" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "13" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Monitoraggio"@it ;
-    ns2:prefLabel "Monitoraggio"@it ;
-    ns1:identifier "14" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "14" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Monitoraggio"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "14" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "14" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Paesaggio"@it ;
-    ns2:prefLabel "Paesaggio"@it ;
-    ns1:identifier "15" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "15" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Paesaggio"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "15" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "15" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Procedimenti amministrativi"@it ;
-    ns2:prefLabel "Procedimenti amministrativi"@it ;
-    ns1:identifier "16" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "16" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Procedimenti amministrativi"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "16" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "16" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Project management"@it ;
-    ns2:prefLabel "Project management"@it ;
-    ns1:identifier "17" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "17" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Project management"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "17" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "17" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Rifiuti"@it ;
-    ns2:prefLabel "Rifiuti"@it ;
-    ns1:identifier "18" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "18" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Rifiuti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "18" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "18" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Rinnovabili"@it ;
-    ns2:prefLabel "Rinnovabili"@it ;
-    ns1:identifier "19" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "19" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Rinnovabili"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "19" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "19" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Rischio alluvioni"@it ;
-    ns2:prefLabel "Rischio alluvioni"@it ;
-    ns1:identifier "20" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "20" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Rischio alluvioni"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "20" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "20" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Segreteria Tecnica"@it ;
-    ns2:prefLabel "Segreteria Tecnica"@it ;
-    ns1:identifier "21" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "21" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Segreteria Tecnica"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "21" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "21" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Sistema idrico integrato"@it ;
-    ns2:prefLabel "Sistema idrico integrato"@it ;
-    ns1:identifier "22" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "22" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Sistema idrico integrato"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "22" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "22" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Sistema irriguo"@it ;
-    ns2:prefLabel "Sistema irriguo"@it ;
-    ns1:identifier "23" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "23" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Sistema irriguo"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "23" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "23" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Supporto trasversale"@it ;
-    ns2:prefLabel "Supporto trasversale"@it ;
-    ns1:identifier "24" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "24" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Supporto trasversale"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "24" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "24" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Trasporti"@it ;
-    ns2:prefLabel "Trasporti"@it ;
-    ns1:identifier "25" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "25" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Trasporti"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "25" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "25" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Valutazioni e autorizzazioni ambientali"@it ;
-    ns2:prefLabel "Valutazioni e autorizzazioni ambientali"@it ;
-    ns1:identifier "26" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "26" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Valutazioni e autorizzazioni ambientali"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "26" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "26" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Politiche di mercato e della concorrenza e della tutela dei consumatori"@it ;
-    ns2:prefLabel "Politiche di mercato e della concorrenza e della tutela dei consumatori"@it ;
-    ns1:identifier "27" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "27" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Politiche di mercato e della concorrenza e della tutela dei consumatori"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "27" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "27" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Comunicazione e informazione"@it ;
-    ns2:prefLabel "Comunicazione e informazione"@it ;
-    ns1:identifier "28" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "28" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Comunicazione e informazione"@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "28" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "28" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
-        ns2:Concept ;
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
+        ns1:Concept ;
     rdfs:label "Bandi OIV "@it ;
-    ns2:prefLabel "Bandi OIV "@it ;
-    ns1:identifier "29" ;
-    ns2:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
-    ns2:notation "29" ;
-    ns3:hasRankOrder "1" .
+    ns1:prefLabel "Bandi OIV "@it ;
+    ns1:inScheme <https://w3id.org/italia/labour-social-policies/controlled-vocabulary/data/elenco_concorso_settori> ;
+    ns1:notation "29" ;
+    ns2:hasRankOrder "1" ;
+    ns4:identifier "29" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_CSV> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns1:description "Questa è la distribuzione CSV del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
+        ns3:Distribution ;
+    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
+    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.csv> ;
+    ns4:description "Questa è la distribuzione CSV del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
         "This is CSV distribution of Recruitment Sectors controlled vocabulary. The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
-    ns1:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione CSV del vocabolario controllato dei settori concorsuali"@it,
-        "Recruitment Sectors Controlled Vocabulary CSV distribution"@en ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.csv> .
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Distribuzione CSV del vocabolario controllato dei settori concorsuali"@it,
+        "Recruitment Sectors Controlled Vocabulary CSV distribution"@en .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_JSON_LD> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns1:description "Questa è la distribuzione JSON_LD del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
+        ns3:Distribution ;
+    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
+    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.json> ;
+    ns4:description "Questa è la distribuzione JSON_LD del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
         "This is JSON_LD distribution of Recruitment Sectors controlled vocabulary. The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
-    ns1:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
-    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione JSON_LD del vocabolario controllato dei settori concorsuali"@it,
-        "Recruitment Sectors Controlled Vocabulary JSON_LD distribution"@en ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.json> .
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Distribuzione JSON_LD del vocabolario controllato dei settori concorsuali"@it,
+        "Recruitment Sectors Controlled Vocabulary JSON_LD distribution"@en .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/elenco_concorso_settori/distribution/ECS_RDF_TURTLE> a <http://dati.gov.it/onto/dcatapit#Distribution>,
-        ns4:Distribution ;
-    ns1:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
+        ns3:Distribution ;
+    ns3:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
+    ns3:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.ttl> ;
+    ns4:description "Questa è la distribuzione RDF/Turtle del vocabolario controllato dei settori concorsuali. La risorsa definisce l'elenco degli ambiti di attività utilizzati per la classificazione delle procedure concorsuali nella Pubblica Amministrazione. Il vocabolario permette di mappare i settori di intervento (es. ambiente, contabilità, ecc.) associati ai bandi di concorso, garantendo un'indicizzazione omogenea dei profili professionali richiesti e facilitando la ricerca di opportunità lavorative da parte dei cittadini sul portale del reclutamento."@it,
         "This is RDF/turtle distribution of Recruitment Sectors controlled vocabulary. The resource defines the list of activity areas used for classifying recruitment procedures in the Public Administration. The vocabulary allows mapping of intervention sectors (e.g., environment, accounting, etc.) associated with calls for applications, ensuring homogeneous indexing of required professional profiles and facilitating citizens' search for job opportunities on the recruitment portal."@en ;
-    ns1:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-    ns1:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    ns1:title "Distribuzione RDF/Turtle del vocabolario controllato dei settori concorsuali"@it,
-        "Recruitment Sectors Controlled Vocabulary RDF/turtle distribution"@en ;
-    ns4:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest> ;
-    ns4:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/controlled-vocabularies/elenco_concorso_settori/latest/elenco_concorso_settori.ttl> .
+    ns4:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    ns4:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    ns4:title "Distribuzione RDF/Turtle del vocabolario controllato dei settori concorsuali"@it,
+        "Recruitment Sectors Controlled Vocabulary RDF/turtle distribution"@en .
 
 ### Serialized using the ttlser deterministic serializer v1.2.0

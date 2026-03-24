@@ -46,7 +46,7 @@
     ns4:title "Simple Knowledge Organization System - SKOS" .
 
 <https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori> a <http://dati.gov.it/onto/dcatapit#Dataset>,
-        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+        <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:ConceptScheme,
         ns9:Asset ;
     rdfs:label "Recruitment Sectors Controlled Vocabulary"@en,
@@ -114,7 +114,7 @@
     ns8:keyConcept "elenco_concorso_settori" ;
     ns9:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/1> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Ambito non indicato dalla Regione"@it ;
     ns1:prefLabel "Ambito non indicato dalla Regione"@it ;
@@ -123,7 +123,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "1" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/2> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Accorpamento di ambiti previsti e non previsti"@it ;
     ns1:prefLabel "Accorpamento di ambiti previsti e non previsti"@it ;
@@ -132,7 +132,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "2" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/3> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Accorpamento di soli ambiti previsti"@it ;
     ns1:prefLabel "Accorpamento di soli ambiti previsti"@it ;
@@ -141,7 +141,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "3" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/4> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Agricoltura e foreste"@it ;
     ns1:prefLabel "Agricoltura e foreste"@it ;
@@ -150,7 +150,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "4" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/5> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Amministrazione"@it ;
     ns1:prefLabel "Amministrazione"@it ;
@@ -159,7 +159,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "5" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/6> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Appalti"@it ;
     ns1:prefLabel "Appalti"@it ;
@@ -168,7 +168,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "6" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/7> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Autorizzazione attività di cava"@it ;
     ns1:prefLabel "Autorizzazione attività di cava"@it ;
@@ -177,7 +177,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "7" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/8> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Beni culturali"@it ;
     ns1:prefLabel "Beni culturali"@it ;
@@ -186,7 +186,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "8" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/9> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Bonifiche"@it ;
     ns1:prefLabel "Bonifiche"@it ;
@@ -195,7 +195,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "9" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/10> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Contabilità"@it ;
     ns1:prefLabel "Contabilità"@it ;
@@ -204,7 +204,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "10" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/11> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Edilizia e urbanistica"@it ;
     ns1:prefLabel "Edilizia e urbanistica"@it ;
@@ -213,7 +213,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "11" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/12> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Infrastrutture digitali"@it ;
     ns1:prefLabel "Infrastrutture digitali"@it ;
@@ -222,7 +222,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "12" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/13> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Istruttoria domande di sostegno PSR "@it ;
     ns1:prefLabel "Istruttoria domande di sostegno PSR "@it ;
@@ -231,7 +231,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "13" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/14> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Monitoraggio"@it ;
     ns1:prefLabel "Monitoraggio"@it ;
@@ -240,7 +240,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "14" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/15> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Paesaggio"@it ;
     ns1:prefLabel "Paesaggio"@it ;
@@ -249,7 +249,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "15" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/16> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Procedimenti amministrativi"@it ;
     ns1:prefLabel "Procedimenti amministrativi"@it ;
@@ -258,7 +258,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "16" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/17> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Project management"@it ;
     ns1:prefLabel "Project management"@it ;
@@ -267,7 +267,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "17" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/18> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Rifiuti"@it ;
     ns1:prefLabel "Rifiuti"@it ;
@@ -276,7 +276,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "18" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/19> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Rinnovabili"@it ;
     ns1:prefLabel "Rinnovabili"@it ;
@@ -285,7 +285,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "19" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/20> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Rischio alluvioni"@it ;
     ns1:prefLabel "Rischio alluvioni"@it ;
@@ -294,7 +294,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "20" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/21> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Segreteria Tecnica"@it ;
     ns1:prefLabel "Segreteria Tecnica"@it ;
@@ -303,7 +303,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "21" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/22> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Sistema idrico integrato"@it ;
     ns1:prefLabel "Sistema idrico integrato"@it ;
@@ -312,7 +312,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "22" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/23> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Sistema irriguo"@it ;
     ns1:prefLabel "Sistema irriguo"@it ;
@@ -321,7 +321,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "23" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/24> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Supporto trasversale"@it ;
     ns1:prefLabel "Supporto trasversale"@it ;
@@ -330,7 +330,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "24" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/25> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Trasporti"@it ;
     ns1:prefLabel "Trasporti"@it ;
@@ -339,7 +339,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "25" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/26> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Valutazioni e autorizzazioni ambientali"@it ;
     ns1:prefLabel "Valutazioni e autorizzazioni ambientali"@it ;
@@ -348,7 +348,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "26" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/27> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Politiche di mercato e della concorrenza e della tutela dei consumatori"@it ;
     ns1:prefLabel "Politiche di mercato e della concorrenza e della tutela dei consumatori"@it ;
@@ -357,7 +357,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "27" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/28> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Comunicazione e informazione"@it ;
     ns1:prefLabel "Comunicazione e informazione"@it ;
@@ -366,7 +366,7 @@
     ns2:hasRankOrder "1" ;
     ns4:identifier "28" .
 
-<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/CategoriaDiReclutamento>,
+<https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_concorso_settori/29> a <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoConcorsoSettore>,
         ns1:Concept ;
     rdfs:label "Bandi OIV "@it ;
     ns1:prefLabel "Bandi OIV "@it ;

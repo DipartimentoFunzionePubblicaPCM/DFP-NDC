@@ -50,7 +50,7 @@
         "Pubbliche Amministrazioni"@it ;
     dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/schemas/competition-stats/latest> ;
     dcat:contactPoint <https://w3id.org/italia/public-administration-governance/data/organization/dfpDati> ;
-    dcat:distribution <https://w3id.org/italia/public-administration-governance/schemas/competition-stats/latest/competition-stats.oas3.yaml> ;
+    dcat:distribution <https://w3id.org/italia/schemas/competition-stats/latest/competition-stats.oas3.yaml> ;
     dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/main/assets/schemas/competition-stats/latest/competition-stats.oas3.yaml> ;
     dcat:keyword "Pubblicazione Di Reclutamento PA"@it ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
