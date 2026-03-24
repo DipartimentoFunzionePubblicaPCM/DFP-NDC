@@ -2,7 +2,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/1",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "1",
@@ -12,7 +12,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/10",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "10",
@@ -22,7 +22,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/100",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "100",
@@ -32,7 +32,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/101",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "101",
@@ -42,7 +42,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/102",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "102",
@@ -52,7 +52,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/103",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "103",
@@ -62,7 +62,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/104",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "104",
@@ -72,7 +72,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/105",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "105",
@@ -82,7 +82,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/106",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "106",
@@ -92,7 +92,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/107",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "107",
@@ -102,7 +102,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/108",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "108",
@@ -112,7 +112,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/109",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "109",
@@ -122,7 +122,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/11",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "11",
@@ -132,7 +132,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/110",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "110",
@@ -142,7 +142,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/111",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "111",
@@ -152,7 +152,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/112",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "112",
@@ -162,7 +162,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/113",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "113",
@@ -172,7 +172,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/114",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "114",
@@ -182,7 +182,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/115",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "115",
@@ -192,7 +192,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/116",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "116",
@@ -202,7 +202,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/117",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "117",
@@ -212,7 +212,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/118",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "118",
@@ -222,7 +222,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/119",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "119",
@@ -232,7 +232,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/12",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "12",
@@ -242,7 +242,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/120",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "120",
@@ -252,7 +252,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/121",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "121",
@@ -262,7 +262,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/122",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "122",
@@ -272,7 +272,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/123",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "123",
@@ -282,7 +282,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/124",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "124",
@@ -292,7 +292,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/125",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "125",
@@ -302,7 +302,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/126",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "126",
@@ -312,7 +312,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/127",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "127",
@@ -322,7 +322,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/128",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "128",
@@ -332,7 +332,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/129",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "129",
@@ -342,7 +342,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/13",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "13",
@@ -352,7 +352,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/130",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "130",
@@ -362,7 +362,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/131",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "131",
@@ -372,7 +372,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/132",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "132",
@@ -382,7 +382,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/133",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "133",
@@ -392,7 +392,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/134",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "134",
@@ -402,7 +402,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/135",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "135",
@@ -412,7 +412,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/136",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "136",
@@ -422,7 +422,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/137",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "137",
@@ -432,7 +432,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/138",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "138",
@@ -442,7 +442,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/139",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "139",
@@ -452,7 +452,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/14",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "14",
@@ -462,7 +462,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/140",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "140",
@@ -472,7 +472,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/141",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "141",
@@ -482,7 +482,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/142",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "142",
@@ -492,7 +492,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/143",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "143",
@@ -502,7 +502,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/144",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "144",
@@ -512,7 +512,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/145",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "145",
@@ -522,7 +522,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/146",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "146",
@@ -532,7 +532,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/147",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "147",
@@ -542,7 +542,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/148",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "148",
@@ -552,7 +552,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/149",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "149",
@@ -562,7 +562,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/15",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "15",
@@ -572,7 +572,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/150",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "150",
@@ -582,7 +582,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/151",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "151",
@@ -592,7 +592,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/152",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "152",
@@ -602,7 +602,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/153",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "153",
@@ -612,7 +612,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/154",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "154",
@@ -622,7 +622,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/16",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "16",
@@ -632,7 +632,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/17",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "17",
@@ -642,7 +642,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/18",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "18",
@@ -652,7 +652,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/19",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "19",
@@ -662,7 +662,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/2",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "2",
@@ -672,7 +672,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/20",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "20",
@@ -682,7 +682,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/21",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "21",
@@ -692,7 +692,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/22",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "22",
@@ -702,7 +702,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/23",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "23",
@@ -712,7 +712,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/24",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "24",
@@ -722,7 +722,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/25",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "25",
@@ -732,7 +732,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/26",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "26",
@@ -742,7 +742,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/27",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "27",
@@ -752,7 +752,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/28",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "28",
@@ -762,7 +762,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/29",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "29",
@@ -772,7 +772,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/3",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "3",
@@ -782,7 +782,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/30",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "30",
@@ -792,7 +792,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/31",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "31",
@@ -802,7 +802,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/32",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "32",
@@ -812,7 +812,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/33",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "33",
@@ -822,7 +822,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/34",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "34",
@@ -832,7 +832,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/35",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "35",
@@ -842,7 +842,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/36",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "36",
@@ -852,7 +852,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/37",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "37",
@@ -862,7 +862,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/38",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "38",
@@ -872,7 +872,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/39",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "39",
@@ -882,7 +882,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/4",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "4",
@@ -892,7 +892,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/40",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "40",
@@ -902,7 +902,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/41",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "41",
@@ -912,7 +912,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/42",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "42",
@@ -922,7 +922,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/43",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "43",
@@ -932,7 +932,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/44",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "44",
@@ -942,7 +942,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/45",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "45",
@@ -952,7 +952,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/46",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "46",
@@ -962,7 +962,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/47",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "47",
@@ -972,7 +972,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/48",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "48",
@@ -982,7 +982,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/49",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "49",
@@ -992,7 +992,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/5",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "5",
@@ -1002,7 +1002,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/50",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "50",
@@ -1012,7 +1012,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/51",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "51",
@@ -1022,7 +1022,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/52",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "52",
@@ -1032,7 +1032,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/53",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "53",
@@ -1042,7 +1042,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/54",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "54",
@@ -1052,7 +1052,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/55",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "55",
@@ -1062,7 +1062,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/56",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "56",
@@ -1072,7 +1072,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/57",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "57",
@@ -1082,7 +1082,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/58",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "58",
@@ -1092,7 +1092,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/59",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "59",
@@ -1102,7 +1102,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/6",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "6",
@@ -1112,7 +1112,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/60",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "60",
@@ -1122,7 +1122,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/61",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "61",
@@ -1132,7 +1132,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/62",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "62",
@@ -1142,7 +1142,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/63",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "63",
@@ -1152,7 +1152,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/64",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "64",
@@ -1162,7 +1162,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/65",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "65",
@@ -1172,7 +1172,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/66",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "66",
@@ -1182,7 +1182,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/67",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "67",
@@ -1192,7 +1192,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/68",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "68",
@@ -1202,7 +1202,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/69",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "69",
@@ -1212,7 +1212,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/7",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "7",
@@ -1222,7 +1222,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/70",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "70",
@@ -1232,7 +1232,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/71",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "71",
@@ -1242,7 +1242,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/72",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "72",
@@ -1252,7 +1252,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/73",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "73",
@@ -1262,7 +1262,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/74",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "74",
@@ -1272,7 +1272,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/75",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "75",
@@ -1282,7 +1282,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/76",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "76",
@@ -1292,7 +1292,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/77",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "77",
@@ -1302,7 +1302,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/78",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "78",
@@ -1312,7 +1312,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/79",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "79",
@@ -1322,7 +1322,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/8",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "8",
@@ -1332,7 +1332,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/80",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "80",
@@ -1342,7 +1342,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/81",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "81",
@@ -1352,7 +1352,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/82",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "82",
@@ -1362,7 +1362,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/83",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "83",
@@ -1372,7 +1372,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/84",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "84",
@@ -1382,7 +1382,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/85",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "85",
@@ -1392,7 +1392,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/86",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "86",
@@ -1402,7 +1402,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/87",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "87",
@@ -1412,7 +1412,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/88",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "88",
@@ -1422,7 +1422,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/89",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "89",
@@ -1432,7 +1432,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/9",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "9",
@@ -1442,7 +1442,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/90",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "90",
@@ -1452,7 +1452,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/91",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "91",
@@ -1462,7 +1462,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/92",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "92",
@@ -1472,7 +1472,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/93",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "93",
@@ -1482,7 +1482,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/94",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "94",
@@ -1492,7 +1492,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/95",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "95",
@@ -1502,7 +1502,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/96",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "96",
@@ -1512,7 +1512,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/97",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "97",
@@ -1522,7 +1522,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/98",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "98",
@@ -1532,7 +1532,7 @@
   {
     "url": "https://w3id.org/italia/public-administration-governance/controlled-vocabulary/data/elenco_lauree_triennali/99",
     "@type": [
-      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/QualificaAccademica",
+      "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/TipoElencoLaureaTriennale",
       "skos:Concept"
     ],
     "id": "99",
