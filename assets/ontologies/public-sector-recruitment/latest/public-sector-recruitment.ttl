@@ -9,7 +9,7 @@
 @prefix L0: <https://w3id.org/italia/onto/l0/> .
 @prefix learn: <https://w3id.org/italia/onto/Learning/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pa-recruit: <https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment/> .
+@prefix pa-recruit: <https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix RO: <https://w3id.org/italia/onto/RO/> .
@@ -45,14 +45,14 @@ pa-recruit: a owl:Ontology ;
         pa-recruit:PubblicazioneDiReclutamentoPA,
         pa-recruit:SessioneDiEsame ;
     adms:hasOntologyLanguage adms:OWL ;
-    adms:hasSemanticAssetDistribution <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES>,
-        <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE>,
-        <https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML> ;
+    adms:hasSemanticAssetDistribution <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES>,
+        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE>,
+        <https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> ;
     adms:hasTask adms:AnnotationTask,
         adms:QueryFormulationTask,
         adms:SearchTask ;
     adms:last pa-recruit:1.0 ;
-    adms:officialURI "https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment"^^xsd:anyURI ;
+    adms:officialURI "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment"^^xsd:anyURI ;
     adms:prefix "pa-recruit" ;
     adms:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ;
     adms:status "draft" ;
@@ -70,7 +70,7 @@ pa-recruit: a owl:Ontology ;
     dct:creator <https://w3id.org/italia/public-administration-governance/data/organization/dfp> ;
     dct:description "La risorsa modella il dominio del reclutamento del personale all'interno delle amministrazioni pubbliche italiane, attraverso il portale inPA (portale unico del reclutamento - in Pubblica Amministrazione). La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l'interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento."@it,
         "The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals."@en ;
-    dct:identifier "https://w3id.org/italia/public-administration-governance/onto/public_sector_recruitment" ;
+    dct:identifier "https://w3id.org/italia/public-administration-governance/onto/public-sector-recruitment" ;
     dct:issued "2026-03-02T00:00:00+00:00"^^xsd:dateTime ;
     dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/ITA> ;
@@ -2384,12 +2384,12 @@ TI:TimeInterval a owl:Class .
     vcard:hasEmail <mailto:m.rocchia@funzionepubblica.it> ;
     vcard:hasURL <https://github.com/DFPdati> .
 
-<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-N-TRIPLES> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-N-TRIPLES> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
-    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.n3> ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.n3> ;
     dct:description "Questa è la distribuzione N-TRIPLES dell'ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l'interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento."@it,
         "This is the distribution in N-TRIPLES of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals."@en ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES> ;
@@ -2397,12 +2397,12 @@ TI:TimeInterval a owl:Class .
     dct:title "Distribuzione N-TRIPLES dell'ontologia del reclutamento nella Pubblica Amministrazione"@it,
         "N-TRIPLES distribution of the Recruitment in the Public Administration Ontology"@en .
 
-<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-TURTLE> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-TURTLE> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
-    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.ttl> ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.ttl> ;
     dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l'interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento."@it,
         "This is the distribution in RDF/Turtle of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals."@en ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
@@ -2410,12 +2410,12 @@ TI:TimeInterval a owl:Class .
     dct:title "Distribuzione RDF/Turtle dell'ontologia del reclutamento nella Pubblica Amministrazione"@it,
         "RDF/Turtle distribution of the Recruitment in the Public Administration Ontology"@en .
 
-<https://w3id.org/italia/public-administration-governance/data/public_sector_recruitment/distribution/PARECRUIT-RDF-XML> a adms:SemanticAssetDistribution,
+<https://w3id.org/italia/public-administration-governance/data/public-sector-recruitment/distribution/PARECRUIT-RDF-XML> a adms:SemanticAssetDistribution,
         dcat:Distribution,
         dcatapit:Distribution,
         owl:NamedIndividual ;
-    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public_sector_recruitment/latest/public_sector_recruitment.owl> ;
+    dcat:accessURL <https://github.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/DipartimentoFunzionePubblicaPCM/DFP-NDC/tree/main/assets/ontologies/public-sector-recruitment/latest/public-sector-recruitment.owl> ;
     dct:description "Questa è la distribuzione RDF/XML dell'ontologia del reclutamento nella Pubblica Amministrazione. La risorsa definisce le classi e le relazioni relative a categorie di reclutamento (es. bandi di concorso), procedure di selezione, candidature, fornendo la struttura concettuale necessaria per garantire l'interoperabilità dei dati tra i sistemi di gestione delle risorse umane e i portali di reclutamento."@it,
         "This is the distribution in RDF/XML of the Recruitment in the Public Administration Ontology. The resource models the domain of personnel recruitment within Italian public administrations through the inPA portal (single recruitment portal - in Public Administration). The resource defines the classes and relationships related to recruitment categories (e.g., calls for applications), selection procedures, and applications, providing the conceptual structure necessary to ensure data interoperability between human resource management systems and recruitment portals."@en ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
